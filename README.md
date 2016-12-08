@@ -9,11 +9,12 @@ THE PURPOSE
 THE SCRAPE
 ==============
 
-        Num of Pages  Time to Scrape
-Scrape 1     905     |  ~145 seconds  
-Scrape 2    75921    |  ~50 minutes
+                  Num of Pages  Time to Scrape
+	Scrape 1 |     905     |  ~145 seconds  
+        Scrape 2 |    75921    |  ~50 minutes
 
 FDA Scrape Project was completed over a series of 2 scrape steps and 2 parsing sessions a brief description of the process is provided below
+
 	Scrape 1
 		initiated to gather all drug names with their corresponding set ids
 		Asyncio and aiohttp were used to scrape this information
