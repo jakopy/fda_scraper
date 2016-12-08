@@ -1,0 +1,9 @@
+Python version: python 3.5.2 windows (32bit)
+
+modules needed:
+asyncio
+aiohttp
+Queue
+threading
+urllib2
+requests
