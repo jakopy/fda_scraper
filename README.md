@@ -4,11 +4,10 @@ THE PURPOSE
 	-Add drug data to an existing application (NCLEX study aid)
 	-Experiment with python queues and asynchronous code
 	-Quickly gather large amounts of data
-
 ==============
 THE SCRAPE
 ==============
-		  Num of Pages  Time to Scrape
+		       Num of Pages  Time to Scrape
 	Scrape 1 |     905     |  ~145 seconds  
 	Scrape 2 |    75921    |  ~50 minutes
 
