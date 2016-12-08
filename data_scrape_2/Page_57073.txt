@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e17193dc-2246-4805-956f-2e9dbdc3ed3e"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>DRUG FACTS:</title>
+   <effectiveTime value="20130926"/>
+   <setId root="9c573fc8-ba7a-4f05-b4d7-179e8ad3e2ad"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="624980496" root="1.3.6.1.4.1.519.1"/>
+            <name>BioActive Nutritional</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                  <name>Apotheca Company</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                        <name>Apotheca Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43857-0233" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43857-0233" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43857-0233" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43857-0233" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="363590b7-5a9c-42f2-8ab1-cf40c6bb18e5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150623"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43857-0233" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OB Metab</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Fucus Vesiculosus, Capsicum Annuum, Nicotinamidum, Spongia Tosta, L-Arginine, Croton Oil, L-Ornithine, Pituitaria Glandula (Suis), Thyroidinum (suis), L-Tyrosine, Calcarea Carbonica, Graphites, Kali Carbonicum</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="535G2ABX9M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FUCUS VESICULOSUS</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="535G2ABX9M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FUCUS VESICULOSUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="3"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="00UK7646FG" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAPSICUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="00UK7646FG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CAPSICUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NIACINAMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NIACINAMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1PIP394IID" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SPONGIA OFFICINALIS SKELETON, ROASTED</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1PIP394IID" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SPONGIA OFFICINALIS SKELETON, ROASTED</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARGININE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK97EQG57S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROTON OIL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK97EQG57S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CROTON OIL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="E524N2IXA3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ORNITHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="E524N2IXA3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ORNITHINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="E8S87O660T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUS SCROFA PITUITARY GLAND</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="E8S87O660T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SUS SCROFA PITUITARY GLAND</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6RV024OAUQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUS SCROFA THYROID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6RV024OAUQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SUS SCROFA THYROID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2E32821G6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OYSTER SHELL CALCIUM CARBONATE, CRUDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2E32821G6I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OYSTER SHELL CALCIUM CARBONATE, CRUDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4QQN74LH4O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GRAPHITE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4QQN74LH4O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GRAPHITE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BQN1B9B9HA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7UJQ5OPE7D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43857-0233-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20130926"/>
+                              <high value="20180424"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73614" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved homeopathic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L64af1b82-d9b6-46ef-8fd6-afd5f9174158">
+               <id root="fae74574-44ae-4e53-9315-2f99298e0d53"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENTS:</title>
+               <text>
+                  <paragraph>Fucus Vesiculosus 2X, Capsicum Annuum 3X, Nicotinamidum 5X, Spongia Tosta 5X, L-Arginine 6X, Croton Oil 6X, L-Ornithine 6X, Pituitaria Glandula (Suis) 6X, Thyroidinum (Suis) 6X, L-Tyrosine 6X, Calcarea Carbonica 12X, Graphites 12X, Kali Carbonicum 12X.</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La0514922-4c88-4322-991a-2f4b3c366e8e">
+               <id root="86f0c5b5-be85-455e-9bc7-1b886accc15b"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>INDICATIONS:</title>
+               <text>
+                  <paragraph>For the temporary relief of constipation and flatulence, and mental sluggishness with tendancy toward obesity.</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L71a6507d-3fde-44dd-8002-6acddb5611fb">
+               <id root="31d9dcbb-7acd-47f0-9f4f-4149380c47e2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">​If pregnant or breast-feeding, </content>​ask a health care professional before use.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">​Keep out of reach of children.</content>​ In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                  <paragraph>Do not use if tamper evident seal is broken or missing.</paragraph>
+                  <paragraph>Store in a cool, dry place.</paragraph>
+               </text>
+               <effectiveTime value="20131030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf3223cb2-73b4-46fa-8d50-4eff03b4a42e">
+               <id root="7339bb93-e039-4ca6-921c-c06116428c1f"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>KEEP OUT OF REACH OF CHILDREN:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content> In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Laf2a17b9-2eb2-48a5-a648-b01029595918">
+               <id root="40cb3ba4-a804-481c-8f99-3303ab41505c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS:</title>
+               <text>
+                  <paragraph>10 drops orally, 3 times a day. Consult a physician for use in children under 12 years of age.</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc8a49320-4827-4b75-ada0-f44d9800837e">
+               <id root="1795a11b-03db-4175-bdce-45f2d25047a4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS:</title>
+               <text>
+                  <paragraph>For the temporary relief of constipation and flatulence, and mental sluggishness with tendancy toward obesity.</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L125ee2aa-bccf-4f60-bc01-c2eaa7c2b243">
+               <id root="78a5d299-35a2-4181-87e7-1546b4931511"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS:</title>
+               <text>
+                  <paragraph>Demineralized Water, 25% Ethanol</paragraph>
+               </text>
+               <effectiveTime value="20130926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La5326a68-f08d-4d9d-bbd2-9e3d36888ddc">
+               <id root="f69716d9-7ac6-4222-9982-87791d97dec7"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>QUESTIONS:</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>BIOACTIVE NUTRITIONAL</paragraph>
+                  <paragraph>Melbourne, FL 32935</paragraph>
+                  <paragraph/>
+                  <paragraph>For Nutritional Information write:</paragraph>
+                  <paragraph>BioActive Nutritional, Inc.</paragraph>
+                  <paragraph>1803 N. Wickham Rd.</paragraph>
+                  <paragraph>Melbourne, FL 32935</paragraph>
+               </text>
+               <effectiveTime value="20131030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0e3969b7-900d-4fa1-a246-44846a171431">
+               <id root="cfc9f103-0db5-4423-a3e6-0d4e8e7abab2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE DISPLAY LABEL:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">​BioActive Homeopathic</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">OB METAB</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 FL OZ (30 ml)</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L53596eec-4468-437f-8b5f-c16d9f5e7d6f"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150623"/>
+               <component>
+                  <observationMedia ID="L53596eec-4468-437f-8b5f-c16d9f5e7d6f">
+                     <text>OB Metab</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="BANI63 OB Metab 3-28-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

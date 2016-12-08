@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="157c907c-427c-4d9f-a107-d1a7bbf068a3"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>HEB Allergy Drug Facts</title>
+   <effectiveTime value="20141215"/>
+   <setId root="b68518ae-bab9-40ce-b36c-b92b8606fb83"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="007924756" root="1.3.6.1.4.1.519.1"/>
+            <name>H E B</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3ded4418-0feb-4580-b236-41043770ccb2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20141215"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="37808-476" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Allergy</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetaminophen, Chlorpheniramine maleate, Phenylephrine HCl</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="325"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="V1Q0O9OJ9Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLORPHENIRAMINE MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U6IO1965U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORPHENIRAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04JA59TNSJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLEPHRINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1WS297W6MV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="23OV73Q5G9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACESULFAME POTASSIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOLS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYVINYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="12"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="37808-476-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="24"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="37808-476-67" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part341" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">L476</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73421" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VANILLA" xsi:type="CE">
+                              <originalText>Vanilla-menthol</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_f6a2be54-acb3-4cad-b576-fbc61bdb29a0">
+               <id root="fbd37dbc-4882-4c4d-ad66-dd28110c52dc"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient (in each caplet)</title>
+               <text>
+                  <paragraph>Acetaminophen 325 mg </paragraph>
+                  <paragraph>Chlorpheniramine maleate 2 mg  </paragraph>
+                  <paragraph>Phenylephrine HCl 5 mg  </paragraph>
+               </text>
+               <effectiveTime value="20091022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Purpose_id_269af43f-5454-423b-9027-2390dc361d0f">
+               <id root="3e8690f0-e2ae-4276-8858-77c91da81b01"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Pain reliever</paragraph>
+                  <paragraph>Antihistamine</paragraph>
+                  <paragraph>Nasal decongestant</paragraph>
+               </text>
+               <effectiveTime value="20091022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_e63b541c-7956-4bbc-9f38-2835b31f907b">
+               <id root="4e1ffe68-af3d-4903-8c62-5cf956929b1d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>temporarily relieves these symptoms of hay fever or other upper respiratory allergies:</item>
+                     <item>
+                        <caption>•</caption>headache </item>
+                     <item>
+                        <caption>•</caption>sinus congestion and pressure</item>
+                     <item>
+                        <caption>•</caption>nasal congestion</item>
+                     <item>
+                        <caption>•</caption>runny nose and sneezing</item>
+                     <item>
+                        <caption>•</caption>minor aches and pains</item>
+                     <item>
+                        <caption>•</caption>temporarily relieves these additional symptoms of hay fever:</item>
+                     <item>
+                        <caption>•</caption>itching of the nose or throat</item>
+                     <item>
+                        <caption>•</caption>itchy, watery eyes</item>
+                     <item>
+                        <caption>•</caption>helps clear nasal passages</item>
+                     <item>
+                        <caption>•</caption>helps decongest sinus openings and passages</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_e2a8fd26-6b8a-4612-aa9a-f8392084326b">
+               <id root="06dd7080-da39-4b03-95d3-b6d55c8ee495"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>Liver warning: This product contains acetaminophen.  Severe liver damage may occur if you take</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>more than 4,000 mg of acetaminophen in 24 hours</item>
+                     <item>
+                        <caption>•</caption>with other drugs containing acetaminophen</item>
+                     <item>
+                        <caption>•</caption>3 or more alcoholic drinks every day while using this product</item>
+                  </list>
+                  <paragraph>Allergy alert: Acetaminophen may cause severe skin reactions. Symptoms may include:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>skin reddening</item>
+                     <item>
+                        <caption>•</caption>blisters</item>
+                     <item>
+                        <caption>•</caption>rash</item>
+                  </list>
+                  <paragraph>If a skin reaction occurs, stop use and seek medical help right away.</paragraph>
+               </text>
+               <effectiveTime value="20141215"/>
+               <component>
+                  <section ID="i4i_OTC_Do_not_use_id_7552e368-4fd2-49b9-952b-bab9f930ba35">
+                     <id root="3c0f2318-b962-4409-8f1c-cf664997905d"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</item>
+                           <item>
+                              <caption>•</caption>if you are now taking a prescription monoamine oxidase inhibitor (MAOI) (certain drugs for depression, psychiatric, or emotional conditions, or Parkinson’s disease), or for 2 weeks after stopping the MAOI drug.  If you do not know if your prescription drug contains an MAOI, ask a doctor or pharmacist before taking this product.</item>
+                           <item>
+                              <caption>•</caption>if you have ever had an allergic reaction to this product or any of its ingredients</item>
+                           <item>
+                              <caption>•</caption>to make a child sleepy</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20130125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_id_01a412f9-f4e0-4a00-88f1-44957e98baa6">
+                     <id root="607ec6d6-7a55-49ab-8d2f-ec1b7d8d11e0"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if you have</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>liver disease</item>
+                           <item>
+                              <caption>•</caption>heart disease</item>
+                           <item>
+                              <caption>•</caption>high blood pressure </item>
+                           <item>
+                              <caption>•</caption>thyroid disease</item>
+                           <item>
+                              <caption>•</caption>diabetes</item>
+                           <item>
+                              <caption>•</caption>trouble urinating due to an enlarged prostate gland</item>
+                           <item>
+                              <caption>•</caption>a breathing problem such as emphysema or chronic bronchitis</item>
+                           <item>
+                              <caption>•</caption>glaucoma</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20130125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_Pharmacist_id_0d335d0e-329c-4ed8-8474-78ee475d0b11">
+                     <id root="6624121d-8d6b-4970-9a34-5f66551e8276"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title>Ask a doctor or pharmacist before use if you are</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>taking the blood thinning drug warfarin</item>
+                           <item>
+                              <caption>•</caption>taking sedatives or tranquilizers</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20130125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_When_Using_id_37dc0707-3723-4656-8756-925ee444dbaf">
+                     <id root="d329dcad-f78a-4385-8537-3caef5987db3"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>do not exceed recommended dosage</item>
+                           <item>
+                              <caption>•</caption>excitability may occur, especially in children</item>
+                           <item>
+                              <caption>•</caption>drowsiness may occur</item>
+                           <item>
+                              <caption>•</caption>alcohol, sedatives, and tranquilizers may increase drowsiness</item>
+                           <item>
+                              <caption>•</caption>avoid alcoholic drinks</item>
+                           <item>
+                              <caption>•</caption>be careful when driving a motor vehicle or operating machinery</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20130125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Stop_Use_id_ffd34088-8794-4a00-903b-8a206e736a66">
+                     <id root="3695f3e1-2900-4e0f-8b58-eb64a4a6672e"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>nervousness, dizziness, or sleeplessness occur</item>
+                           <item>
+                              <caption>•</caption>pain or nasal congestion gets worse or lasts more than 7 days</item>
+                           <item>
+                              <caption>•</caption>fever gets worse or lasts more than 3 days</item>
+                           <item>
+                              <caption>•</caption>redness or swelling is present</item>
+                           <item>
+                              <caption>•</caption>new symptoms occur</item>
+                        </list>
+                        <paragraph>These could be signs of a serious condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20130125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Pregancy_Breastfeeding_id_dd668104-065f-4016-bf1a-5aa7623603a6">
+                     <id root="776260c8-e454-49c6-be11-31ecb42b5f87"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>If pregnant or breast-feeding,</title>
+                     <text>
+                        <paragraph>ask a health professional before use.</paragraph>
+                     </text>
+                     <effectiveTime value="20091022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Keep_Away_Children_id_ca456d78-908c-4092-aab0-c27e3225a92b">
+                     <id root="8e5c561e-a26c-4c8b-8bfa-b27140300fab"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>Overdose warning: In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20141215"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_40feee52-8797-4026-981d-264b5edd554c">
+               <id root="24c5c2cf-3746-451f-8ddd-fa01f79c2c73"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>do not take more than directed (see overdose warning)</item>
+                  </list>
+                  <table>
+                     <col width="26%"/>
+                     <col width="57%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>adults and children 12 years and over</paragraph>
+                           </td>
+                           <td align="justify" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>take 2 caplets every 4-6 hours</item>
+                                 <item>
+                                    <caption>•</caption>swallow whole – do not crush, chew or dissolve</item>
+                                 <item>
+                                    <caption>•</caption>do not take more than 10 caplets in 24 hours</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>children under 12 years</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>ask a doctor</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20141215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_7c3d7422-3f40-4725-90d4-fdd540295ace">
+               <id root="c5f41d90-0a85-4de0-ae91-cdbd1f9cfae6"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>acesulfame potassium, carnauba wax, flavor, iron oxide yellow, microcrystalline cellulose, polyethylene glycol, polyvinyl alcohol, povidone, pregelatinized starch, stearic acid, talc, titanium dioxide</paragraph>
+               </text>
+               <effectiveTime value="20130125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Questions_id_e6e1bb52-9aa9-406d-bb85-5c97457c24f0">
+               <id root="c068e374-14fc-4a01-953b-4acfc5662443"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments? </title>
+               <text>
+                  <paragraph>1-800-719-9260</paragraph>
+               </text>
+               <effectiveTime value="20130125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_3c393cfd-8cf3-4411-a8c8-3fd0e7436764">
+               <id root="81f7b1fd-a26e-409c-9a9f-69da33531ced"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>ALLERGY</paragraph>
+                  <paragraph>Multi-Symptom</paragraph>
+                  <paragraph>Pain Reliever, Nasal Decongestant, Antihistamine</paragraph>
+                  <paragraph>Acetaminophen – Chlorpheniramine Maleate – Phenylephrine HCl</paragraph>
+                  <paragraph>Headache</paragraph>
+                  <paragraph>Sinus Pressure</paragraph>
+                  <paragraph>Nasal Congestion</paragraph>
+                  <paragraph>Runny Nose/Sneezing</paragraph>
+                  <paragraph>Itchy, Watery Eyes</paragraph>
+                  <paragraph>ACTUAL SIZE</paragraph>
+                  <paragraph>For Adults</paragraph>
+                  <paragraph>See New Warnings</paragraph>
+                  <paragraph>GLUTEN FREE</paragraph>
+                  <paragraph>24 Cool Ice® Caplets</paragraph>
+                  <renderMultiMedia ID="id975024551" referencedObject="ID_91a96e6d-8889-4dcf-8dd1-308e8b5afc-3"/>
+                  <renderMultiMedia ID="id-834377323" referencedObject="ID_78dfa6c5-cc3f-4320-950b-7b0ee42b57-3"/>
+               </text>
+               <effectiveTime value="20141215"/>
+               <component>
+                  <observationMedia ID="ID_91a96e6d-8889-4dcf-8dd1-308e8b5afc-3">
+                     <text>Allergy Image 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="157c907c-427c-4d9f-a107-d1a7bbf068a3-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_78dfa6c5-cc3f-4320-950b-7b0ee42b57-3">
+                     <text>Allergy Image 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="157c907c-427c-4d9f-a107-d1a7bbf068a3-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

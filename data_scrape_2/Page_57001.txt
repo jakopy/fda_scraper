@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3fe86fd2-a670-48b0-aa77-568be6234120"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20110810"/>
+   <setId root="de9a70ee-4dd6-4859-b542-508f7f55745b"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="094930963" root="1.3.6.1.4.1.519.1"/>
+            <name>Navarro Discount Pharmacies,LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f2e44701-5b06-4699-9a36-67ca23870d54"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20120801"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59970-044" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Triple Antibiotic<suffix/>
+                        </name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bacitracin Zinc, Neomycin Sulfate, Polymyxin B</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="400"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="89Y4M234ES" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BACITRACIN ZINC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="58H6RWO52I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BACITRACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="3.5"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="057Y626693" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NEOMYCIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="I16QD7X297" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NEOMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="5000"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="19371312D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYMYXIN B SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2VZ07J96K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYMYXIN B</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="V56DFE46J5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARETH-2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="GW89575KF9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SQUALANE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A7E6112E4N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL ACETATE, D-</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="14"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59970-044-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part333B" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="66bcfc81-090f-486d-a504-94f95c6a511f"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient</title>
+               <text>
+                  <paragraph>Bacitracin Zinc 400 units</paragraph>
+                  <paragraph>Neomycin Sulfate 3.5mg</paragraph>
+                  <paragraph>Polymyxin B Sulfate 5,000 units<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="da34d892-87b1-41bf-a9d7-48e377ad4ecd"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>First aid antibiotic</paragraph>
+                  <paragraph>First aid antibiotic</paragraph>
+                  <paragraph>First aid antibiotic</paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a698fd32-23e7-4800-9cbc-2220f1e36303"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>First aid to help prevent infection in minor:</paragraph>
+                  <list ID="i16369dde-0113-4c5c-816d-4e080f96713e" listType="unordered">
+                     <item>cuts</item>
+                     <item>scrapes</item>
+                     <item>burns</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5de42b01-c8f9-4ae7-94a4-0282fe5aa1f0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For external use only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+               <component>
+                  <section ID="L259f2eca-8024-4f9e-b843-9b00f36b4a8c">
+                     <id root="3874a77d-57fc-4d22-a11c-b7bef518bb75"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <paragraph>if you are allergic to any of the ingredients</paragraph>
+                     </text>
+                     <effectiveTime value="20120802"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d9e42a10-3231-4c98-a6ba-ebe55efb6022"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if you have</title>
+                     <text>
+                        <list ID="i3f92a046-8964-4e0f-842c-757a5dac233c" listType="unordered">
+                           <item>serious burns</item>
+                           <item>deep or puncture wounds</item>
+                           <item>animal bites<br/>
+                           </item>
+                        </list>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="15350d93-ab49-4835-afbb-1b200b605662"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <list ID="i1c694f86-ccd9-4cce-8822-97bca49ef6e9" listType="unordered">
+                           <item>do not use in the eyes</item>
+                           <item>do not apply over large areas of the body<br/>
+                           </item>
+                        </list>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b5c090d2-0c83-4a0d-928c-9c448fac56ef"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <list ID="ifcb3d4b2-0dfc-4a1f-85b7-129799fc95d8" listType="unordered">
+                           <item>you need to use more than 1 week</item>
+                           <item>condition persists or gets worse</item>
+                           <item>symptoms persist for more than 1 week or clear up and occur again within a few days.</item>
+                           <item>rash or other allergic reaction develops<br/>
+                           </item>
+                        </list>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="74ac50a0-dec8-484b-8997-e44a7b54a506"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>If swallowed, get medical help or contact a Poison Control Center right away.<br/>
+                        </paragraph>
+                     </text>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b64ce966-b34d-46a9-b70d-e15f4b571f4d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>adults and children 2 years of age or older:</item>
+                     <item>
+                        <list listType="unordered">
+                           <item>clean the affected area</item>
+                           <item>apply a small amount of this product (an amount equal tot the surface area of the tip of a finer) on the area 1 to 3 times daily</item>
+                           <item>may be covered with a sterile bandage</item>
+                        </list>
+                     </item>
+                     <item>children under 2 years of age: ask a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4a593de1-c004-415d-a655-5e2579a0b31f"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list ID="i5178db99-5fc6-4f7e-8b57-dbff9b263580" listType="unordered">
+                     <item>
+                        <paragraph>store at 20° - 25° (68° to 77°F)</paragraph>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6dd092c4-51ac-4e2e-90f1-aeeaa150571c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>Cetyl alcohol, Glycerin, Light mineral oil, Myristoyl/palmitoyl oxostearamide/ arachamide MEA, Methylparaben, Steareth-2, Squalane, Stearic acid, Tocopheryl acetate, White petrolatum</paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="53b54302-b62a-42ac-863b-4a8f8976858a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package label panel</title>
+               <text>
+                  <paragraph>Triple Antibiotic Ointment Plus Pain Relief<renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+               <component>
+                  <observationMedia ID="MM1" classCode="OBS" moodCode="EVN">
+                     <text>image of a carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="nav.triple.carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

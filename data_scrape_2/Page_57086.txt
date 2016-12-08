@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1f4a56dd-e876-4011-b21f-4aa9154a8788"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>Tru-Blu C-Hex 110</title>
+   <effectiveTime value="20120101"/>
+   <setId root="1bc0c44a-d658-46cf-8900-402593449524"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="124727400" root="1.3.6.1.4.1.519.1"/>
+            <name>BouMatic, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="124727400" root="1.3.6.1.4.1.519.1"/>
+                  <name>BouMatic, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="124727400" root="1.3.6.1.4.1.519.1"/>
+                        <name>BouMatic, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6ffac807-1e88-4c6a-8551-7c7ddd2361b7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20120101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="48106-1115" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tru-Blu C-Hex 110<suffix/>
+                        </name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CHLORHEXIDINE GLUCONATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="111"/>
+                              <denominator unit="L" value="10"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="MOR84MUD8E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLORHEXIDINE GLUCONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R4KO0DY52L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORHEXIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="3.8"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="18.9"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="56.8"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="114"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="208"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="1040"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48106-1115-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C79135" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER, FLEXIBLE INTERMEDIATE BULK"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20070801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0d937951-42d6-4954-b97d-553919fe4002"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>CHLORHEXIDINE TEAT DIP<br/>
+                  <br/>Helps reduce the spread of organisms<br/>which may cause Mastitis<br/>
+                  <br/>USE DIRECTIONS<br/>
+                  <br/>NOT FOR HUMAN USE<br/>FOR EXTERNAL USE ONLY<br/>USE AT FULL STRENGTH<br/>
+                  <br/>PRE-DIPPING: Before milking, dip<br/>entire teat with this product. Wipe<br/>teats dry after application using single-<br/>service towels to avoid contamination<br/>of milk.<br/>
+                  <br/>POST-DIPPING: After milking, dip<br/>entire teat with this product. Allow<br/>to air dry.<br/>
+                  <br/>Note: If solution in cup becomes visibly<br/>dirty, replenish with a fresh mixture<br/>of this product. Do not return<br/>unused product to original container.<br/>
+                  <br/>Active Ingredient (Chlorhexidine Gluconate<br/>1%)<br/>
+                  <br/>Emollients (Glycerin 10%)</text>
+               <effectiveTime value="20120101"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b0adba11-27e4-42fc-91a4-22667c766f11"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>CAUTION<br/>
+                  <br/>KEEP OUT OF REACH OF CHILDREN<br/>
+                  <br/>NOT FOR HUMAN USE<br/>
+                  <br/>FIRST AID:<br/>If in eyes: Hold eye open and rinse slowly and gently with water for 15-20 minutes. Remove contact lenses,<br/>if present after the first 5 minutes, then continue rinsing. Contact a physician immediately. If swallowed:<br/>Have person sip a glass of water if able to swallow. Do not give anything to an unconscious person. Do not<br/>induce vomiting. Contact a physician immediately. If breathing difficulty occurs: Move person to fresh air.<br/>Contact a physician immediately. If on skin: Take off contaminated clothing. Rinse skin with soap and water.<br/>If irritation develops and persists, contact a physician.<br/>Have the product container or label with you when going for treatment, calling a physician, the emergency<br/>number listed on this label or MSDS, or a poison control center.<br/>
+                  <br/>PRECAUTION: Avoid eye contact. Do not ingest. Do not mix with any chemicals except as directed.<br/>
+                  <br/>STORAGE: Store in a closed container away from sources of heat. If product becomes frozen, thaw and mix<br/>well before use.<br/>
+                  <br/>SEE MATERIAL SAFETY DATA SHEET<paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120101"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2d29deea-24ba-4dd8-9929-a72982e47117"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="LABEL"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20120101"/>
+               <component>
+                  <observationMedia ID="LABEL" classCode="OBS" moodCode="EVN">
+                     <text>Blank Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="TBChex110.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

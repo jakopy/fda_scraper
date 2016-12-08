@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c817e763-dfc4-4aa1-8394-9d07aa7ba618"/>
+   <code code="58476-3" codeSystem="2.16.840.1.113883.6.1" displayName="DIETARY SUPPLEMENT"/>
+   <title>NovaFerrum<sup>®</sup>
+      <br/> PEDIATRIC DROPS <br/> DIETARY SUPPLEMENT</title>
+   <effectiveTime value="20150903"/>
+   <setId root="a108a43d-f02b-44dc-9400-9c26d15d7863"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="961905879" root="1.3.6.1.4.1.519.1"/>
+            <name>Gensavis Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="96d31fc0-d835-4900-8893-0d833c3bf808"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20150903"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52304-717" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NovaFerrum <suffix>Multivitamin with Iron Pediatric Drops</suffix>
+                        </name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>iron, Vitamin A, Ascorbic Acid, Vitamin D, .Alpha.-Tocopherol, Thiamine, Riboflavin, Niacin, and Pyridoxine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="E1UOL152H7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>iron</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="E1UOL152H7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>iron</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[iU]" value="750"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="81G40H8B0T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Vitamin A</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="81G40H8B0T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Vitamin A</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="35"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Ascorbic Acid</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Ascorbic Acid</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[iU]" value="400"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9VU1KI44GP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Vitamin D</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9VU1KI44GP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Vitamin D</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[iU]" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.Alpha.-Tocopherol</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>.Alpha.-Tocopherol</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X66NSO3N35" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Thiamine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4ABT0J945J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Thiamine Ion</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TLM2976OFR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Riboflavin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TLM2976OFR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Riboflavin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2679MF687A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Niacin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2679MF687A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Niacin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="KV2JZ1BI6Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Pyridoxine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="KV2JZ1BI6Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Pyridoxine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Citric Acid Monohydrate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Xanthan Gum</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NOU2FB51TW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Siraitia Grosvenorii Fruit</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sorbic Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8SKN0B0MIM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Benzoic Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="KNC9Q0EE6G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Thaumatin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52304-717-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C86952" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DIETARY SUPPLEMENT"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BROWN" xsi:type="CE">
+                              <originalText>red brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73413" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RASPBERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GRAPE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bc80c921-a754-40dc-a6ad-60e0b851201d"/>
+               <code code="69718-5" codeSystem="2.16.840.1.113883.6.1" displayName="STATEMENT OF IDENTITY SECTION"/>
+               <text>
+                  <table width="75%">
+                     <col align="left" valign="top" width="40%"/>
+                     <col align="left" valign="top" width="20%"/>
+                     <col align="center" valign="top" width="20%"/>
+                     <col align="center" valign="top" width="20%"/>
+                     <thead>
+                        <tr>
+                           <th colspan="4" styleCode="Lrule Rrule">Supplement Facts</th>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <th align="left" colspan="3" styleCode="Lrule">Serving Size: 1 mL<br/>Servings Per Container: 50</th>
+                           <th styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <th styleCode="Lrule">Amount Per Serving</th>
+                           <th/>
+                           <th align="center" colspan="2" styleCode="Rrule">% Daily Value</th>
+                        </tr>
+                        <tr>
+                           <th styleCode="Lrule"/>
+                           <th/>
+                           <th>Infants Under 12 Months</th>
+                           <th styleCode="Rrule">Children Under 4 Years</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin A<br/>(as Retinyl Palmitate)</td>
+                           <td>750 IU</td>
+                           <td>50%</td>
+                           <td styleCode="Rrule">30%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin C<br/>(as Ascorbic Acid)</td>
+                           <td>35 mg</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">88%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin D<br/>(as Cholecalciferol In MCT)</td>
+                           <td>400 IU</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">100%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin E<br/>(as D-alpha Tocopherol)</td>
+                           <td>5 IU</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">50%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin B-1<br/>(as Thiamine HCL)</td>
+                           <td>0.5 mg</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">71%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin B-2<br/>(as Riboflavin-5-phosphate sodium)</td>
+                           <td>0.6 mg</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">75%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Niacin<br/>(as Niacinamide)</td>
+                           <td>8 mg</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">89%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Vitamin B-6<br/>(as Pyridoxine HCL)</td>
+                           <td>0.4 mg</td>
+                           <td>100%</td>
+                           <td styleCode="Rrule">57%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule">Elemental Iron<br/>(as Polysaccharide-Iron Complex)</td>
+                           <td>10 mg</td>
+                           <td>67%</td>
+                           <td styleCode="Rrule">100%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">OTHER INGREDIENTS:</content>  Natural Vegetable Glycerin, Water, Organic Rice Bran Extract, Natural Flavor, Citric Acid, Xanthan Gum, Natural Color, Lo Han (Monk Fruit) Extract, Sorbic Acid, Benzoic Acid, Talin (Thaumatin From Katemfe Fruit)</paragraph>
+               </text>
+               <effectiveTime value="20150903"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5d068b0d-39af-4a0a-8f00-2b015552f6e4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>SUGGESTED USE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Shake well before use.</content>
+                  </paragraph>
+                  <paragraph>As a dietary supplement for infants and children under 4 years of age: 1 mL dropper daily unless otherwise directed by physician.</paragraph>
+               </text>
+               <effectiveTime value="20150903"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e1883582-e660-4a7d-bbe2-fdc882141667"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <table styleCode="Noautorules" width="90%">
+                     <col align="left" valign="top" width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule Rrule Lrule Botrule">
+                              <content styleCode="bold">WARNING:</content> Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. <content styleCode="bold">Keep this product out of reach of children.</content> In case of accidental overdose, call a doctor or poison control center immediately.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20150903"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6ea05885-4fc9-488a-a625-a91c6ec4f382"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Do not use if seal is broken or missing.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150903"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="76cd37a4-0b76-4eb3-839a-6c78c217cc49"/>
+               <code code="69719-3" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CLAIM SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>Gensavis Pharmaceuticals, LLC<br/>Corpus Christi, TX  78415<br/>Manufactured in the USA<br/>Call <content styleCode="bold">972-836-7783</content>
+                     <br/>
+                     <content styleCode="bold">www.novaferrum.com</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150903"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55803b3f-66db-45a7-bfa4-263276ac14e8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mL Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NovaFerrum</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">PEDIATRIC DROPS<br/>DIETARY SUPPLEMENT</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">multivitamin<br/>WITH IRON</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KOSHER</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Great<br/>tasting!</content>
+                     <br/>
+                     <content styleCode="bold">Raspberry<br/>Grape Flavor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Infants &amp; Children<br/> Under 4 Years of Age</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1⅔ FL OZ (50mL)</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20150903"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 50 mL Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="novaferrum-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

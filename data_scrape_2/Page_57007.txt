@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3dc9e210-8c14-481c-8589-cdde3b4a7f10"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Mild Peeling insert</title>
+   <effectiveTime value="20100203"/>
+   <setId root="0b335c0e-0723-41fc-b570-55cdb4884c7a"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="139251763" root="1.3.6.1.4.1.519.1"/>
+            <name>Babor Cosmetics America, Corp</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="315989384" root="1.3.6.1.4.1.519.1"/>
+                        <name>Dr. Babor GMBH &amp; Co. KG</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f6d0d9c1-38cd-410e-a8b9-11d551716735"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100203"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="44924-008" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BABOR Cleansing Mild Peeling<suffix/>
+                        </name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sesame Seed</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="3.50"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7Y1255HVXR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sesame Seed</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7Y1255HVXR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sesame Seed</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="44924-008-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="44924-008-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100203"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55bde309-5c06-4c50-9bd3-48006766bfc6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <content styleCode="bold"/>
+                  <content styleCode="bold">Mild Peeling</content>
+                  <br/>
+                  <content>A mild facial exfoliant for all skin types. Finely ground, rounded peach kernels gently remove superficial hard skin and flaky skin. At the same time, plant lipids derived from sesame oil have a balancing and conditioning effect. <br/>
+                     <br/>
+                  </content>
+                  <content styleCode="bold">Application</content>
+                  <content>: Apply to the face, neck and décolleté once or twice a week, after cleansing. Omit the eye area and the mouth area. Exfoliate with circling movements. Rinse off with plenty of lukewarm water.<br/>
+                  </content>
+                  <paragraph>
+                     <linkHtml href="#section-"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100203"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1484ff4d-cd64-47c1-baa0-0aa5287dd7fb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MP1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100203"/>
+               <component>
+                  <observationMedia ID="MP1" classCode="OBS" moodCode="EVN">
+                     <text>image of carton label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Mild Peel carton image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

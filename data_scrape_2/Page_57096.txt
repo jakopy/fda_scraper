@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cbd9e5c4-e22d-4bbc-8bee-60af7e7980c3"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>DRUG FACTS</title>
+   <effectiveTime value="20110808"/>
+   <setId root="788c9703-486e-4009-bd69-fbb76d446030"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="007924756" root="1.3.6.1.4.1.519.1"/>
+            <name>H E B</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="201901209" root="1.3.6.1.4.1.519.1"/>
+                  <name>APOLLO HEALTH AND BEAUTY CARE</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="201901209" root="1.3.6.1.4.1.519.1"/>
+                        <name>APOLLO HEALTH AND BEAUTY CARE</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cd82eb26-28c6-4deb-bd6e-05a4bbd0668a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20110808"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="37808-235" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ANTIBACTERIAL<suffix>SANITIZER</suffix>
+                        </name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ETHYL ALCOHOL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="62"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALCOHOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0RE8K4LNJS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL MYRISTATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A7E6112E4N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL ACETATE, D-</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="7.4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="37808-235-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110808"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part333E" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4b071d4e-fda2-4202-8f75-63a0c42d166b"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT</title>
+               <text>
+                  <paragraph>ETHYL ALCOHOL 62%<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="608b720a-9751-4cd8-8d85-1b4376d2d172"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>PURPOSE</title>
+               <text>
+                  <paragraph>ANTIBACTERIAL</paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dd229ed7-5f3d-4f19-84d0-7ff63d2a3609"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>USES</title>
+               <text>
+                  <paragraph>TO DECREASE THE BACTERIA ON THE SKIN<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bcea9b7b-3105-4e7d-81c6-778388b34819"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>FOR EXTERNAL USE ON THE HANDS ONLY. IN CASE OF ACCIDENTAL INGESTION SEEK MEDICAL ASSISTANCE OR CONTACT A POISON CONTROL CENTER IMMEDIATELY.  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+               <component>
+                  <section>
+                     <id root="34d8973c-0e87-4f7c-b684-5d5d97d8ab52"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>WHEN USING THIS PRODUCT</title>
+                     <text>
+                        <paragraph>AVOID CONTACT WITH EYES. IF EYE CONTACT OCCURS, FLUSH THOROUGHLY WITH WATER. AVOID CONTACT WITH BROKEN SKIN.<br/>
+                        </paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fd37b931-b9ef-4166-ba78-ceb7034ea299"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>STOP USE AND ASK DOCTOR </title>
+                     <text>
+                        <paragraph>IF SKIN IRRITATION DEVELOPS <br/>
+                        </paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8f6907cc-3f4b-45de-917b-f553a50de432"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>KEEP OUT OF THE REACH OF CHILDREN</title>
+                     <text>
+                        <paragraph>FOR CHILDREN UNDER 6, USE ONLY WITH ADULT SUPERVISION. NOT RECOMMENDED FOR USE ON INFANTS.<br/>
+                        </paragraph>
+                     </text>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4b6784b9-b1e4-41bc-855f-825db0d47954"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <paragraph>SPRAY A SMALL AMOUNT ONTO HANDS AND BRISKLY RUB HANDS TOGETHER UNTIL DRY<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe02ba05-0e2c-4e31-abc1-7a24092ef447"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>OTHER INFORMATION</title>
+               <text>
+                  <paragraph>FLAMMABLE. KEEP AWAY FROM HEAT AND FLAME.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="86f6ea83-7ba7-4059-b445-89441e11ab8c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>WATER, PROPYLENE GLYCOL, GLYCERIN, FRAGRANCE, ISOPROPYL MYRISTATE, TOCOPHERYL ACETATE.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cdf1d937-bead-4089-aa20-9cd7ea8fc659"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>LABEL COPY</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="hcf01"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110808"/>
+               <component>
+                  <observationMedia ID="hcf01" classCode="OBS" moodCode="EVN">
+                     <text>image of the label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hcf01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

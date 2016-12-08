@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cce0cabf-1519-4ea4-92ba-638c8b36efac"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Azithromycin for Injection USP</content>
+   </title>
+   <effectiveTime value="20141118"/>
+   <setId root="91023a75-91c1-4d64-9e4e-a03bd8972032"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="188557102" root="1.3.6.1.4.1.519.1"/>
+            <name>Cardinal Health</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="188557102" root="1.3.6.1.4.1.519.1"/>
+                        <name>Cardinal Health</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55154-9382" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="30332437-983d-499d-8b78-570091f9ada2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20141030"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55154-9382" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Azithromycin</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>AZITHROMYCIN MONOHYDRATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="63323-398" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JTE4MNN1MD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AZITHROMYCIN MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2KLZ20U1M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AZITHROMYCIN ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="5"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="55154-9382-5" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065179" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060320"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="c8404e5c-6a44-4383-aae2-d544a3399b29">
+               <id root="ff5e3ea5-d5dc-4e46-80e4-e622bb19f7a0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">For IV infusion only </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Azithromycin for Injection and other antibacterial drugs, Azithromycin for Injection should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c2cd57e2-0f10-4b43-b814-236ce0e909bd">
+               <id root="5d5c5502-eeff-4a1b-94e0-ae0c7780ca59"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Azithromycin for Injection, USP contains the active ingredient azithromycin, an azalide, a subclass of macrolide antibiotics, for intravenous injection.  Azithromycin has the chemical name <content styleCode="italics">(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R</content>)-13-[(2,6-dideoxy-3-<content styleCode="italics">C</content>-methyl-3-<content styleCode="italics">O</content>-methyl-α-<content styleCode="italics">L</content>-<content styleCode="italics">ribo</content>-hexopyranosyl)oxy]-2-ethyl-3,4,10-trihydroxy-3,5,6,8,10,12,14-heptamethyl-11-[[3,4,6-trideoxy-3-(dimethylamino)-β-<content styleCode="italics">D-xylo</content>-hexopyranosyl]oxy]-1-oxa-6-azacyclopentadecan-15-one.  Azithromycin is derived from erythromycin; however, it differs chemically from erythromycin in that a methyl-substituted nitrogen atom is incorporated into the lactone ring.  Azithromycin has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="id220" referencedObject="D5C760FD-AC06-4DBA-BBE9-43D0A7A3E358"/> </paragraph>
+                  <paragraph>Azithromycin, as the monohydrate, is a white crystalline powder with a molecular formula of C<sub>38</sub>H<sub>72</sub>N<sub>2</sub>O<sub>12</sub>•H<sub>2</sub>O and a molecular weight of 767.00.</paragraph>
+                  <paragraph>Azithromycin for Injection, USP consists of azithromycin monohydrate and the following inactive ingredients: citric acid and sodium hydroxide.  Azithromycin for Injection, USP is supplied in lyophilized form in a 10 mL vial equivalent to 500 mg of azithromycin for intravenous administration.  Reconstitution, according to label directions, results in approximately 5 mL of azithromycin for intravenous injection with each mL containing azithromycin monohydrate equivalent to 100 mg of azithromycin.  After reconstitution each mL contains: azithromycin monohydrate equivalent to 100 mg of azithromycin, 76.9 mg of citric acid, and sodium hydroxide for pH adjustment.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <observationMedia ID="D5C760FD-AC06-4DBA-BBE9-43D0A7A3E358">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="azithromycin-figure-1-azith-struc.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e49e1e3b-0c7c-4b83-8799-9bba4688858d">
+               <id root="ec3ac04f-75d8-4bcb-92f6-c2723d29193a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="f226d561-d4f4-4195-b4df-906e0b6e7f41">
+                     <id root="7ff1001e-054d-4596-8d32-0c94d2f3f3d3"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Pharmacokinetics<br/>
+                     </title>
+                     <text>
+                        <paragraph>In patients hospitalized with community-acquired pneumonia receiving single daily one-hour intravenous infusions for 2 to 5 days of 500 mg azithromycin at a concentration of 2 mg/mL, the mean C<sub>max</sub> ± S.D. achieved was 3.63 ± 1.6 mcg/mL, while the 24-hour trough level was 0.2 ± 0.15 mcg/mL, and the AUC<sub>24</sub> was 9.6 ± 4.8 mcg•h/mL.</paragraph>
+                        <paragraph>The mean C<sub>max</sub>, 24-hour trough and AUC<sub>24</sub> values were 1.14 ± 0.14 mcg/mL, 0.18 ± 0.02 mcg/mL, and 8.03 ± 0.86 mcg•h/mL, respectively, in normal volunteers receiving a 3-hour intravenous infusion of 500 mg azithromycin at a concentration of 1 mg/mL.  Similar pharmacokinetic values were obtained in patients hospitalized with community-acquired pneumonia who received the same 3-hour dosage regimen for 2 to 5 days.</paragraph>
+                        <table width="100%">
+                           <col width="29%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <col width="8%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" colspan="10" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Plasma concentrations (mcg/mL ± S.D.)</content> <content styleCode="bold">after the last daily intravenous infusion of 500 mg azithromycin</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Infusion Concentration, Duration</paragraph>
+                                 </td>
+                                 <td align="center" colspan="9" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>Time after starting the infusion (hr)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>24</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>2 mg/mL, 1 hr<sup>a</sup> </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>  2.98 ± 1.12   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>  3.63 ± 1.73   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.6 ± 0.31 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph> 0.4 ± 0.23 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.33 ± 0.16 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.26 ± 0.14 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.27 ± 0.15 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.2 ± 0.12 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>0.2 ± 0.15 </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>1 mg/mL, 3 hr<sup>b</sup>  </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph>0.91 ± 0.13 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph>1.02 ± 0.11 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph> 1.14 ± 0.13   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph> 1.13 ± 0.16   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph> 0.32 ± 0.05   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph> 0.28 ± 0.04   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph> 0.27 ± 0.03   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph>  0.22 ± 0.02   </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph> 0.18 ± 0.02 </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>a</sup> = 500 mg (2 mg/mL) for 2 to 5 days in community-acquired pneumonia patients.</paragraph>
+                        <paragraph>
+                           <sup>b</sup> = 500 mg (1 mg/mL) for 5 days in healthy subjects.  </paragraph>
+                        <paragraph>The average CL<sub>t</sub> and V<sub>d</sub> values were 10.18 mL/min/kg and 33.3 L/kg, respectively, in 18 normal volunteers receiving 1000 to 4000 mg doses given as 1 mg/mL over 2 hours. </paragraph>
+                        <paragraph>Comparison of the plasma pharmacokinetic parameters following the 1st and 5th daily doses of 500 mg intravenous azithromycin showed only an 8% increase in C<sub>max</sub> but a 61% increase in AUC<sub>24</sub> reflecting a threefold rise in C<sub>24</sub> trough levels. </paragraph>
+                        <paragraph>Following single oral doses of 500 mg azithromycin (two 250 mg capsules) to 12 healthy volunteers, C<sub>max</sub>, trough level, and AUC<sub>24</sub> were reported to be 0.41 mcg/mL, 0.05 mcg/mL, and 2.6 mcg•h/mL, respectively.  These oral values are approximately 38%, 83%, and 52% of the values observed following a single 500 mg IV 3-hour infusion (C<sub>max</sub>: 1.08 mcg/mL, trough: 0.06 mcg/mL, and AUC<sub>24</sub>: 5 mcg•h/mL).  Thus, plasma concentrations are higher following the intravenous regimen throughout the 24-hour interval.  The pharmacokinetic parameters on day 5 of azithromycin 250 mg capsules following a 500 mg oral loading dose to healthy young adults (age 18 to 40 years old) were as follows: C<sub>max</sub>: 0.24 mcg/mL, AUC<sub>24</sub>: 2.1 mcg•h/mL.  Azithromycin 250 mg capsules are no longer commercially available.  Azithromycin 250 mg tablets are bioequivalent to 250 mg capsules in the fasting state.</paragraph>
+                        <paragraph>Median azithromycin exposure (AUC<sub>0-288</sub>) in mononuclear (MN) and polymorphonuclear (PMN) leukocytes following 1,500 mg of oral azithromycin, administered in single daily doses over either 5 days (two 250 mg tablets on day 1, followed by one 250 mg tablet on days 2 to 5) or 3 days (500 mg per day for days 1 to 3) to 12 healthy volunteers, was more than a 1000-fold and 800-fold greater than in serum, respectively. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distribution </content>
+                        </paragraph>
+                        <paragraph>The serum protein binding of azithromycin is variable in the concentration range approximating human exposure, decreasing from 51% at 0.02 mcg/mL to 7% at 2 mcg/mL. </paragraph>
+                        <paragraph>Tissue concentrations have not been obtained following intravenous infusions of azithromycin. Selected tissue (or fluid) concentration and tissue (or fluid) to plasma/serum concentration ratios following oral administration of azithromycin are shown in the following table:</paragraph>
+                        <paragraph>AZITHROMYCIN CONCENTRATIONS FOLLOWING A 500 mg DOSE (TWO 250 mg CAPSULES) IN ADULTS</paragraph>
+                        <table width="100%">
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="22%"/>
+                           <col width="22%"/>
+                           <col width="19%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                                    <paragraph>TISSUE OR FLUID</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>TIME AFTER DOSE (h)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>TISSUE OR FLUID CONCENTRATION (mcg/g or mcg/mL)<sup>1</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>CORRESPONDING PLASMA OR SERUM LEVEL (mcg/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="underline">TISSUE (FLUID)</content> PLASMA (SERUM) RATIO<sup>1</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>SKIN</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>72 to 96</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.012</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>35</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>LUNG</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>72 to 96</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.012</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>&gt;100</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>SPUTUM*</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>2 to 4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.64</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>SPUTUM**</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>10 to 12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>2.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>30</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>TONSIL***</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>9 to 18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>4.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.03</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>&gt;100</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>TONSIL***</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>180</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.006</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>&gt;100</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>CERVIX****</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>19</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>2.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>0.04</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>70</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1</sup>High tissue concentrations should not be interpreted to be quantitatively related to clinical efficacy.  The antimicrobial activity of azithromycin is pH related and appears to be reduced with decreasing pH.  However, the extensive distribution of drug to tissues may be relevant to clinical activity.</paragraph>
+                        <paragraph>    * Sample was obtained 2 to 4 hours after the first dose.</paragraph>
+                        <paragraph>  ** Sample was obtained 10 to 12 hours after the first dose.</paragraph>
+                        <paragraph> *** Dosing regimen of 2 doses of 250 mg each, separated by 12 hours.</paragraph>
+                        <paragraph>**** Sample was obtained 19 hours after a single 500 mg dose.</paragraph>
+                        <paragraph>Tissue levels were determined following a single oral dose of 500 mg azithromycin in 7 gynecological patients.  Approximately 17 hours after dosing, azithromycin concentrations were 2.7 mcg/g in ovarian tissue, 3.5 mcg/g in uterine tissue, and 3.3 mcg/g in salpinx.  Following a regimen of 500 mg on the first day followed by 250 mg daily for 4 days, concentrations in the cerebrospinal fluid were less than 0.01 mcg/mL in the presence of non-inflamed meninges. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolism </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro </content>and <content styleCode="italics">in vivo </content>studies to assess the metabolism of azithromycin have not been performed. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Elimination </content>
+                        </paragraph>
+                        <paragraph>Plasma concentrations of azithromycin following single 500 mg oral and IV doses declined in a polyphasic pattern with a mean apparent plasma clearance of 630 mL/min and terminal elimination half-life of 68 hours.  The prolonged terminal half-life is thought to be due to extensive uptake and subsequent release of drug from tissues.</paragraph>
+                        <paragraph>In a multiple-dose study in 12 normal volunteers utilizing a 500 mg (1 mg/mL) one-hour intravenous-dosage regimen for five days, the amount of administered azithromycin dose excreted in urine in 24 hours was about 11% after the 1st dose and 14% after the 5th dose.  These values are greater than the reported 6% excreted unchanged in urine after oral administration of azithromycin.  Biliary excretion is a major route of elimination for unchanged drug, following oral administration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Populations </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Insufficiency </content>
+                        </paragraph>
+                        <paragraph>Azithromycin pharmacokinetics were investigated in 42 adults (21 to 85 years of age) with varying degrees of renal impairment.  Following the oral administration of a single 1,000 mg dose of azithromycin, mean C<sub>max</sub> and AUC<sub>0-120 </sub>increased by 5.1% and 4.2%, respectively in subjects with mild to moderate renal impairment (GFR 10 to 80 mL/min) compared to subjects with normal renal function (GFR &gt;80 mL/min).  The mean C<sub>max</sub> and AUC<sub>0-120 </sub>increased 61% and 35%, respectively in subjects with severe renal impairment (GFR &lt;10 mL/min) compared to subjects with normal renal function (GFR &gt;80 mL/min) (see <content styleCode="bold">
+                              <linkHtml href="#edb0a711-10f7-4a2e-ab56-05b30513eddb">  DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Insufficiency </content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of azithromycin in subjects with hepatic impairment has not been established. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gender </content>
+                        </paragraph>
+                        <paragraph>There are no significant differences in the disposition of azithromycin between male and female subjects.  No dosage adjustment is recommended based on gender.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Geriatric Patients </content>
+                        </paragraph>
+                        <paragraph>Pharmacokinetic studies with intravenous azithromycin have not been performed in older volunteers.  Pharmacokinetics of azithromycin following oral administration in older volunteers (65 to 85 years old) were similar to those in younger volunteers (18 to 40 years old) for the 5-day therapeutic regimen. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric Patients </content>
+                        </paragraph>
+                        <paragraph>Pharmacokinetic studies with intravenous azithromycin have not been performed in children.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug-Drug Interactions </content>
+                        </paragraph>
+                        <paragraph>Drug interaction studies were performed with oral azithromycin and other drugs likely to be co-administered.  The effects of co-administration of azithromycin on the pharmacokinetics of other drugs are shown in Table 1 and the effects of other drugs on the pharmacokinetics of azithromycin are shown in Table 2.</paragraph>
+                        <paragraph>Co-administration of azithromycin at therapeutic doses had a modest effect on the pharmacokinetics of the drugs listed in Table 1.  No dosage adjustment of drugs listed in Table 1 is recommended when co-administered with azithromycin.</paragraph>
+                        <paragraph>Co-administration of azithromycin with efavirenz or fluconazole had a modest effect on the pharmacokinetics of azithromycin.  Nelfinavir significantly increased the C<sub>max</sub> and AUC of azithromycin.  No dosage adjustment of azithromycin is recommended when administered with drugs listed in Table 2 (see <content styleCode="bold">
+                              <linkHtml href="#e0cf4f90-e656-4530-b170-a767ccd31667">  PRECAUTIONS</linkHtml>
+                              <content styleCode="italics">
+                                 <linkHtml href="#e0cf4f90-e656-4530-b170-a767ccd31667"> , Drug Interactions</linkHtml>
+                              </content>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1. Drug Interactions: Pharmacokinetic Parameters for Co-administered Drugs in the Presence of Azithromycin</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="19%"/>
+                           <col width="16%"/>
+                           <col width="16%"/>
+                           <col width="9%"/>
+                           <col width="21%"/>
+                           <col width="19%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Co-administered Drug</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Dose of</paragraph>
+                                    <paragraph>Co-administered Drug</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Dose of</paragraph>
+                                    <paragraph>Azithromycin</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>n</paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Ratio (with/without azithromycin) of Co-administered Drug Pharmacokinetic Parameters (90% CI); No Effect = 1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Mean C<sub>max</sub>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Mean AUC</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Atorvastatin</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>10 mg/day x 8 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg/day PO on days 6 to 8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.83</paragraph>
+                                    <paragraph>(0.63 to 1.08)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.01</paragraph>
+                                    <paragraph>(0.81 to 1.25)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Carbamazepine</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>200 mg/day x 2 days, then 200 mg BID x 18 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg/day PO for days 16 to 18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.97</paragraph>
+                                    <paragraph>(0.88 to 1.06)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.96</paragraph>
+                                    <paragraph>(0.88 to 1.06)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Cetirizine</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>20 mg/day x 11 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg PO on day 7, then 250 mg/day on days 8 to 11</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.03</paragraph>
+                                    <paragraph>(0.93 to 1.14)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.02</paragraph>
+                                    <paragraph>(0.92 to 1.13)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Didanosine</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>200 mg PO BID x 21 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>1,200 mg/day PO on days 8 to 21</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.44</paragraph>
+                                    <paragraph>(0.85 to 2.43)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.14</paragraph>
+                                    <paragraph>(0.83 to 1.57)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Efavirenz</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>400 mg/day x 7 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>600 mg PO on day 7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.04*</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.95*</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Fluconazole</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>200 mg PO single dose</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>1,200 mg PO single dose</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.04</paragraph>
+                                    <paragraph>(0.98 to 1.11)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.01</paragraph>
+                                    <paragraph>(0.97 to 1.05)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Indinavir</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>800 mg TID x 5 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>1,200 mg PO on day 5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.96</paragraph>
+                                    <paragraph>(0.86 to 1.08)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.9</paragraph>
+                                    <paragraph>(0.81 to 1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Midazolam</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>15 mg PO on day 3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg/day PO x 3 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.27</paragraph>
+                                    <paragraph>(0.89 to 1.81)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.26</paragraph>
+                                    <paragraph>(1.01 to 1.56)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Nelfinavir</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>750 mg TID x 11 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>1,200 mg PO on day 9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.9</paragraph>
+                                    <paragraph>(0.81 to 1.01)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.85</paragraph>
+                                    <paragraph>(0.78 to 0.93)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Rifabutin</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>300 mg/day x 10 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg PO on day 1, then 250 mg/day on days 2 to 10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>See footnote below</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Sildenafil</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>100 mg on days 1 and 4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg/day PO x 3 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.16</paragraph>
+                                    <paragraph>(0.86 to 1.57)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.92</paragraph>
+                                    <paragraph>(0.75 to 1.12)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Theophylline</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>4 mg/kg IV on days 1, 11, 25</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg PO on day 7, 250 mg/day on days 8 to 11</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.19</paragraph>
+                                    <paragraph>(1.02 to 1.4)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.02</paragraph>
+                                    <paragraph>(0.86 to 1.22)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Theophylline</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>300 mg PO BID x 15 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg PO on day 6, then 250 mg/day on days 7 to 10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.09</paragraph>
+                                    <paragraph>(0.92 to 1.29)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.08</paragraph>
+                                    <paragraph>(0.89 to 1.31)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Triazolam </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>0.125 mg on day 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg PO on day 1, then 250 mg/day on day 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.06*</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.02*</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Trimethoprim/</paragraph>
+                                    <paragraph>Sulfamethoxazole</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>160 mg/800 mg/day PO x 7 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>1,200 mg PO on day 7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.85</paragraph>
+                                    <paragraph>(0.75 to 0.97)/</paragraph>
+                                    <paragraph>0.9</paragraph>
+                                    <paragraph>(0.78 to 1.03)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.87</paragraph>
+                                    <paragraph>(0.8 to 0.95)/</paragraph>
+                                    <paragraph>0.96</paragraph>
+                                    <paragraph>(0.88 to 1.03)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Zidovudine</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>500 mg/day PO x 21 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>600 mg/day PO x 14 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.12</paragraph>
+                                    <paragraph>(0.42 to 3.02)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.94</paragraph>
+                                    <paragraph>(0.52 to 1.7)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>Zidovudine</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>500 mg/day PO x 21 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>1,200 mg/day PO x 14 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>1.31</paragraph>
+                                    <paragraph>(0.43 to 3.97)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>1.3</paragraph>
+                                    <paragraph>(0.69 to 2.43)</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>NA – Not Available</paragraph>
+                        <paragraph>* - 90% Confidence interval not reported</paragraph>
+                        <paragraph>     Mean rifabutin concentrations one-half day after the last dose of rifabutin were 60 ng/mL when co-administered with azithromycin and 71 ng/mL when co-administered with placebo.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 2. Drug Interactions: Pharmacokinetic Parameters for Azithromycin in the Presence of Co-administered Drugs</content> <content styleCode="bold">(see <linkHtml href="#e0cf4f90-e656-4530-b170-a767ccd31667">  PRECAUTIONS</linkHtml>
+                              <content styleCode="italics">
+                                 <linkHtml href="#e0cf4f90-e656-4530-b170-a767ccd31667"> , Drug Interactions</linkHtml>
+                              </content>)</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="16%"/>
+                           <col width="16%"/>
+                           <col width="17%"/>
+                           <col width="9%"/>
+                           <col width="22%"/>
+                           <col width="20%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Co-administered Drug</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Dose of</paragraph>
+                                    <paragraph>Co-administered Drug</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Dose of Azithromycin</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>n</paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Ratio (with/without co-administered drug) of Azithromycin Pharmacokinetic Parameters</paragraph>
+                                    <paragraph>(90% CI); No Effect = 1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>Mean C<sub>max</sub>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Mean AUC</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Efavirenz</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>400 mg/day x 7 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>600 mg PO on day 7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.22</paragraph>
+                                    <paragraph>(1.04 to 1.42)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.92*</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Fluconazole</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>200 mg PO single dose</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1,200 mg PO single dose</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.82</paragraph>
+                                    <paragraph>(0.66 to 1.02)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1.07</paragraph>
+                                    <paragraph>(0.94 to 1.22)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Nelfinavir</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>750 mg TID x 11 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1,200 mg PO on day 9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>2.36</paragraph>
+                                    <paragraph>(1.77 to 3.15)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>2.12</paragraph>
+                                    <paragraph>(1.8 to 2.5)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>Rifabutin</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>300 mg/day x 10 days</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>500 mg PO on day 1, then 250 mg/day on days 2 to 10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>See footnote below</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>NA – Not available</paragraph>
+                        <paragraph>* - 90% Confidence interval not reported</paragraph>
+                        <paragraph>     Mean azithromycin concentrations one day after the last dose were 53 ng/mL when co-administered with 300 mg daily rifabutin and 49 ng/mL when co-administered with placebo. </paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="be7d8ba7-c1d8-4016-bd69-d7dfc724aa85">
+                     <id root="b8596603-7783-4ecf-ab84-af94589955e9"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Cardiac Electrophysiology</content>
+                        </paragraph>
+                        <paragraph>QTc interval prolongation was studied in a randomized, placebo-controlled parallel trial in 116 healthy subjects who received either chloroquine (1000 mg) alone or in combination with azithromycin (500 mg, 1000 mg, and 1500 mg once daily).  Co-administration of azithromycin increased the QTc interval in a dose- and concentration-dependent manner.  In comparison to chloroquine alone, the maximum mean (95% upper confidence bound) increases in QTcF were 5 (10) ms, 7 (12) ms and 9 (14) ms with the co-administration of 500 mg, 1000 mg and 1500 mg azithromycin, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e9763353-83dd-42e8-95eb-b681959229d4">
+                     <id root="4960c468-13be-4dda-b242-9a0765dcd951"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>Azithromycin acts by binding to the 50S ribosomal subunit of susceptible microorganisms and, thus, interfering with microbial protein synthesis.  Nucleic acid synthesis is not affected.</paragraph>
+                        <paragraph>Azithromycin concentrates in phagocytes and fibroblasts as demonstrated by <content styleCode="italics">in vitro </content>incubation techniques.  Using such methodology, the ratio of intracellular to extracellular concentration was &gt;30 after one hour incubation.  <content styleCode="italics">In vivo </content>studies suggest that concentration in phagocytes may contribute to drug distribution to inflamed tissues. </paragraph>
+                        <paragraph>Azithromycin has been shown to be active against most isolates of the following microorganisms, both <content styleCode="italics">in vitro </content>and in clinical infections as described in the <content styleCode="bold">
+                              <linkHtml href="#b5f2887f-6bdc-4c42-af3b-42abb5867efc">  INDICATIONS AND USAGE</linkHtml>
+                           </content> section of the package insert for azithromycin for injection.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-positive microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Staphylococcus aureus</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Streptococcus pneumoniae</content>
+                        </paragraph>
+                        <paragraph>NOTE: Azithromycin demonstrates cross-resistance with erythromycin-resistant gram-positive strains.  Most strains of <content styleCode="italics">Enterococcus faecalis </content>and methicillin-resistant staphylococci are resistant to azithromycin.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-negative microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Haemophilus influenzae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Moraxella catarrhalis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neisseria gonorrhoeae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">“Other” microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Chlamydia pneumoniae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Chlamydia trachomatis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Legionella pneumophila</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mycoplasma hominis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mycoplasma pneumoniae</content>
+                        </paragraph>
+                        <paragraph>Beta-lactamase production should have no effect on azithromycin activity.</paragraph>
+                        <paragraph>Azithromycin has been shown to be active against most strains of the following microorganisms, both <content styleCode="italics">in vitro </content>and in clinical infections as described in the <content styleCode="bold">
+                              <linkHtml href="#b5f2887f-6bdc-4c42-af3b-42abb5867efc">  INDICATIONS AND USAGE </linkHtml>
+                           </content>section of the package insert for azithromycin tablets and azithromycin for oral suspension. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-positive microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Staphylococcus aureus</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Streptococcus agalactiae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Streptococcus pneumoniae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Streptococcus pyogenes</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-negative microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Haemophilus ducreyi</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Haemophilus influenzae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Moraxella catarrhalis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neisseria gonorrhoeae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">“Other” microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Chlamydia pneumoniae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Chlamydia trachomatis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mycoplasma pneumoniae</content>
+                        </paragraph>
+                        <paragraph>Beta-lactamase production should have no effect on azithromycin activity. </paragraph>
+                        <paragraph>The following <content styleCode="italics">in vitro </content>data are available, <content styleCode="bold">
+                              <content styleCode="underline">but their clinical significance is unknown.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>At least 90% of the following microorganisms exhibit an <content styleCode="italics">in vitro </content>minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoints for azithromycin.  However, the safety and effectiveness of azithromycin in treating clinical infections due to these microorganisms have not been established in adequate and well-controlled clinical trials. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-positive microorganisms</content>
+                        </paragraph>
+                        <paragraph>Streptococci (Groups C, F, G)</paragraph>
+                        <paragraph>Viridans group streptococci</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Aerobic and facultative gram-negative microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Bordetella pertussis</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Anaerobic microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Peptostreptococcus </content>species</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Prevotella bivia</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">“Other” microorganisms</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ureaplasma urealyticum</content>
+                        </paragraph>
+                        <paragraph>Beta-lactamase production should have no effect on azithromycin activity.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="d81bc7ab-7b4f-4c89-9dc5-72e55e03b5cd">
+                     <id root="e85bc887-e86d-4eba-bab7-f8e8dc63edb6"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Susceptibility Testing Methods<br/>
+                     </title>
+                     <text>
+                        <paragraph>When available, the results of <content styleCode="italics">in vitro </content>susceptibility test results for antimicrobial drugs used in resident hospitals should be provided to the physician as periodic reports which describe the susceptibility profile of nosocomial and community-acquired pathogens.  These reports may differ from susceptibility data obtained from outpatient use, but could aid the physician in selecting the most effective antimicrobial.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b9c7e096-2052-4d56-a96d-d83f707b0f16">
+                     <id root="db3f14f7-dc77-4871-acd0-9fd03b77e3e6"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Dilution Techniques<br/>
+                     </title>
+                     <text>
+                        <paragraph>Quantitative methods are used to determine antimicrobial minimum inhibitory concentrations (MICs).  These MICs provide estimates of the susceptibility of bacteria to antimicrobial compounds.  The MICs should be determined using a standardized procedure.  Standardized procedures are based on a dilution method<sup>1,3</sup> (broth or agar) or equivalent with standardized inoculum concentrations and standardized concentrations of azithromycin powder.  The MIC values should be interpreted according to criteria provided in Table 3.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f31d2845-5df4-4bb0-8eef-3dbf87d63543">
+                     <id root="5b121c81-7e64-4ee8-9324-d3ad4e1d1d81"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Diffusion Techniques<br/>
+                     </title>
+                     <text>
+                        <paragraph>Quantitative methods that require measurement of zone diameters also provide reproducible estimates of the susceptibility of bacteria to antimicrobial compounds.  One such standardized procedure<sup>2,3</sup> requires the use of standardized inoculum concentrations.  This procedure uses paper disks impregnated with 15 mcg azithromycin to test the susceptibility of microorganisms to azithromycin.  The disk diffusion interpretive criteria are provided in Table 3.</paragraph>
+                        <paragraph> </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3. Susceptibility Interpretive Criteria for Azithromycin Susceptibility Test Result Interpretive Criteria</content>
+                           <br/>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="39%"/>
+                           <col width="11%"/>
+                           <col width="10%"/>
+                           <col width="10%"/>
+                           <col width="10%"/>
+                           <col width="10%"/>
+                           <col width="10%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule "/>
+                                 <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Minimum Inhibitory Concentrations (mcg/mL)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Disk Diffusion</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(zone diameters in mm)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="bold">Pathogen</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="6" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule "/>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">S</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">I</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">R<sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">S</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">I</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">R<sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Haemophilus</content> <content styleCode="italics">influenzae</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≤ 4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>- -</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>- -</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≥ 12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>- -</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>- -</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Staphylococcus aureus</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≤ 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≥ 8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≥ 18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>14 to 17</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>≤ 13</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Streptococcus  pneumoniae<sup>b              </sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>≤ 0.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>≥ 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>≥ 18</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>14 to 17</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>≤ 13</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>a</sup>The current absence of data on resistant strains precludes defining any category other than “susceptible”. If strains yield MIC results other than susceptible, they should be submitted to a reference laboratory for further testing.</paragraph>
+                        <paragraph>
+                           <sup>b</sup>Susceptibility of streptococci including, <content styleCode="italics">S. pneumoniae </content>to azithromycin and other macrolides can be predicted by testing erythromycin.</paragraph>
+                        <paragraph>No interpretive criteria have been established for testing <content styleCode="italics">Neisseria gonorrhoeae.  </content>This species is not usually tested.</paragraph>
+                        <paragraph>A report of “susceptible” indicates that the pathogen is likely to be inhibited if the antimicrobial compound reaches the concentrations usually achievable.  A report of “intermediate” indicates that the result should be considered equivocal, and, if the microorganism is not fully susceptible to alternative, clinically feasible drugs, the test should be repeated.  This category implies possible clinical applicability in body sites where the drug is physiologically concentrated or in situations where high dosage of drug can be used.  This category also provides a buffer zone which prevents small uncontrolled technical factors from causing major discrepancies in interpretation.  A report of “resistant” indicates that the pathogen is not likely to be inhibited if the antimicrobial compound reaches the concentrations usually achievable; other therapy should be selected.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b68df043-f9cd-46d5-b338-8169925b67ed">
+                     <id root="691d0f8b-0db1-4457-8440-3dc41cdff359"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Quality Control<br/>
+                     </title>
+                     <text>
+                        <paragraph>Standardized susceptibility test procedures require the use of quality control microorganisms to control the technical aspects of the test procedures.  Standard azithromycin powder should provide the following range of values noted in Table 4.  Quality control microorganisms are specific strains of organisms with intrinsic biological properties.  QC strains are very stable strains which will give a standard and repeatable susceptibility pattern.  The specific strains used for microbiological quality control are not clinically significant.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 4. Acceptable Quality Control Ranges for Azithromycin</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="41%"/>
+                           <col width="32%"/>
+                           <col width="27%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>
+                                       <content styleCode="bold">QC Strain</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Minimum Inhibitory</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Concentrations</content> <content styleCode="bold">(mcg/mL)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Disk Diffusion</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(zone diameters in mm)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Haemophilus influenzae</content>
+                                    </paragraph>
+                                    <paragraph>ATCC 49247</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>1 to 4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>13 to 21</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Staphylococcus aureus</content>
+                                    </paragraph>
+                                    <paragraph>ATCC 29213</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>0.5 to 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Staphylococcus aureus</content>
+                                    </paragraph>
+                                    <paragraph>ATCC 25923</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>21 to 26</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph> </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph> </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">Streptococcus pneumoniae</content>
+                                    </paragraph>
+                                    <paragraph>ATCC 49619</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>0.06 to 0.25</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>19 to 25</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="b5f2887f-6bdc-4c42-af3b-42abb5867efc">
+               <id root="ad417e51-ee05-4742-b307-bb8b761e3e83"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Azithromycin for Injection, USP is indicated for the treatment of patients with infections caused by susceptible strains of the designated microorganisms in the conditions listed below.  <content styleCode="underline">As recommended dosages, durations of therapy, and applicable patient populations vary among these infections, please see</content>
+                     <content styleCode="bold">
+                        <linkHtml href="#edb0a711-10f7-4a2e-ab56-05b30513eddb">  DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>
+                     <content styleCode="underline"> for dosing recommendations.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Community-acquired pneumonia </content>due to <content styleCode="italics">Chlamydia pneumoniae, Haemophilus influenzae, Legionella pneumophila, Moraxella catarrhalis, Mycoplasma pneumoniae, Staphylococcus aureus, </content>or <content styleCode="italics">Streptococcus pneumoniae </content>in patients who require initial intravenous therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pelvic inflammatory disease </content>due to <content styleCode="italics">Chlamydia trachomatis, Neisseria gonorrhoeae, </content>or <content styleCode="italics">Mycoplasma hominis </content>in patients who require initial intravenous therapy.  If anaerobic microorganisms are suspected of contributing to the infection, an antimicrobial agent with anaerobic activity should be administered in combination with Azithromycin for Injection, USP.</paragraph>
+                  <paragraph>Azithromycin for Injection, USP should be followed by azithromycin by the oral route as required (see <content styleCode="bold">
+                        <linkHtml href="#edb0a711-10f7-4a2e-ab56-05b30513eddb">  DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>Appropriate culture and susceptibility tests should be performed before treatment to determine the causative microorganism and its susceptibility to azithromycin.  Therapy with azithromycin may be initiated before results of these tests are known; once the results become available, antimicrobial therapy should be adjusted accordingly.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Azithromycin for Injection, USP and other antibacterial drugs, Azithromycin for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria.  When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy.  In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f055fd4f-7073-4d6d-9ba6-32bcdb5c73e9">
+               <id root="d11e82ee-c4b8-41d3-9416-41f388eb3036"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph> Azithromycin for Injection is contraindicated in patients with known hypersensitivity to azithromycin, erythromycin, any macrolide or ketolide antibiotic.  Azithromycin for Injection is contraindicated in patients with a history of cholestatic jaundice/hepatic dysfunction associated with prior use of azithromycin.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fe913b92-a536-4f24-a354-986b0f6d5252">
+               <id root="4d1ffea1-4274-45d2-b3ab-666cbc9d54b4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="c5c6cac5-8fb9-42ee-bd27-976dd59877b3">
+                     <id root="21e911a3-0026-40e9-a893-3dc42539d8ed"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Hypersensitivity<br/>
+                     </title>
+                     <text>
+                        <paragraph>Serious allergic reactions, including angioedema, anaphylaxis, and dermatologic reactions, including Stevens-Johnson syndrome and toxic epidermal necrolysis have been reported rarely in patients on azithromycin therapy.  Although rare, fatalities have been reported (see <content styleCode="bold">
+                              <linkHtml href="#f055fd4f-7073-4d6d-9ba6-32bcdb5c73e9">  CONTRAINDICATIONS</linkHtml>
+                           </content>).  Despite initially successful symptomatic treatment of the allergic symptoms, when symptomatic therapy was discontinued, the allergic symptoms <content styleCode="bold">recurred soon thereafter in some patients without further azithromycin exposure.  </content>These patients required prolonged periods of observation and symptomatic treatment.  The relationship of these episodes to the long tissue half-life of azithromycin and subsequent prolonged exposure to antigen is unknown at present.</paragraph>
+                        <paragraph>If an allergic reaction occurs, the drug should be discontinued and appropriate therapy should be instituted.  Physicians should be aware that reappearance of the allergic symptoms may occur when symptomatic therapy is discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b6f570d1-efbd-4a12-90bb-9748408924bb">
+                     <id root="9dc6cfc5-ac5a-4815-ab85-732a26f30b97"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Hepatotoxicity<br/>
+                     </title>
+                     <text>
+                        <paragraph>Abnormal liver function, hepatitis, cholestatic jaundice, hepatic necrosis, and hepatic failure have been reported, some of which have resulted in death.  Discontinue azithromycin immediately if signs and symptoms of hepatitis occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c3c416be-a006-4b57-a3b7-14b27c4b4130">
+                     <id root="21871b3f-ec64-4f60-bc81-1bc7860a0845"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Clostridium Difficile-associated diarrhea<br/>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridium difficile-</content>associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including azithromycin for injection, and may range in severity from mild diarrhea to fatal colitis.  Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">C. difficile </content>produces toxins A and B which contribute to the development of CDAD.  Hypertoxin producing strains of <content styleCode="italics">C. difficile </content>cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy.  CDAD must be considered in all patients who present with diarrhea following antibiotic use.  Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents. </paragraph>
+                        <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued.  Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="dbf4054b-e20a-47ab-9e86-26dd8cd0e8e8">
+                     <id root="4ae3a6bc-381d-4b58-b538-90eec06a4e6b"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>QT Prolongation</title>
+                     <text>
+                        <paragraph>Prolonged cardiac repolarization and QT interval, imparting a risk of developing cardiac arrhythmia and torsades de pointes, have been seen in treatment with macrolides, including azithromycin.  Cases of torsades de pointes have been spontaneously reported during post-marketing surveillance in patients receiving azithromycin.  Providers should consider the risk of QT prolongation which can be fatal when weighing the risks and benefits of azithromycin for at-risk groups including:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure </item>
+                           <item>
+                              <caption>•</caption>patients on drugs known to prolong the QT interval </item>
+                           <item>
+                              <caption>•</caption>patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, aminodarone, sotalol) antiarrhythmic agents. </item>
+                        </list>
+                        <paragraph> Elderly patients may be more susceptible to drug-associated effects on the QT interval.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="cb7c357f-e97e-4389-a867-1489d7dd866d">
+               <id root="57e1d647-1cbc-428c-8cb7-a9ebb6accbd4"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="bfc30d1e-e574-462a-8045-0e5ff6c116db">
+                     <id root="473b01e6-3fac-4776-8dca-225478fcad10"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Because azithromycin is principally eliminated via the liver, caution should be exercised when azithromycin is administered to patients with impaired hepatic function.  Due to the limited data in subjects with GFR &lt;10 mL/min, caution should be exercised when prescribing azithromycin in these patients (see<content styleCode="bold"> <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">CLINICAL PHARMACOLOGY, Special Populations</linkHtml>
+                              <content styleCode="italics">
+                                 <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d"> , </linkHtml>
+                              </content>
+                           </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d"> Renal Insufficiency</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Azithromycin for Injection should be reconstituted and diluted as directed and administered as an intravenous infusion over not less than 60 minutes (see <content styleCode="bold">
+                              <linkHtml href="#edb0a711-10f7-4a2e-ab56-05b30513eddb">  DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). </paragraph>
+                        <paragraph>Local IV site reactions have been reported with the intravenous administration of azithromycin. The incidence and severity of these reactions were the same when 500 mg azithromycin were given over 1 hour (2 mg/mL as 250 mL infusion) or over 3 hours (1 mg/mL as 500 mL infusion) (see <content styleCode="bold">
+                              <linkHtml href="#abdc0484-0d62-40a1-925f-762fd8decb96">  ADVERSE REACTIONS</linkHtml>
+                           </content>).  All volunteers who received infusate concentrations above 2 mg/mL experienced local IV site reactions and, therefore, higher concentrations should be avoided. </paragraph>
+                        <paragraph>Exacerbation of symptoms of myasthenia gravis and new onset of myasthenic syndrome have been reported in patients receiving azithromycin therapy. </paragraph>
+                        <paragraph>Prescribing Azithromycin for Injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b7a34515-b0bf-4357-ae23-08282a1f6b56">
+                     <id root="7d2ce11f-d657-40bb-aecc-4c708902d8d2"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Information for Patients<br/>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be directed to discontinue azithromycin and contact a physician if any signs of an allergic reaction occur.   </paragraph>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Azithromycin for Injection should only be used to treat bacterial infections.  They do not treat viral infections (e.g., the common cold).  When Azithromycin for Injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of the therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Azithromycin for Injection or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics, which usually ends when the antibiotic is discontinued.  Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic.  If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e0cf4f90-e656-4530-b170-a767ccd31667">
+                     <id root="9f99cf9a-1a4d-4bef-8f72-ac4a40b5d977"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Drug Interactions<br/>
+                     </title>
+                     <text>
+                        <paragraph>Co-administration of nelfinavir at steady-state with a single oral dose of azithromycin resulted in increased azithromycin serum concentrations.  Although a dose adjustment of azithromycin is not recommended when administered in combination with nelfinavir, close monitoring for known side effects of azithromycin, such as liver enzyme abnormalities and hearing impairment, is warranted (see <content styleCode="bold">
+                              <linkHtml href="#abdc0484-0d62-40a1-925f-762fd8decb96">  ADVERSE REACTIONS</linkHtml>
+                           </content>). </paragraph>
+                        <paragraph>Although, in a study of 22 healthy men, a 5 day course of azithromycin did not affect the prothrombin time from a subsequently administered dose of warfarin, spontaneous post-marketing reports suggest that concomitant administration of azithromycin may potentiate the effects of oral anticoagulants.  Prothrombin times should be carefully monitored while patients are receiving azithromycin and oral anticoagulants concomitantly. </paragraph>
+                        <paragraph>Drug interaction studies were performed with azithromycin and other drugs likely to be co-administered (see <content styleCode="bold">
+                              <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  CLINICAL PHARMACOLOGY, Drug-Drug Interactions</linkHtml>
+                           </content>).  When used in therapeutic doses, azithromycin had a modest effect on the pharmacokinetics of atorvastatin, carbamazepine, cetirizine, didanosine, efavirenz, fluconazole, indinavir, midazolam, rifabutin, sildenafil, theophylline (intravenous and oral), triazolam, trimethoprim/sulfamethoxazole or zidovudine.  Co-administration with efavirenz or fluconazole had a modest effect on the pharmacokinetics of azithromycin.  No dosage adjustment of either drug is recommended when azithromycin is co-administered with any of these agents.</paragraph>
+                        <paragraph>Interactions with the drugs listed below have not been reported in clinical trials with azithromycin; however, no specific drug interaction studies have been performed to evaluate potential drug-drug interaction.  Nonetheless, they have been observed with macrolide products.  Until further data are developed regarding drug interactions when azithromycin and these drugs are used concomitantly, careful monitoring of patients is advised:</paragraph>
+                        <paragraph>Digoxin - elevated digoxin concentrations.</paragraph>
+                        <paragraph>Ergotamine or dihydroergotamine - acute ergot toxicity characterized by severe peripheral vasospasm and dysesthesia.</paragraph>
+                        <paragraph>Terfenadine, cyclosporine, hexobarbital, and phenytoin-elevated concentrations.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f1622543-cd4e-4dcc-af1f-aac4cd7fd62a">
+                     <id root="1d12c600-dbbd-495f-bfcb-e6a33d99d9d1"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Laboratory Test Interactions<br/>
+                     </title>
+                     <text>
+                        <paragraph>There are no reported laboratory test interactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="a54c3fe4-ce2d-4eff-b7a2-f4b6efdcee11">
+                     <id root="9f73e2a7-5a77-46da-a585-dcaf8e289085"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility<br/>
+                     </title>
+                     <text>
+                        <paragraph>Long-term studies in animals have not been performed to evaluate carcinogenic potential.  Azithromycin has shown no mutagenic potential in standard laboratory tests: mouse lymphoma assay, human lymphocyte clastogenic assay, and mouse bone marrow clastogenic assay.  No evidence of impaired fertility due to azithromycin was found.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="fa095ffa-188b-4e01-9974-295c100f1ab1">
+                     <id root="2543965d-dd80-4ae4-949d-e8cb192aa895"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Teratogenic Effects. Pregnancy Category B</content>
+                        </paragraph>
+                        <paragraph>Reproduction studies have been performed in rats and mice at doses up to moderately maternally toxic dose concentrations (i.e., 200 mg/kg/day by the oral route).  These doses, based on a mg/m<sup>2</sup> basis, are estimated to be 4 and 2 times, respectively, the human daily dose of 500 mg by the oral route.  In the animal studies, no evidence of harm to the fetus due to azithromycin was found.  There are, however, no adequate and well-controlled studies in pregnant women.  Because animal reproduction studies are not always predictive of human response, azithromycin should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="fdb9782d-2ce0-4126-8ff2-52765170a3e6">
+                     <id root="6ce2f2d5-88d5-4921-a11b-9d8ca15b9f9d"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Nursing Mothers<br/>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether azithromycin is excreted in human milk.  Because many drugs are excreted in human milk, caution should be exercised when azithromycin is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c32b21c4-b774-4380-adad-d90805d1e38f">
+                     <id root="51ae3100-d64f-4c9b-bd23-066e426c4f28"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Pediatric Use<br/>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness of azithromycin for injection in children or adolescents under 16 years have not been established.  In controlled clinical studies, azithromycin has been administered to pediatric patients (age 6 months to 16 years) by the oral route.  For information regarding the use of azithromycin for oral suspension in the treatment of pediatric patients, refer to the <content styleCode="bold">
+                              <linkHtml href="#b5f2887f-6bdc-4c42-af3b-42abb5867efc">  INDICATIONS AND USAGE </linkHtml>
+                           </content>and <content styleCode="bold">
+                              <linkHtml href="#edb0a711-10f7-4a2e-ab56-05b30513eddb">  DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> sections of the prescribing information for azithromycin for oral suspension 100 mg/5 mL and 200 mg/5 mL bottles.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f6f702a7-8009-4e43-9ff3-29f732c728b4">
+                     <id root="eeccdf0b-61da-4511-bf37-f59bcd7110ed"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Geriatric Use<br/>
+                     </title>
+                     <text>
+                        <paragraph>Pharmacokinetic studies with intravenous azithromycin have not been performed in older volunteers.  Pharmacokinetics of azithromycin following oral administration in older volunteers (65 to 85 years old) were similar to those in younger volunteers (18 to 40 years old) for the 5 day therapeutic regimen.</paragraph>
+                        <paragraph>In multiple-dose clinical trials of intravenous azithromycin in the treatment of community-acquired pneumonia, 45% of patients (188/414) were at least 65 years of age and 22% of patients (91/414) were at least 75 years of age.  No overall differences in safety were observed between these subjects and younger subjects in terms of adverse events, laboratory abnormalities, and discontinuations.  Similar decreases in clinical response were noted in azithromycin- and comparator-treated patients with increasing age. </paragraph>
+                        <paragraph>Elderly patients may be more susceptible to development of torsades de pointes arrhythmia than younger patients (see <content styleCode="bold">
+                              <linkHtml href="#fe913b92-a536-4f24-a354-986b0f6d5252"> WARNINGS</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Azithromycin for Injection contains 114 mg (4.96 mEq) of sodium per vial.  At the usual recommended doses, patients would receive 114 mg (4.96 mEq) of sodium.  The geriatric population may respond with a blunted natriuresis to salt loading.  The total sodium content from dietary and non-dietary sources may be clinically important with regard to such diseases as congestive heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="abdc0484-0d62-40a1-925f-762fd8decb96">
+               <id root="77b90ff4-9346-45af-9862-3a42d990e506"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In clinical trials of intravenous azithromycin for community-acquired pneumonia, in which 2 to 5 IV doses were given, most of the reported side effects were mild to moderate in severity and were reversible upon discontinuation of the drug.  The majority of patients in these trials had one or more co-morbid diseases and were receiving concomitant medications.  Approximately 1.2% of the patients discontinued intravenous azithromycin therapy, and a total of 2.4% discontinued azithromycin therapy by either the intravenous or oral route because of clinical or laboratory side effects.</paragraph>
+                  <paragraph>In clinical trials conducted in patients with pelvic inflammatory disease, in which 1 to 2 IV doses were given, 2% of women who received monotherapy with azithromycin and 4% who received azithromycin plus metronidazole discontinued therapy due to clinical side effects.</paragraph>
+                  <paragraph>Clinical side effects leading to discontinuations from these studies were most commonly gastrointestinal (abdominal pain, nausea, vomiting, diarrhea), and rashes; laboratory side effects leading to discontinuation were increases in transaminase levels and/or alkaline phosphatase levels.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="f8c1cd58-e1d1-4b9b-b794-dd9d6031b56d">
+                     <id root="9b66ea16-7548-4e16-9f8c-d085e88385b2"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Clinical</title>
+                     <text>
+                        <paragraph>Overall, the most common side effects associated with treatment in adult patients who received IV/PO azithromycin in studies of community-acquired pneumonia were related to the gastrointestinal system with diarrhea/loose stools (4.3%), nausea (3.9%), abdominal pain (2.7%), and vomiting (1.4%) being the most frequently reported.  Approximately 12% of patients experienced a side effect related to the intravenous infusion; most common were pain at the injection site (6.5%) and local inflammation (3.1%).</paragraph>
+                        <paragraph>The most common side effects associated with treatment in adult women who received IV/PO azithromycin in studies of pelvic inflammatory disease were related to the gastrointestinal system.  Diarrhea (8.5%) and nausea (6.6%) were most commonly reported, followed by vaginitis (2.8%), abdominal pain (1.9%), anorexia (1.9%), rash and pruritus (1.9%).  When azithromycin was co-administered with metronidazole in these studies, a higher proportion of women experienced side effects of nausea (10.3%), abdominal pain (3.7%), vomiting (2.8%), application site reaction, stomatitis, dizziness, or dyspnea (all at 1.9%). </paragraph>
+                        <paragraph>No other side effects occurred in patients on the multiple-dose IV/PO regimen of azithromycin in these studies with a frequency greater than 1%. </paragraph>
+                        <paragraph>Side effects that occurred with a frequency of 1% or less included the following: </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal: </content>dyspepsia, flatulence, mucositis, oral moniliasis, and gastritis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous System: </content>headache, somnolence.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Allergic: </content>bronchospasm.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Senses: </content>taste perversion.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c42af8c4-6c12-48b6-a7c5-7c954df1a6a6">
+                     <id root="ef7b6a4b-e7fd-4694-9bed-9b0ab893deeb"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Post-Marketing Experience<br/>
+                     </title>
+                     <text>
+                        <paragraph>Adverse events reported with azithromycin during the post-marketing period in adult and/or pediatric patients for which a causal relationship may not be established include:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Allergic: </content>arthralgia, edema, urticaria and angioedema.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiovascular: </content>arrhythmias including ventricular tachycardia and hypotension.  There have been rare reports of QT prolongation and <content styleCode="italics">torsades de pointes.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal: </content>anorexia, constipation, dyspepsia, flatulence, vomiting/diarrhea rarely resulting in dehydration, pseudomembranous colitis, pancreatitis, oral candidiasis, pyloric stenosis and rare reports of tongue discoloration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">General: </content>asthenia, paresthesia, fatigue, malaise and anaphylaxis (rarely fatal).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Genitourinary: </content>interstitial nephritis and acute renal failure and vaginitis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hematopoietic: </content>thrombocytopenia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Liver/Biliary: </content>adverse reactions related to hepatic dysfunction have been reported in post-marketing experience with azithromycin (see <content styleCode="bold">
+                              <linkHtml href="#b6f570d1-efbd-4a12-90bb-9748408924bb">  WARNINGS</linkHtml>
+                              <content styleCode="italics">
+                                 <linkHtml href="#b6f570d1-efbd-4a12-90bb-9748408924bb"> , Hepatotoxicity</linkHtml>
+                              </content>
+                           </content>).  </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous System: </content>convulsions, dizziness/vertigo, headache, somnolence, hyperactivity, nervousness, agitation and syncope.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Psychiatric: </content>aggressive reaction and anxiety.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin/Appendages: </content>pruritus, rarely serious skin reactions including erythema multiforme, Stevens-Johnson syndrome and toxic epidermal necrolysis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Senses: </content>hearing disturbances including hearing loss, deafness and/or tinnitus and reports of taste/smell perversion and/or loss.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="dabfda36-f00e-4192-881e-166350189f53">
+                     <id root="581e2844-cd33-48a2-a44d-5cd4ca0efbe7"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Laboratory Abnormalities</title>
+                     <text>
+                        <paragraph>Significant abnormalities (irrespective of drug relationship) occurring during the clinical trials were reported as follows:</paragraph>
+                        <paragraph>with an incidence of 4 to 6%, elevated ALT (SGPT), AST (SGOT), creatinine</paragraph>
+                        <paragraph>with an incidence of 1 to 3%, elevated LDH, bilirubin</paragraph>
+                        <paragraph>with an incidence of less than 1%, leukopenia, neutropenia, decreased platelet count, and elevated serum alkaline phosphatase</paragraph>
+                        <paragraph>When follow-up was provided, changes in laboratory tests appeared to be reversible.  </paragraph>
+                        <paragraph>In multiple-dose clinical trials involving more than 750 patients treated with azithromycin (IV/PO), less than 2% of patients discontinued azithromycin therapy because of treatment-related liver enzyme abnormalities.</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="edb0a711-10f7-4a2e-ab56-05b30513eddb">
+               <id root="a64f0b0f-af59-4cb5-b8e1-25c71a45e04d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">(See <linkHtml href="#b5f2887f-6bdc-4c42-af3b-42abb5867efc">  INDICATIONS AND USAGE</linkHtml> and <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  CLINICAL PHARMACOLOGY</linkHtml>.)</content>
+                  </paragraph>
+                  <paragraph>The recommended dose of Azithromycin for Injection for the treatment of adult patients with community-acquired pneumonia due to the indicated organisms is: 500 mg as a single daily dose by the intravenous route for at least two days.  Intravenous therapy should be followed by azithromycin by the oral route at a single, daily dose of 500 mg, administered as two 250 mg tablets to complete a 7 to 10 day course of therapy.  The timing of the switch to oral therapy should be done at the discretion of the physician and in accordance with clinical response.</paragraph>
+                  <paragraph>The recommended dose of Azithromycin for Injection for the treatment of adult patients with pelvic inflammatory disease due to the indicated organisms is: 500 mg as a single daily dose by the intravenous route for one or two days.  Intravenous therapy should be followed by azithromycin by the oral route at a single, daily dose of 250 mg to complete a 7 day course of therapy.  The timing of the switch to oral therapy should be done at the discretion of the physician and in accordance with clinical response.  If anaerobic microorganisms are suspected of contributing to the infection, an antimicrobial agent with anaerobic activity should be administered in combination with Azithromycin for Injection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Renal Insufficiency </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>No dosage adjustment is recommended for subjects with renal impairment (GFR ≤80 mL/min). The mean AUC<sub>0-120 </sub>was similar in subjects with GFR 10 to 80 mL/min compared to subjects with normal renal function, whereas it increased 35% in subjects with GFR &lt;10 mL/min compared to subjects with normal renal function.  Caution should be exercised when azithromycin is administered to subjects with severe renal impairment (see <content styleCode="bold">
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  CLINICAL PHARMACOLOGY, Special Populations</linkHtml>
+                     </content>
+                     <content styleCode="italics">
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d"> , </linkHtml>
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  Renal Insufficiency</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatic Insufficiency </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The pharmacokinetics of azithromycin in subjects with hepatic impairment have not been established.  No dose adjustment recommendations can be made in patients with impaired hepatic function (see <content styleCode="bold">
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  CLINICAL PHARMACOLOGY, Special Populations, </linkHtml>
+                     </content>
+                     <content styleCode="italics">
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  Hepatic Insufficiency</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>No dosage adjustment is recommended based on age or gender (see <content styleCode="bold">
+                        <linkHtml href="#e49e1e3b-0c7c-4b83-8799-9bba4688858d">  CLINICAL PHARMACOLOGY, Special Populations</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The infusate concentration and rate of infusion for Azithromycin for Injection should be either 1 mg/mL over 3 hours or 2 mg/mL over 1 hour.  Azithromycin for Injection should not be given as a bolus or as an intramuscular injection. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preparation of the solution for intravenous administration is as follows:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reconstitution</content>
+                  </paragraph>
+                  <paragraph>Prepare the initial solution of Azithromycin for Injection by adding 4.8 mL of Sterile Water for Injection to the 500 mg vial and shaking the vial until all of the drug is dissolved.  Since Azithromycin for Injection is supplied under vacuum, it is recommended that a standard 5 mL (non-automated) syringe be used to ensure that the exact amount of 4.8 mL of Sterile Water is dispensed.  Each mL of reconstituted solution contains 100 mg azithromycin.  Reconstituted solution is stable for 24 hours when stored below 30°C (86°F).</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter prior to administration.  If particulate matter is evident in reconstituted fluids, the drug solution should be discarded.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dilute this solution further prior to administration as instructed below.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dilution</content>
+                  </paragraph>
+                  <paragraph>To provide azithromycin over a concentration range of 1 to 2 mg/mL, transfer 5 mL of the 100 mg/mL azithromycin solution into the appropriate amount of any of the diluents listed below:</paragraph>
+                  <paragraph>Normal Saline (0.9% sodium chloride)</paragraph>
+                  <paragraph>1/2 Normal Saline (0.45% sodium chloride)</paragraph>
+                  <paragraph>5% Dextrose in Water</paragraph>
+                  <paragraph>Lactated Ringer’s Solution</paragraph>
+                  <paragraph>5% Dextrose in 1/2 Normal Saline (0.45% sodium chloride) with 20 mEq KCl</paragraph>
+                  <paragraph>5% Dextrose in Lactated Ringer’s Solution</paragraph>
+                  <paragraph>5% Dextrose in 1/3 Normal Saline (0.3% sodium chloride)</paragraph>
+                  <paragraph>5% Dextrose in 1/2 Normal Saline (0.45% sodium chloride)</paragraph>
+                  <paragraph>Normosol<sup>®</sup>-M in 5% Dextrose</paragraph>
+                  <paragraph>Normosol<sup>®</sup>-R in 5% Dextrose</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>Final Infusion Solution</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Concentration (mg/mL)</content>         <content styleCode="underline">Amount of Diluent (mL)</content>
+                  </paragraph>
+                  <paragraph>        1 mg/mL                                   500 mL</paragraph>
+                  <paragraph>        2 mg/mL                                   250 mL</paragraph>
+                  <paragraph>It is recommended that a 500 mg dose of Azithromycin for Injection, diluted as above, be infused over a period of not less than 60 minutes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Azithromycin for Injection should not be given as a bolus or as an intramuscular injection.</content>
+                  </paragraph>
+                  <paragraph>Other intravenous substances, additives, or medications should not be added to Azithromycin for Injection or infused simultaneously through the same intravenous line.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="e030052f-b957-48d0-8ee2-6f3948bc29a4">
+                     <id root="d5375497-6050-4a3b-9ad3-c01cad27b746"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Store the white to off-white lyophilized cake at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].  When diluted according to the instructions (1 mg/mL to 2 mg/mL), Azithromycin for Injection is stable for 24 hours at or below room temperature 30°C (86°F), or for 7 days if stored under refrigeration 5°C (41°F).</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f5195d7c-1397-4648-88f7-2a3eb79d6886">
+               <id root="4609c265-fc6e-4e86-b971-544a0284a1b8"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Azithromycin for Injection, USP is supplied in lyophilized form under a vacuum in a 10 mL vial equivalent to 500 mg of azithromycin for intravenous administration.  Each vial also contains sodium hydroxide and 413.6 mg citric acid.</paragraph>
+                  <table width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>
+                                 <content styleCode="bold">Product </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">No.</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>
+                                 <content styleCode="bold">NDC </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">No.</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule ">
+                              <paragraph>NP309810    </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule ">
+                              <paragraph>63323-398-12    </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule ">
+                              <paragraph>Packaged in tens</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This container closure is not made with natural rubber latex.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f41e85c7-753e-421f-a27d-d4352d8dc819">
+               <id root="41691890-5249-4305-91c7-93ae9d3f5f9b"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <section ID="ac692cff-9667-4594-919b-e173f85c2a50">
+                     <id root="38116f35-e0ad-4d19-8418-96945c621ba4"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title>Community-Acquired Pneumonia</title>
+                     <text>
+                        <paragraph>In a controlled study of community-acquired pneumonia performed in the U.S., azithromycin (500 mg as a single daily dose by the intravenous route for 2 to 5 days, followed by 500 mg/day by the oral route to complete 7 to 10 days therapy) was compared to cefuroxime (2250 mg/day in three divided doses by the intravenous route for 2 to 5 days followed by 1000 mg/day in two divided doses by the oral route to complete 7 to 10 days therapy), with or without erythromycin.  For the 291 patients who were evaluable for clinical efficacy, the clinical outcome rates, i.e., cure, improved, and success (cure + improved) among the 277 patients seen at 10 to 14 days post-therapy were as follows:</paragraph>
+                        <table width="100%">
+                           <col width="33%"/>
+                           <col width="33%"/>
+                           <col width="33%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>Clinical Outcome</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Azithromycin</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Comparator</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Cure</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>46%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>44%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Improved</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>32%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>30%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>Success (Cure + Improved)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>78%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>74%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In a separate, uncontrolled clinical and microbiological trial performed in the U.S., 94 patients with community-acquired pneumonia who received azithromycin in the same regimen were evaluable for clinical efficacy.  The clinical outcome rates, i.e., cure, improved, and success (cure + improved) among the 84 patients seen at 10 to 14 days post-therapy were as follows:</paragraph>
+                        <table width="100%">
+                           <col width="50%"/>
+                           <col width="50%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>Clinical Outcome</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Azithromycin</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Cure</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>60%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Improved</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>29%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>Success (Cure + Improved)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>89%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Microbiological determinations in both trials were made at the pre-treatment visit and, where applicable, were reassessed at later visits.  Serological testing was done on baseline and final visit specimens.  The following combined presumptive bacteriological eradication rates were obtained from the evaluable groups:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Combined Bacteriological Eradication Rates for Azithromycin:</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="50%"/>
+                           <col width="50%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>(at last completed visit)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>Azithromycin</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">S. pneumoniae</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>64/67 (96%)<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">H. influenzae</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>41/43 (95%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">M. catarrhalis</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>9/10</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>
+                                       <content styleCode="italics">S. aureus</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="bottom">
+                                    <paragraph>9/10</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>a </sup>Nineteen of twenty-four patients (79%) with positive blood cultures for <content styleCode="italics">S. pneumoniae </content>were cured (intent-to-treat analysis) with eradication of the pathogen.</paragraph>
+                        <paragraph>The presumed bacteriological outcomes at 10 to 14 days post-therapy for patients treated with azithromycin with evidence (serology and/or culture) of atypical pathogens for both trials were as follows:</paragraph>
+                        <paragraph>Evidence of                                                                                                           Cure +</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Infection</content>                                    <content styleCode="underline">Total</content>                <content styleCode="underline">Cure</content>               <content styleCode="underline">Improved</content>            <content styleCode="underline">Improved</content> </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mycoplasma pneumoniae           </content>18              11 (61%)              5  (28%)             16 (89%) </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Chlamydia pneumoniae              </content>34              15 (44%)             13 (38%)             28 (82%)       </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Legionella pneumophila</content>             16               5  (31%)              8  (50%)             13 (81%)</paragraph>
+                     </text>
+                     <effectiveTime value="20141030"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e25b3b52-3cf2-4ea3-8557-5858e4a12dcf">
+               <id root="9e43b074-625e-4ff6-8d9f-52aa11fc8131"/>
+               <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+               <title>ANIMAL TOXICOLOGY<br/>
+               </title>
+               <text>
+                  <paragraph>Phospholipidosis (intracellular phospholipid accumulation) has been observed in some tissues of mice, rats, and dogs given multiple doses of azithromycin.  It has been demonstrated in numerous organ systems (e.g., eye, dorsal root ganglia, liver, gallbladder, kidney, spleen, and pancreas) in dogs treated with azithromycin at doses which, expressed on the basis of mg/m<sup>2</sup>, are approximately equal to the recommended adult human dose, and in rats treated at doses approximately one-sixth of the recommended adult human dose.  This effect has been shown to be reversible after cessation of azithromycin treatment.  Phospholipidosis has been observed to a similar extent in the tissues of neonatal rats and dogs given daily doses of azithromycin ranging from 10 days to 30 days.  Based on the pharmacokinetic data, phospholipidosis has been seen in the rat (30 mg/kg dose) at observed C<sub>max</sub> value of 1.3 mcg/mL (six times greater than the observed C<sub>max</sub> of 0.216 mcg/mL at the pediatric dose of 10 mg/kg).  Similarly, it has been shown in the dog (10 mg/kg dose) at observed C<sub>max</sub> value of 1.5 mcg/mL (seven times greater than the observed same C<sub>max</sub> and drug dose in the studied pediatric population).  On a mg/m<sup>2</sup>  basis, 30 mg/kg dose in the neonatal rat (135 mg/m<sup>2</sup>) and 10 mg/kg dose in the neonatal dog (79 mg/m<sup>2</sup>) are approximately 0.45 and 0.3 times, respectively, the recommended dose in the pediatric patients with an average body weight of 25 kg.  Phospholipidosis, similar to that seen in the adult animals, is reversible after cessation of azithromycin treatment.  The significance of these findings for animals and for humans is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d6d664b0-becc-45fc-9288-d1e29fda3bfe">
+               <id root="9fe7bd0a-f616-4ae0-ae83-10f30742607e"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph> </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>1.</caption>Clinical and Laboratory Standards Institute. <content styleCode="italics">Performance Standards for Antimicrobial Susceptibility Testing; 21st Informational Supplement</content>. CLSI document M100-S21. (ISBN 1-56238-742-1). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA, 19087-1898 USA. 2011. </item>
+                     <item>
+                        <caption>2.</caption>Clinical and Laboratory Standards Institute. <content styleCode="italics">Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria that Grow Aerobically; Approved Standard – 8th ed. </content>CLSI document M07-A8. (ISBN 1-56238-689-1). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA, 19087-1898 USA. 2009. </item>
+                     <item>
+                        <caption>3.</caption>Clinical and Laboratory Standards Institute. <content styleCode="italics">Performance Standards for Antimicrobial Disk Susceptibility Tests; Approved Standard – 10th ed. </content>CLSI document M02-A10. (ISBN 1-56238-688-3). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA, 19087-1898 USA. 2009.</item>
+                  </list>
+                  <paragraph> </paragraph>
+                  <paragraph>The brand names mentioned in this document are the trademarks of their respective owners.</paragraph>
+                  <paragraph>N+ and NOVAPLUS are registered trademarks of Novation, LLC. </paragraph>
+                  <paragraph> </paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c0518e0e-0a0d-4617-8e9f-c8385dd58393">
+               <id root="833ef1cb-114c-400d-99b7-84242b3dfd83"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fresenius Kabi USA, LLC</content>
+                  </paragraph>
+                  <paragraph>Lake Zurich, IL 60047</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>451064E/Revised: April 2013</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="id1997" referencedObject="DF06B46F-440B-43F8-A925-CAD457C12F0A"/> </paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph> </paragraph>
+               </text>
+               <effectiveTime value="20141030"/>
+               <component>
+                  <observationMedia ID="DF06B46F-440B-43F8-A925-CAD457C12F0A">
+                     <text>novapluslogo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="azithromycin-figure-2-novapluslogo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_03b1752a-f831-41fa-afe0-a92ae375428a">
+               <id root="7d47af47-a495-4293-bfda-8fa42a833b62"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>Azithromycin for Injection, USP</paragraph>
+                  <paragraph>500 mg/vial</paragraph>
+                  <paragraph>5 Vials</paragraph>
+                  <renderMultiMedia ID="id485670616" referencedObject="ID_39647153-2564-4e80-8343-40ca1fa095cc"/>
+               </text>
+               <effectiveTime value="20141118"/>
+               <component>
+                  <observationMedia ID="ID_39647153-2564-4e80-8343-40ca1fa095cc">
+                     <text>bag label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

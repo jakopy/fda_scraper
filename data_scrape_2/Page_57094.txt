@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0e330704-00e7-4b56-8cc8-0091a79b6112"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20100111"/>
+   <setId root="1ccb912e-0d87-4976-99bd-aec9fdff00fc"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="688453179" root="1.3.6.1.4.1.519.1"/>
+            <name>KJI Industrial Co Ltd</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="688453179" root="1.3.6.1.4.1.519.1"/>
+                  <name>KJI Industrial Co Ltd</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="688453179" root="1.3.6.1.4.1.519.1"/>
+                        <name>KJI Industrial Co Ltd</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e3afcdc5-c5f9-4ceb-9cd8-7392f47d477a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100111"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="34690-8001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Warm Sap Patch<suffix/>
+                        </name>
+                        <formCode code="C47913" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POULTICE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TOPICAL STARCH</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2.95"/>
+                              <denominator unit="g" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STARCH, CORN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="34690-8001-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part347" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c1b75f77-f32b-40cf-9f69-f26d5b6de6a3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>Warnings: For external use only<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4c5e87af-69ec-42b6-bec7-54d7b9dcd0f1"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <text>Do Not Use<br/>- on wounds, damaged skin or face<br/>- if you are allergic to any ingredients of this product<br/>- with or at the same time as other external product<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="89549682-64a5-47e2-959f-bc99ed3a4c17"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <text>When using this product<br/>- do not use otherwise than directed<br/>- do not stretch out the adhesive tape<br/>- do not take out the contents from the patch<br/>- if patch is ripped, discard immediately<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3cb23dc3-b3c6-4798-ac4e-66876a5cedcb"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <text>Stop use and ask a doctor if<br/>- if allergic reaction or irritation occurs<br/>- if you are pregnant, nursing or under medical treatment<br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="62e4c57e-6d2e-4670-8ae9-6c27ab99465a"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>Keep out of reach of children<br/>- if swallowed, get medical help or contact a Poison Control Center right away<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5cb18b71-2470-4e6b-9bbc-e884aea41ba1"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>Directions<br/>Adults and children 4 years of age and over:<br/>Step 1: Clean and dry area for the patch to be attached<br/>Step 2: Remove the protective cover sheet and gently apply<br/>Step 3: Leave it on at least 4 hours before removal<br/>Children under 4 years of age: Consult a doctor<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7e9255ff-b01e-4973-b805-4d53bc2a9835"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>Storage<br/>- Avoid storing product in direct sunlight<br/>- Keep it in a dry and cool place<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="80d3119c-1b99-4a51-aa80-223821a82f91"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>Active Ingredient:<br/>Topical Starch 73.9% ........................... Skin Protectant<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="20dedb9c-5f67-4943-80ea-a686e0776e55"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>Inactive Ingredients:<br/>Microcapsule, Tourmaline, Agaricus, Eucalyptus oil, Mugwort extract, Loquat extract, Vitamin C, Chitosan, Polysaccharide<br/>
+               </text>
+               <effectiveTime value="20100111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="784eadd1-32c5-4bb9-8988-6a57e6cf3fa0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia referencedObject="Label"/>
+               </text>
+               <effectiveTime value="20100111"/>
+               <component>
+                  <observationMedia ID="Label" classCode="OBS" moodCode="EVN">
+                     <text>BOX LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

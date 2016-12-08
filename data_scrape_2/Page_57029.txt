@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ee17a387-a771-4ff3-a8ca-518237a141ca"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20160301"/>
+   <setId root="9b7d94b4-7288-4f01-96ff-e8aa38053d71"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="243737371" root="1.3.6.1.4.1.519.1"/>
+            <name>Natureteq Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6a093b56-14ae-415a-a232-44c8f6120d3b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20160301"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50231-211" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>MEDISTIK DUAL</name>
+                        <formCode code="C42991" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STICK"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>MENTHOL, METHYL SALICYLATE, EUCALUPTUS</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MENTHOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MENTHOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="30"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LAV5U5022Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYL SALICYLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SALICYLIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S546YLW6E6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EUCALYPTUS GLOBULUS LEAF</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S546YLW6E6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EUCALYPTUS GLOBULUS LEAF</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYTOLUENE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ZF94AP8MEY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROGENATED CASTOR OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2UMI9U37CP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OLEIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I9O0E3H2ZE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PARAFFIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="58"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50231-211-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43181" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CANISTER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110415"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part348" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1ee9adf2-836a-4e96-a172-cf8412c75a6b"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Menthol 15%</paragraph>
+                  <paragraph>Methyl Salicylate 30%</paragraph>
+                  <paragraph>Eucaluptus Oil 1%</paragraph>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="499e3362-0e32-4f53-bac4-f89339b00fbb"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>PURPOSE</title>
+               <text>
+                  <paragraph>Topical Analgesic</paragraph>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d53b3a2d-57ba-4136-93e4-e6943eb7809f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>USES</title>
+               <text>
+                  <paragraph>MEDISTIK™ DUAL provides temporary soothing relief of sore muscles associated with strains and sprains, backaches, lumbago, pain of tendons and/or ligaments as well as arthritic or rheumatic pain</paragraph>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0f98abd3-3288-475a-b541-3a29ea704a41"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>For external use only. The application of external heat may cause skin irritation or burn. Avoid contact with eyes and broken skin. Do not bandage. DO NOT USE IF ALLERGIC TO SALICYLATES OR IF TAKING ANTICOAGULANT MEDICATIONS. Stop use and consult a physician if condition worsens, rash or irritation develops, or if symptoms persist for more than 7 days or clear up and recur in a few days.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42ef371d-9009-42e8-a327-9c6b1dab54a5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <paragraph>For use on adults and children over 12 years of age. Apply generously to the affected area using hands-free applicator. Use 3 to 4 times per day as required. A stinging or burning sensation will be experienced during the first few minutes as the formula begins working. For arthritis or muscle pain of the hands, retain for at least 10 minutes then wash hands.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="de7ec46a-5fb4-4dc8-906c-51495764a60b"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Paraffin Wax, Hydrogenated Castor Oil, White Petrolatum, Oleic Acid 700, BHT</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="df7dacd4-ab0e-4e0c-ade1-26fba7fe7956"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>KEEP OUT OF REACH OF CHILDREN</paragraph>
+               </text>
+               <effectiveTime value="20160217"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="01aa398c-f775-47bb-bf70-3fd8b3c09d1a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La11d683f-82a2-46eb-b655-9996ced5a7d4"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160301"/>
+               <component>
+                  <observationMedia ID="La11d683f-82a2-46eb-b655-9996ced5a7d4">
+                     <text>MKD58 Label_1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="MKD58 Label_1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

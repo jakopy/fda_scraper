@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?><document xmlns="urn:hl7-org:v3" xmlns:v="http://validator.pragmaticdata.com/result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="180fc235-4be2-4d85-aee6-c524917b0015"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20160524"/>
+   <setId root="0c2fb345-d45e-4d17-897a-3d7d2c2296cb"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="059888437" root="1.3.6.1.4.1.519.1"/>
+            <name>Asclemed USA, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059888437" root="1.3.6.1.4.1.519.1"/>
+                        <name>Asclemed USA, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76420-625" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="0493bd85-813a-4d87-ab71-251d24d0beca"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20160524"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76420-625" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PCP 100 Kit</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Magesium Citrate, Bisacodyl, Petrolatum, Polyethylene Glycol 3350, Metoclopramide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76420-625-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160523"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="296"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="0904-6304" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Citroma</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Magesium Citrate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="1.745"/>
+                                    <denominator unit="mL" value="29.6"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="RHO26O1T9V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Magnesium Citrate</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Magnesium Cation</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Citric Acid Monohydrate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="I9GRO824LL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Lemon Oil</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="HM5Z15LEBN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Potassium Bicarbonate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Saccharin Sodium</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="296"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0904-6304-77" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20120827"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part334" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Bisacodyl Enteric Coated</name>
+                              <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Bisacodyl</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="10X0709Y6I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Bisacodyl</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="10X0709Y6I" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Bisacodyl</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5C5403N26O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Acacia</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="E934B3V59H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Calcium Sulfate Anhydrous</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Anhydrous Lactose</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Carnauba Wax</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Silicon Dioxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Starch, Corn</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>D&amp;C YELLOW NO. 10</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C YELLOW NO. 6</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Gelatin</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Magnesium Stearate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Cellulose, Microcrystalline</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="9HIA70O4J0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Ammonium Nonoxynol-4 Sulfate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Shellac</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Starch Glycolate Type A Potato</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Stearic Acid</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Talc</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Titanium Dioxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="58QVG85GW3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Polyvinyl Acetate Phthalate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">5</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="6" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081024"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part334" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="67777-214" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Vitamin A D</name>
+                              <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Petrolatum</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="0.76"/>
+                                    <denominator unit="g" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Petrolatum</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Petrolatum</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1D1K0N0VVC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Vitamin A Palmitate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1C6V77QF41" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Cholecalciferol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7EV65EAW6H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Lanolin</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Light Mineral Oil</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="g" value="5"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67777-214-08" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100324"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part347" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="g" value="238"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="43386-312" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Gavilax</name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Polyethylene Glycol 3350</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="17"/>
+                                    <denominator unit="g" value="17"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="G2M7P15E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Polyethylene Glycol 3350</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="G2M7P15E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Polyethylene Glycol 3350</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="g" value="238"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="43386-312-08" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20091009"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA091077" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="51079-888" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Metoclopramide</name>
+                              <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Metoclopramide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="W1792A2RVD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Metoclopramide Hydrochloride</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="L4YEB44I46" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Metoclopramide</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Starch, Corn</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="L11K75P92J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Calcium Phosphate, Dibasic, Anhydrous</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Magnesium Stearate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Cellulose, Microcrystalline</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Starch Glycolate Type A Potato</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="2"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51079-888-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                                    <originalText>white</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                                    <originalText>ROUND</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="8" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="2" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">TEVA;2203</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20140102"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA070184" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA070184" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s0">
+               <id root="ad9cf292-4ae9-4fb3-9256-44c7cc1d0fd9"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Active Ingredient</content>
+                  </paragraph>
+                  <paragraph>Magnesium citrate 1.745g per fl oz</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L66d48838-e726-41b7-8215-57158a5a0a2b">
+               <id root="f1deeda1-c970-4385-9c58-9ed7ab81558d"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Purpose</content>
+                  </paragraph>
+                  <paragraph>Saline laxative</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8c7754ca-f9e6-4e26-bb5c-9cd7f8694b63">
+               <id root="aee10bd1-4e55-4996-8f00-02a5377d3965"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>use</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Use</content> for relief of occasional constipation (irregularity).  Generally produces bowel movement in 1/2 to 6 hours</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld57abac6-7ba0-4bf4-81c2-29783fafcf6d">
+               <id root="e60c15af-a0af-45d3-846b-3a85103ece7a"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Warnings</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L619a190e-4a79-4a4c-9dcb-9b2dee3b25d3">
+               <id root="b1fe159c-3a03-44ff-9d56-0aaefc197016"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>Do not use</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Do not use</content> if you are on a low salt diet</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lba45425b-735a-4c97-96f2-cbaaa181360b">
+               <id root="10ea879c-e647-4616-8189-d17ae81b5501"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>Ask A Doctor</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Ask a doctor before use if you have</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>kidney disease</item>
+                     <item>a magnesium or sodium restricted diet</item>
+                     <item>abdorominal pain, nausea, or vomiting</item>
+                     <item>noticed a sudden change in bowel habits tat persists over a period of 2 weeks</item>
+                     <item>already used a laxative for a period longer than 1 week</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L46ff0f9f-1e9f-4207-b439-5aea1b2545b1">
+               <id root="fbb6f145-dadd-478f-8fc2-4d4554e664d5"/>
+               <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+               <title>Ask a doctor or pharmacist</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Ask a doctor or pharmacist before use if you are</content> taking any other drug.  Take this product 2 or more hours before or after other drugs.  Laxatives may affect how other drugs work.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L335ae717-3645-4bc1-9c9e-79d850fd0c87">
+               <id root="805ee24b-edbc-472c-b683-33ac18592395"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Stop use and ask a doctor if</content> you have rectal bleeding or failure to have a bowel movement afte use.  These could be signs of a serious condition.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L010a91d4-55c7-4e2c-91bc-2e75f1d0561a">
+               <id root="eba2e68a-f3c6-4834-be3e-1d03d5a385d5"/>
+               <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+               <title>if pregnant or breast-feeding</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">If pregnant or breast-feeding,</content> ask help professional before use.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0cee45c7-1eff-4bd8-ae09-12f3c8166d4b">
+               <id root="8c3aa1fc-fe45-4efd-a071-c1dd8fa2caec"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children.  </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>  In case of overdose, get medical help or contact a Poison Control Center right away</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9a43a235-766a-4ec8-be51-d080b1a123d6">
+               <id root="82ccbc39-a90d-459b-a8e1-73efb50f488e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Directions</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>drink a full glass (8 ounces) of liquid with each dose</item>
+                     <item>may be taken as a single daily dose or in divided doses</item>
+                  </list>
+                  <paragraph>adults and children 12 years of age and over - 6.5 to 10 fl oz in 24 hours</paragraph>
+                  <paragraph>children 6 to under 12 years of age - 3 to 7 fl oz maximum 7 fl oz in 24 hours</paragraph>
+                  <paragraph>children 2 to under 6 years of age - 2 to 3 fl oz</paragraph>
+                  <paragraph>children under 2 years of age - ask a doctor</paragraph>
+                  <paragraph>discard unused product within 24 hours of opening bottle</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcf267c96-7e2b-494a-b693-98fdf1cc6be5">
+               <id root="b92865c4-f2a9-4cde-93cd-914028d9ff9b"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>other information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Other information</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>magnesium content 290 mg per 1 fl oz (30 mL)</item>
+                     <item>sodium content 45mg per 1 fl oz (30 mL)</item>
+                     <item>store at temperatures between 46º and 86º F (8º and 30º C)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L04de5c08-a576-49f7-90fb-4138ace2715d">
+               <id root="d59fcf16-ca2c-45e1-afcf-52c94d2f3940"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients</content> citric acid, lemon oil, polyethylene glycol, purified water, sodium bicarbonate, sodium saccharin, sucrose</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lac24a5bb-34a1-41be-b4ad-7c210a0dc50c">
+               <id root="6344a15e-613e-4b96-a658-beb15a0e9fc8"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions</title>
+               <text>
+                  <paragraph>Questions or Comments? 1-800-616-2471</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7269429a-366f-4d88-a824-9afd0eb78ce6">
+               <id root="93d02e70-028d-46e8-af51-b9a76b93b0cd"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reaction</title>
+               <text>
+                  <paragraph>Distributed By: MAJOR PHARMACEUTICALS</paragraph>
+                  <paragraph>31778 Enterprise Drive</paragraph>
+                  <paragraph>Livonia, MI 48150 <content>USA</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8d4582e0-8fb2-41cf-9c72-aea6c05f1691">
+               <id root="d1acae59-913c-4b42-83e3-907b588fe208"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient(s)</title>
+               <text>
+                  <paragraph> Bisacodyl 5mg</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b4efaa31-9063-44b1-8c6b-f21e563cc6bc">
+               <id root="fbbd93fc-d699-4294-851a-72dad568fd0c"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph> Stimulant laxative</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b2e12828-1352-489f-95b4-55a46c70a9b9">
+               <id root="f96d2968-cad2-4a68-a80f-aa3e6d6394b3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use(s)</title>
+               <text>
+                  <paragraph> -relieves occasional constipation and irregularity</paragraph>
+                  <paragraph> -this product generally produces bowel movement in 6 to 12 hours</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c4d65d53-9706-4d0e-a1bb-7f419271a098">
+               <id root="02d77090-5319-4818-a6a4-f82408890e7d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="LINK_edf6f7ca-68dc-4305-87d5-90f5fd8ce85f">
+                     <id root="56b16632-8c5e-40cb-a5d2-26213629f077"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b07c0420-76ab-422a-bbaa-b92a82ac26db">
+                     <id root="646fe975-2403-475e-b6cd-b4b8a00e5853"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <paragraph> Do not use if you cannot swallow without chewing</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1051cd79-9c51-4f84-a6bd-3a099de57be4">
+                     <id root="60db3cdb-e2c2-4536-89c3-9d64c8d36487"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if</title>
+                     <text>
+                        <paragraph> -you have a sudden change in bowel habits that lasts more than 2 weeks</paragraph>
+                        <paragraph>-stomach pain, nausea or vomiting</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_50223378-e1f8-49ff-8867-87683b4c1d59">
+                     <id root="69f7a740-63c2-42b7-9438-39b5c7079cb6"/>
+                     <code code="50568-5" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR/PHARMACIST SECTION"/>
+                     <title/>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7a08880f-34f4-4e85-905c-e6d00453f367">
+                     <id root="856e1ff8-9485-47f7-b13c-50c922ea8f32"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <paragraph> -do not use within 1 hour after taking an antacid or milk</paragraph>
+                        <paragraph>-do not chew or crush tablet(s)</paragraph>
+                        <paragraph>-you may have stomach discomfort, faintness or cramps</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_653c545c-b18b-4328-b12f-4324018de933">
+                     <id root="200dd6e6-03ab-4dbc-89c1-078b55a3db04"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <paragraph> -you have rectal bleeding or fail to have a bowel movement after use of a laxative. These could be signs of a serious condition.</paragraph>
+                        <paragraph>-you need to use a laxative for more than 1 week</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_682eb9e8-e0b6-42f7-b8b2-1a8b3bcff6a3">
+                     <id root="65ee1ab3-f162-4160-93e2-b95b36717c9c"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>Pregnancy/Breastfeeding</title>
+                     <text>
+                        <paragraph> ask a health professions before use.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_06c0258f-5960-4cb9-be18-85b4293d54cb">
+                     <id root="fa14d514-6a1f-4cbe-ab35-6bad02034c9b"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children</title>
+                     <text>
+                        <paragraph>Keep out of reach of children.  In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6c6470a3-b51c-40d2-a04c-d3eec347ef34">
+               <id root="c720c511-f6c9-4098-a57e-d2fa6635ea5c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph> -take with a glass of water</paragraph>
+                  <paragraph>adults and children 12 years and over- take 1 to 3 tablets in a single daily dose</paragraph>
+                  <paragraph>children 6 to under 12 years of age - take 1 tablet in a single daily dose</paragraph>
+                  <paragraph>children under 6 years of age - ask a doctor</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_332c90d3-ae5f-466a-8b82-d985b52dfb3c">
+               <id root="a083e738-c9d7-4e5b-9e7e-6048974c4b4a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <paragraph> -store at 25 degrees C (77 degrees F) excursions permitted between 15 degrees-30 degrees C (59 degrees-86 degrees F)</paragraph>
+                  <paragraph>-use by expiration date on package</paragraph>
+                  <paragraph>-protect from excessive humidity</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_74ef98e4-47be-4d02-87a7-13b4a1e059d7">
+               <id root="05cccda9-f630-4d99-b374-dd491f615d0c"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Storage</title>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_92e42d76-9566-4fa0-afaf-a0a1151b71bd">
+               <id root="65522588-ea80-41ac-ae19-e605cdba7387"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>acacia, bees wax, calcium sulfate, carnauba wax, cellulose, corn starch, D&amp;C Yellow No. 10 lake, FD&amp;C Yellow No. 6 lake, gelatin, lactose, magnesium stearate, pharmaceutical glaze, polyvinyl acetate phthalate, silica gel, sodium starch glycolate, stearinc acid, sugar, talc, titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_416978a4-8587-48ad-9d82-25cb2461ba87">
+               <id root="05e15aba-38ff-455a-83f7-0ecfee44be43"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions</title>
+               <text>
+                  <paragraph> To Report Adverse Drug Event call: (800) 616-2471</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="d59e36ef-5311-46f9-9613-8474a81f7440"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Active Ingredient                               Purpose</paragraph>
+                  <paragraph>White Petrolatum USP (76%)            Skin Protectant<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="01e1885a-8526-4ae9-a220-69f9750153f8"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Uses: Vitamin_A_D</title>
+               <text>
+                  <list ID="ia96f9201-e779-4e90-881c-cc17e6fe4ad4" listType="unordered">
+                     <item>Helps treat and prevent diaper rash</item>
+                     <item>Helps seal out wetness</item>
+                  </list>
+                  <list ID="idff6617b-3b53-4b18-8a20-7df590b98718" listType="unordered">
+                     <item>Temporarily protects minor * cuts * scrapes * burns</item>
+                     <item>Temporarily helps protect and help relieve chapped and cracked skin and lips</item>
+                     <item>Helps prevent and protect from the drying effects of wind and cold weather</item>
+                     <item>Helps prevent and protect chafed skin or minor skin irritations associated with diaper rash</item>
+                     <item>With each diaper change, especially at bedtime when exposure to wet diapers may be prolonged<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="d54545bb-ef0e-4809-ab58-4ee522477373"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For External Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do Not Get In Eyes<br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="d7ae5bda-3b7e-4a48-9f47-42f3f057b3fe"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use and ask a doctor if:</title>
+               <text>
+                  <list ID="ib0cd528d-5df1-4865-8b8c-25f7ca99ce22" listType="unordered">
+                     <item>If condition worsens</item>
+                     <item>symptoms last more than 7 days or clear up and occur again in a few days<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="e8ab5f14-a246-4d3d-84d8-434a97597615"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>Do not use on:</title>
+               <text>
+                  <paragraph>Do not use on:</paragraph>
+                  <list listType="unordered">
+                     <item>Deep or puncture wounds</item>
+                     <item>animal bites</item>
+                     <item>serious burns</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="e4132fe5-1803-4a71-9330-f64989a78f62"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children</title>
+               <text>
+                  <paragraph>Keep out of reach of children</paragraph>
+                  <list ID="i0b3b2c52-1110-4621-83ab-922db88c42c1" listType="unordered">
+                     <item>If swallowed, get medical help or contact a Poison Control Center right away.<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="48f1f88f-24d7-46e0-9477-4e2b7f736bc5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions for diaper rash:</title>
+               <text>
+                  <list ID="id03ac32c-6a5f-4218-8b39-baba71c3eff6" listType="unordered">
+                     <item>Change wet and soiled diapers promptly</item>
+                     <item>Cleanse the diaper area and allow to dry</item>
+                     <item>Apply as needed<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="ef2f2f42-0e25-4ef6-bd69-e974dc27ba28"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other information:</title>
+               <text>
+                  <list ID="ide4dec0c-2c4c-49bc-8a71-b15e0dd06f0e" listType="unordered">
+                     <item>Store at room temperature 15 deg C to 30 deg C    59 deg F to 86 deg F</item>
+                     <item>Avoid excessive heat<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="81edaf2f-eed5-49ba-be9a-21dc8349e0fa"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Inactive Ingredients: Lanolin, Lavender Oil, Light Liquid Paraffin, Vitamin A, Vitamin D<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="ca9bc1bb-d65d-443b-b606-8503a72a7824"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>Indications and Usage</paragraph>
+                  <paragraph>A skin protectant for the treatment of diaper rash, minor cuts, scrapes, burns and to help relieve chapped and cracked skin and lips.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="2f9f3348-ae15-4498-86a6-f8984a29d2af"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">Active Ingredient 
+</content>
+               </title>
+               <text>
+                  <paragraph>Polyethylene Glycol 3350, 17 g (cap filled to line)</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="2fad0a66-f933-42ac-8199-de02f4840d0f"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="bold">Purpose
+</content>
+               </title>
+               <text>
+                  <paragraph>Osmotic Laxative</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Use</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>relieves occasional constipation (irregularity)</item>
+                     <item>generally produces a bowel movement in 1 to 3 days</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="068ef6e4-c435-46d8-b63e-1e42bd8b61c9"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">Warnings
+</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Allergy alert:</content> Do not use if you are allergic to polyethylene glycol</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use</content> if you have kidney disease, except under the advice and supervision of a doctor</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="3ae77cf2-c3a3-41af-b1e2-967c2c5779a4"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>
+                  <content styleCode="bold">Ask a doctor before use if you have 
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>nausea, vomiting or abdominal pain</item>
+                     <item>a sudden change in bowel habits that lasts over 2 weeks</item>
+                     <item>irritable bowel syndrome</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Ask a doctor or pharmacist before use if you are taking a prescription drug </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">When using this product</content> you may have loose, watery, more frequent stools</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="672445b5-f1e9-4458-bedf-bca23fd3c346"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">Stop use and ask a doctor if
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>you have rectal bleeding or your nausea, bloating, cramping or abdominal pain gets worse. These may be signs of a serious condition.</item>
+                     <item>you get diarrhea</item>
+                     <item>you need to use a laxative for longer than 1 week</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If pregnant or breast-feeding,</content> ask a health professional before use.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="bc4e3e72-bed6-4a6d-9bcd-e3266f8f6af0"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>
+                  <content styleCode="bold">Keep out of the reach of children
+</content>
+               </title>
+               <text>
+                  <paragraph>In case of overdose, get medical help or contact a POISON CONTROL CENTER right away. (1-800-222-1222)</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="1457ddc3-9940-445a-8052-c09aa6b0b02a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">Directions 
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">do not take more than directed unless advised by your doctor</content>
+                     </item>
+                     <item>the bottle top is a measuring cap marked to contain 17 grams of powder when filled to the indicated line.</item>
+                     <item>adults and children 17 years of age and older:</item>
+                     <item>fill to top of line in cap which is marked to indicate the correct dose (17 g)</item>
+                     <item>stir and dissolve in any 4 to 8 ounces of beverage (cold, hot or room temperature) then drink</item>
+                     <item>use once a day</item>
+                     <item>use no more than 7 days</item>
+                     <item>children 16 years of age or under: ask a doctor</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold italics">Other Information </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>store at 20°- 25°C (68°– 77°F)</item>
+                     <item>tamper-evident: do not use if printed foil seal under cap is missing, open or broken</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="3c0bb220-c44d-4688-9630-6d27b1572272"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">Inactive Ingredient 
+</content>
+               </title>
+               <text>
+                  <paragraph>none</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="695f37b2-cc81-43da-8f62-d2ca0ffaecce"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold italics">Questions or comments?
+</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1-866-403-7592</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_d6b8bc7f-286d-4f87-b8f2-22d5294e9dc5">
+               <id root="c49caf1b-8bf3-4c8b-b74c-22bdee3ea80f"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: TARDIVE DYSKINESIA</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment with metoclopramide can cause tardive dyskinesia, a serious movement disorder that is often irreversible. The risk of developing tardive dyskinesia increases with duration of treatment and total cumulative dose.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metoclopramide therapy should be discontinued in patients who develop signs or symptoms of tardive dyskinesia. There is no known treatment for tardive dyskinesia. In some patients, symptoms may lessen or resolve after metoclopramide treatment is stopped.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment with metoclopramide for longer than 12 weeks should be avoided in all but rare cases where therapeutic benefit is thought to outweigh the risk of developing tardive dyskinesia.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See WARNINGS</content>.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_87e34fed-fed6-483d-aaea-5c488eeb2f6f">
+               <id root="24c8912b-1a39-4fd5-b696-a29964321a34"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Metoclopramide hydrochloride is a white or practically white, crystalline, odorless or practically odorless powder. It is very soluble in water, freely soluble in alcohol, sparingly soluble in chloroform and practically insoluble in ether. Chemically, it is 4-amino-5-chloro-<content styleCode="italics">N</content>-[2-(diethylamino)ethyl]-2-methoxy benzamide monohydrochloride monohydrate. Its structural formula is as follows:</paragraph>
+                  <renderMultiMedia ID="id333" referencedObject="B7F94B21-3E5D-41C0-AAD8-6F8B01C1E2CD"/>
+                  <paragraph>C<sub>14</sub>H<sub>22</sub>ClN<sub>3</sub>O<sub>2 </sub>•HCl•H<sub>2</sub>O          M.W. 354.3</paragraph>
+                  <paragraph>Each tablet for oral administration contains 5 mg or 10 mg metoclopramide (present as the hydrochloride).</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_dd9a7276-d008-44a7-9ee9-de2edcad4858">
+                     <id root="6d6c8598-a954-4ff8-9629-a40882cf5e35"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Inactive Ingredients</title>
+                     <text>
+                        <paragraph>Corn starch, dibasic calcium phosphate, magnesium stearate, microcrystalline cellulose and sodium starch glycolate.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="B7F94B21-3E5D-41C0-AAD8-6F8B01C1E2CD">
+                     <text>metoclopramide hydrochloride structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0000-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_287f3455-a0f8-465f-b3d3-12409daa523b">
+               <id root="ae8011d0-9fa9-4516-be02-895e8ce061a0"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. Its mode of action is unclear. It seems to sensitize tissues to the action of acetylcholine. The effect of metoclopramide on motility is not dependent on intact vagal innervation, but it can be abolished by anticholinergic drugs.</paragraph>
+                  <paragraph>Metoclopramide increases the tone and amplitude of gastric (especially antral) contractions, relaxes the pyloric sphincter and the duodenal bulb, and increases peristalsis of the duodenum and jejunum resulting in accelerated gastric emptying and intestinal transit. It increases the resting tone of the lower esophageal sphincter. It has little, if any, effect on the motility of the colon or gallbladder.</paragraph>
+                  <paragraph>In patients with gastroesophageal reflux and low LESP (lower esophageal sphincter pressure), single oral doses of metoclopramide produce dose-related increases in LESP. Effects begin at about 5 mg and increase through 20 mg (the largest dose tested). The increase in LESP from a 5 mg dose lasts about 45 minutes and that of 20 mg lasts between 2 and 3 hours. Increased rate of stomach emptying has been observed with single oral doses of 10 mg.</paragraph>
+                  <paragraph>The antiemetic properties of metoclopramide appear to be a result of its antagonism of central and peripheral dopamine receptors. Dopamine produces nausea and vomiting by stimulation of the medullary chemoreceptor trigger zone (CTZ), and metoclopramide blocks stimulation of the CTZ by agents like l-dopa or apomorphine which are known to increase dopamine levels or to possess dopamine-like effects. Metoclopramide also abolishes the slowing of gastric emptying caused by apomorphine.</paragraph>
+                  <paragraph>Like the phenothiazines and related drugs, which are also dopamine antagonists, metoclopramide produces sedation and may produce extrapyramidal reactions, although these are comparatively rare (see <content styleCode="bold">WARNINGS</content>). Metoclopramide inhibits the central and peripheral effects of apomorphine, induces release of prolactin and causes a transient increase in circulating aldosterone levels, which may be associated with transient fluid retention.</paragraph>
+                  <paragraph>The onset of pharmacological action of metoclopramide is 1 to 3 minutes following an intravenous dose, 10 to 15 minutes following intramuscular administration, and 30 to 60 minutes following an oral dose; pharmacological effects persist for 1 to 2 hours.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_a157c8dc-2283-43d0-8243-3c06fa6fb120">
+                     <id root="a4e000fd-5d7a-4a5b-bb33-4eaa64aad8aa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Metoclopramide is rapidly and well absorbed. Relative to an intravenous dose of 20 mg, the absolute oral bioavailability of metoclopramide is 80% ± 15.5% as demonstrated in a crossover study of 18 subjects. Peak plasma concentrations occur at about 1 to 2 hr after a single oral dose. Similar time to peak is observed after individual doses at steady state.</paragraph>
+                        <paragraph>In a single dose study of 12 subjects, the area under the drug concentration-time curve increases linearly with doses from 20 to 100 mg. Peak concentrations increase linearly with dose; time to peak concentrations remains the same; whole body clearance is unchanged; and the elimination rate remains the same. The average elimination half-life in individuals with normal renal function is 5 to 6 hr. Linear kinetic processes adequately describe the absorption and elimination of metoclopramide.</paragraph>
+                        <paragraph>Approximately 85% of the radioactivity of an orally administered dose appears in the urine within 72 hr. Of the 85% eliminated in the urine, about half is present as free or conjugated metoclopramide.</paragraph>
+                        <paragraph>The drug is not extensively bound to plasma proteins (about 30%). The whole body volume of distribution is high (about 3.5 L/kg) which suggests extensive distribution of drug to the tissues.</paragraph>
+                        <paragraph>Renal impairment affects the clearance of metoclopramide. In a study with patients with varying degrees of renal impairment, a reduction in creatinine clearance was correlated with a reduction in plasma clearance, renal clearance, non-renal clearance, and increase in elimination half-life. The kinetics of metoclopramide in the presence of renal impairment remained linear however. The reduction in clearance as a result of renal impairment suggests that adjustment downward of maintenance dosage should be done to avoid drug accumulation.</paragraph>
+                        <table ID="_Refid_b79f7996-1798-49de-80dc-043f64301" width="100%">
+                           <caption>Adult Pharmacokinetic Data</caption>
+                           <col width="51%"/>
+                           <col width="49%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Toprule ">
+                                    <paragraph>
+                                       <content styleCode="bold">Value</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>Vd (L/kg)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="middle">
+                                    <paragraph>~ 3.5</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule ">
+                                    <paragraph>Plasma Protein Binding</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule ">
+                                    <paragraph>~ 30%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>t<sub>1/2</sub> (hr)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="middle">
+                                    <paragraph>5 to 6</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="middle">
+                                    <paragraph>Oral Bioavailability</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule " valign="middle">
+                                    <paragraph>80% ± 15.5%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In pediatric patients, the pharmacodynamics of metoclopramide following oral and intravenous administration are highly variable and a concentration-effect relationship has not been established.</paragraph>
+                        <paragraph>There are insufficient reliable data to conclude whether the pharmacokinetics of metoclopramide in adults and the pediatric population are similar. Although there are insufficient data to support the efficacy of metoclopramide in pediatric patients with symptomatic gastroesophageal reflux (GER) or cancer chemotherapy-related nausea and vomiting, its pharmacokinetics have been studied in these patient populations.</paragraph>
+                        <paragraph>In an open-label study, six pediatric patients (age range, 3.5 weeks to 5.4 months) with GER received metoclopramide 0.15 mg/kg oral solution every 6 hours for 10 doses. The mean peak plasma concentration of metoclopramide after the tenth dose was 2 fold (56.8 mcg/L) higher compared to that observed after the first dose (29 mcg/L) indicating drug accumulation with repeated dosing. After the tenth dose, the mean time to reach peak concentrations (2.2 hr), half-life (4.1 hr), clearance (0.67 L/h/kg), and volume of distribution (4.4 L/kg) of metoclopramide were similar to those observed after the first dose. In the youngest patient (age, 3.5 weeks), metoclopramide half-life after the first and the tenth dose (23.1 and 10.3 hr, respectively) was significantly longer compared to other infants due to reduced clearance. This may be attributed to immature hepatic and renal systems at birth.</paragraph>
+                        <paragraph>Single intravenous doses of metoclopramide 0.22 to 0.46 mg/kg (mean, 0.35 mg/kg) were administered over 5 minutes to 9 pediatric cancer patients receiving chemotherapy (mean age, 11.7 years; range, 7 to 14 yr) for prophylaxis of cytotoxic-induced vomiting. The metoclopramide plasma concentrations extrapolated to time zero ranged from 65 to 395 mcg/L (mean, 152 mcg/L). The mean elimination half-life, clearance, and volume of distribution of metoclopramide were 4.4 hr (range, 1.7 to 8.3 hr), 0.56 L/h/kg (range, 0.12 to 1.20 L/h/kg), and 3.0 L/kg (range, 1.0 to 4.8 L/kg), respectively.</paragraph>
+                        <paragraph>In another study, nine pediatric cancer patients (age range, 1 to 9 yr) received 4 to 5 intravenous infusions (over 30 minutes) of metoclopramide at a dose of 2 mg/kg to control emesis. After the last dose, the peak serum concentrations of metoclopramide ranged from 1060 to 5680 mcg/L. The mean elimination half-life, clearance, and volume of distribution of metoclopramide were 4.5 hr (range, 2.0 to 12.5 hr), 0.37 L/h/kg (range, 0.10 to 1.24 L/h/kg), and 1.93 L/kg (range, 0.95 to 5.50 L/kg), respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_92b4880b-37b4-41c8-9708-5845ff8b9962">
+               <id root="f033e3b4-a851-4f59-ade1-915b9ac5d6f8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">The use of metoclopramide tablets is recommended for adults only. Therapy should not exceed 12 weeks in duration.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_a8bf1f4d-5c70-48c4-9c95-18ebec9d57f1">
+                     <id root="a096e7d1-d03e-4154-9119-722455821922"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Symptomatic Gastroesophageal Reflux</title>
+                     <text>
+                        <paragraph>Metoclopramide tablets are indicated as short-term (4 to 12 weeks) therapy for adults with symptomatic, documented gastroesophageal reflux who fail to respond to conventional therapy.</paragraph>
+                        <paragraph>The principal effect of metoclopramide is on symptoms of postprandial and daytime heartburn with less observed effect on nocturnal symptoms. If symptoms are confined to particular situations, such as following the evening meal, use of metoclopramide as single doses prior to the provocative situation should be considered, rather than using the drug throughout the day. Healing of esophageal ulcers and erosions has been endoscopically demonstrated at the end of a 12 week trial using doses of 15 mg q.i.d. As there is no documented correlation between symptoms and healing of esophageal lesions, patients with documented lesions should be monitored endoscopically.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_3d2b9323-9efd-4935-85a1-2398324a281a">
+                     <id root="97dccb16-1bb2-4e6d-bb0c-eeb0aececb5a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Diabetic Gastroparesis (Diabetic Gastric Stasis)</title>
+                     <text>
+                        <paragraph>Metoclopramide tablets are indicated for the relief of symptoms associated with acute and recurrent diabetic gastric stasis. The usual manifestations of delayed gastric emptying (e.g., nausea, vomiting, heartburn, persistent fullness after meals, and anorexia) appear to respond to metoclopramide within different time intervals. Significant relief of nausea occurs early and continues to improve over a three-week period. Relief of vomiting and anorexia may precede the relief of abdominal fullness by one week or more.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_719a5ecd-33c4-4995-a6b4-38c9a0a7029f">
+               <id root="dac86ae9-96a0-4232-8b83-7288f1f6ce0d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Metoclopramide should not be used whenever stimulation of gastrointestinal motility might be dangerous, e.g., in the presence of gastrointestinal hemorrhage, mechanical obstruction, or perforation.</paragraph>
+                  <paragraph>Metoclopramide is contraindicated in patients with pheochromocytoma because the drug may cause a hypertensive crisis, probably due to release of catecholamines from the tumor. Such hypertensive crises may be controlled by phentolamine.</paragraph>
+                  <paragraph>Metoclopramide is contraindicated in patients with known sensitivity or intolerance to the drug.</paragraph>
+                  <paragraph>Metoclopramide should not be used in epileptics or patients receiving other drugs which are likely to cause extrapyramidal reactions, since the frequency and severity of seizures or extrapyramidal reactions may be increased.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_f53f2d6c-c567-4658-8a8f-85fbbfc4b808">
+               <id root="6a8a0b43-becd-4421-99ee-facd8510d028"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Mental depression has occurred in patients with and without prior history of depression. Symptoms have ranged from mild to severe and have included suicidal ideation and suicide. Metoclopramide should be given to patients with a prior history of depression only if the expected benefits outweigh the potential risks.</paragraph>
+                  <paragraph>Extrapyramidal symptoms, manifested primarily as acute dystonic reactions, occur in approximately 1 in 500 patients treated with the usual adult dosages of 30 to 40 mg/day of metoclopramide. These usually are seen during the first 24 to 48 hours of treatment with metoclopramide, occur more frequently in pediatric patients and adult patients less than 30 years of age and are even more frequent at higher doses. These symptoms may include involuntary movements of limbs and facial grimacing, torticollis, oculogyric crisis, rhythmic protrusion of tongue, bulbar type of speech, trismus, or dystonic reactions resembling tetanus. Rarely, dystonic reactions may present as stridor and dyspnea, possibly due to laryngospasm. If these symptoms should occur, inject 50 mg diphenhydramine hydrochloride intramuscularly, and they usually will subside. Benztropine mesylate, 1 to 2 mg intramuscularly, may also be used to reverse these reactions.</paragraph>
+                  <paragraph>Parkinsonian-like symptoms have occurred, more commonly within the first 6 months after beginning treatment with metoclopramide, but occasionally after longer periods. These symptoms generally subside within 2 to 3 months following discontinuance of metoclopramide. Patients with preexisting Parkinson’s disease should be given metoclopramide cautiously, if at all, since such patients may experience exacerbation of parkinsonian symptoms when taking metoclopramide.</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_8daefd3d-a086-493b-a36f-0880e56ea67e">
+                     <id root="0084040a-5f60-4cc7-b7fa-b970d16be9c1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Tardive Dyskinesia (see Boxed Warnings)</title>
+                     <text>
+                        <paragraph>Treatment with metoclopramide can cause tardive dyskinesia (TD), a potentially irreversible and disfiguring disorder characterized by involuntary movements of the face, tongue, or extremities. The risk of developing tardive dyskinesia increases with the duration of treatment and the total cumulative dose. An analysis of utilization of patterns showed that about 20% of patients who used metoclopramide took it longer than 12 weeks. Treatment with metoclopramide for longer than the recommended 12 weeks should be avoided in all but rare cases where therapeutic benefit is thought to outweigh the risk of developing TD. </paragraph>
+                        <paragraph>Although the risk of developing TD in the general population may be increased among the elderly, women, and diabetics, it is not possible to predict which patients will develop metoclopramide-induced TD. Both the risk of developing TD and the likelihood that TD will become irreversible increase with duration of treatment and total cumulative dose. </paragraph>
+                        <paragraph>Metoclopramide should be discontinued in patients who develop signs and symptoms of TD. There is no known effective treatment for established cases of TD, although in some patients, TD may remit, partially or completely, within several weeks to months after metoclopramide is withdrawn. </paragraph>
+                        <paragraph>Metoclopramide itself may suppress, or partially suppress, the signs of TD, thereby masking the underlying disease process. The effect of this symptomatic suppression upon the long-term course of TD is unknown. Therefore, metoclopramide should not be used for the symptomatic control of TD.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_8b02f213-5f32-44f7-a219-d3891975b942">
+                     <id root="ab96e74d-9a04-4c8e-804d-4a4c8bf05a94"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuroleptic Malignant Syndrome (NMS)</title>
+                     <text>
+                        <paragraph>There have been rare reports of an uncommon but potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) associated with metoclopramide. Clinical manifestations of NMS include hyperthermia, muscle rigidity, altered consciousness, and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis and cardiac arrhythmias).</paragraph>
+                        <paragraph>The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, malignant hyperthermia, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                        <paragraph>The management of NMS should include 1) immediate discontinuation of metoclopramide and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. Bromocriptine and dantrolene sodium have been used in treatment of NMS, but their effectiveness have not been established (see <content styleCode="bold">ADVERSE REACTIONS</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_b3f84207-cd82-4de6-864d-0c8532c804e9">
+               <id root="8a5b722e-b2d8-429c-9e07-982f254f8a2c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_12d9f025-5bde-4888-a268-673045861652">
+                     <id root="e66d277f-1193-4c78-a682-bbbd5f6af7fd"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>In one study in hypertensive patients, intravenously administered metoclopramide was shown to release catecholamines; hence, caution should be exercised when metoclopramide is used in patients with hypertension.</paragraph>
+                        <paragraph>Because metoclopramide produces a transient increase in plasma aldosterone, certain patients, especially those with cirrhosis or congestive heart failure, may be at risk of developing fluid retention and volume overload. If these side effects occur at any time during metoclopramide therapy, the drug should be discontinued.</paragraph>
+                        <paragraph>Adverse reactions, especially those involving the nervous system, may occur after stopping the use of metoclopramide. A small number of patients may experience a withdrawal period after stopping metoclopramide that could include dizziness, nervousness, and/or headaches.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_56846e0d-d384-4e53-85b0-64c99f89e213">
+                     <id root="760bec1f-b8e6-45c1-b657-3434ca547ec5"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The use of metoclopramide is recommended for adults only. Metoclopramide may impair the mental and/or physical abilities required for the performance of hazardous tasks such as operating machinery or driving a motor vehicle. The ambulatory patient should be cautioned accordingly.</paragraph>
+                        <paragraph>For additional information, patients should be instructed to see the Medication Guide for metoclopramide tablets.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_d8298cd9-4e34-4c19-a849-b6d6ade145b6">
+                     <id root="1170b3d8-f4d6-439b-b7df-06ac2d298fdb"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>The effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics. Additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.</paragraph>
+                        <paragraph>The finding that metoclopramide releases catecholamines in patients with essential hypertension suggests that it should be used cautiously, if at all, in patients receiving monoamine oxidase inhibitors.</paragraph>
+                        <paragraph>Absorption of drugs from the stomach may be diminished (e.g., digoxin) by metoclopramide, whereas the rate and/or extent of absorption of drugs from the small bowel may be increased (e.g., acetaminophen, tetracycline, levodopa, ethanol, cyclosporine).</paragraph>
+                        <paragraph>Gastroparesis (gastric stasis) may be responsible for poor diabetic control in some patients. Exogenously administered insulin may begin to act before food has left the stomach and lead to hypoglycemia. Because the action of metoclopramide will influence the delivery of food to the intestines and thus the rate of absorption, insulin dosage or timing of dosage may require adjustment.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_3efff790-aa97-41eb-a5d4-518719c39273">
+                     <id root="ceae558b-4028-4d22-9f13-510790e6e16e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>A 77 week study was conducted in rats with oral doses up to about 40 times the maximum recommended human daily dose. Metoclopramide elevates prolactin levels and the elevation persists during chronic administration. Tissue culture experiments indicate that approximately one-third of human breast cancers are prolactin-dependent <content styleCode="italics">in vitro</content>, a factor of potential importance if the prescription of metoclopramide is contemplated in a patient with previously detected breast cancer. Although disturbances such as galactorrhea, amenorrhea, gynecomastia, and impotence have been reported with prolactin-elevating drugs, the clinical significance of elevated serum prolactin levels is unknown for most patients. An increase in mammary neoplasms has been found in rodents after chronic administration of prolactin-stimulating neuroleptic drugs and metoclopramide. Neither clinical studies nor epidemiologic studies conducted to date, however, have shown an association between chronic administration of these drugs and mammary tumorigenesis; the available evidence is too limited to be conclusive at this time.</paragraph>
+                        <paragraph>An Ames mutagenicity test performed on metoclopramide was negative.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_59965414-af44-4eb7-869b-b6f9b5e5ddb2">
+                     <id root="2033b0ed-acc0-4d43-acae-fa9a88b5758c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy Category B</title>
+                     <text>
+                        <paragraph>Reproduction studies performed in rats, mice and rabbits by the I.V., I.M., S.C., and oral routes at maximum levels ranging from 12 to 250 times the human dose have demonstrated no impairment of fertility or significant harm to the fetus due to metoclopramide. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_57e4f41e-19c0-4ade-bea0-1f97c37557aa">
+                     <id root="5024b23a-1945-4dc9-a4b4-b263e1cdf5ac"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Metoclopramide is excreted in human milk. Caution should be exercised when metoclopramide is administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_4085337a-e83e-4ef4-89ce-0495e1008bba">
+                     <id root="0fe88897-c710-407a-81a9-6b14aa9e970a"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established (see <content styleCode="bold">OVERDOSAGE</content>).</paragraph>
+                        <paragraph>Care should be exercised in administering metoclopramide to neonates since prolonged clearance may produce excessive serum concentrations (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>,<content styleCode="bold"> Pharmacokinetics</content>). In addition, neonates have reduced levels of NADH-cytochrome b<sub>5</sub> reductase which, in combination with the aforementioned pharmacokinetic factors, make neonates more susceptible to methemoglobinemia (see <content styleCode="bold">OVERDOSAGE</content>).</paragraph>
+                        <paragraph>The safety profile of metoclopramide in adults cannot be extrapolated to pediatric patients. Dystonias and other extrapyramidal reactions associated with metoclopramide are more common in the pediatric population than in adults (see <content styleCode="bold">WARNINGS</content> and <content styleCode="bold">ADVERSE REACTIONS</content>,<content styleCode="bold"> Extrapyramidal Reactions</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_bba5054d-fff8-4c2a-b132-8840f32c52f9">
+                     <id root="bc3243b5-4e5e-44a3-a3a1-e242a4331f78"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of metoclopramide did not include sufficient numbers of subjects aged 65 and over to determine whether elderly subjects respond differently from younger subjects.</paragraph>
+                        <paragraph>The risk of developing parkinsonian-like side effects increases with ascending dose. Geriatric patients should receive the lowest dose of metoclopramide that is effective. If parkinsonian-like symptoms develop in a geriatric patient receiving metoclopramide, metoclopramide should generally be discontinued before initiating any specific anti-parkinsonian agents (see <content styleCode="bold">WARNINGS</content> and <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>,<content styleCode="bold"> For the Relief of Symptomatic Gastroesophageal Reflux</content>).</paragraph>
+                        <paragraph>The elderly may be at greater risk for tardive dyskinesia (see <content styleCode="bold">WARNINGS</content>,<content styleCode="bold"> Tardive Dyskinesia</content>).</paragraph>
+                        <paragraph>Sedation has been reported in metoclopramide users. Sedation may cause confusion and manifest as over-sedation in the elderly (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>;<content styleCode="bold"> PRECAUTIONS</content>,<content styleCode="bold"> Information for Patients</content>; and<content styleCode="bold"> ADVERSE REACTIONS</content>,<content styleCode="bold"> CNS Effects</content>).</paragraph>
+                        <paragraph>Metoclopramide is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function (see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>,<content styleCode="bold"> Use in Patients With Renal or Hepatic Impairment</content>).</paragraph>
+                        <paragraph>For these reasons, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased renal function, concomitant disease, or other drug therapy in the elderly (see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>,<content styleCode="bold"> For the Relief of Symptomatic Gastroesophageal Reflux </content>and<content styleCode="bold"> Use in Patients With Renal or Hepatic Impairment</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_27a4dbb6-35a8-4366-959a-24bdd244f663">
+                     <id root="5c0b1048-3ff9-44bd-9efa-0894a414dc56"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other Special Populations</title>
+                     <text>
+                        <paragraph>Patients with NADH-cytochrome b<sub>5</sub> reductase deficiency are at an increased risk of developing methemoglobinemia and/or sulfhemoglobinemia when metoclopramide is administered. In patients with G6PD deficiency who experience metoclopramide-induced methemoglobinemia, methylene blue treatment is not recommended (see <content styleCode="bold">OVERDOSAGE</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_37559afb-1587-4a4e-8838-e02d8cf1d7c4">
+               <id root="a75b748e-3069-43c0-aa63-f635e7b33cdb"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In general, the incidence of adverse reactions correlates with the dose and duration of metoclopramide administration. The following reactions have been reported, although in most instances, data do not permit an estimate of frequency:</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_85f46054-1daf-4bd5-9342-96c057daa9d8">
+                     <id root="d9f3944d-dbb5-4e31-a84a-ba3fe487ed0d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CNS Effects</title>
+                     <text>
+                        <paragraph>Restlessness, drowsiness, fatigue, and lassitude occur in approximately 10% of patients receiving the most commonly prescribed dosage of 10 mg q.i.d. (see <content styleCode="bold">PRECAUTIONS</content>). Insomnia, headache, confusion, dizziness, or mental depression with suicidal ideation (see <content styleCode="bold">WARNINGS</content>) occur less frequently. The incidence of drowsiness is greater at higher doses. There are isolated reports of convulsive seizures without clearcut relationship to metoclopramide. Rarely, hallucinations have been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_92f6b1c3-b28a-4dab-9e17-ada0871d0e76">
+                     <id root="c5c22169-e8c4-4e0c-becf-2c399510f7ab"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Extrapyramidal Reactions (EPS)</title>
+                     <text>
+                        <paragraph>Acute dystonic reactions, the most common type of EPS associated with metoclopramide, occur in approximately 0.2% of patients (1 in 500) treated with 30 to 40 mg of metoclopramide per day. Symptoms include involuntary movements of limbs, facial grimacing, torticollis, oculogyric crisis, rhythmic protrusion of tongue, bulbar type of speech, trismus, opisthotonus (tetanus-like reactions), and, rarely, stridor and dyspnea possibly due to laryngospasm; ordinarily these symptoms are readily reversed by diphenhydramine (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                        <paragraph>Parkinsonian-like symptoms may include bradykinesia, tremor, cogwheel rigidity, mask-like facies (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                        <paragraph>Tardive dyskinesia most frequently is characterized by involuntary movements of the tongue, face, mouth, or jaw, and sometimes by involuntary movements of the trunk and/or extremities; movements may be choreoathetotic in appearance (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                        <paragraph>Motor restlessness (akathisia) may consist of feelings of anxiety, agitation, jitteriness, and insomnia, as well as inability to sit still, pacing, foot tapping. These symptoms may disappear spontaneously or respond to a reduction in dosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_62149038-1078-43d2-ad74-af1429aac942">
+                     <id root="b9161475-3ed4-4434-81c9-113c0f440ae0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuroleptic Malignant Syndrome</title>
+                     <text>
+                        <paragraph>Rare occurrences of neuroleptic malignant syndrome (NMS) have been reported. This potentially fatal syndrome is comprised of the symptom complex of hyperthermia, altered consciousness, muscular rigidity, and autonomic dysfunction (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_c586b162-4db1-44ec-8399-0943a4c0557a">
+                     <id root="3ce50353-e2e3-4fe5-a3f0-4b03e15b9e3d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine Disturbances</title>
+                     <text>
+                        <paragraph>Galactorrhea, amenorrhea, gynecomastia, impotence secondary to hyperprolactinemia (see <content styleCode="bold">PRECAUTIONS</content>). Fluid retention secondary to transient elevation of aldosterone (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_606e978b-a0f7-4e56-acc6-247926961923">
+                     <id root="1a52b191-aa8b-49a3-aa42-da68f4801bf9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular</title>
+                     <text>
+                        <paragraph>Hypotension, hypertension, supraventricular tachycardia, bradycardia, fluid retention, acute congestive heart failure and possible AV block (see <content styleCode="bold">CONTRAINDICATIONS</content> and <content styleCode="bold">PRECAUTIONS</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_11f86730-28c1-47f2-87cc-b48380cb2084">
+                     <id root="611b3959-ff2c-4011-a48e-8a625dc26e17"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Nausea and bowel disturbances, primarily diarrhea.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_cb023afa-0047-439c-8dbe-6cc1a087f0b3">
+                     <id root="a8ffda50-8a55-4ce8-9a6a-4c51793b02dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic</title>
+                     <text>
+                        <paragraph>Rarely, cases of hepatotoxicity, characterized by such findings as jaundice and altered liver function tests, when metoclopramide was administered with other drugs with known hepatotoxic potential.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_000cd540-daca-4f71-b0cf-4c03b3986419">
+                     <id root="c827f5a9-ee28-4d61-88d7-25dfb6eacb7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Renal</title>
+                     <text>
+                        <paragraph>Urinary frequency and incontinence.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_f2f4a35e-d231-4b03-b886-1ab6245f3c20">
+                     <id root="3d0aff48-1b95-48f9-a6dd-1ddb6e6d3b70"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>A few cases of neutropenia, leukopenia, or agranulocytosis, generally without clearcut relationship to metoclopramide. Methemoglobinemia, in adults and especially with overdosage in neonates (see <content styleCode="bold">OVERDOSAGE</content>). Sulfhemoglobinemia in adults.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_e23952e0-09f0-4aa6-8051-d5c924bfc7a0">
+                     <id root="a1cf61a4-1c06-4b18-8190-af75bf140f27"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergic Reactions</title>
+                     <text>
+                        <paragraph>A few cases of rash, urticaria, or bronchospasm, especially in patients with a history of asthma. Rarely, angioneurotic edema, including glossal or laryngeal edema.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_762fb947-881e-4b75-be56-f3948ac35009">
+                     <id root="d96c61ec-7105-4a49-9f55-7230e2b780a1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Miscellaneous</title>
+                     <text>
+                        <paragraph>Visual disturbances. Porphyria.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_4565d4f0-a388-428d-a52f-70725300aa27">
+               <id root="1e9af164-18c6-4d08-a996-e89efa70d6c1"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms of overdosage may include drowsiness, disorientation, and extrapyramidal reactions. Anticholinergic or antiparkinson drugs or antihistamines with anticholinergic properties may be helpful in controlling the extrapyramidal reactions. Symptoms are self-limiting and usually disappear within 24 hours.</paragraph>
+                  <paragraph>Hemodialysis removes relatively little metoclopramide, probably because of the small amount of the drug in blood relative to tissues. Similarly, continuous ambulatory peritoneal dialysis does not remove significant amounts of drug. It is unlikely that dosage would need to be adjusted to compensate for losses through dialysis. Dialysis is not likely to be an effective method of drug removal in overdose situations.</paragraph>
+                  <paragraph>Unintentional overdose due to misadministration has been reported in infants and children with the use of metoclopramide oral solution. While there was no consistent pattern to the reports associated with these overdoses, events included seizures, extrapyramidal reactions, and lethargy.</paragraph>
+                  <paragraph>Methemoglobinemia has occurred in premature and full-term neonates who were given overdoses of metoclopramide (1 to 4 mg/kg/day orally, intramuscularly or intravenously for 1 to 3 or more days). Methemoglobinemia can be reversed by the intravenous administration of methylene blue. However, methylene blue may cause hemolytic anemia in patients with G6PD deficiency, which may be fatal (see <content styleCode="bold">PRECAUTIONS</content>,<content styleCode="bold"> Other Special Populations</content>).</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_580b1d91-f785-4a6c-80bc-aca6a8c34a55">
+               <id root="0f691054-ba57-4fd9-9924-f2520278c9ea"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Therapy with metoclopramide tablets, USP should not exceed 12 weeks in duration.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <section ID="i4i_section_id_9c183879-0687-46c2-a547-6d237ed3068f">
+                     <id root="eb5a281e-3b0b-4b65-9ede-396203bc4ab4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>For the Relief of Symptomatic Gastroesophageal Reflux</title>
+                     <text>
+                        <paragraph>Administer from 10 mg to 15 mg of metoclopramide tablet, USP orally up to q.i.d. 30 minutes before each meal and at bedtime, depending upon symptoms being treated and clinical response (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content> and <content styleCode="bold">INDICATIONS AND USAGE</content>). If symptoms occur only intermittently or at specific times of the day, use of metoclopramide in single doses up to 20 mg prior to the provoking situation may be preferred rather than continuous treatment. Occasionally, patients (such as elderly patients) who are more sensitive to the therapeutic or adverse effects of metoclopramide will require only 5 mg per dose.</paragraph>
+                        <paragraph>Experience with esophageal erosions and ulcerations is limited, but healing has thus far been documented in one controlled trial using q.i.d. therapy at 15 mg/dose, and this regimen should be used when lesions are present, so long as it is tolerated (see <content styleCode="bold">ADVERSE REACTIONS</content>). Because of the poor correlation between symptoms and endoscopic appearance of the esophagus, therapy directed at esophageal lesions is best guided by endoscopic evaluation.</paragraph>
+                        <paragraph>Therapy longer than 12 weeks has not been evaluated and cannot be recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_8d677e52-769f-48ca-ac5f-50187910c255">
+                     <id root="444b432c-c7bc-4899-a92c-dc3b8e04b7d9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>For the Relief of Symptoms Associated With Diabetic Gastroparesis (Diabetic Gastric Stasis)</title>
+                     <text>
+                        <paragraph>Administer 10 mg of metoclopramide 30 minutes before each meal and at bedtime for two to eight weeks, depending upon response and the likelihood of continued well-being upon drug discontinuation.</paragraph>
+                        <paragraph>The initial route of administration should be determined by the severity of the presenting symptoms. If only the earliest manifestations of diabetic gastric stasis are present, oral administration of metoclopramide tablets, USP may be initiated. However, if severe symptoms are present, therapy should begin with metoclopramide injection (consult labeling of the injection prior to initiating parenteral administration).</paragraph>
+                        <paragraph>Administration of metoclopramide injection up to 10 days may be required before symptoms subside, at which time oral administration may be instituted. Since diabetic gastric stasis is frequently recurrent, metoclopramide tablet, USP therapy should be reinstituted at the earliest manifestation.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_96516df4-bb26-49f4-9487-652c84deb066">
+                     <id root="97f65226-612f-4fc1-8d9c-c42cda3f836f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Patients With Renal or Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Since metoclopramide is excreted principally through the kidneys, in those patients whose creatinine clearance is below 40 mL/min, therapy should be initiated at approximately one-half the recommended dosage. Depending upon clinical efficacy and safety considerations, the dosage may be increased or decreased as appropriate.</paragraph>
+                        <paragraph>See <content styleCode="bold">OVERDOSAGE</content> section for information regarding dialysis.</paragraph>
+                        <paragraph>Metoclopramide undergoes minimal hepatic metabolism, except for simple conjugation. Its safe use has been described in patients with advanced liver disease whose renal function was normal.</paragraph>
+                     </text>
+                     <effectiveTime value="20141217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_1956af56-71b5-4692-95bf-36d29ca66add">
+               <id root="03ce3ff2-4407-4daa-9c9e-90b6921dbdd8"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <paragraph>Each white, round, unscored, debossed “TV” on one side and “2204” on the other side, compressed metoclopramide tablet contains 5 mg metoclopramide (present as the hydrochloride). They are available<br/>as follows:</paragraph>
+                  <paragraph>NDC 51079-886-20 – Unit dose blister packages of 100 (10 cards of 10 tablets each).</paragraph>
+                  <paragraph>Each white, round, scored, debossed “TEVA” on one side and “2203” above the score on the other side, compressed metoclopramide tablet contains 10 mg metoclopramide (present as the hydrochloride). They are available as follows:</paragraph>
+                  <paragraph>NDC 51079-888-20 – Unit dose blister packages of 100 (10 cards of 10 tablets each).<br/>NDC 51079-888-19 – Robot Ready blister packages of 25 (25 cards of 1 tablet each).</paragraph>
+                  <paragraph>This product is light sensitive. It should be inspected before use and discarded if either color or particulate is observed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]<br/>Protect from light.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_medguide_id_7d059dab-5c8f-4189-b3ba-1ac00dafaf5b">
+               <id root="fb14e2b4-73f0-4225-b15c-944073a40026"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>Medication Guide</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">METOCLOPRAMIDE TABLETS, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Read the Medication Guide that comes with metoclopramide tablets, USP before you start taking them and each time you get a refill. There may be new information. If you take another product that contains metoclopramide (such as metoclopramide injection, metoclopramide orally disintegrating tablets, or metoclopramide oral syrup), you should read the Medication Guide that comes with that product. Some of the information may be different. This Medication Guide does not take the place of talking with your doctor about your medical condition or your treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>Metoclopramide tablets, USP can cause serious side effects, including:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tardive dyskinesia (abnormal muscle movements).</content> These movements happen mostly in the face muscles. You can not control these movements. They may not go away even after stopping metoclopramide tablets, USP. There is no treatment for tardive dyskinesia, but symptoms may lessen or go away over time after you stop taking metoclopramide tablets, USP.</paragraph>
+                  <paragraph>Your chances for getting tardive dyskinesia go up:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>the longer you take metoclopramide tablets, USP and the more metoclopramide tablets, USP you take. You should not take metoclopramide tablets, USP for more than 12 weeks.</item>
+                     <item>
+                        <caption>•</caption>if you are older, especially if you are a woman</item>
+                     <item>
+                        <caption>•</caption>if you have diabetes</item>
+                  </list>
+                  <paragraph>It is not possible for your doctor to know if you will get tardive dyskinesia if you take metoclopramide tablets, USP.</paragraph>
+                  <paragraph>Call your doctor right away if you get movements you can not stop or control, such as:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>lip smacking, chewing, or puckering up your mouth</item>
+                     <item>
+                        <caption>•</caption>frowning or scowling</item>
+                     <item>
+                        <caption>•</caption>sticking out your tongue</item>
+                     <item>
+                        <caption>•</caption>blinking and moving your eyes</item>
+                     <item>
+                        <caption>•</caption>shaking of your arms and legs</item>
+                  </list>
+                  <paragraph>See the section <content styleCode="bold">"What are the possible side effects of metoclopramide tablets, USP?"</content> for more information about side effects.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>Metoclopramide tablets, USP are a prescription medicine used:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>in adults for 4 to 12 weeks to relieve heartburn symptoms with gastroesophageal reflux disease (GERD) when certain other treatments do not work. Metoclopramide tablets, USP relieve daytime heartburn and heartburn after meals. They also help ulcers in the esophagus to heal.</item>
+                     <item>
+                        <caption>•</caption>to relieve symptoms of slow stomach emptying in people with diabetes. Metoclopramide tablets, USP help treat symptoms such as nausea, vomiting, heartburn, feeling full long after a meal, and loss of appetite. Not all these symptoms get better at the same time.</item>
+                  </list>
+                  <paragraph>It is not known if metoclopramide tablets, USP are safe and work in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>Do not take metoclopramide tablets, USP if you:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>have stomach or intestine problems that could get worse with metoclopramide tablets, USP, such as bleeding, blockage or a tear in the stomach or bowel wall</item>
+                     <item>
+                        <caption>•</caption>have an adrenal gland tumor called a pheochromocytoma</item>
+                     <item>
+                        <caption>•</caption>are allergic to metoclopramide tablets, USP or anything in them. See the end of this Medication Guide for a list of ingredients in metoclopramide tablets, USP.</item>
+                     <item>
+                        <caption>•</caption>take medicines that can cause uncontrolled movements, such as medicines for mental illness</item>
+                     <item>
+                        <caption>•</caption>have seizures</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my doctor before taking metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all your medical conditions,</content> including if you have:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>depression</item>
+                     <item>
+                        <caption>•</caption>Parkinson's disease</item>
+                     <item>
+                        <caption>•</caption>high blood pressure</item>
+                     <item>
+                        <caption>•</caption>kidney problems. Your doctor may start with a lower dose.</item>
+                     <item>
+                        <caption>•</caption>liver problems or heart failure. Metoclopramide tablets, USP may cause your body to hold fluids.</item>
+                     <item>
+                        <caption>•</caption>diabetes. Your dose of insulin may need to be changed.</item>
+                     <item>
+                        <caption>•</caption>breast cancer</item>
+                     <item>
+                        <caption>•</caption>you are pregnant or plan to become pregnant. It is not known if metoclopramide tablets, USP will harm your unborn baby.</item>
+                     <item>
+                        <caption>•</caption>you are breast-feeding. Metoclopramide can pass into breast milk and may harm your baby. Talk with your doctor about the best way to feed your baby if you take metoclopramide tablets, USP.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all the medicines you take, including prescription and non-prescription medicines, vitamins, and herbal supplements.</content> Metoclopramide tablets, USP and some other medicines may interact with each other and may not work as well, or cause possible side effects. Do not start any new medicines while taking metoclopramide tablets, USP until you talk with your doctor.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Especially tell your doctor if you take:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>another medicine that contains metoclopramide, such as metoclopramide orally disintegrating tablets, or metoclopramide oral syrup</item>
+                     <item>
+                        <caption>•</caption>a blood pressure medicine</item>
+                     <item>
+                        <caption>•</caption>a medicine for depression, especially a Monoamine Oxidase Inhibitor (MAOI)</item>
+                     <item>
+                        <caption>•</caption>insulin</item>
+                     <item>
+                        <caption>•</caption>a medicine that can make you sleepy, such as anti-anxiety medicine, sleep medicines, and narcotics.</item>
+                  </list>
+                  <paragraph>If you are not sure if your medicine is one listed above, ask your doctor or pharmacist.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them and show it to your doctor and pharmacist when you get a new medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Metoclopramide tablets, USP come as a tablet you take by mouth.</item>
+                     <item>
+                        <caption>•</caption>Take metoclopramide tablets, USP exactly as your doctor tells you. Do not change your dose unless your doctor tells you.</item>
+                     <item>
+                        <caption>•</caption>You should not take metoclopramide tablets, USP for more than 12 weeks.</item>
+                     <item>
+                        <caption>•</caption>If you take too many metoclopramide tablets, USP, call your doctor or Poison Control Center right away.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while taking metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Do not drink alcohol while taking metoclopramide tablets, USP. Alcohol may make some side effects of metoclopramide tablets, USP worse, such as feeling sleepy.</item>
+                     <item>
+                        <caption>•</caption>Do not drive, work with machines, or do dangerous tasks until you know how metoclopramide tablets, USP affect you. Metoclopramide tablets, USP may cause sleepiness.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metoclopramide tablets, USP can cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Tardive dyskinesia (abnormal muscle movements).</content> See <content styleCode="bold">"What is the most important information I need to know about metoclopramide tablets, USP?"</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Uncontrolled spasms of your face and neck muscles, or muscles of your body, arms, and legs (dystonia).</content> These muscle spasms can cause abnormal movements and body positions. These spasms usually start within the first 2 days of treatment. These spasms happen more often in children and adults under age 30.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Depression, thoughts about suicide, and suicide.</content> Some people who take metoclopramide tablets, USP become depressed. You may have thoughts about hurting or killing yourself. Some people who take metoclopramide tablets, USP have ended their own lives (suicide).</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Neuroleptic Malignant Syndrome (NMS). </content>NMS is a very rare but very serious condition that can happen with metoclopramide tablets, USP. NMS can cause death and must be treated in a hospital. Symptoms of NMS include: high fever, stiff muscles, problems thinking, very fast or uneven heartbeat, and increased sweating.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Parkinsonism.</content> Symptoms include slight shaking, body stiffness, trouble moving or keeping your balance. If you already have Parkinson's disease, your symptoms may become worse while you are receiving metoclopramide tablets, USP.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor and get medical help right away if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>feel depressed or have thoughts about hurting or killing yourself</item>
+                     <item>
+                        <caption>•</caption>have high fever, stiff muscles, problems thinking, very fast or uneven heartbeat, and increased sweating</item>
+                     <item>
+                        <caption>•</caption>have muscle movements you cannot stop or control</item>
+                     <item>
+                        <caption>•</caption>have muscle movements that are new or unusual</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Common side effects of metoclopramide tablets, USP include:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>feeling restless, sleepy, tired, dizzy, or exhausted</item>
+                     <item>
+                        <caption>•</caption>headache</item>
+                     <item>
+                        <caption>•</caption>confusion</item>
+                     <item>
+                        <caption>•</caption>trouble sleeping</item>
+                  </list>
+                  <paragraph>You may have more side effects the longer you take metoclopramide tablets, USP and the more metoclopramide tablets, USP you take.</paragraph>
+                  <paragraph>You may still have side effects after stopping metoclopramide tablets, USP. You may have symptoms from stopping (withdrawal) metoclopramide tablets, USP such as headaches, and feeling dizzy or nervous.</paragraph>
+                  <paragraph>Tell your doctor about any side effects that bother you or do not go away. These are not all the possible side effects of metoclopramide tablets, USP.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Keep metoclopramide tablets, USP at room temperature between 68°F to 77°F (20°C to 25°C).</item>
+                     <item>
+                        <caption>•</caption>Keep metoclopramide tablets, USP in the bottle they come in. Keep the bottle closed tightly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Keep metoclopramide tablets, USP and all medicines out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about metoclopramide tablets, USP</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use metoclopramide tablets, USP for a condition for which they were not prescribed. Do not give metoclopramide tablets, USP to other people, even if they have the same symptoms that you have. They may harm them.</paragraph>
+                  <paragraph>This Medication Guide summarizes the most important information about metoclopramide tablets, USP. If you would like more information, talk with your doctor. You can ask your doctor or pharmacist for information about metoclopramide tablets, USP that is written for health professionals. For more information, call 1-888-838-2872, MEDICAL AFFAIRS.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in metoclopramide tablets, USP?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient:</content> metoclopramide</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content> corn starch, dibasic calcium phosphate, magnesium stearate, microcrystalline cellulose and sodium starch glycolate</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Manufactured in Croatia by:<br/>
+                     <content styleCode="bold">Pliva Hrvatska d.o.o.</content>
+                     <br/>Zagreb, Croatia</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Teva Pharmaceuticals USA</content>
+                     <br/>Sellersville, PA 18960</paragraph>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Mylan Institutional Inc.<br/>
+                     </content>Rockford, IL 61103 U.S.A.</paragraph>
+                  <paragraph>S-11969<br/>9/13</paragraph>
+               </text>
+               <effectiveTime value="20141217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="662a4480-0663-4504-ace0-cee64ed527d3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Bottle Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0904-6304-77</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MAJOR</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Magnesium Citrate<br/>Oral Solution</content>
+                  </paragraph>
+                  <paragraph>Lemon flavored
+</paragraph>
+                  <paragraph>Effervescent saline laxative
+</paragraph>
+                  <paragraph>DO NOT USE IF TAMPER EVIDENT TWIST-OFF CAP IS<br/>MISSING, BROKEN OR SEPARATED FROM NECKRING
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 FL OZ (296 mL)</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Principal Display Panel - Bottle Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="aff8effe-9f44-4e0a-8084-059cc0b38485"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Box Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">MAJOR</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                     <br/>PHARMACEUTICALS
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0904-7927-61</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Unit Dose</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BISACODYL<br/>ENTERIC COATED TABLETS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Delayed Release)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mg.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Stimulant Laxative</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 Tablets</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel - Box Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0000-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="df93ffb9-e594-4e41-bf05-3c71b1310a86"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Case Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Vitamins A&amp;D Ointment<br/>Diaper Rash Ointment • Skin Protectant</content>
+                  </paragraph>
+                  <paragraph>Net Wt. <content styleCode="bold">4 OZ (113g)</content>
+                  </paragraph>
+                  <paragraph>Reorder <content styleCode="bold">No. 1155</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20160524"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel - Case Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0001-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="a2787c0e-e8cf-4b14-9071-3c309e3fa935"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Bottle Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 43386-312-08</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Original Prescription Strength</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">GaviLAX</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Polyethylene Glycol 3350<br/>Powder for Oral Solution,<br/>Osomotic Laxative</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">• Relieves Occasional<br/>Constipation (irregularity)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">• Softens Stool</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">14 ONCE-DAILY DOSES</content> NET WT. 8.3 OZ (238 g)
+</paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>Principal Display Panel - Bottle Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0000-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s24">
+               <id root="7328d2cf-1107-4a00-aee5-33aa7a4c5ac3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Blister Pack Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 51079-888-20</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metoclopramide<br/>
+                     </content>Tablets, USP
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 mg</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f06" referencedObject="mm06"/>
+               </text>
+               <effectiveTime value="20141217"/>
+               <component>
+                  <observationMedia ID="mm06">
+                     <text>Principal Display Panel - Blister Pack Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0000-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="10611271-470d-41d0-9faf-2010267c1d3e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+NDC: 76420-625-01                                                     RX-Only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+PCP 100™
+</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+Kit Contains:
+</content>
+                  </paragraph>
+                  <paragraph>
+1 Magnesium Citrate Oral Solution - Lemon Flavored (296mL)
+</paragraph>
+                  <paragraph>
+4 Bisacodyl Enteric Coated 5mg Tablets
+</paragraph>
+                  <paragraph>
+3 Vitamins A &amp; D Ointment (5g)
+</paragraph>
+                  <paragraph>
+1 GaviLAX Polyethylene Glycol 3350 (238g)
+</paragraph>
+                  <paragraph>
+2 Metoclopramide 10mg Tablets, USP
+</paragraph>
+                  <paragraph>
+2 CeraLyte
+<sup>
+®
+</sup>
+ 50 Packets (10g)
+</paragraph>
+                  <paragraph>
+1 Pair Nitrile Powder Free Sterile Gloves (M)
+</paragraph>
+                  <paragraph>
+1 Dose
+</paragraph>
+                  <paragraph>
+Single Use Only
+</paragraph>
+                  <paragraph>
+Distributed by:
+</paragraph>
+                  <paragraph>
+Enovachem™
+</paragraph>
+                  <paragraph>
+PHARMACEUTICALS
+</paragraph>
+                  <paragraph>
+Torrance, CA 90501
+</paragraph>
+                  <renderMultiMedia ID="f07" referencedObject="mm07"/>
+               </text>
+               <effectiveTime value="20160524"/>
+               <component>
+                  <observationMedia ID="mm07">
+                     <text>Principal Display Panel - Kit Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pcp00-0003-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a4d6f59e-7d8a-4c29-bcaa-fb228979eb3f"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug facts</title>
+   <effectiveTime value="20150826"/>
+   <setId root="d36d9c98-aa00-440f-adc5-9dfb983bbe8d"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="068331990" root="1.3.6.1.4.1.519.1"/>
+            <name>DOLGENCORP LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="790752542" root="1.3.6.1.4.1.519.1"/>
+                  <name>Vi-Jon, Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="088520668" root="1.3.6.1.4.1.519.1"/>
+                        <name>Vi-Jo</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55910-354" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="56d65ced-d691-4bab-b204-9f90812dca72"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150828"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55910-354" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Daily Baby</name>
+                        <formCode code="C29167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dimethicone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="13.1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIMETHICONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OM9573ZX3X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DISTEARYLDIMONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8CRQ2TH63M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8PI54V663Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OATMEAL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="227"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55910-354-34" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150810"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part347" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L99c51553-c911-40e1-afea-cf7017f050a3">
+               <id root="42714828-d800-48dd-8953-9119558cd838"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>claims</title>
+               <text>
+                  <paragraph>DG</paragraph>
+                  <paragraph>baby</paragraph>
+                  <paragraph>Daily Baby Lotion</paragraph>
+                  <paragraph>Contains natural colloidal oatmeal blended with rich emollients to soothe and heal your baby's delicate, dry skin.</paragraph>
+                  <paragraph>This nourishing, nongreasy formula absorbs quickly and provided long lastng moisturization.</paragraph>
+                  <paragraph>It is hypoallergenic and fragrance free, so it won't irritate sensitive skin.  It's even gentle enough for newborns</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3a5b4c5b-9525-49c6-9e17-85b48b2dd355">
+               <id root="1bc67441-d099-4576-b308-7357a6ec957d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient</title>
+               <text>
+                  <paragraph>Dimethicone</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldf3642c6-9745-43cd-bfdc-f2cb49733218">
+               <id root="269c6eb2-df44-4076-a59a-90c72de522ef"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Skin protectant</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L68987e16-0d85-47fc-9848-34cad667e1d4">
+               <id root="438364c1-4117-413f-a80c-8c7a909cb17e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <list listType="unordered">
+                     <item>helps prevent and temporarily protects chapped or cracked skin</item>
+                     <item>helps protect from the drying effects of wind and cold weather</item>
+                  </list>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0609d4b7-15ed-4c4e-8a93-1b3f1fd0593b">
+               <id root="15e8f71b-5e13-45fd-834b-3d60fd91c558"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>For external use only</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6a9ec1aa-6348-42b7-9fec-21b3e4afd3d6">
+               <id root="1996ddb8-a9ad-41c6-8d2c-11a2c49c022b"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>Do not use on</title>
+               <text>
+                  <list listType="unordered">
+                     <item>deep or puncture wounds</item>
+                     <item>animal bites</item>
+                     <item>serious burns</item>
+                  </list>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L72a24127-9851-490f-bcbc-f209e19aec76">
+               <id root="4af76774-d817-481e-875c-1e1ff9a04238"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>When using this product </title>
+               <text>
+                  <list listType="unordered">
+                     <item>do not get into eyes</item>
+                  </list>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L56bc588f-0165-41d4-9d3a-77de89d58c67">
+               <id root="7d141849-55de-480e-bcc3-19c8cc857fd6"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use and ask a doctor if</title>
+               <text>
+                  <list listType="unordered">
+                     <item>condition worsens</item>
+                     <item>symptoms last more than 7 days or clear up and occur again within a few days</item>
+                  </list>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L54be64fe-9147-4d0b-bf1c-a67d8c333a24">
+               <id root="a66fbb98-2e87-462e-8e46-2b073349f00b"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children</title>
+               <text>
+                  <paragraph>If swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L737de2b3-456e-4d5e-8400-5205618dcf21">
+               <id root="db9188fd-4b33-4677-97d8-18ed33131650"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>apply as needed</item>
+                  </list>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lca9e5c5d-26b6-4f99-bb25-df7fbfa361a9">
+               <id root="c56e533a-0532-4c1e-aa68-a1cdf32a2eb8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <paragraph>store between 15°-30°C (59°-86°F)</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L14d7ccf1-0e45-4761-9c55-1c00a3f926c8">
+               <id root="2c1e627c-cb44-44af-91f0-87e4e84adb3c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>inactive ingredient</title>
+               <text>
+                  <paragraph>water, glycerin, distearyldimonium chloride, petrolatum, isopropyl palmitate, cetyl alcohol, Avena sativa (oat) kernel flour, benzyl alcohol, sodium chloride</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le7819446-6693-46c6-b88d-73831961f073">
+               <id root="5ebef465-de0c-4344-aa55-5155a16b3e85"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Disclaimer</title>
+               <text>
+                  <paragraph>This product is not manufactured or distributed by Johnson &amp; Johnson Consumer Products Company, Distributor of Aveeno Baby Daily Moisture Lotion.</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La7ba43ff-30db-44d3-98ba-9adb751c626b">
+               <id root="e5fcb010-7f6a-4d8f-b258-ae11681830f7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>DISTRIBUTED BY DOLGENCORP, LLC</paragraph>
+                  <paragraph>100 MISSION RIDGE</paragraph>
+                  <paragraph>GOODLETTSVILLE, TN 37072</paragraph>
+                  <paragraph>100% Satisfaction Guaranteed!</paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L10364cdc-4386-4846-9a56-d14a48bed12b">
+               <id root="ca8af069-9a59-454e-a2be-befc96f4f9ba"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>DG</paragraph>
+                  <paragraph>baby</paragraph>
+                  <paragraph>Daily</paragraph>
+                  <paragraph>Baby</paragraph>
+                  <paragraph>Lotion</paragraph>
+                  <paragraph>Skin Protectant</paragraph>
+                  <paragraph>Compare to AVeeno Baby Daily Moisture Lotion</paragraph>
+                  <list listType="unordered">
+                     <item>Long-lasting moisturzation</item>
+                     <item>Helps heal and protect baby's skin</item>
+                  </list>
+                  <paragraph>Net Wt 8 OZ (227 g)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L18f89302-4b04-49f6-8bd4-5e275d678f45"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150828"/>
+               <component>
+                  <observationMedia ID="L18f89302-4b04-49f6-8bd4-5e275d678f45">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="mm1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

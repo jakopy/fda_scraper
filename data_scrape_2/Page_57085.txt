@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3e116f46-e2d9-500c-e054-00144ff88e88"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>HER LH2475 Vanilla Scented Hand Sanitizer Kit</title>
+   <effectiveTime value="20161004"/>
+   <setId root="1c68ac53-1049-46e5-a89e-5de2cc9aab43"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="094315637" root="1.3.6.1.4.1.519.1"/>
+            <name>HER ACCESSORIES</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3e119039-067f-2b51-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20161004"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70589-102" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>HER LH2475 Vanilla Scented Hand Sanitizer Kit</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Alcohol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70589-102-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160930"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="70589-103" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>HER LH2475 Vanilla Scented Hand Sanitizer</name>
+                              <formCode code="C42989" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SPRAY"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Alcohol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="9DBA0SBB0L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>D&amp;C RED NO. 33</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C BLUE NO. 1</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="I753WB2F1M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C YELLOW NO. 5</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mL" value="68"/>
+                                    <denominator unit="mL" value="100"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALCOHOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ALCOHOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="15"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70589-103-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C95601" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC MONOGRAPH DRUG PRODUCT MANUFACTURED EXCLUSIVELY FOR PRIVATE LABEL DISTRIBUTOR"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part333E" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160930"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L46c6bd9a-e179-4960-b0ba-e43a80295512">
+               <id root="3e116f46-e2da-500c-e054-00144ff88e88"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient</title>
+               <text>
+                  <paragraph>Alcohol 68%</paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb045627d-c5c6-41d5-94b7-3a647750f197">
+               <id root="3e116f46-e2db-500c-e054-00144ff88e88"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Antiseptic</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5a415eba-3350-4ad2-a42f-8f43170e3932">
+               <id root="3e116f46-e2dc-500c-e054-00144ff88e88"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <paragraph>Decreases bacteria on hands.</paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2fa8c9b6-f25f-4ec4-b777-47804b42dffb">
+               <id root="3e116f46-e2dd-500c-e054-00144ff88e88"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">​For external use only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Flammable, keep away from fire or flame</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Stop use and ask a doctor if </content>irritation and redness develops. 
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbc703da8-f417-4c5f-8cf3-30b864f8914d">
+               <id root="3e116f46-e2de-500c-e054-00144ff88e88"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children. </title>
+               <text>
+                  <paragraph>If swallowed, get medical help or contact a Poison control Center right away. </paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0c9b2568-0503-48d1-bfee-b690a8775c56">
+               <id root="3e116f46-e2df-500c-e054-00144ff88e88"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>Place a 'palmful' of product in one hand</item>
+                     <item>Spread on both hands and rub the skin until dry</item>
+                  </list>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2c0c2923-ef5a-438e-b19c-fc57857e2eaf">
+               <id root="3e116f46-e2e0-500c-e054-00144ff88e88"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>Other Information</title>
+               <text>
+                  <paragraph>To report a serious adverse reaction please write to HER Accessories 10 West 33rd. St. New York, NY 10001</paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld61f1776-d2b6-4a01-9ad2-bb907b6becf1">
+               <id root="3e116f46-e2e1-500c-e054-00144ff88e88"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>water, glycerin, fragrance, carbomer, sodium hydroxide, may contain: red 33, blue 1, yellow 5.</paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L87843ce7-4c8e-4274-b7f0-0a24cd0d54c7">
+               <id root="3e116f46-e2e2-500c-e054-00144ff88e88"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>HER LH2475 Vanilla Scented Hand Sanitizer Kit</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9726303a-f971-4ec8-983f-ed5af0ed5934"/>
+                     <renderMultiMedia referencedObject="L2e34aee9-8387-4fdc-b9d3-ae447eace687"/>
+                     <renderMultiMedia referencedObject="L95be283a-3cd3-438f-a6fb-2d58d0829441"/>
+                     <renderMultiMedia referencedObject="Lcaa4c143-22ba-476b-ac24-b64607508804"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160930"/>
+               <component>
+                  <observationMedia ID="L9726303a-f971-4ec8-983f-ed5af0ed5934">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="best frient left side.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L2e34aee9-8387-4fdc-b9d3-ae447eace687">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="best frient right side.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L95be283a-3cd3-438f-a6fb-2d58d0829441">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="best friend2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lcaa4c143-22ba-476b-ac24-b64607508804">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cover.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

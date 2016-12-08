@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="406b4a37-8163-5ea4-e054-00144ff88e88"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>SPF 15 Lip Balm Pomegranate Flavored</title>
+   <effectiveTime value="20161103"/>
+   <setId root="406b4a37-8162-5ea4-e054-00144ff88e88"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="154445647" root="1.3.6.1.4.1.519.1"/>
+            <name>Webb Business Promotions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="154445647" root="1.3.6.1.4.1.519.1"/>
+                        <name>Webb Business Promotions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70445-181" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="406b4d26-a59a-4a59-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20161103"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70445-181" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lip Balm Pomegranite Flavored</name>
+                        <formCode code="C42952" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIPSTICK"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SPF 15</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7G1J5DA97F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WHITE WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3W1JG795YI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUNFLOWER OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2M91M918C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROGENATED SOYBEAN OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="512OYT1CRR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COCOA BUTTER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K49155WL9Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHEA BUTTER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ZY81Z83H0X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALOE VERA LEAF</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="3.6"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4Y5P7MUD51" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OCTINOXATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4Y5P7MUD51" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OCTINOXATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2.5"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4X49Y0596W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OCTISALATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4X49Y0596W" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OCTISALATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.5"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="95OOS7VE0Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYBENZONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="95OOS7VE0Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYBENZONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70445-181-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090911"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part352" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73411" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POMEGRANATE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c621f25-e8be-27dd-e054-00144ff8d46c">
+               <id root="406b4a37-815b-5ea4-e054-00144ff88e88"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Purpose</content>
+                  </paragraph>
+                  <paragraph>Sun Screen</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20090101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c61aba9-0af3-3c6e-e054-00144ff88e88">
+               <id root="406b4a37-815c-5ea4-e054-00144ff88e88"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Drug Facts</title>
+               <text>
+                  <paragraph>Octinoxate 3.6%</paragraph>
+                  <paragraph>Octisalate 2.5%</paragraph>
+                  <paragraph>Benzophenone 1.5%</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c621f25-e8c3-27dd-e054-00144ff8d46c">
+               <id root="406b4a37-815d-5ea4-e054-00144ff88e88"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Hydrogenated Soybean Oil, Sunflower Oil, Yellow Bees Wax Pearls, Cocoa Butter, Shea Butter, Vitamin E, Aloe Vera Gel, Pomegranate Flavoring.</paragraph>
+               </text>
+               <effectiveTime value="20090101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c62159d-3ea7-4c77-e054-00144ff88e88">
+               <id root="406b4a37-815e-5ea4-e054-00144ff88e88"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">Warnings</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Skin Cancer/Skin Aging Alert: </content>Spending too much time in the sun increases your risk of skin cancer and early skin aging. This product has been shown to only help prevent sunburn, not skin cancer or early skin aging.
+  
+       
+ 
+  </item>
+                     <item>
+                        <content styleCode="bold">For external use only.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Do not use </content>on damaged or broken skin.
+  
+       
+ 
+  </item>
+                     <item>
+                        <content styleCode="bold">Stop use and ask doctor </content>if rash occurs.
+  
+       
+ 
+  </item>
+                     <item>
+                        <content styleCode="bold">When using this product </content>keep out of eyes.
+  
+       
+ 
+  </item>
+                     <item>
+                        <content styleCode="bold">Keep out of reach of children. </content>If swallowed get medical help or contact posion control center right away.
+  
+       
+ 
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20090101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c61ae85-7908-3e4e-e054-00144ff88e88">
+               <id root="406b4a37-815f-5ea4-e054-00144ff88e88"/>
+               <code code="60560-0" codeSystem="2.16.840.1.113883.6.1" displayName="INTENDED USE OF THE DEVICE"/>
+               <title>
+                  <content styleCode="bold">Directions</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>Apply liberally 15 minutes before sun exposure</item>
+                     <item>Use a water resistant sunscreen if swimming or sweating</item>
+                     <item>Reapply every 2 hours</item>
+                     <item>Children under 6 months : Ask a doctor</item>
+                  </list>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20090101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c627a9b-c924-3c75-e054-00144ff8d46c">
+               <id root="406b4a37-8160-5ea4-e054-00144ff88e88"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="bold">Storage and Handling Information</content>
+               </title>
+               <text>
+                  <paragraph>Protect this product from excessive heat and direct sun</paragraph>
+               </text>
+               <effectiveTime value="20090101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2c608e2b-2b47-0207-e054-00144ff88e88">
+               <id root="406b4a37-8161-5ea4-e054-00144ff88e88"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">SPF 15 NATURAL BEESWAX LIP BALM POMEGRANATE FLAVORED</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_357a114d-1612-1d8a-e054-00144ff88e88"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20090101"/>
+               <component>
+                  <observationMedia ID="img_357a114d-1612-1d8a-e054-00144ff88e88">
+                     <text>Pome LB60</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Pome2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

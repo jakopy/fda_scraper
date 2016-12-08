@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5cbb7c5b-8eaf-4986-ad78-f0abb4d96757"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>DRUG FACTS</title>
+   <effectiveTime value="20150207"/>
+   <setId root="26bba135-758f-4315-9e37-bc29300ccafd"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="061817659" root="1.3.6.1.4.1.519.1"/>
+            <name>R AND S RESEARCH</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="061817659" root="1.3.6.1.4.1.519.1"/>
+                        <name>R AND S RESEARCH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C118411" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="wholesale drug distributor"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69190-258" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1bd61d5b-da5d-45aa-93d9-3ef53282cd52"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150207"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69190-258" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BLUMJK PAIN RELIEF</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TROLAMINE SALICYLATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="10"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H8O4040BHD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TROLAMINE SALICYLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SALICYLIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AV092KU4JH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEPPERMINT OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3L7GR2604E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCEROL FORMAL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="9"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69190-258-09" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20140802"/>
+                              <high value="20161231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part348" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L93432369-b4c9-4593-a04a-03cfb440c41e">
+               <id root="4f4e3f81-b0dc-4c37-b06a-6c001edcc86b"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>PURPOSE</title>
+               <text>
+                  <paragraph>ANALGESIC</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1c48ab90-b46f-4dcd-84db-5565a7e4386c">
+               <id root="77c48293-0efa-42d5-b0ac-5a8ae8341c43"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>TROLAMINE SALICYLATE (10%)</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9aa543ee-b78c-4938-bb06-50064531623c">
+               <id root="20680104-cd8d-4544-8b51-fdf3d8b0434f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>USAGE</title>
+               <text>
+                  <paragraph>temporarily relieves minor pain associated with:</paragraph>
+                  <paragraph>arthritis<br/>simple backache<br/>muscle strains<br/>sprains<br/>headache</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le80efd8e-74eb-4b01-810d-ca77febc3d7d">
+               <id root="3568009d-b33b-4925-81c3-98fb03f73bbe"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>FOR EXTERNAL USE ONLY</paragraph>
+                  <paragraph>USE ONLY AS DIRECTED</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+               <component>
+                  <section ID="L803ba865-50cb-4b4f-8009-985478a5ad58">
+                     <id root="09a357a3-54f9-4519-bca8-52ff8edb53a7"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>WHEN USING THIS PRODUCT</title>
+                     <text>
+                        <paragraph>avoid contact with eyes <br/>ask you doctor to check your INR more frequently if you are taking anticoagulants</paragraph>
+                     </text>
+                     <effectiveTime value="20150207"/>
+                     <component>
+                        <section ID="Lab06eae9-877f-47b0-b6fc-70707209e78f">
+                           <id root="8cd2e18a-2d04-4749-9125-05a26265c3a7"/>
+                           <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                           <title>DO NOT USE</title>
+                           <text>
+                              <paragraph>do not use if you are allergic to salicylates, aspirin, or any of the inactive ingredients</paragraph>
+                              <paragraph>do not use if seal is broken or is not visible</paragraph>
+                           </text>
+                           <effectiveTime value="20150207"/>
+                           <component>
+                              <section ID="L36d58095-5452-4c9b-9141-a0cb4b71e492">
+                                 <id root="a1751a5e-73b7-4ddd-911b-6daf49410b61"/>
+                                 <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                                 <title>Stop use and ask a doctor if</title>
+                                 <text>
+                                    <paragraph>condition worsens<br/>redness is present<br/>irritation develops<br/>symptoms persist for more than 7 days or clear up and occur again within a few days</paragraph>
+                                 </text>
+                                 <effectiveTime value="20150207"/>
+                                 <component>
+                                    <section ID="Lc4131036-5c81-4772-9673-586f1c6c8927">
+                                       <id root="991d5e93-f81b-4331-8324-9f99cbfded2b"/>
+                                       <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                                       <title>keep out of reach of children</title>
+                                       <text>
+                                          <paragraph>If swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+                                       </text>
+                                       <effectiveTime value="20150207"/>
+                                       <component>
+                                          <section ID="L616b0863-1731-47d4-810f-c5e6c5e91e9c">
+                                             <id root="c1b773ee-0bad-4326-bebe-ff633d4bc780"/>
+                                             <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                                             <title>If pregnant or breast-feeding</title>
+                                             <text>
+                                                <paragraph>ask a health professional before use.</paragraph>
+                                             </text>
+                                             <effectiveTime value="20150207"/>
+                                          </section>
+                                       </component>
+                                    </section>
+                                 </component>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcfdd0a9d-4210-4a92-8312-778430bea985">
+               <id root="17cfc42f-f8b9-4b37-ad00-31fca405d7e4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>storage</title>
+               <text>
+                  <paragraph>store under 30C (86F)</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld333990b-4848-42e9-a312-da8759822021">
+               <id root="a9ef799f-f734-4d6c-b282-588ad056d86f"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>inactive ingredients</title>
+               <text>
+                  <paragraph>isopropyl alcohol, glycerol, peppermint oil, purified water</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Laeb9f0dd-818d-4523-85c2-b85a71e2d8b2">
+               <id root="a12dae92-bd36-4236-ab00-ed84f8012af7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>directions for use</title>
+               <text>
+                  <paragraph>Apply bluMjk pain relief liberally to a wide area covering a circle with a diameter of at least four (4) inches from the point of maximum pain. Keep painful area at reat for ten (10) minutes after application. If pain persists after the first application, reapply. You may reapply every four (4) to six (6) hours as needed. Begin with a liberal amount, reduce with each use, and maintain the effective amount for optimum results. </paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbec1eca8-f5ae-49c2-8fa5-1658deb3bd16">
+               <id root="0942fc97-ad6d-4b6f-8e97-f1f80b4b8bfd"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions?</title>
+               <text>
+                  <paragraph>818-358-4960 </paragraph>
+                  <paragraph>info@rs-research.net</paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L924f32ce-8426-48f3-96a4-2ab2cf441fe9">
+               <id root="a83c0403-8835-4c49-a554-c86886d81422"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>bluMjk Pain Relief</paragraph>
+                  <paragraph>Topical Penetrating Analgesic</paragraph>
+                  <paragraph>Pain Relief in Under 3 Minutes</paragraph>
+                  <paragraph>Topical Analgesic</paragraph>
+                  <paragraph>Works on Contact</paragraph>
+                  <paragraph>Net Content: 9g</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6313911c-adee-4b4f-81f4-4c8244fc098a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150207"/>
+               <component>
+                  <observationMedia ID="L6313911c-adee-4b4f-81f4-4c8244fc098a">
+                     <text>blumjk</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="blumjk.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

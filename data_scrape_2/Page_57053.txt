@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3d7b79b6-f30a-4cf5-8d7c-7404e62a6b55"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Clear Advantage <br/>Clarifying Wash</title>
+   <effectiveTime value="20120329"/>
+   <setId root="d8725249-6aba-41f6-a900-e6ace11169bf"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="021541164" root="1.3.6.1.4.1.519.1"/>
+            <name>Arbonne International, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="9fb65853-e033-4ce3-957e-8789df606501"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20120329"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42508-255" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clear Advantage <suffix>Clarifying Wash</suffix>
+                        </name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SALICYLIC ACID</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SALICYLIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SALICYLIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5OCF3O11KX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COCAMIDOPROPYL BETAINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z17H97EA6Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DECYL GLUCOSIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YM0K64F20V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-120 METHYL GLUCOSE DIOLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3XUS85K0RA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TI9T76XD44" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ORANGE PEEL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2788Z9758H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCYRRHIZA GLABRA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="01G73H6H83" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HOPS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="12X9JI52BS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MALVA SYLVESTRIS FLOWER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="DJO934BRBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALFALFA WHOLE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0022LFJ74Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TARAXACUM OFFICINALE LEAF</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9Q24RAI43V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VIOLA TRICOLOR</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QN83US2B0N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASCORBYL PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1D1K0N0VVC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VITAMIN A PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9E8X80D2L0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1V74VH163T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PIDOLATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C32PQ86DH4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC PIDOLATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="S95658MI3W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-GLUCAN OLIGOSACCHARIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2KAG279R6R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEHYDROACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1AEY1M553N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MENTHA ARVENSIS LEAF OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A389O33LX6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MENTHA PIPERITA LEAF</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AKN3KSD11B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ORANGE OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2R04ONI662" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EUCALYPTUS OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AK85U7Y3MV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENNYROYAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM SORBATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8NLQ36F6MM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM ANHYDROUS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="103"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42508-255-34" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part333D" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC MONOGRAPH FINAL"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090316"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="P18">
+               <id root="cf15eefb-bbba-468f-9d23-bf41c8bd79f3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Drug Facts</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P1">
+               <id root="59b7dce9-5854-422b-b065-0e63e200d74e"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient</title>
+               <text>
+                  <paragraph>Salicylic Acid 1%</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P2">
+               <id root="100edf11-1134-40fe-895e-61d11ba65683"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Acne Medication Gel</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P3">
+               <id root="ea8814fa-d797-4683-aabf-4113d82fe483"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <list listType="unordered" styleCode="Square">
+                     <item>for the treatment of acne</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P4">
+               <id root="4ec5cd49-3625-4ea5-b1b9-509c583505c0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For external use only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+               <component>
+                  <section ID="P5">
+                     <id root="abda3066-f44d-4208-9ffb-3193fff53063"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Do not use</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Square">
+                           <item>around eye area. If contact occurs, rinse thoroughly with water.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20120329"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="P8">
+                     <id root="002592d4-d0e3-4b05-b0e1-f0712e51df0a"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">When using this product</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Square">
+                           <item>apply to affected areas only</item>
+                           <item>using other topical acne medications at the same time or immediately following use of this product may increase dryness or irritation of the skin. If this occurs, only one medication should be used unless directed by a doctor.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20120329"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="P9">
+                     <id root="317d0d65-736d-4336-8869-7c7437f9bf8f"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Stop use and ask a physician</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Square">
+                           <item>if rash or irritation develops and lasts</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20120329"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="P11">
+                     <id root="04c3c0bc-c079-4c6c-9356-19a71e559fa2"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children. </content>If swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20120329"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="P12">
+               <id root="1bae5beb-f137-47a9-b99d-2e506342a8c6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered" styleCode="Square">
+                     <item>apply a small amount over damp face and neck, massaging in circular motions while concentrating on areas of congestion and oiliness</item>
+                     <item>avoid eye area</item>
+                     <item>rinse thoroughly with warm water and pat dry</item>
+                     <item>because excessive drying of the skin may occur, start with one application daily and gradually increase to twice daily if needed or as directed by a doctor</item>
+                     <item>if bothersome dryness or peeling occurs, reduce application to once a day or every other day</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P13">
+               <id root="7c909f9e-b8b4-4ae3-b352-de5e1d9cb1da"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <paragraph>Store at 20°C–25°C (68°F–77°F)</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P14">
+               <id root="1de9d29e-62bc-49c7-a4a9-080882eff100"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>WATER, COCAMIDOPROPYL BETAINE, DECYL GLUCOSIDE, PEG-120 METHYL GLUCOSE DIOLEATE, BUTYLENE GLYCOL, CITRUS AURANTIUM DULCIS (ORANGE) PEEL EXTRACT, GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT, HUMULUS LUPULUS (HOPS) EXTRACT, MALVA SYLVESTRIS (MALLOW) FLOWER EXTRACT, MEDICAGO SATIVA (ALFALFA) EXTRACT, TARAXACUM OFFICINALE (DANDELION) LEAF EXTRACT, VIOLA TRICOLOR EXTRACT, ASCORBYL PALMITATE, RETINYL PALMITATE, TOCOPHERYL ACETATE, SODIUM PCA, ZINC PCA, GLYCERIN, ALPHA-GLUCAN OLIGOSACCHARIDE, BENZYL ALCOHOL, DEHYDROACETIC ACID, SODIUM CHLORIDE, MENTHA ARVENSIS LEAF OIL, MENTHA PIPERITA (PEPPERMINT) LEAF EXTRACT, CITRUS AURANTIUM DULCIS (ORANGE) OIL, EUCALYPTUS GLOBULUS LEAF OIL, MENTHA PULEGIUM OIL, POTASSIUM SORBATE, DISODIUM EDTA.</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P15">
+               <id root="a3257909-6e16-4652-8a78-4c8dc868ce74"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1.800.272.6663</content>
+                     <br/>Monday–Friday 6 a.m.–6 p.m.<br/>Pacific time</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P17">
+               <id root="e92c4ac9-6ba7-44a1-826d-3a399a294e38"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by<br/>Arbonne International, LLC<br/>Irvine, CA 92618 U.S.A.</paragraph>
+               </text>
+               <effectiveTime value="20120329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="P16">
+               <id root="86534310-17a5-496f-8e12-df524f3cb44f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 103 mL Tube Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ACNE MEDICATION</content>
+                     <br/>ARBONNE<sub>®</sub>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">clear<br/>advantage</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CLARIFYING WASH</content>
+                  </paragraph>
+                  <paragraph>Salicylic Acid 1%<br/>Dermatologist Tested</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.5 fl. oz./103 mL</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20120329"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Principal Display Panel - 103 mL Tube Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="arbonne-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

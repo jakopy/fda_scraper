@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="fbe7f222-72d1-43ef-b605-1609c32e4f6a"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20151102"/>
+   <setId root="7808265c-4b6e-4a40-802f-71cd364a0ba0"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="650833994" root="1.3.6.1.4.1.519.1"/>
+            <name>Rxhomeo Private Limited d.b.a. Rxhomeo, Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="832534981" root="1.3.6.1.4.1.519.1"/>
+                        <name>Rxhomeo, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C118411" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="wholesale drug distributor"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="15631-0447" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650833994" root="1.3.6.1.4.1.519.1"/>
+                        <name>Rxhomeo Private Limited d.b.a. Rxhomeo, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="15631-0447" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="15631-0447" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="de28df25-679d-47b3-afb1-475e374ff9bb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20151102"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="15631-0447" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TRIFOLIUM REPENS</name>
+                        <formCode code="C42969" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PELLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TRIFOLIUM REPENS</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="49Y788T742" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIFOLIUM REPENS FLOWER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="49Y788T742" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIFOLIUM REPENS FLOWER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="750"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="2500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="12500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="15631-0447-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73614" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved homeopathic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb61a53b7-b18b-43f6-b306-436b847500e8">
+               <id root="29f5909d-3f9c-4778-9cf6-dca070dd562d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT</title>
+               <text>
+                  <paragraph>TRIFOLIUM REPENS HPUS 1X and higher</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0805a43f-ed47-486d-964c-085a6fd02eb2">
+               <id root="26418926-882f-4311-9095-e77e2ebc0ed7"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>USES</title>
+               <text>
+                  <paragraph>Cystitis</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L86f0dc42-c607-4af0-8780-fc10e0a08c9f">
+               <id root="d5ca1f17-86fc-4a81-9662-3bbe50b6b0ed"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Condition listed above or as directed by the physician</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0f97fe14-79c7-4f0c-973e-c35f173bd4ee">
+               <id root="7bf81d98-6b2d-406f-90d7-3931959df014"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE</title>
+               <text>
+                  <paragraph>Adults- Take 4 or 6 Pellets by mouth, three times daily or as suggested by physician. Children 2 years and older- take 1/2 the adult dose.</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6ff86796-70a2-43bc-b81b-de753fcc12d2">
+               <id root="f8f93add-5f62-4de8-8caf-0e237138dfd9"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>This product is to be used for self-limiting conditions</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+               <component>
+                  <section ID="L827fd2c3-5352-4c71-9c81-ca05953b4d22">
+                     <id root="1b9fee44-c054-4ffb-89cc-08c122578b39"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <text>
+                        <paragraph>If symptoms do not improve in 4 days, or worsen, discontinue use and seek assistance of health professional</paragraph>
+                     </text>
+                     <effectiveTime value="20151102"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Le4174941-bc92-4e8b-ba9c-9f63dfcddb6e">
+                     <id root="354e19e4-e4df-45f8-80af-b81a24185d11"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <text>
+                        <paragraph>As with any drug, if you are preganant, or nursing a baby, seek professional advice before taking this product</paragraph>
+                     </text>
+                     <effectiveTime value="20151102"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L84a62a0b-8e71-4302-a673-83bbda25800a">
+                     <id root="d68bdf22-a613-4834-bb4c-38562e62e1f5"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>Keep this and all medication out of reach of children</paragraph>
+                     </text>
+                     <effectiveTime value="20151102"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L9ba0980e-b672-4fa9-9f4c-24e7c567f13e">
+                     <id root="1ccac097-a865-4d2a-b902-6b219511cd4f"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <text>
+                        <paragraph>Do not use if capseal is broken or missing. </paragraph>
+                        <paragraph>Close the cap tightly after use.</paragraph>
+                     </text>
+                     <effectiveTime value="20151102"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1b9c4104-e1a9-4eba-8e48-6efe6ff63629">
+               <id root="77a4f739-23b5-4163-8e42-21f5d42413ab"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Sucrose</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9309427f-e20f-40c8-9cef-d78b316ff686">
+               <id root="4abc6c52-7769-458a-98b0-4a5679a58dab"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store in a cool dark place</paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld813c4ce-aec3-49e4-b2fb-5843ec545477">
+               <id root="05a94e49-fda6-46de-b371-edc11e6a8a2a"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>QUESTIONS OR COMMENTS</title>
+               <text>
+                  <paragraph>
+                     <linkHtml href="http://www.rxhomeo.com/">www.Rxhomeo.com</linkHtml> | 1.888.2796642 | <linkHtml href="http://mailto:info@rxhomeo.com">info@rxhomeo.com</linkHtml>
+                  </paragraph>
+                  <paragraph>Rxhomeo, Inc 9415 Burnet Road, Suite 312, Austin, TX 78758</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20151102"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8ca9725c-5471-4643-967a-bbea5c4ce113">
+               <id root="8dea7477-1d93-4a0c-ba16-b4dd84f41965"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L54bb9b8a-2162-46b6-a913-0c6db1124c38"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151102"/>
+               <component>
+                  <observationMedia ID="L54bb9b8a-2162-46b6-a913-0c6db1124c38">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="15631-0447.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

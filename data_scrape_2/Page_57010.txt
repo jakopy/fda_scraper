@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5607d2fb-8ff5-4a20-afcc-19d5fa6bddc4"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Glytone essentials rejuvenate daily</title>
+   <effectiveTime value="20120504"/>
+   <setId root="afadfb8d-f3e4-46a2-81a4-d6f518114aa8"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="784338563" root="1.3.6.1.4.1.519.1"/>
+            <name>Genesis Pharmaceutical</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ac48aa5b-faf2-40dd-9f89-339c5df10ca9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100520"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64760-203" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Glytone Essentials Rejuvenate daily<suffix/>
+                        </name>
+                        <formCode code="C29167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>avobenzone, octinoxate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="4.2"/>
+                              <denominator unit="mL" value="60"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4Y5P7MUD51" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>octinoxate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4Y5P7MUD51" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>octinoxate</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="1.2"/>
+                              <denominator unit="mL" value="60"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G63QQF2NOX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Avobenzone</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G63QQF2NOX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Avobenzone</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0WT12SX38S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCOLIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NMQ347994Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYCLOMETHICONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2EH13UN8D3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLOCTYL SALICYLATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7BSG7DF10Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-150 STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RKI3S914RT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONOL (250000 MW)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PL360EPO9J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SOY STEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="HIE492ZZ3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOXYETHANOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9E8X80D2L0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E4F12ROE70" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>C13-14 ISOPARAFFIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64760-203-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100520"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part352" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="089dcca1-c28d-4e96-afeb-b6340ec4b212"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Directions</paragraph>
+                  <paragraph>Apply in the morning to cleansed face and neck or as directed by your physician. Apply liberally 15 minutes before sun exposure. Use a water resistant sunscreen if swimming or sweating. Reapply at least every 2 hours. Sun Protection Measures. Spending time in the sun increases your risk of skin cancer and early skin aging. To decrease this risk, regularly use a sunscreen with a broad spectrum SFP value of 15 or higher and other sun protection measures including: limit time in the sun, especially from 10 am - 2 pm. Wear long-sleeved shirts, pants, hats, and sunglasses.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="40edaebe-6c5d-4c9a-8e86-b1a0d3139d65"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>INactive Ingredients Water (Aqua), Glycolic Acid, Cyclomethicone, Butloctyl Salicylate, Glyceryl stearate, Glycerin, Stearoxy Dimethicone, Ammonium Hydroxide, PEG-150 Stearate, Cetyl Alcohol, Dimethiconol, Glycine Soja (Soybean), Sterols, Phenxyethanol, Xanthan Gum, Methyl-paraben, Polyacrylamide, Tocopheryl Acetate, Disodium EDTA, C13-14 Isoparaffin,Laureth-7.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100520"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="afae509a-0e89-48d2-b1ec-05ae67aa2e07"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Active Ingredients       Purpose</paragraph>
+                  <paragraph>Avobenzone 2.0%        Sunscreen</paragraph>
+                  <paragraph>Oxtinoxate 7.0%                Sunscreen<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100520"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ca543c63-26f4-494a-8912-ede6f25e9688"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>Warnings</paragraph>
+                  <paragraph>Do not use on damaged or broken skin. When using this product keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash occurs. If pregnant or breast-feeding, ask a health professional before use. For external use only. Do not swallow. If swallowed, get medical help or contact Poison Control right away. Do not use on children under 2 years of age unless directed by a doctor.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ae8d396c-eedb-4f5d-b28b-26a8e14c0ecc"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Other Information</paragraph>This product is not intended as a sunscreen for sunbathing use. Keep this product away from heat (above 30 C/86 F) and direct sunlight.<br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6fc99ab2-c12d-4bf1-803b-43a734961805"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>Purpose: Sunscreen<br/>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="56984149-4b32-46d8-8313-9d85162bd8cb"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Uses</paragraph>
+                  <paragraph>Helps prevent sunburn. If used as directed with other sun protection measures (see Directions), decreases the risk of skin cancer and early skin aging caused by the sun.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f3f594fb-a490-4781-8623-8b724421e406"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Keep out of reach of children.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="78003050-7130-4721-89aa-dd2f0ae0f1b5"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <br/>
+                  <renderMultiMedia referencedObject="mm1"/>
+                  <renderMultiMedia referencedObject="mm2"/>
+                  <paragraph>Lightweight, oil-free lotion combines glycolic acid vitamin E with SPF 15 broad spectrum protection. A unique, patented microvesicle delivery system slowly releases skin-enhancing glycolic acid and moisturizing agents throughout the day. Smoothes, softens and retexturizes skin for a healthy looking complexion.</paragraph>
+                  <paragraph>Glytone essentials</paragraph>
+                  <paragraph>Rejuvenate</paragraph>
+                  <paragraph>Daily lotion</paragraph>
+                  <paragraph>broad spectrum</paragraph>
+                  <paragraph>sunscreen SPF 15</paragraph>
+                  <paragraph>glycolic complex</paragraph>
+                  <paragraph>60 ml/e/2 fl.oz</paragraph>
+                  <paragraph>Exclusive to physicians</paragraph>
+                  <paragraph>Pierre Fabre</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Genesis Pharmaceutical, Inc.</paragraph>
+                  <paragraph>Parsippany, NJ 07054</paragraph>
+                  <paragraph>Made in USA</paragraph>
+                  <paragraph>1-800-459-8663</paragraph>
+                  <paragraph>www.glytone-use.com<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120504"/>
+               <component>
+                  <observationMedia ID="mm1" classCode="OBS" moodCode="EVN">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dailylotion1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm2" classCode="OBS" moodCode="EVN">
+                     <text>lbel</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dailylotion2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

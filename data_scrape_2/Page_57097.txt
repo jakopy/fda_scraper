@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7932d6eb-7ddb-48b2-9a15-f47f8be85f41"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>Drug Facts:</title>
+   <effectiveTime value="20160614"/>
+   <setId root="d1085dcc-993b-488e-8fc8-e301bc364d77"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="040908169" root="1.3.6.1.4.1.519.1"/>
+            <name>Only Natural Pet</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                  <name>Apotheca Company</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                        <name>Apotheca Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a7322755-dd26-4486-ae9e-233e94b0cd2d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20160601"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="86035-0003" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Stress and Anxiety</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Arsenicum Album, Passiflora Incarnata, Rhododendron Chrysanthum, Aconitum Napellus, Baryta Carbonica, Chamomilla, Coffea Cruda, Gelsemium Sempervirens, Ignatia Amara, Kali Phosphoricum, Lycopodium Clavatum, Pulsatilla (Pratensis), Staphysagria, Valeriana Officinalis, Zincum Metallicum, Veratrum Album, Calcarea Carbonica</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S7V92P67HO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARSENIC TRIOXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="C96613F5AV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARSENIC CATION (3+)</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="CLF5YFS11O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PASSIFLORA INCARNATA FLOWERING TOP</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="CLF5YFS11O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PASSIFLORA INCARNATA FLOWERING TOP</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="IV92NQJ73U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RHODODENDRON AUREUM LEAF</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="IV92NQJ73U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RHODODENDRON AUREUM LEAF</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U0NQ8555JD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACONITUM NAPELLUS</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="U0NQ8555JD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACONITUM NAPELLUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6P669D8HQ8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BARIUM CARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="V645272HLN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BARIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G0R4UBI2ZZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MATRICARIA RECUTITA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G0R4UBI2ZZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MATRICARIA RECUTITA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3SW678MX72" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARABICA COFFEE BEAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3SW678MX72" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARABICA COFFEE BEAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="639KR60Q1Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELSEMIUM SEMPERVIRENS ROOT</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="639KR60Q1Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GELSEMIUM SEMPERVIRENS ROOT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1NM3M2487K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STRYCHNOS IGNATII SEED</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1NM3M2487K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STRYCHNOS IGNATII SEED</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="CI71S98N1Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM PHOSPHATE, DIBASIC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="NK08V8K8HR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHOSPHATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="C88X29Y479" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYCOPODIUM CLAVATUM SPORE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="C88X29Y479" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYCOPODIUM CLAVATUM SPORE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8E272251DI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PULSATILLA PRATENSIS</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8E272251DI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PULSATILLA PRATENSIS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="00543AP1JV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DELPHINIUM STAPHISAGRIA SEED</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="00543AP1JV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DELPHINIUM STAPHISAGRIA SEED</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JWF5YAW3QW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VALERIAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="JWF5YAW3QW" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VALERIAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="J41CSQ7QDS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J41CSQ7QDS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ZINC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="30"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QNS6W5US1Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VERATRUM ALBUM ROOT</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="QNS6W5US1Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VERATRUM ALBUM ROOT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="12"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2E32821G6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OYSTER SHELL CALCIUM CARBONATE, CRUDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2E32821G6I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OYSTER SHELL CALCIUM CARBONATE, CRUDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="86035-0003-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150803"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73614" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved homeopathic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldd921b28-3af0-4bfb-ae32-dda4abcc8a77">
+               <id root="6f677a32-fd8f-4e41-89f7-550ac266598d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENTS:</title>
+               <text>
+                  <paragraph>Arsenicum Album 6X, Passiflora Incarnata 6X, Rhododendron Chrysanthum 6X, Aconitum Napellus 12X, Baryta Carbonica 12X, Chamomilla 12X, Coffea Cruda 12X, Gelsemium Sempervirens 12X, Ignatia Amara 12X, Kali Phosphoricum 12X, Lycopodium Clavatum 12X, Pulsatilla (Pratensis) 12X, Staphysagria 12X, Valeriana Officinalis 12X, Zincum Metallicum 12X, Veratrum Album 30X, Calcarea Carbonica 12C.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L134ccda1-8ac8-4736-963f-6d40ba01ee9d">
+               <id root="d548690a-d341-4870-9c08-25798172cf46"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>INDICATIONS:</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>For temporary relief of fear and anxiety caused by loud noises, travel, separation, thunderstorms, and other stressful situations.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8b24d618-85a7-48af-ba64-995c9cb245e0">
+               <id root="307461a2-3d75-4762-b077-c0a3d691b088"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf5a9f36b-ab4d-4249-b8e7-5a23f76e61a9">
+               <id root="064a977f-92f5-4fee-a2f0-3d1a95096223"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>KEEP OUT OF REACH OF CHILDREN:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb2134cf8-28fe-4f2f-bc90-3c77a19af9db">
+               <id root="b6f1f77b-5ac9-4071-bee5-e3176d229a2a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS:</title>
+               <text>
+                  <paragraph>For use in canines and felines. Give 5 to 10 drops 3 times daily or as directed by your veterinarian. Place drops in mouth or purified drinking water, or mix with food or treat.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4723fd5b-40ab-4d3e-9a6c-89774107dfb0">
+               <id root="26d8be9b-ae31-46d5-a45e-15d7d792c8d4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS:</title>
+               <text>
+                  <paragraph>For temporary relief of fear and anxiety caused by loud noises, travel, separation, thunderstorms, and other stressful situations.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf33ba169-a594-4e6b-a081-03f913cb6a69">
+               <id root="8d6300f6-791b-4335-afcf-9f2e248b35b4"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS:</title>
+               <text>
+                  <paragraph>Demineralized water, Ethanol 25%</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lde2e01c0-e1bd-46da-9540-600e8962f647">
+               <id root="ca30b194-4395-4028-a2c9-15a4f1d597ec"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>QUESTIONS:</title>
+               <text>
+                  <paragraph>Dist. by: Only Natural Pet Store, 5744 Central Ave.,</paragraph>
+                  <paragraph>Ste. 201 Boulder, CO 80301 USA 1-888-937-6677</paragraph>
+                  <paragraph/>
+                  <paragraph>To learn more about this formula, including possible contraindications or warnings, as well as our many other homeopathic formulas, please visit our web site at <linkHtml href="http://www.onlynaturalpet.com/reorder/homeopathy">www.onlynaturalpet.com/reorder/homeopathy</linkHtml>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le0704943-9832-438b-8670-2a2e9885329d">
+               <id root="2bc5f71d-c162-4f5c-99d1-4b451f9b45e9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL DISPLAY:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ONLY NATURAL PET</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC: 86035-0003-1</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Homeopathic</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STRESS &amp; ANXIETY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 FL OZ / 30 ML</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">VETERINARIAN FORMULATED</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="L3e8c5978-d4a3-4758-8842-19c0c5be88d5"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160601"/>
+               <component>
+                  <observationMedia ID="L3e8c5978-d4a3-4758-8842-19c0c5be88d5">
+                     <text>Stress and Anxiety</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ONPS03 Stress &amp; Anxiety 1oz 5-25-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

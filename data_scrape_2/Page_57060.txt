@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a070c051-af1a-4805-8828-f81134e035db"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20160426"/>
+   <setId root="1654d4d8-98a3-46bf-b8b4-772ec11054a1"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="650833994" root="1.3.6.1.4.1.519.1"/>
+            <name>Rxhomeo Private Limited d.b.a. Rxhomeo, Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650833994" root="1.3.6.1.4.1.519.1"/>
+                        <name>Rxhomeo Private Limited d.b.a. Rxhomeo, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="15631-2320" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="15631-2320" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f24fc079-aa34-44ee-8814-d8b5db11fb2d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20160512"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="15631-2320" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>RUTA GRAV</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>RUTA GRAV</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N94C2U587S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RUTA GRAVEOLENS FLOWERING TOP</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N94C2U587S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RUTA GRAVEOLENS FLOWERING TOP</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ZY81Z83H0X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALOE VERA LEAF</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="15631-2320-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="15631-2320-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="15631-2320-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="15631-2320-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73614" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved homeopathic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb61a53b7-b18b-43f6-b306-436b847500e8">
+               <id root="a10e6afc-0471-43cf-9a07-12116f19d256"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT</title>
+               <text>
+                  <paragraph>RUTA GRAV GEL TINC HPUS</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0805a43f-ed47-486d-964c-085a6fd02eb2">
+               <id root="edb65e08-b57e-41d5-a07e-597c5d82e4c8"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>USES</title>
+               <text>
+                  <paragraph>Injuries, pains to exertion, overstrain; lameness and aching pain</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L86f0dc42-c607-4af0-8780-fc10e0a08c9f">
+               <id root="c955f9b4-6eb0-4d65-ba13-59ea08f27347"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Condition listed above or as directed by the physician</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldd1e12b1-108b-410e-81e9-fab5d10c91bf">
+               <id root="3bcbdc88-c19a-499f-8f42-5c79313a92e7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION SECTION</title>
+               <text>
+                  <paragraph>Apply a thin layer of Gel to the affected area, repeat 3 times a day or as needed.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6ff86796-70a2-43bc-b81b-de753fcc12d2">
+               <id root="70030606-a2a9-4a4a-b473-e3291d13e7ec"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>This product is to be used for self-limiting conditions</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+               <component>
+                  <section ID="L827fd2c3-5352-4c71-9c81-ca05953b4d22">
+                     <id root="6e9515fe-0350-4f0c-bba9-ad55dd538fc6"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <text>
+                        <paragraph>If symptoms do not improve in 4 days, or worsen, discontinue use and seek assistance of health professional</paragraph>
+                     </text>
+                     <effectiveTime value="20160426"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Le4174941-bc92-4e8b-ba9c-9f63dfcddb6e">
+                     <id root="98f97946-2791-4247-856c-502c26c7e7ba"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <text>
+                        <paragraph>As with any drug, if you are preganant, or nursing a baby, seek professional advice before taking this product</paragraph>
+                     </text>
+                     <effectiveTime value="20160426"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L84a62a0b-8e71-4302-a673-83bbda25800a">
+                     <id root="f14d2608-7cbb-4a97-8ce3-08b91cbda840"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>Keep this and all medication out of reach of children</paragraph>
+                     </text>
+                     <effectiveTime value="20160426"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L9ba0980e-b672-4fa9-9f4c-24e7c567f13e">
+                     <id root="a83b6cf1-38d7-4370-9630-0831bee3f7d3"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <text>
+                        <paragraph>Do not use if capseal is broken or missing.<br/>Close the cap tightly after use.</paragraph>
+                     </text>
+                     <effectiveTime value="20160426"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1b9c4104-e1a9-4eba-8e48-6efe6ff63629">
+               <id root="00fd291e-8737-49eb-9999-8d558819db2d"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>ALOE VERA GEL</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9309427f-e20f-40c8-9cef-d78b316ff686">
+               <id root="b13c3cd0-5b27-4b09-a3e7-a6d57a4354f8"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store in a cool dark place</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld813c4ce-aec3-49e4-b2fb-5843ec545477">
+               <id root="dc45e665-61c6-4bd8-9946-06af0a2e8f1e"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>QUESTIONS OR COMMENTS</title>
+               <text>
+                  <paragraph>
+                     <linkHtml href="http://www.rxhomeo.com/">www.Rxhomeo.com</linkHtml> | 1.888.2796642 | <linkHtml href="http://mailto:info@rxhomeo.com">info@rxhomeo.com</linkHtml>
+                  </paragraph>
+                  <paragraph>Rxhomeo, Inc 9415 Burnet Road, Suite 312, Austin, TX 78758</paragraph>
+               </text>
+               <effectiveTime value="20160426"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8ca9725c-5471-4643-967a-bbea5c4ce113">
+               <id root="f0044906-849d-448a-9b10-68a9add72857"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La2a57a7c-c19d-44f2-8b16-8e7f1fa1d37a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160512"/>
+               <component>
+                  <observationMedia ID="La2a57a7c-c19d-44f2-8b16-8e7f1fa1d37a">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="15631-2320.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

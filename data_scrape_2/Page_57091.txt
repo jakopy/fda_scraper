@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="24b42d47-26ae-473f-b648-a4e65004f51e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Heparin Sodium in 5% Dextrose Injection<br/>in Plastic Container VIAFLEX Plus Container (PL 146 Plastic)</title>
+   <effectiveTime value="20100823"/>
+   <setId root="bacf5cca-306d-42c1-a8aa-e926c57d076a"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="189326168" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare SA dba Baxter Healthcare of Puerto Rico</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="41802278-3872-4a9c-9bf0-d7e7d7b538ae"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20091006"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0552" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Heparin Sodium in Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HEPARIN SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="10000"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZZ45AB24CA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HEPARIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T2410KM04A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HEPARIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="103"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="51"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BU8V88OWIQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0552-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018814" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20101231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0550" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Heparin Sodium in Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HEPARIN SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="5000"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZZ45AB24CA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HEPARIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T2410KM04A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HEPARIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="103"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="51"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BU8V88OWIQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0550-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018814" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20101231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0549" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Heparin Sodium in Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HEPARIN SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="4000"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZZ45AB24CA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HEPARIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T2410KM04A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HEPARIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="103"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="51"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BU8V88OWIQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0549-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018814" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20101231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_inv-9ced80df-29f9-4f09-bb47-5c076fad90e3">
+               <id root="38f8e962-c905-485c-b46e-fa25d43917c3"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Heparin Sodium in 5% Dextrose Injection is a buffered, sterile, nonpyrogenic solution of Heparin Sodium, USP, derived from porcine intestinal mucosa, standardized for anticoagulant activity, and dextrose in water for injection. Heparin Sodium, USP, is a heterogenous group of straight-chain anionic mucopolysaccharides, called glycosaminoglycans having anticoagulant properties. Although others may be present, the main sugars occurring in heparin are: (1) α-L-iduronic acid 2-sulfate, (2) 2-deoxy-2-sulfamino-α-D-glucose 6-sulfate, (3) ß-D-glucuronic acid, (4) 2-acetamido-2-deoxy-α-D-glucose, and (5) α-L-iduronic acid. These sugars are present in decreasing amounts, usually in the order (2) &gt; (1) &gt; (4) &gt; (3) &gt; (5), and are joined by glycosidic linkages, forming polymers of varying sizes. Heparin is strongly acidic because of its content of covalently linked sulfate and carboxylic acid groups. In heparin sodium, the acidic protons of the sulfate units are partially replaced by sodium ions. The potency of the heparin is determined by biological assay using USP reference standard based upon units of heparin activity per milligram.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_inv-66eb3b2a-303f-4f32-8e27-18ea4b08eb0f">
+                     <id root="1bf0f483-0c44-4ed9-8ea9-a85c346b4b91"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Structure of Heparin Sodium (representative subunits):</title>
+                     <text>
+                        <renderMultiMedia referencedObject="id_de423789-9d68-422e-b79f-8eb2bfb157c4">
+                           <caption ID="id_2686b423-b453-41ac-a98f-51d5608d8b25"/>
+                        </renderMultiMedia>
+                        <paragraph>Dextrose Hydrous, USP, is chemically designated D-gluco pyranose monohydrate, a hexose sugar freely soluble in water. It has the following structural formula:</paragraph>
+                        <renderMultiMedia referencedObject="id_816bb780-58c7-47c9-9731-ae93556cfb36">
+                           <caption ID="id_aa992ecf-8d31-4f99-8933-81982421079c"/>
+                        </renderMultiMedia>
+                        <paragraph>The solution is intended for intravenous use only. It contains no antimicrobial agents or bacteriostatic agents.</paragraph>
+                        <paragraph>Each 100 mL contains 4,000 or 5,000 or 10,000 USP Heparin Units Heparin Sodium, USP with 5 g Dextrose Hydrous, USP, 103 mg Dibasic Sodium Phosphate Dried, USP (Na<sub>2</sub>HPO<sub>4</sub>) and 51 mg Citric Acid Anhydrous, USP (C<sub>6</sub>H<sub>8</sub>O<sub>7</sub>) added as buffers. 20 mg sodium bisulfite is added as a stabilizer. pH 5.5 (5.0 - 6.0). pH may have been adjusted with citric acid and/or sodium hydroxide. Osmolarity 298 mOsmol/L (Actual).</paragraph>
+                        <paragraph>This VIAFLEX Plus plastic container is fabricated from a specially formulated polyvinyl chloride (PL 146 Plastic). VIAFLEX Plus on the container indicates the presence of a drug additive in a drug vehicle. The VIAFLEX Plus plastic container system utilizes the same container as the VIAFLEX plastic container system. The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the plastic container can leach out certain of its chemical components in very small amounts within the expiration period, e.g., di-2-ethylhexyl phthalate (DEHP), up to 5 parts per million. However, the safety of the plastic has been confirmed in tests in animals according to USP biological tests for plastic containers as well as by tissue culture toxicity studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="id_de423789-9d68-422e-b79f-8eb2bfb157c4">
+                     <text>Structure of Heparin sodium (representative subunits)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="24b42d47-26ae-473f-b648-a4e65004f51e-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_816bb780-58c7-47c9-9731-ae93556cfb36">
+                     <text>Dextrose Hydrous, USP structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="24b42d47-26ae-473f-b648-a4e65004f51e-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_inv-bb745aae-1d9f-435a-b9e5-9d1a4b90900f">
+               <id root="927da37e-64b5-4d3e-afaa-82e10933287a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Heparin inhibits reactions that lead to the clotting of blood and the formation of fibrin clots both in vitro and in vivo. Heparin acts at multiple sites in the normal coagulation system. Small amounts of heparin in combination with antithrombin III (heparin cofactor) can inhibit thrombosis by inactivating activated Factor X and inhibiting the conversion of prothrombin to thrombin. Once active thrombosis has developed, larger amounts of heparin can inhibit further coagulation by inactivating thrombin and preventing the conversion of fibrinogen to fibrin. Heparin also prevents the formation of a stable fibrin clot by inhibiting the activation of the fibrin stabilizing factor.</paragraph>
+                  <paragraph>Bleeding time is usually unaffected by heparin. Clotting time is prolonged by full therapeutic doses of heparin; in most cases, it is not measurably affected by low doses of heparin.</paragraph>
+                  <paragraph>Patients over 60 years of age, following similar doses of heparin, may have higher plasma levels of heparin and longer activated partial thromboplastin times (APTTs) compared with patients under 60 years of age.</paragraph>
+                  <paragraph>Heparin does not have fibrinolytic activity; therefore, it will not lyse existing clots.</paragraph>
+                  <paragraph>Peak plasma levels of heparin are achieved 2-4 hours following subcutaneous administration, although there are considerable individual variations. Loglinear plots of heparin plasma concentrations with time for a wide range of dose levels are linear which suggests the absence of zero order processes.</paragraph>
+                  <paragraph>The liver and the reticulo-endothelial system are the sites of biotransformation of heparin. The biphasic elimination curve, a rapidly declining alpha phase (t1/2 = 10 minutes), and after the age of 40 a slower beta phase, indicates uptake in organs. The absence of a relationship between anticoagulant half-life and concentration half-life may reflect factors such as protein binding of heparin.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_inv-9124a9ea-6962-4927-a429-0258c8db5900">
+               <id root="76fef236-cba4-4a38-a272-77fdce042c35"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Heparin Sodium is indicated for:</paragraph>
+                  <paragraph>Anticoagulant therapy in prophylaxis and treatment of venous and arterial thrombosis and its extension;</paragraph>
+                  <paragraph>Prophylaxis and treatment of pulmonary embolism;</paragraph>
+                  <paragraph>Atrial fibrillation with embolization;</paragraph>
+                  <paragraph>Diagnosis and treatment of acute and chronic consumption coagulopathies (disseminated intravascular coagulation);</paragraph>
+                  <paragraph>Prevention of clotting in arterial and heart surgery;</paragraph>
+                  <paragraph>Prophylaxis and treatment of peripheral arterial embolism.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_inv-ac8715af-2496-4069-959f-e98de6a53806">
+               <id root="66a66b27-2834-4a6f-abcc-14e869e84a38"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Heparin sodium should not be used in patients:</paragraph>
+                  <paragraph>With severe thrombocytopenia;</paragraph>
+                  <paragraph>In whom suitable blood coagulation tests - e.g., the whole-blood clotting time, partial thromboplastin time, etc. - cannot be performed at appropriate intervals.</paragraph>
+                  <paragraph>With an uncontrollable active bleeding state (see <linkHtml href="#i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd">Warnings</linkHtml>), except when this is due to disseminated intravascular coagulation.</paragraph>
+                  <paragraph>Solutions containing dextrose may be contraindicated in patients with known allergy to corn or corn products.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd">
+               <id root="518e09da-7f88-4fba-a431-d96a0a593120"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_inv-70b7d2c3-5c29-4ce9-b592-0a1c9261c818">
+                     <id root="dc4720a8-ddcc-4e31-b505-fba40ddc9663"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity</title>
+                     <text>
+                        <paragraph>Patients with documented hypersensitivity to heparin should be given the drug only in clearly life-threatening situations.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-1c0b8da0-5856-4c16-899e-64503b78b205">
+                     <id root="8f99a14d-d16d-41cf-966b-2dab5e2b330d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemorrhage</title>
+                     <text>
+                        <paragraph>Hemorrhage can occur at virtually any site in patients receiving heparin. An unexplained fall in hematocrit, fall in blood pressure, or any other unexplained symptom should lead to serious consideration of hemorrhagic event.</paragraph>
+                        <paragraph>Heparin sodium should be used with extreme caution in disease states in which there is increased danger of hemorrhage. Some of the conditions in which increased danger of hemorrhage exists are:</paragraph>
+                        <paragraph>Cardiovascular - Subacute bacterial endocarditis. Severe hypertension.</paragraph>
+                        <paragraph>Surgical - During and immediately following (a) spinal tap or spinal anesthesia or (b) major surgery, especially involving the brain, spinal cord, or eye.</paragraph>
+                        <paragraph>Hematologic - Conditions associated with increased bleeding tendencies, such as hemophilia, thrombocytopenia, and some vascular purpuras.</paragraph>
+                        <paragraph>Gastrointestinal - Ulcerative lesions and continuous tube drainage of the stomach or small intestine.</paragraph>
+                        <paragraph>Other - Menstruation, liver disease with impaired hemostasis.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_a0cb5cc7-83d3-4c00-a2b5-66aad158224a">
+                     <id root="00c26fc7-7039-4a0a-b8b8-37fea80419fc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Coagulation Testing</title>
+                     <text>
+                        <paragraph>When heparin sodium is administered in therapeutic amounts, its dosage should be regulated by frequent blood coagulation tests. If the coagulation test is unduly prolonged or if hemorrhage occurs, heparin sodium should be discontinued promptly (see <linkHtml href="#i4i_overdosage_id_inv-2484a80e-5fa8-49a6-b238-4aed22bfb3aa">Overdosage</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_528bc355-5fc8-43f6-ae42-5b0c777a647d">
+                     <id root="a3ea8447-e12c-40a4-9352-54d7fa1d18f6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Thrombocytopenia</title>
+                     <text>
+                        <paragraph>Thrombocytopenia has been reported to occur in patients receiving heparin with a reported incidence of up to 30%. Platelet counts should be obtained at baseline and periodically during heparin administration. Mild thrombocytopenia (count greater than 100,000/mm<sup>3</sup>) may remain stable or reverse even if heparin is continued. However, thrombocytopenia of any degree should be monitored closely. If the count falls below 100,000/mm<sup>3</sup> or if recurrent thrombosis develops (see <linkHtml href="#i4i_section_id_63d40e1e-fd50-44f0-935b-b2bae0ea27c9">Heparin-induced Thrombocytopenia (HIT) With or Without Thrombosis</linkHtml>), the heparin product should be discontinued and, if necessary, an alternative anticoagulant administered.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_63d40e1e-fd50-44f0-935b-b2bae0ea27c9">
+                     <id root="e637dd3e-c726-46dc-913a-d53120313de3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Heparin-induced Thrombocytopenia (HIT) (With or Without Thrombosis)</title>
+                     <text>
+                        <paragraph>HIT is a serious immune-mediated reaction resulting from irreversible aggregation of platelets. HIT may progress to the development of venous and arterial thromboses, a condition referred to as HIT with thrombosis. Thrombotic events may also be the initial presentation for HIT. These serious thromboembolic events include deep vein thrombosis, pulmonary embolism, cerebral vein thrombosis, limb ischemia, stroke, myocardial infarction, mesenteric thrombosis, renal arterial thrombosis, skin necrosis, gangrene of the extremities that may lead to amputation, and fatal outcomes.</paragraph>
+                        <paragraph>Once HIT (with or without thrombosis) is diagnosed or strongly suspected, all heparin sodium sources (including heparin flushes) should be discontinued and an alternative anticoagulant used. Future use of heparin sodium, especially within 3 to 6 months following the diagnosis of HIT (with or without thrombosis), and while patients test positive for HIT antibodies, should be avoided.</paragraph>
+                        <paragraph>Immune-mediated HIT is diagnosed based on clinical findings supplemented by laboratory tests confirming the presence of antibodies to heparin sodium, or platelet activation induced by heparin sodium. A drop in platelet count greater than 50% from baseline is considered indicative of HIT. Platelet counts begin to fall 5 to 10 days after exposure to heparin sodium in heparin sodium–naïve individuals, and reach a threshold by days 7 to 14. In contrast, “rapid onset” HIT can occur very quickly (within 24 hours following heparin sodium initiation), especially in patients with a recent exposure to heparin sodium (i.e. previous 3 months). Thrombosis development shortly after documenting thrombocytopenia is a characteristic finding in almost half of all patients with HIT.</paragraph>
+                        <paragraph>Thrombocytopenia of any degree should be monitored closely. If the platelet count falls below 100,000/mm<sup>3</sup> or if recurrent thrombosis develops, the heparin product should be promptly discontinued and alternative anticoagulants considered if patients require continued anticoagulation.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_2dd5861f-a532-4d74-b245-fd647c7f43a6">
+                     <id root="72578f4f-a673-4490-a485-705d73d9ec21"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Delayed Onset of HIT (With or Without Thrombosis)</title>
+                     <text>
+                        <paragraph>Heparin-induced thrombocytopenia (with or without thrombosis) can occur up to several weeks after the discontinuation of heparin therapy. Patients presenting with thrombocytopenia or thrombosis after discontinuation of heparin sodium should be evaluated for HIT (with or without thrombosis).</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d1c16614-cb26-48e8-812e-89f00e486c26">
+                     <id root="a486d0c1-6129-4547-bc39-1401bb5a2db6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>Dextrose solutions with low electrolyte concentrations should not be administered simultaneously with blood through the same administration set because of the possibility of pseudoagglutination or hemolysis. The bag container label for these solutions bears the statement: Do not administer simultaneously with blood. </paragraph>
+                        <paragraph>The intravenous administration of solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states, or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentrations of the injections. The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of the injections. </paragraph>
+                        <paragraph>Heparin Sodium in 5% Dextrose Injection contains sodium bisulfite, a sulfite that may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people. </paragraph>
+                        <paragraph>Excessive administration of potassium-free solutions may result in significant hypokalemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_general_id_inv-4197cc02-b23d-4c8a-8c1e-d526ccf3f010">
+               <id root="320a79da-c1cd-4b67-94da-021a51375768"/>
+               <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_b64cd419-fa7a-4e3f-a24e-523c21050336">
+                     <id root="312c4361-c3a3-49c7-ad32-1440b2d1b342"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Thrombocytopenia, Heparin-induced Thrombocytopenia (HIT) (With or Without Thrombosis) and Delayed Onset of HIT (With or Without Thrombosis).</paragraph>
+                        <paragraph>See <linkHtml href="#i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd" title="WARNINGS">WARNINGS</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                     <component>
+                        <section ID="i4i_section_id_a4d51cee-86b6-4e4e-a426-2caa834e02c6">
+                           <id root="ded06d19-4339-44b6-82ed-bed9c32b01cd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Heparin Resistance</title>
+                           <text>
+                              <paragraph>Increased resistance to heparin is frequently encountered in fever, thrombosis, thrombophlebitis, infections with thrombosing tendencies, myocardial infarction, cancer and in postsurgical patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20091006"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_c32f60db-736d-453e-88fa-900074742108">
+                           <id root="e0105118-c484-46c4-a319-efd9819700ff"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Increased Risk in Older Patients, Especially Women</title>
+                           <text>
+                              <paragraph>A higher incidence of bleeding has been reported in patients, particularly women, over 60 years of age.</paragraph>
+                           </text>
+                           <effectiveTime value="20091006"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_5fdcca23-389b-4e42-bd93-6adb5b6b5fda">
+                           <id root="e33a8048-7d9a-4695-b65d-f8f0ebf2f1ab"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Solutions Containing Dextrose</title>
+                           <text>
+                              <paragraph>These solutions should be used with caution in patients with overt or subclinical diabetes mellitis.</paragraph>
+                           </text>
+                           <effectiveTime value="20091006"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_456f285d-d326-4f97-8c84-4b380ac04196">
+                           <id root="646f0c12-1807-4174-8dff-33b1bf816dde"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Use of an electronic flow control device is recommended.</title>
+                           <text>
+                              <paragraph>If administration is controlled by a pumping device, care must be taken to discontinue pumping action before the container runs dry or air embolism may result.</paragraph>
+                           </text>
+                           <effectiveTime value="20091006"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_383c40ca-18f5-4fdb-a44e-574990fbd65a">
+                     <id root="e233358c-02d6-43ee-8fe4-b13dab9174e3"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Periodic platelet counts, hematocrits, and tests for occult blood in stool are recommended during the entire course of heparin therapy, regardless of the route of administration (see <linkHtml href="#i4i_dosage_admin_id_inv-7e3595c7-f6fa-430c-93fc-736874a9f357">Dosage and Administration</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_interaction_id_e55edb5d-81f2-4e55-a6f0-4d399d1e6b5f">
+                     <id root="94314bef-1196-43e0-a84f-834e66150be4"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Oral anticoagulants: Heparin sodium may prolong the one-stage prothrombin time. Therefore, when heparin sodium is given with dicumarol or warfarin sodium, a period of at least 5 hours after the last intravenous dose or 24 hours after the last subcutaneous dose should elapse before blood is drawn if a valid prothrombin time is to be obtained.</paragraph>
+                        <paragraph>Platelet inhibitors: Drugs such as acetylsalicylic acid, dextran, phenylbutazone, ibuprofen, indomethacin, dipyridamole, hydroxychloroquine and others that interfere with platelet-aggregation reactions (the main hemostatic defense of heparinized patients) may induce bleeding and should be used with caution in patients receiving heparin sodium.</paragraph>
+                        <paragraph>Other interactions; Digitalis, tetracyclines, nicotine, antihistamines, or intravenous nitroglycerin may partially counteract the anticoagulant action of heparin sodium.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_20b085b5-2816-4e0a-8768-28b26a54ecd7">
+                     <id root="37388ac4-f241-4407-a3ba-ee256c740c12"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Tests Interactions</title>
+                     <text>
+                        <paragraph>Hyperaminotransferasemia</paragraph>
+                        <paragraph>Significant elevations of aminotransferase (SGOT [AST] and SGPT [ALT]) levels have occurred in a high percentage of patients (and healthy subjects) who have received heparin. Since aminotransferase determinations are important in the differential diagnosis of myocardial infarction, liver disease, and pulmonary emboli, rises that might be caused by drugs (like heparin) should be interpreted with caution.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_e56f0e2e-2180-4a42-bda4-481437385515">
+                     <id root="6e8dbc68-a642-4664-b3a7-0db098806fcf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No long-term studies in animals have been performed to evaluate carcinogenic potential of heparin. Also, no reproduction studies in animals have been performed concerning mutagenesis or impairment of fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_f6e2bf3a-d584-4241-8e95-d2974b099836">
+                     <id root="0c1b2ca1-47bf-45ae-b275-0fc043b9a10f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20091006"/>
+                     <component>
+                        <section ID="i4i_teratogenic_id_ede367b0-fc1d-47c5-ad51-92f3892fcc51">
+                           <id root="b5b16afc-3602-4270-851e-c6cb223c947a"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20091006"/>
+                           <component>
+                              <section ID="i4i_pregnancy_C_id_9d25a2cc-a4a4-4ac5-94ea-8fec460b07c8">
+                                 <id root="9b7d4d1a-e977-4d99-8673-1d564f2005f7"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Animal reproduction studies have not been conducted with heparin sodium. It is not known whether heparin sodium can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Heparin sodium should be given to a pregnant woman only if clearly needed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20091006"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_non_teratogenic_id_ae107268-b933-453b-a489-a1b842efc7d5">
+                           <id root="ef39504d-b874-42b0-8d01-397f2a651a06"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>Nonteratogenic Effects</title>
+                           <text>
+                              <paragraph>Heparin does not cross the placental barrier.</paragraph>
+                           </text>
+                           <effectiveTime value="20091006"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_37a6d690-8336-4ee3-b126-59fe405d1a24">
+                     <id root="f8f93ce6-41fa-414d-a9ab-04667758ec09"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Heparin is not excreted in human milk.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_547b7d2d-6fec-4c9f-a0ab-6b9f852683d5">
+                     <id root="37ef0d09-494e-46ad-bb14-5fa1cd800351"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>See <linkHtml href="#i4i_pediatric_use_id_inv-d7ea473f-657c-4e86-bdf2-0c9afaeebb90">Dosage and Administration - Pediatric Use</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_791f20f2-5bdc-4efa-941f-d037e20791d7">
+                     <id root="2762c70b-b228-4441-a3e4-20d215fcc9d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>A higher incidence of bleeding has been reported in patients over 60 years of age, especially women (see <linkHtml href="#i4i_section_id_b64cd419-fa7a-4e3f-a24e-523c21050336">Precautions, General</linkHtml>). Clinical studies indicate that lower doses of heparin may be indicated in these patients (see <linkHtml href="#i4i_clinical_pharmacology_id_inv-bb745aae-1d9f-435a-b9e5-9d1a4b90900f">Clinical Pharmacology</linkHtml> and <linkHtml href="#i4i_dosage_admin_id_inv-7e3595c7-f6fa-430c-93fc-736874a9f357">Dosage and Administration</linkHtml>).</paragraph>
+                        <paragraph>Do not administer unless solution is clear and seal is intact.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_inv-8dabd290-be9c-46ae-a56e-e125096eed53">
+               <id root="ef7a1b32-282a-4ce5-a70b-7f8670d15a24"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_2bd154fd-4c7a-47cb-b49d-e6e31baf524c">
+                     <id root="a5e7b063-2d68-4b25-ac2a-f99eb890798f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemorrhage</title>
+                     <text>
+                        <paragraph>Hemorrhage is the chief complication that may result from heparin therapy (see <linkHtml href="#i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd">Warnings</linkHtml>). An overly prolonged clotting time or minor bleeding during therapy can usually be controlled by withdrawing the drug (see <linkHtml href="#i4i_overdosage_id_inv-2484a80e-5fa8-49a6-b238-4aed22bfb3aa">Overdosage</linkHtml>). <content styleCode="bold">It should be appreciated that gastrointestinal or urinary tract bleeding during anticoagulant therapy may indicate the presence of an underlying occult lesion.</content> Bleeding can occur at any site but certain specific hemorrhagic complications may be difficult to detect:</paragraph>
+                        <list listType="ordered">
+                           <item>Adrenal hemorrhage, with resultant acute adrenal insufficiency, has occurred during anticoagulant therapy. Therefore, such treatment should be discontinued in patients who develop signs and symptoms of acute adrenal hemorrhage and insufficiency. Initiation of corrective therapy should not depend on laboratory confirmation of the diagnosis, since any delay in an acute situation may result in the patient’s death.</item>
+                           <item>Ovarian (corpus luteum) hemorrhage developed in a number of women of reproductive age receiving short or long-term anticoagulant therapy. This complication if unrecognized may be fatal.</item>
+                           <item>Retroperitoneal hemorrhage.</item>
+                        </list>
+                        <paragraph> </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Thrombocytopenia, Heparin-induced Thrombocytopenia (HIT) (With or Without Thrombosis) and Delayed Onset of HIT (With or Without Thrombosis).</content>
+                        </paragraph>
+                        <paragraph>See <linkHtml href="#i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd" title="WARNINGS">WARNINGS</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_a0981321-1e9f-4e42-b1dd-d2cea0350771">
+                     <id root="cb72f211-a475-43c3-bc90-d7e81326c323"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Local Irritation</title>
+                     <text>
+                        <paragraph>Local irritation, erythema, mild pain, hematoma or ulceration may follow deep subcutaneous (intrafat) injection of heparin sodium.</paragraph>
+                        <paragraph>These complications are much more common after intramuscular use, and such use is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_32762964-ac9f-4cb9-9bc1-c313ca839c3a">
+                     <id root="07f43268-6558-4729-95e1-a4202ae82d11"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity</title>
+                     <text>
+                        <paragraph>General hypersensitivity reactions have been reported, with chills, fever, and urticaria as the most usual manifestations, and asthma, rhinitis, lacrimation, headache, nausea and vomiting, and anaphylactoid reactions, including shock, occurring more rarely. Itching and burning, especially on the plantar site of the feet, may occur. (See <linkHtml href="#i4i_warnings_id_inv-43aa3794-8a02-43d1-9be8-e83fa73521bd">Warnings</linkHtml>, <linkHtml href="#i4i_precautions_general_id_inv-4197cc02-b23d-4c8a-8c1e-d526ccf3f010">Precautions</linkHtml>.)</paragraph>
+                        <paragraph>Certain episodes of painful, ischemic, and cyanosed limbs have in the past been attributed to allergic vasospastic reactions. Whether these are in fact identical to the thrombocytopenia associated complications remains to be determined.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_3550f671-3557-40a7-827a-e92e1194f04c">
+                     <id root="c4cc565f-b500-48ff-9676-2ee538e3c784"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Miscellaneous</title>
+                     <text>
+                        <paragraph>Osteoporosis following long-term administration of high-doses of heparin, cutaneous necrosis after systemic administration, suppression of aldosterone synthesis, delayed transient alopecia, priapism, and rebound hyperlipemia on discontinuation of heparin sodium have also been reported.</paragraph>
+                        <paragraph>Significant elevations of aminotransferase (SGOT [AST] and SGPT [ALT]) levels have occurred in a high percentage of patients (and healthy subjects) who have received heparin.</paragraph>
+                        <paragraph>Other reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia. If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_inv-2484a80e-5fa8-49a6-b238-4aed22bfb3aa">
+               <id root="a4e8887e-bacb-41bb-92f1-c3a7c01d0732"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_32cab9c4-4c2e-4a16-95f0-0a76979d0985">
+                     <id root="d808bdc1-1c91-4661-8bab-1dc44195b505"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Symptoms</title>
+                     <text>
+                        <paragraph>Bleeding is the chief sign of heparin overdosage. Nosebleeds, blood in urine or tarry stools may be noted as the first sign of bleeding. Easy bruising or petechial formations may precede frank bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_7946ca93-bc08-42e3-925f-fe970f5fc3e8">
+                     <id root="a495a157-f5d6-4801-9109-77a9560869f5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>Neutralization of heparin effect.</paragraph>
+                        <paragraph>When clinical circumstances (bleeding) require reversal of heparinization, protamine sulfate (1% solution) by slow infusion will neutralize heparin sodium. <content styleCode="bold">No more than 50 mg</content> should be administered,<content styleCode="bold"> very slowly,</content> in any 10 minute period. Each mg of protamine sulfate neutralizes approximately 100 USP heparin units. The amount of protamine required decreases over time as heparin is metabolized. Although the metabolism of heparin is complex, it may, for the purpose of choosing a protamine dose, be assumed to have a half-life of about 1/2 hour after intravenous injection. Administration of protamine sulfate can cause severe hypotensive and anaphylactoid reactions. Because fatal reactions often resembling anaphylaxis have been reported, the drug should be given only when resuscitation techniques and treatment of anaphylactoid shock are readily available.</paragraph>
+                        <paragraph>For additional information the labeling of Protamine Sulfate Injection, USP products should be consulted.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_inv-7e3595c7-f6fa-430c-93fc-736874a9f357">
+               <id root="c427e225-bd66-4ebb-b408-ca18a0a38413"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Heparin Sodium in 5% Dextrose Injection is for intravenous administration only. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Use of a final filter is recommended during administration of all parenteral solutions, where possible.</paragraph>
+                  <paragraph>The dosage of heparin sodium should be adjusted according to the patient’s coagulation test results. When heparin is given by continuous intravenous infusion, the coagulation time should be determined approximately every 4 hours in the early stages of treatment. When the drug is administered intermittently by intravenous injection, coagulation tests should be performed before each injection, during the early stages of treatment, and at appropriate intervals thereafter. Dosage is considered adequate when the activated partial thromboplastin time (APTT) is 1.5 to 2 times normal or when the whole blood clotting time is elevated approximately 2.5 to 3 times the control value. Physicians should refer to medical literature.</paragraph>
+                  <paragraph>Periodic platelet counts, hematocrits, and tests for occult blood in stool are recommended during the entire course of heparin therapy, regardless of the route of administration.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_inv-a369675e-c676-455d-9996-6891652a6916">
+                     <id root="494d9701-fe96-4a51-b8fc-e45dfc451137"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Converting to Oral Anticoagulant</title>
+                     <text>
+                        <paragraph>When an oral anticoagulant of the coumarin or similar type is to be begun in patients already receiving heparin sodium, baseline and subsequent tests of prothrombin activity must be determined at a time when heparin activity is too low to affect the prothrombin time. This is about 5 hours after the last I.V. bolus and 24 hours after the last subcutaneous dose. If continuous I.V. heparin infusion is used, prothrombin time can usually be measured at any time.</paragraph>
+                        <paragraph>In converting from heparin to oral anticoagulant, the dose of the oral anticoagulant should be the usual initial amount and thereafter prothrombin time should be determined at the usual intervals. To ensure continuous anticoagulation, it is advisable to continue full heparin therapy for several days after the prothrombin time has reached the therapeutic range. Heparin therapy may then be discontinued without tapering.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-43423515-77d2-4109-8e2f-8f0646342b3b">
+                     <id root="c05fc704-b2b9-4a5e-817f-4685dc653726"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Therapeutic Anticoagulant Effect with Full-Dose Heparin</title>
+                     <text>
+                        <paragraph>Although dosage must be adjusted for the individual patient according to the results of suitable laboratory tests, the following dosage may be used as a guideline for continuous intravenous infusion (based on 150 lb [68 kg] patient):</paragraph>
+                        <table ID="id_453f6fe9-a80e-45d0-8ae2-4feaaa389d81" width="400.000">
+                           <col align="left" width="37.5%"/>
+                           <col align="left" width="62.5%"/>
+                           <tbody>
+                              <tr ID="id_2a1f8485-09c4-49ae-8e1c-3d83be0d58c2">
+                                 <td align="left" styleCode="Botrule Toprule Rrule Lrule" valign="top">Initial Dose: </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">5,000 units by I.V. Injection </td>
+                              </tr>
+                              <tr ID="id_7da0ae75-e905-4d09-9417-ba297530231b">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">Continuous Dose: </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">20,000 - 40,000 units/24 hours </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_inv-d7ea473f-657c-4e86-bdf2-0c9afaeebb90">
+                     <id root="24ff7418-65eb-4897-90a3-7a1a726d01ae"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Follow recommendations of appropriate pediatric reference texts. In general, the following dosage schedule may be used as a guideline:</paragraph>
+                        <table ID="id_a96c5440-6165-4983-96bd-65d0fc6d30d6" width="425.000">
+                           <col align="left" width="35.3%"/>
+                           <col align="left" width="64.7%"/>
+                           <tbody>
+                              <tr ID="id_07bd9edc-83ad-4b04-a377-2128cd701282">
+                                 <td align="left" styleCode="Botrule Toprule Rrule Lrule" valign="top">Initial Dose:</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">50 units/kg (I.V., drip)</td>
+                              </tr>
+                              <tr ID="id_0bd3965b-ffce-4263-a92d-9ec7cff40d41">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">Maintenance Dose: </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">100 units/kg (I.V., drip) every four hours, or 20,000 units/M2/24 hours continuously</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_inv-6a1a081d-6ccf-4d94-b3f2-8fcb8317a4c3">
+                     <id root="2f495772-5b6a-46bb-9a7d-80b26a4ec32a"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Patients over 60 years of age may require lower doses of heparin.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-6ff6f343-2bd0-47a1-949a-ade3b6479cba">
+                     <id root="ca9f5d1e-deb5-41a2-bb35-10013808f330"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Surgery of the Heart and Blood Vessels</title>
+                     <text>
+                        <paragraph>Patients undergoing total body perfusion for open-heart surgery should receive an initial dose of not less than 150 units of heparin sodium per kilogram of body weight. Frequently, a dose of 300 units per kilogram is used for procedures estimated to last less than 60 minutes or 400 units per kilogram for those estimated to last longer than 60 minutes.</paragraph>
+                        <paragraph>All injections in VIAFLEX Plus plastic containers are intended for intravenous administration using sterile equipment.</paragraph>
+                        <paragraph>Because dosages of this drug are titrated to response, <content styleCode="bold">no additives should be made to Heparin Sodium in 5% Dextrose Injection</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_inv-a4440424-d142-4c39-8d95-6c58f2746205">
+               <id root="2dcacf37-cb64-4304-a5e5-0947e3f19f95"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Heparin Sodium in 5% Dextrose Injection in VIAFLEX Plus plastic containers is available as follows:</paragraph>
+                  <table ID="id_79918c6b-993b-4b0a-90ac-2b34aeeebf3d" width="467">
+                     <col width="14.1%"/>
+                     <col width="12.8%"/>
+                     <col width="23.6%"/>
+                     <col width="49.5%"/>
+                     <tbody>
+                        <tr ID="id_c399aded-619b-41c0-8cb8-53282dc21f7e">
+                           <td align="center" styleCode="Botrule Toprule Rrule Lrule" valign="top">
+                              <content styleCode="bold">Code</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">Size (mL)</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule Rrule Lrule" valign="top">
+                              <content styleCode="bold">Product Name</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_d03a2f62-28a7-476a-9127-2b5525df3c1d">
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="top">2B0802</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">250</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">0338-0552-02</td>
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="top">Heparin Sodium 25,000 Units in<br/>5% Dextrose Injection</td>
+                        </tr>
+                        <tr ID="id_8a4512a5-5ed6-4132-ab0a-3cb2fde99670">
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="top">2B0808</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">500</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">0338-0550-03</td>
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="top">
+                              <paragraph>Heparin Sodium 25,000 Units in</paragraph>
+                              <paragraph>5% Dextrose Injection</paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_22f8bc2d-187e-4324-9517-1d32db98faab">
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="top">2B0807</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">500</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">0338-0549-03</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">
+                              <paragraph>Heparin Sodium 20,000 Units in</paragraph>
+                              <paragraph> 5% Dextrose Injection </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended the product be stored at room temperature (25°C); brief exposure up to 40°C does not adversely affect the product.</paragraph>
+               </text>
+               <effectiveTime value="20091006"/>
+               <component>
+                  <section ID="i4i_section_id_inv-8a19ba67-9727-421c-8574-db255d09446b">
+                     <id root="fd9f94ea-2f82-44cd-a7ab-e42538083ec1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Direction for Use of VIAFLEX Plus Plastic Container</title>
+                     <text>
+                        <paragraph>Do not use plastic containers in series connections. Such use could result in air embolism due to residual air being drawn from the primary container before administration of the fluid from the secondary container is completed.</paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-caabaf31-4f33-40cf-a6cf-3f8c8dd4df2c">
+                     <id root="ebc9b6cb-c187-4fb5-9d7b-a8fbdbf45e9b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>To Open</title>
+                     <text>
+                        <paragraph>Tear overwrap down side at slit and remove solution container. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. Check for minute leaks by squeezing chamber. If external leaks are found, discard solution as sterility or stability may be impaired. <content styleCode="bold">Do not add supplementary medication.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_inv-b01a509e-22a2-43d8-94a7-6751509d57b0">
+                     <id root="3c9db8c2-4c2d-478b-a8fa-3554e68eacc5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation of Administration</title>
+                     <text>
+                        <list listType="ordered">
+                           <item>Suspend container from eyelet support.</item>
+                           <item>Remove plastic protector from outlet port at bottom of container.</item>
+                           <item>Attach solution administration set. Refer to complete directions accompanying set.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20091006"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_10b42a9d-9517-4266-ac86-a45c51aa4861">
+               <id root="4ffd065a-945c-404d-87ed-9d8ed67c468f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield, IL 60015 USA<br/>Printed in USA</paragraph>
+                  <paragraph>©Copyright 1991, 1994, Baxter Healthcare Corporation. All rights reserved.</paragraph>
+                  <paragraph>07-19-64-110</paragraph>
+                  <paragraph>Rev. August 2010</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20091006"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_9d61179a-3df2-46a6-9630-fb9b0d7ca018">
+               <id root="72b0d58b-cb18-454f-849a-96faf4b02158"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia referencedObject="id_9a00ddbe-2153-4e66-8639-0b2b1d1ea0c2">
+                     <caption ID="id_5d27df82-fc39-4714-bb2e-677d09dde532">Container Label</caption>
+                  </renderMultiMedia>
+                  <paragraph>LOT<br/>EXP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2B0807<br/>
+                     </content>NDC 0338-0549-03</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20,000 units/500 mL</content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="bold">HEPARIN</content>
+                     </content>
+                     <br/>Heparin Sodium in<br/>5% Dextrose Injection<br/>(40 units/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mL</content>
+                     <br/>EACH 100 mL CONTAINS<br/>4000 USP HEPARIN UNITS HEPARIN<br/>SODIUM USP (PORCINE INTESTINAL<br/>MUCOSA) 5 g DEXTROSE HYDROUS USP<br/>103 mg DIBASIC SODIUM PHOSPHATE<br/>DRIED USP 51 mg CITRIC ACID<br/>ANHYDROUS USP 20 mg SODIUM<br/>BISULFITE pH MAY HAVE BEEN ADJUSTED<br/>WITH CITRIC ACID AND/OR SODIUM<br/>HYDROXIDE pH 5.5 (5.0 TO 6.0)<br/>OSMOLARITY 298 mOsmol/L (ACTUAL)<br/>STERILE NONPYROGENIC SINGLE DOSE<br/>CONTAINER<br/>DOSAGE AS DIRECTED BY PHYSICIAN<br/>
+                     <content styleCode="bold">ADMINISTER INTRAVENOUSLY</content>
+                     <br/>
+                     <content styleCode="bold">SEE INSERT RECOMMEND USE OF A</content>
+                     <br/>
+                     <content styleCode="bold">CALIBRATED INFUSION DEVICE <br/>
+                     </content>CAUTIONS SQUEEZE AND INSPECT SOLUTION<br/>CONTAINER WHICH MAINTAINS PRODUCT STERILITY<br/>DISCARD IF LEAKS ARE FOUND<br/>DO NOT ADD SUPPLEMENTARY MEDICATION<br/>MUST NOT BE USED IN SERIES CONNECTIONS<br/>DO NOT ADMINISTER SIMULTANEOUSLY WITH BLOOD<br/>DO NOT USE UNLESS SOLUTION IS CLEAR<br/>
+                     <content styleCode="bold">RX ONLY</content>
+                     <br/>STORE UNIT IN MOISTURE BARRIER<br/>OVERWRAP AT ROOM TEMPERATURE<br/>(25°C/77°F) UNTIL READY TO USE <br/>AVOID EXCESSIVE HEAT<br/>SEE INSERT</paragraph>
+                  <paragraph>VIAFLEX PLUS CONTAINER<br/>PL 146 PLASTIC<br/>BAXTER VIAFLEX AND<br/>PL 146 ARE TRADEMARKS OF<br/>BAXTER INTERNATIONAL INC</paragraph>
+                  <paragraph>FOR PRODUCT INFORMATION<br/>1-800-933-030</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">BAXTER</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">BAXTER HEALTHCARE CORPORATION</content>
+                     <br/>DEERFIELD IL 60015 US</paragraph>
+                  <paragraph>MADE IN USA</paragraph>
+                  <renderMultiMedia referencedObject="id_2e58afff-199e-493d-9e3a-5cf25f76580e">
+                     <caption ID="id_07890c1a-5d0e-49d9-80d6-0b4e2d5332b3">Carton Label</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Lot: XXXXXXX</content>
+                     <br/>QTY: 18-500 mL<br/>
+                     <content styleCode="bold">NDC: 0338-0549-03</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Exp: XXX XXXX<br/>
+                     </content>
+                     <content styleCode="bold">Code: 2B0807</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Heparin Sodium 20,000 units</content>
+                     <br/>
+                     <content styleCode="bold">500 mL Dextrose 5% INJ</content>
+                  </paragraph>
+                  <paragraph>(17)xx00(10)XXXXXXX</paragraph>
+                  <paragraph>(01)50303380549035</paragraph>
+               </text>
+               <effectiveTime value="20100211"/>
+               <component>
+                  <observationMedia ID="id_9a00ddbe-2153-4e66-8639-0b2b1d1ea0c2">
+                     <text>Representative Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="24b42d47-26ae-473f-b648-a4e65004f51e-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_2e58afff-199e-493d-9e3a-5cf25f76580e">
+                     <text>Representative Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="24b42d47-26ae-473f-b648-a4e65004f51e-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

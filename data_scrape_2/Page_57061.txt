@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f12c90b1-3cff-44a8-aded-9ae834f4fbe9"/>
+   <code code="50578-4" codeSystem="2.16.840.1.113883.6.1" displayName="PRESCRIPTION ANIMAL DRUG LABEL"/>
+   <title>Sodium Iodide 20% Injection</title>
+   <effectiveTime value="20160127"/>
+   <setId root="a1e4f1ee-9c3c-4772-a8d0-d0c73acca5df"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="627265361" root="1.3.6.1.4.1.519.1"/>
+            <name>Aspen Veterinary</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="627265361" root="1.3.6.1.4.1.519.1"/>
+                  <name>Aspen Veterinary</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="196078976" root="1.3.6.1.4.1.519.1"/>
+                        <name>Nova-Tech, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5f45efeb-0528-469a-9165-3bb5092586e1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20160127"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="46066-819" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Iodide 20%</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Iodide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5WR8N145C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM IODIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="09G4I6V86Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IODIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="46066-819-25" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L388b6dd4-6e21-461a-831a-50c0e39ad045">
+               <id root="f40e23ad-0b7b-4226-8735-fa84b8613529"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS:</title>
+               <text>
+                  <paragraph>For use as an aid in the treatment of<br/>actinomycosis (lumpy jaw), actinobacillosis<br/>(wooden tongue) and necrotic stomatitis in<br/>cattle. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8f007578-4444-4b46-8a26-f36d833eb856">
+               <id root="b6be7f58-9db3-43ad-9d84-e120daef678a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>The use of sodium iodide is contraindicated in<br/>pregnancy and hyperthyroidism. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L104672df-5327-4fac-a1f6-25b6719c4250">
+               <id root="266d5275-27bf-47e3-bf4b-3f2a769ac725"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>Using aseptic procedures, administer slowly by<br/>intravenous injection. Inject carefully to avoid<br/>deposition ouside of the vein. The usual dose<br/>is 30 mg per pound of body weight (15 mL/100<br/>lb). May be repeated at weekly intervals, if<br/>necessary. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L15a29220-adc7-4030-bb6b-598983c70169">
+               <id root="aee157f5-6386-47c2-be66-ebd072ec051b"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>Aspen Veterinary Resources, Ltd.<br/>Liberty, MO 64068 USA              A247NT 05/15<br/>www.aspenveterinaryresources.com</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactrued by:</content>
+                     <br/>Nova-Tech, Inc.<br/>Grand Island, NE 68801 USA    18-819  RMS# 92-587</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NET CONTENTS:</content>
+                     <br/>
+                     <content styleCode="bold">250 mL (8.45 fl oz)</content>
+                  </paragraph>
+                  <paragraph>Lot No.    Exp. Date </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6348ad0f-1bf8-4b2f-9d72-124cba3f26f0">
+               <id root="253cda05-5aec-444d-9aa9-e2559ab40820"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>CAUTION:</title>
+               <text>
+                  <paragraph>Federal law restricts this drug to use<br/>by or on the order of a licensed veterinarian. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5b67d143-5e6d-4304-b12f-370cea45ee20">
+               <id root="63e44757-271d-4c61-ae54-c73a459deb22"/>
+               <code code="50745-9" codeSystem="2.16.840.1.113883.6.1" displayName="VETERINARY INDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Animal Use Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lde5012a9-7950-46f7-9762-afdee2a17ac0">
+               <id root="5d76e208-2ce3-4f11-83d4-098543bd1185"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep Out of Reach of Children</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld631bad8-35ee-4307-b6f5-ada1659959d5">
+               <id root="ae177d6c-04e0-4035-b2f7-8105c5fb458e"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>COMPOSITION:</title>
+               <text>
+                  <paragraph>Each 100 mL of sterile aqueous solution<br/>contains:<br/>Sodium Iodide..............................20 grams<br/>Water for Injection................................q.s. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5785a8fb-5d71-4428-8e72-d5cc77b02259">
+               <id root="b9908afc-3c49-4813-90c4-1fb5b63a8498"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNING:</title>
+               <text>
+                  <paragraph>Not for use in lactating dairy cows.</paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9ce7b320-eb0d-434b-933f-7a7da34c81e0">
+               <id root="67c061d6-2fed-4d4a-9800-50b1d302a971"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>CAUTION:</title>
+               <text>
+                  <paragraph>Animals vary in their susceptibility of iodides.<br/>Administer with caution until the animal's<br/>tolerance is determined. Discontinue treatment<br/>if adverse reactions occur. </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L644d256e-0f04-462d-a454-7e0a3731b32e">
+               <id root="89f9ff1c-255d-41a6-ba21-88e4f5c1b408"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Store between 15 degrees C - 30 degrees C (59 degrees F - 86 degrees F).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L37ff226a-b5ed-4399-acef-5d464817f89d">
+               <id root="a1e7a57e-880a-4614-8011-2548e8d2eb15"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>TAKE TIME OBSERVE LABEL DIRECTIONS</paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9bff6393-ab7d-4eec-aee3-28a4a2a62b5f">
+               <id root="d63f82ba-fb7a-4ad7-bd8e-754fb4d6e470"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lf1fae796-6f7e-43f5-b520-ad32ad0166a1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+               <component>
+                  <observationMedia ID="Lf1fae796-6f7e-43f5-b520-ad32ad0166a1">
+                     <text>container label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="92-587.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

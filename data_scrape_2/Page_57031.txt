@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="03dace6d-ec79-4506-acfe-47ce10822920"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Shopko Gas Relief Drug Facts</title>
+   <effectiveTime value="20131009"/>
+   <setId root="03dace6d-ec79-4506-acfe-47ce10822920"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="023252638" root="1.3.6.1.4.1.519.1"/>
+            <name>Shopko Stores Operating Co., LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b6acf888-91e5-46af-ab2d-44ef0bb83baf"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20131009"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="37012-657" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gas Relief</name>
+                        <formCode code="C42954" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, LIQUID FILLED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Simethicone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="180"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIMETHICONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="37012-657-72" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part332" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130613"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">L657</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_b1f7060e-470a-4ea4-b948-2e84ee68da28">
+               <id root="44f949f6-12d5-45d7-8a8e-0b9a39ecde51"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient (in each softgel)</title>
+               <text>
+                  <paragraph>Simethicone 180 mg</paragraph>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Purpose_id_f286768d-64d5-4f70-a236-cb63050616aa">
+               <id root="957c9911-937f-4c3c-8441-e5583f26295f"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Anti-gas</paragraph>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_87b9fdc2-aba5-4693-8d3d-b14d3beb4950">
+               <id root="261b1a3e-bcae-479c-866f-a9df7d947154"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>relieves bloating, pressure or fullness commonly referred to as gas</item>
+                  </list>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_b5570084-53d7-4eb7-badf-1df0a265f682">
+               <id root="d8173f78-aa51-4da7-b415-9bebfb6c4d67"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <effectiveTime value="20131009"/>
+               <component>
+                  <section ID="i4i_OTC_Stop_Use_id_0657fc51-f0d8-4aec-a104-3e067f38ca53">
+                     <id root="0f383865-c060-45ee-8c3b-c3562991e3e0"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor if</title>
+                     <text>
+                        <paragraph>condition persists</paragraph>
+                     </text>
+                     <effectiveTime value="20131009"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Keep_Away_Children_id_0e848029-f5ff-40aa-bf79-7769e8d397ca">
+                     <id root="bde8a1c7-17e2-4478-b3f0-f623a7188f5f"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <effectiveTime value="20131009"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_21499414-e6c3-489a-8494-901de4ea6afe">
+               <id root="e7d5f800-f60a-44ca-898d-e8e20f0aa612"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>swallow one or two softgels as needed after a meal</item>
+                     <item>
+                        <caption>•</caption>do not exceed two softgels per day except under the advice and supervision of a physician</item>
+                  </list>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_storage_id_df357f7e-4027-4417-9559-dc7aac82c687">
+               <id root="bb5d05e9-0b8d-4491-85c6-b6928d820070"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>each softgel contains: potassium 5 mg</item>
+                     <item>
+                        <caption>•</caption>store at 68°-77°F (20°-25°C)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_ff79bc37-7877-4e27-950b-66df47241dc6">
+               <id root="dce41798-2c08-4256-a538-f8ffc3bcc0e9"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>FD&amp;C red no. 40, FD&amp;C yellow no. 6, gelatin, glycerin</paragraph>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Questions_id_f9cd06f2-5977-456e-8eeb-40fed3ca56d4">
+               <id root="8712ac86-d356-4715-a2ce-26d47f265e53"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>1-800-719-9260</paragraph>
+               </text>
+               <effectiveTime value="20131009"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_fc812d05-1028-4a6c-9e52-fd3d7e1bd508">
+               <id root="44a35d84-6119-4620-b742-4bcafd81d274"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>Compare to Phazyme® Ultra Strength active ingredient</paragraph>
+                  <paragraph>Ultra Strength</paragraph>
+                  <paragraph>Gas Relief</paragraph>
+                  <paragraph>Anti-Gas/Simethicone 180 mg</paragraph>
+                  <paragraph>Fast Acting</paragraph>
+                  <paragraph>Relief of:</paragraph>
+                  <paragraph>Pressure</paragraph>
+                  <paragraph>Bloating</paragraph>
+                  <paragraph>Gas Discomfort</paragraph>
+                  <paragraph>Easy to Swallow</paragraph>
+                  <paragraph>Actual Size</paragraph>
+                  <paragraph>60 Softgels (180 mg)</paragraph>
+                  <renderMultiMedia ID="id-1906364097" referencedObject="ID_4115fecf-5e9c-41ab-9f24-a73de95fff5e"/>
+                  <renderMultiMedia ID="id-1760359528" referencedObject="eb1397c7-a735-4e81-a570-0e28537e3bbe"/>
+               </text>
+               <effectiveTime value="20131009"/>
+               <component>
+                  <observationMedia ID="ID_4115fecf-5e9c-41ab-9f24-a73de95fff5e">
+                     <text>Shopko Gas Relief.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="03dace6d-ec79-4506-acfe-47ce10822920-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="eb1397c7-a735-4e81-a570-0e28537e3bbe">
+                     <text>Shopko Gas Relief.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="03dace6d-ec79-4506-acfe-47ce10822920-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

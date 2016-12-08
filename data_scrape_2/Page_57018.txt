@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3bdffc8e-b908-4827-b941-31a1f7063125"/>
+   <code code="60683-0" codeSystem="2.16.840.1.113883.6.1" displayName="PLASMA DERIVATIVE"/>
+   <title> FEIBA NF (Anti-Inhibitor Coagulant Complex)</title>
+   <effectiveTime value="20110623"/>
+   <setId root="70a31431-1a44-4415-84ec-c91897ffac17"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="085206634" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="300434670" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Aktiengesellschaft</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="001728059" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="75bf3150-b748-4b63-a71c-29f931127a4d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20110623"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64193-223" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FEIBA<suffix>NF</suffix>
+                        </name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Anti-Inhibitor Coagulant Complex</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64193-223-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="25"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="64193-323" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>FEIBA<suffix>NF</suffix>
+                              </name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Anti-Inhibitor Coagulant Complex</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="[USP'U]" value="25"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="4"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRISODIUM CITRATE DIHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="8"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="64193-323-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="20"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="0338-0764" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sterile Water</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mL" value="20"/>
+                                    <denominator unit="mL" value="50"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="20"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0764-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19860131"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64193-224" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FEIBA<suffix>NF</suffix>
+                        </name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Anti-Inhibitor Coagulant Complex</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64193-224-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="64193-324" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>FEIBA<suffix>NF</suffix>
+                              </name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Anti-Inhibitor Coagulant Complex</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="[USP'U]" value="50"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="4"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRISODIUM CITRATE DIHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="8"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="50"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="64193-324-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="20"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="0338-0764" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sterile Water</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mL" value="20"/>
+                                    <denominator unit="mL" value="50"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="20"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0764-62" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19860131"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64193-225" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FEIBA<suffix>NF</suffix>
+                        </name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Anti-Inhibitor Coagulant Complex</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64193-225-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="64193-325" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>FEIBA</name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Anti-Inhibitor Coagulant Complex</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="[USP'U]" value="50"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="CS849DUN3M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ANTI-INHIBITOR COAGULANT COMPLEX</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="4"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRISODIUM CITRATE DIHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="8"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="50"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="64193-325-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="0338-0001" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sterile Water</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mL" value="50"/>
+                                    <denominator unit="mL" value="100"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="50"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0001-65" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19860131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA101447" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19860131"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_42272776-72ec-4e19-8001-51363c7f184a">
+               <id root="4e75f43d-08f3-48de-99e9-072ef1a78df5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nanofiltered
+                                and Vapor Heated </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lyophilized powder for solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intravenous</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <section ID="id_5a6ea4d8-55a7-4e4f-a9c4-9e76bb8902bb">
+                     <id root="6042c392-b4dd-4564-9b4e-580a5d7aec39"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+                     <title>WARNING</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Thrombotic and thromboembolic
+                                        events have been reported during postmarketing surveillance
+                                        following infusion of FEIBA VH or FEIBA NF, particularly
+                                        following the administration of high doses and/or in
+                                        patients with thrombotic risk factors (See WARNINGS,
+                                        PRECAUTIONS and ADVERSE
+                                REACTIONS).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_7649ec3e-40dc-40e5-b52a-1096d1a0d223">
+               <id root="d5eee024-b31d-4511-8b22-870d49fa4cb2"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>FEIBA NF (Anti-Inhibitor Coagulant Complex), nanofiltered and
+                            vapor heated, is a freeze-dried sterile human plasma fraction with
+                            Factor VIII inhibitor bypassing activity.<content styleCode="italics">
+                                In vitro</content>, FEIBA NF shortens the activated partial
+                            thromboplastin time (APTT) of plasma containing Factor VIII inhibitor.
+                            Factor VIII inhibitor bypassing activity is expressed in arbitrary
+                            units. One unit of activity is defined as that amount of FEIBA NF that
+                            shortens the APTT of a high titer Factor VIII inhibitor reference plasma
+                            to 50% of the blank value. </paragraph>
+                  <paragraph>FEIBA NF contains
+                            Factors II, IX, and X, mainly non-activated, and Factor VII mainly in
+                            the activated form. The product contains approximately equal unitages of
+                            Factor VIII inhibitor bypassing activity and Prothrombin Complex
+                            Factors. In addition, 1–6 units of Factor VIII coagulant antigen (FVIII
+                            C:Ag) per mL are present. The preparation contains only traces of
+                            factors of the kinin generating system. It contains no
+                            heparin.</paragraph>
+                  <paragraph>Reconstituted FEIBA NF contains 4 mg of
+                            trisodium citrate and 8 mg of sodium chloride per
+                            mL.</paragraph>
+                  <paragraph>FEIBA NF is manufactured from large plasma
+                            pools of human plasma. Screening against potentially infectious agents
+                            begins with the donor selection process and continues throughout plasma
+                            collection and plasma preparation. Each individual plasma donation used
+                            in the manufacture of FEIBA NF is collected only at FDA approved blood
+                            establishments and is tested by FDA licensed serological tests for
+                            Hepatitis B Surface Antigen (HBsAg), and for antibodies to Human
+                            Immunodeficiency Virus (HIV-1/HIV-2) and Hepatitis C Virus (HCV) in
+                            accordance with the U.S. regulatory requirements. As an additional
+                            safety measure, mini-pools of the plasma are tested for the presence of
+                            HIV-1 and HCV by FDA licensed Nucleic Acid Testing (NAT) and found
+                            negative. In addition, two dedicated and independent virus
+                            removal/inactivation steps have been integrated into the manufacturing
+                            process, namely 35 nm nanofiltration and a vapor heat treatment process.
+                            In addition, the DEAE-Sephadex adsorption contributes to the virus
+                            safety profile of FEIBA NF. Despite these measures, such products can
+                            still potentially transmit disease (see <content styleCode="italics">
+                        <linkHtml href="#i4i_warnings_id_9d00fa2d-3af9-4233-b932-0a0b6e7b0bb0">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">In vitro</content> spiking studies have been
+                            used to validate the capability of the manufacturing process to remove
+                            and inactivate viruses. To establish the minimum applicable virus
+                            clearance capacity of the manufacturing process, these virus clearance
+                            studies were performed under extreme conditions (e.g. at minimum
+                            incubation times and temperatures below specifications for vapor-heat
+                            treatment). Virus clearance studies for FEIBA NF performed in accordance
+                            with good laboratory practices have demonstrated, that the manufacturing
+                            process of FEIBA NF ensures a high margin of safety with respect to
+                            adventitious viruses (<linkHtml href="#id_fab9fb4a-533b-48bb-9e69-d15a03ab6bb6">Table
+                            1</linkHtml>).</paragraph>
+                  <table ID="id_fab9fb4a-533b-48bb-9e69-d15a03ab6bb6" width="537">
+                     <caption ID="id_e20db6e3-e6b1-4049-ad97-e05ac55d8a30">Table 1: Mean
+                                    log<sub>10</sub> Reduction Factors (RFs) For Each Virus and
+                                Manufacturing Step</caption>
+                     <col width="16.4%"/>
+                     <col width="14.3%"/>
+                     <col width="8.2%"/>
+                     <col width="10.2%"/>
+                     <col width="15.3%"/>
+                     <col width="17.3%"/>
+                     <col width="9.1%"/>
+                     <col width="9.1%"/>
+                     <tbody>
+                        <tr ID="id_6a1cd3a1-7373-4985-8ab5-da3fef3f4812">
+                           <td align="center" styleCode="Botrule Toprule Rrule Lrule" valign="top">
+                              <content styleCode="bold">Virus
+                                        Type</content>
+                           </td>
+                           <td align="center" colspan="3" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">Enveloped
+                                            RNA</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">Enveloped DNA</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">Non-enveloped
+                                        RNA</content>
+                           </td>
+                           <td align="center" colspan="2" styleCode="Botrule Rrule" valign="top">
+                              <content styleCode="bold">Non-enveloped
+                                            DNA</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_060eb5e0-df9b-4a0a-81fa-ab9af6a83f86">
+                           <td align="center" styleCode="Lrule Botrule Rrule" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Virus
+                                                Family</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Retroviridae</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" colspan="2" styleCode="Botrule Rrule" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Flaviviridae</content>
+                              </paragraph>
+                           </td>
+                           <td align="left" styleCode="Botrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Herpesviridae</content>
+                              </paragraph>
+                           </td>
+                           <td align="left" styleCode="Botrule Rrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Picornaviridae</content>
+                              </paragraph>
+                           </td>
+                           <td align="left" colspan="2" styleCode="Botrule Rrule" valign="top">
+                              <paragraph> </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Parvoviridae
+                                        </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_7507b5e3-00ff-4cc4-9512-761d247f127a">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                              <content styleCode="bold">Virus<footnote ID="id-0857ef75-c025-4421-ae30-5f72f348073b">Abbreviations: HIV-1, Human Immunodeficiency Virus
+                                                Type 1; BVDV, Bovine Viral Diarrhea Virus (model for
+                                                Hepatitis C Virus and other lipid enveloped RNA
+                                                viruses); WNV, West Nile Virus; PRV, Pseudo rabies
+                                                Virus (model for lipid enveloped DNA viruses,
+                                                including Hepatitis B Virus); HAV, Hepatitis A
+                                                Virus; MMV, Mice Minute Virus (model for non-lipid
+                                                enveloped DNA viruses, including B19 virus
+                                                [B19V])</footnote>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">HIV-1</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">BVDV</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">WNV</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">PRV</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">HAV</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">B19V<footnote ID="id-a10665d2-410b-4f41-aab8-b72a5ed8d355">Reduction factor for Parvovirus B19 claimed for the
+                                                Vapor Heat Treatment is based on results derived
+                                                from experimental infectivity and titration
+                                                assays.</footnote>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">
+                              <content styleCode="bold">MMV</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_84d80fa0-8a78-4e6a-a7aa-2c47680bb2ad">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                              <content styleCode="bold">DEAE Sephadex
+                                            Adsorption</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">3.2</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">1.8</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">n.d.</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">2.5</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">1.5</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">1.7</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">1.2</td>
+                        </tr>
+                        <tr ID="id_452b7fbe-0a85-45db-832c-cb70abe8797d">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                              <content styleCode="bold">35 nm
+                                            Nanofiltration</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 5.3</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">2.1</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">4.7</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 5.7</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">2.6</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">0.2<content styleCode="bold">
+                                 <footnote ID="id-24e36dfd-3c69-4dde-a1b5-c1282e5c7c3b">Reduction factors &lt; 1 log are not used for
+                                                calculation of the overall reduction factor; n.d.
+                                                (not done).</footnote>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">1.0</td>
+                        </tr>
+                        <tr ID="id_58b349f1-7424-43d7-8d51-9e1c06fd31f7">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                              <content styleCode="bold">Vapor-Heat
+                                            Treatment</content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 5.9</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 5.6</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 8.1</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 6.7</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">&gt; 5.2</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">3.5</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">0.9<footnoteRef IDREF="id-24e36dfd-3c69-4dde-a1b5-c1282e5c7c3b"/>
+                           </td>
+                        </tr>
+                        <tr ID="id_84eba84f-4508-47b4-8279-4d339a26f9aa">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                              <content styleCode="bold">Overall log reduction factor
+                                            (ORF)</content>
+                           </td>
+                           <td align="center" styleCode="Rrule" valign="middle">&gt;
+                                        14.4</td>
+                           <td align="center" styleCode="Rrule" valign="middle">&gt;
+                                        9.5</td>
+                           <td align="center" styleCode="Rrule" valign="middle">&gt;
+                                        12.8</td>
+                           <td align="center" styleCode="Rrule" valign="middle">&gt;
+                                        14.9</td>
+                           <td align="center" styleCode="Rrule" valign="middle">&gt;
+                                        9.3</td>
+                           <td align="center" styleCode="Rrule" valign="middle">5.2</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="middle">2.2</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_studies_id_1af3a64f-b27f-4361-9bfa-b6197f10ac67">
+               <id root="8723b05f-519b-444f-be47-b5dac59a043c"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>FEIBA NF is identical in formulation to FEIBA VH. Biochemical
+                            and preclinical studies have confirmed the comparability of FEIBA NF and
+                            FEIBA VH. </paragraph>
+                  <paragraph>The safety and efficacy of FEIBA has
+                            been demonstrated by two prospective clinical trials<sup>1,2</sup>. The
+                            first, conducted by Sixma and collaborators, was a randomized
+                            double-blind study comparing the effect of FEIBA and PROTHROMPLEX IMMUNO
+                            (a non-activated prothrombin complex concentrate) in 15 patients with
+                            hemophilia A and inhibitors to Factor VIII. A total of 150 bleeding
+                            episodes (primarily joint and musculoskeletal plus a few mucocutaneous)
+                            were treated. A single dose of 88 Units per kg of body weight was used
+                            uniformly for treatments with FEIBA . The study showed that, based on
+                            subjective patient evaluation, FEIBA was fully effective in 41.0% and
+                            partly effective in 24.6% of episodes (i.e. combined effectiveness of
+                            65.6%), while PROTHROMPLEX IMMUNO was rated fully effective in 25.0% and
+                            partly effective in 21.4% of episodes (i.e. combined effectiveness of
+                            46.4%).</paragraph>
+                  <paragraph>The second study with FEIBA was a
+                            multicenter study conducted by Hilgartner <content styleCode="italics">et al</content>
+                     <sup>2</sup>. This study was conducted in 44
+                            hemophilia A subjects with inhibitors, 3 hemophilia B subjects with
+                            inhibitors and 2 acquired FVIII inhibitor subjects. It was designed to
+                            evaluate the efficacy of FEIBA in the treatment of joint, mucous
+                            membrane, musculocutaneous and emergency bleeding episodes such as
+                            central nervous system hemorrhages and surgical bleedings. In 49
+                            patients with inhibitor titers of greater than 5 Bethesda Units (from
+                            nine co-operating hemophilia centers), 489 single doses were given for
+                            the treatment of 165 bleeding episodes. The usual dosage was 50 Units
+                            per kg of body weight, repeated at 12-hour intervals (6-hour intervals
+                            in mucous membrane bleedings), if necessary. Bleeding was controlled in
+                            153 episodes (93%). In 130 (78%) of the episodes, hemostasis was
+                            achieved with one or more infusions within 36 hours. Of these, 36% were
+                            controlled with one infusion within 12 hours. An additional 14% of
+                            episodes responded after more than 36 hours.</paragraph>
+                  <paragraph>Of
+                            the 489 single doses, 18 (3.7%) caused minor transient reactions in
+                            recipients. Out of 49 patients, 10 (20%) showed a rise in their
+                            inhibitor titers. In 5 of these patients (10%), the rise was tenfold or
+                            more. However, of these 10 patients, 3 had received Factor VIII or
+                            Factor IX concentrates within 2 weeks prior to treatment with FEIBA.
+                            These anamnestic rises have not been observed to interfere with the
+                            efficacy of FEIBA. </paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_85d15591-aad7-4285-acae-668bce945e47">
+               <id root="8f3297da-13fa-4ea3-9e3c-53992a69dae6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>FEIBA NF (Anti-Inhibitor Coagulant Complex) is indicated for
+                            the control of spontaneous bleeding episodes or to cover surgical
+                            interventions in hemophilia A and hemophilia B patients with
+                            inhibitors.</paragraph>
+                  <paragraph>Clinical experience suggests that
+                            patients with a Factor VIII inhibitor titer of less than 5 B.U. may be
+                            successfully treated with Antihemophilic Factor. Patients with titers
+                            ranging between 5 and 10 B.U. may either be treated with Antihemophilic
+                            Factor or FEIBA NF. Cases with Factor VIII inhibitor titers greater than
+                            10 B.U. have generally been refractory to treatment with Antihemophilic
+                            Factor.</paragraph>
+                  <table ID="id_667f78ca-dd1f-4db7-b812-8ec7de12fde8" width="489.000">
+                     <caption ID="id_eac4f6d3-08f6-4ac5-9878-1e9517bc0d58">Guidelines to
+                                First and Second Choice Treatment</caption>
+                     <col width="23.5%"/>
+                     <col width="23.7%"/>
+                     <col width="23.5%"/>
+                     <col width="29.2%"/>
+                     <tbody>
+                        <tr ID="id_5daf6571-2c15-4ed4-bb57-475a52b5ed34">
+                           <td align="left" styleCode="Botrule Toprule Rrule Lrule" valign="middle">Patient’s Inhibitor</td>
+                           <td align="center" colspan="3" styleCode="Botrule Rrule" valign="middle">Clinical Situation</td>
+                        </tr>
+                        <tr ID="id_2e154da0-c69b-41c6-89a9-511e1aa89010">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="middle">Titer</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">Minor Bleeding</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">Major Bleeding</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">Surgery (Emergency)</td>
+                        </tr>
+                        <tr ID="id_7863e799-6a7b-4f39-8aa4-46ba5bd07c27">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="middle">less than 5 B.U.</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF<footnote ID="id-cae112df-fb14-4853-b6e6-826c8da9e846">AHF =
+                                            Antihemophilic Factor</footnote>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF</td>
+                        </tr>
+                        <tr ID="id_ca4d6473-5961-4696-82df-53057f93b6c0">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="middle">5 to 10 B.U.</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">AHF</td>
+                        </tr>
+                        <tr ID="id_b63d8102-788c-4992-ae65-28a967f14967">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="middle"/>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">FEIBA NF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">FEIBA NF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">FEIBA NF</td>
+                        </tr>
+                        <tr ID="id_a2065351-f71e-4c34-a9e9-8fc2e5628662">
+                           <td align="left" styleCode="Lrule Botrule Rrule" valign="middle">more than 10 B.U.</td>
+                           <td align="center" styleCode="Rrule" valign="bottom">FEIBA
+                                        NF</td>
+                           <td align="center" styleCode="Rrule" valign="bottom">FEIBA
+                                        NF</td>
+                           <td align="center" styleCode="Botrule Rrule" valign="bottom">FEIBA NF</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Inadequate response to treatment may result from an
+                            abnormal platelet count or impaired platelet function<sup>3-5</sup> that
+                            were present before treatment with FEIBA NF, nanofiltered and
+                            vapor-heated.</paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_149271e4-75b9-4f6b-895f-c9385a50a562">
+               <id root="8267e5e1-fd77-4e2e-8efe-85b120797f8f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of FEIBA NF is contraindicated:</paragraph>
+                  <list listType="unordered">
+                     <item>in patients who have known anaphylactic or severe hypersensitivity
+                                reactions to the product. </item>
+                     <item>in patients who are known to have a normal coagulation mechanism. </item>
+                     <item>for the treatment of bleeding episodes resulting from coagulation
+                                factor deficiencies in the absence of inhibitors to coagulation
+                                factor VIII or coagulation factor IX.</item>
+                     <item>in patients with significant signs of disseminated intravascular
+                                coagulation (DIC).</item>
+                     <item>in patients with acute thrombosis or embolism (including
+                                myocardial infarction).</item>
+                  </list>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_9d00fa2d-3af9-4233-b932-0a0b6e7b0bb0">
+               <id root="a4742db1-79bb-452e-ab97-9355939ff6a8"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>At first sign or symptom of an infusion/hypersensitivity
+                            reaction or a thrombotic/thromboembolic event, FEIBA NF administration
+                            should be stopped immediately and diagnostic and therapeutic measures
+                            initiated as appropriate.</paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <section ID="i4i_warnings_id_6fd65e19-d5ef-439f-b508-4f41bc3533a0">
+                     <id root="6da0a7cb-9bdd-4f4d-bbd8-743cbd3e6880"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Anaphylaxis and Hypersensitivity Reactions</title>
+                     <text>
+                        <paragraph>Allergic-type hypersensitivity reactions, including
+                                    severe anaphylactoid reactions, have been reported following the
+                                    infusion of FEIBA. The symptoms include urticaria, angioedema,
+                                    gastrointestinal manifestations, bronchospasm, and hypotension;
+                                    these reactions can be severe and can be systemic (e.g.,
+                                    anaphylaxis with urticaria and angioedema, bronchospasm, and
+                                    circulatory shock). If signs and symptoms of severe allergic
+                                    reactions occur, immediately discontinue administration of FEIBA
+                                    NF and provide appropriate supportive care. Have epinephrine
+                                    immediately available to treat, if appropriate, any acute severe
+                                    hypersensitivity reactions. Other infusion reactions, such as
+                                    chills, pyrexia, and hypertension have also been reported.
+                                    </paragraph>
+                        <paragraph>In patients with known or suspected
+                                    hypersensitivity to FEIBA NF, the expected benefit and the risk
+                                    of re-exposure must be carefully weighed, taking into account
+                                    the known or suspected type of the patient’s hypersensitivity
+                                    (allergic or non-allergic), including potential remedial and/or
+                                    preventative therapy or alternative therapeutic
+                                    agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_warnings_id_e9100967-39ca-4a04-a0b8-4889de4fd929">
+                     <id root="8b5bfe02-bfa4-4586-897f-b75c76177e33"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Thrombotic and Thromboembolic Events</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Thrombotic and thromboembolic
+                                        events [including disseminated intravascular coagulation
+                                        (DIC), venous thrombosis, pulmonary embolism, myocardial
+                                        infarction, and stroke] have been reported following
+                                        infusion of FEIBA VH or FEIBA NF, particularly following the
+                                        administration of high doses and/or in patients with
+                                        thrombotic risk factors</content> (see <content styleCode="italics">
+                              <linkHtml href="#i4i_adverse_effects_id_8f157900-9987-46d8-a764-99abb7ccd35e">ADVERSE REACTIONS</linkHtml>
+                           </content>). The possible
+                                    presence of such risk factors should always be considered in
+                                    patients with congenital and acquired hemophilia. Thromboembolic
+                                    events are well recognized potential complications of FEIBA
+                                    infusion. Many of these events occurred with doses above 200
+                                    units/kg/day or in patients with other risk factors for
+                                    thromboembolic events. A single dose of 100 units/kg body weight
+                                    and a daily dose of 200 units/kg body weight should not be
+                                    exceeded unless the severity of bleeding warrants and justifies
+                                    the use of higher doses.  Patients receiving more than 100
+                                    units/kg of body weight of FEIBA NF must be monitored for the
+                                    development of DIC and/or symptoms of acute coronary ischemia.
+                                    High doses of FEIBA NF should be given only as long as
+                                    absolutely necessary to stop bleeding.
+                                    </paragraph>
+                        <paragraph>Patients with disseminated intravascular
+                                    coagulation (DIC), advanced atherosclerotic disease, crush
+                                    injury, septicemia, or concomitant treatment with recombinant
+                                    factor VIIa have an increased risk of developing thrombotic
+                                    events due to circulating tissue factor (TF) or predisposing
+                                    coagulopathy.</paragraph>
+                        <paragraph>FEIBA VH or FEIBA NF should
+                                    be used with particular caution and only if there are no
+                                    therapeutic alternatives in patients at risk of DIC, arterial or
+                                    venous thrombosis.</paragraph>
+                        <paragraph>FEIBA NF should not be
+                                    given to patients with significant signs of disseminated
+                                    intravascular coagulation (DIC) or fibrinolysis. Infusion of
+                                    FEIBA NF should not exceed single dosage of 100 units per kg of
+                                    body weight and daily doses of 200 units per kg body weight.
+                                    Thrombotic events have been identified through post-marketing
+                                    surveillance following FEIBA use for each of the approved
+                                    indications. The incidence of thrombotic events cannot be
+                                    determined from post-marketing data.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_warnings_id_81a0da0e-bd1b-4a64-9191-b01a7438f103">
+                     <id root="2e9b7534-a09c-4db1-a21a-eb4dffbcf2f8"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Transmission of Infectious Agents</title>
+                     <text>
+                        <paragraph>FEIBA NF (Anti-Inhibitor Coagulant Complex),
+                                    nanofiltered and vapor heated, is made from human plasma.
+                                    Because this product is made from human blood, it may carry a
+                                    risk of transmitting infectious agents, e.g., viruses, and
+                                    theoretically, the variant Creutzfeldt-Jakob disease (vCJD)
+                                    agent. There is also the possibility that unknown infectious
+                                    agents may be present in such products. The risk that such
+                                    products will transmit viruses has been reduced by screening
+                                    plasma donors for prior exposure to certain viruses, by testing
+                                    for the presence of certain current virus infections, and by
+                                    inactivating and removing certain viruses during manufacture.
+                                    Despite these measures, such products may still potentially
+                                    transmit disease. </paragraph>
+                        <paragraph>Record the batch number
+                                    of the product every time FEIBA NF is administered to a patient,
+                                    and consider appropriate vaccination (against hepatitis A and B
+                                    virus) of patients who receive
+                                    FEIBA NF.</paragraph>
+                        <paragraph>ALL infections thought by a
+                                    physician possibly to have been transmitted by this product
+                                    should be reported by the physician or other healthcare
+                                    providers to Baxter Healthcare Corporation, at 1-800-423-2862
+                                    (in the U.S.) and/or to FDA Med Watch (1-800-FDA-1088 or
+                                        <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_7bb5d509-b6e8-4370-9ebe-c315f1d35553">
+               <id root="4f7ea6b8-9d27-4893-a9c8-4988b9cecc81"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_46bf163a-093c-4209-87e8-a4daf2f403b7">
+                     <id root="3aff2f88-64c8-48e2-8824-69cf1b56142f"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>Thrombotic and Thromboembolic Complications</title>
+                     <text>
+                        <paragraph>Caution should be used when administering FEIBA VH or
+                                    FEIBA NF to patients with an increased risk of thromboembolic
+                                    complications. These include, but are not limited to, patients
+                                    with a history of coronary heart disease, liver disease,
+                                    disseminated intravascular coagulation, post-operative
+                                    immobilization, elderly patients and neonates. In each of these
+                                    situations, the potential benefit of treatment with FEIBA VH or
+                                    FEIBA NF should be weighed against the risk of these
+                                    complications. (see <content styleCode="italics">WARNINGS:
+                                            <linkHtml href="#i4i_warnings_id_e9100967-39ca-4a04-a0b8-4889de4fd929" title="Thrombotic and Thromboembolic Events">Thrombotic
+                                            and Thromboembolic
+                                    Events</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>Patients who
+                                    receive FEIBA VH or FEIBA NF should be monitored for development
+                                    of signs or symptoms of DIC, acute coronary ischemia, and signs
+                                    and symptoms of other thrombotic and thromboembolic events. If
+                                    clinical signs of intravascular coagulation occur, which include
+                                    changes in blood pressure, changes in pulse rate, respiratory
+                                    distress, chest pain and/or cough, the infusion should be
+                                    stopped promptly and appropriate diagnostic and therapeutic
+                                    measures are to be initiated.</paragraph>
+                        <paragraph>Laboratory
+                                    indications of DIC are decreased fibrinogen, decreased platelet
+                                    count, and/or presence of fibrin-fibrinogen degradation products
+                                    (FDP). Other indications of DIC include significantly prolonged
+                                    thrombin time, prothrombin time, or partial thromboplastin
+                                    time.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_6b3fc286-1ccc-4e57-ba17-f3b0f999a53a">
+                     <id root="103e89b3-8c0a-4dc3-9329-70c86d27ef39"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Concominant Medications</title>
+                     <text>
+                        <paragraph>It has been reported that FEIBA NF and
+                                    antifibrinolytics have been given simultaneously without
+                                    complications. No adequate and well-controlled studies of the
+                                    combined or sequential use of FEIBA NF and recombinant Factor
+                                    VIIa or antifibrinolytics have been conducted. The possibility
+                                    of thrombotic events should be considered when systemic
+                                    antifibrinolytics such as tranexamic acid and aminocaproic acid
+                                    are used during treatment with FEIBA NF. It is recommended not
+                                    to use antifibrinolytics until 12 hours after the administration
+                                    of FEIBA NF.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_979847aa-5a03-472d-ad79-950292061e45">
+                     <id root="af5a07ab-ea5b-41c4-b240-daa7b98812d2"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Discordant Response to Bypassing Agents</title>
+                     <text>
+                        <paragraph>Due to patient-specific factors the response to a
+                                    bypassing agent can vary, and in a given bleeding situation
+                                    patients experiencing insufficient response to one agent may
+                                    respond to another agent<sup>6</sup>.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_3245be8b-3102-4060-95fc-563809241dfe">
+                     <id root="52c92198-88d8-434a-8578-e0bd252c0798"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anamnestic Responses</title>
+                     <text>
+                        <paragraph>Administration of FEIBA NF to patients with inhibitors
+                                    may result in an initial “anamnestic” rise in inhibitor levels.
+                                    Anamnestic responses with rise in Factor VIII inhibitor titer
+                                    have been observed in 20% of the cases (see <content styleCode="italics">CLINICAL STUDIES</content>). These
+                                    anamnestic rises have not been observed to interfere with the
+                                    efficacy of FEIBA. Upon continued administration of FEIBA NF,
+                                    inhibitors may decrease over time.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_7d19d19f-78e4-4525-b12f-e4ac7b63a696">
+                     <id root="34eb5187-935d-49f7-bf3f-5ba93beb9115"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Inform patients receiving FEIBA NF of the benefits and
+                                    risks associated with treatment. Advise patients of the early
+                                    signs of hypersensitivity reactions (see <content styleCode="italics">WARNINGS: Anaphylaxis and
+                                        Hypersensitivity Reactions</content>). Advise patients to
+                                    discontinue use of the product if these symptoms occur and seek
+                                    immediate emergency treatment. </paragraph>
+                        <paragraph>Some
+                                    viruses, such as parvovirus B19 or hepatitis A, are particularly
+                                    difficult to remove or inactivate at this time. Pregnant women
+                                    and immune-compromised individuals should be informed of the
+                                    symptoms of parvovirus B19 (i.e. fever, drowsiness, chills, and
+                                    runny nose followed about two weeks later by a rash, and joint
+                                    pain). Inform all patients of the symptoms of hepatitis A
+                                    infection (i.e. several days to weeks of poor appetite,
+                                    tiredness, and low-grade fever followed by nausea, vomiting, and
+                                    upper abdominal pain). Dark urine and a yellowed complexion are
+                                    also common symptoms of Hepatitis A infection.
+                                    </paragraph>
+                        <paragraph>Advise patients/caregivers to record the
+                                    batch number of the product every time FEIBA NF is administered
+                                    outside a healthcare setting.</paragraph>
+                        <paragraph>Advise
+                                    patients to report any adverse reactions or problems following
+                                    FEIBA NF administration to their physician or healthcare
+                                    provider.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_981b7380-ec42-494f-a8bd-eace7d38b36a">
+                     <id root="e04fae81-7868-4668-9eb4-609e903a9c84"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Non-Hemophilic Patients</title>
+                     <text>
+                        <paragraph>Non-hemophilic patients with acquired inhibitors
+                                    against Factors VIII, IX or XII may have both a bleeding
+                                    tendency and an increased risk of thrombosis at the same
+                                    time.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_1b32940c-42da-442a-b1d2-5c5e8bb7518e">
+                     <id root="a69971d3-75c3-4a46-b59e-d8a813125d75"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Monitoring/Laboratory Tests</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>Perform a platelet count at the time of initial use of the
+                                        product and if anticipated treatment responses are not
+                                        achieved. A sufficient number of functionally intact
+                                        platelets is considered to be necessary for the efficacy of
+                                        the product.</item>
+                           <item>No direct measure of hemostatic efficacy with bypassing
+                                        agents is available. Coagulation tests such as whole blood
+                                        clotting time (WBCT), aPTT and TEG may not correlate with
+                                        clinical improvement. For this reason, attempts at
+                                        normalizing these values by increasing the dose of FEIBA NF
+                                        may not be successful and are strongly discouraged because
+                                        of the potential hazard of producing DIC by overdose.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_8ca17bee-7d42-460e-86de-7435570862d9">
+                     <id root="e882d7ec-ffa1-496a-9e21-a5dc526ed53b"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>No compatibility studies have been performed with FEIBA
+                                    NF. Therefore, FEIBA NF must not be mixed with other medicinal
+                                    products or solvents. (see Concomitant
+                                Medications).</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_da5951c8-e133-49dd-baac-775e5a97838f">
+                     <id root="280cdd40-c6c8-4d4a-90dd-a9e9b19b7d33"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy Category C</title>
+                     <text>
+                        <paragraph>The safety of FEIBA NF during pregnancy has not been
+                                    established. Animal reproduction studies have not been conducted
+                                    with FEIBA NF. It is also not known whether FEIBA NF can cause
+                                    fetal harm when administered to a pregnant woman or can affect
+                                    reproductive capacity. Physicians should carefully consider the
+                                    potential risks and benefits for each specific patient before
+                                    prescribing FEIBA NF.Pregnancy and the postpartum period are
+                                    characterized by an increased risk of thrombosis, and several
+                                    complications of pregnancy are associated with an increased risk
+                                    of DIC.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_e020664d-c841-4bbd-9168-1d5431e7189b">
+                     <id root="711867e7-4941-44a4-ab41-7dae0949c3cf"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human
+                                    milk. Because many drugs are excreted in human milk, caution
+                                    should be exercised when FEIBA NF is administered to a nursing
+                                    woman. Physicians should carefully consider the potential risks
+                                    and benefits for each specific patient before prescribing FEIBA
+                                    NF.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_b0b1eb6e-646a-44cd-8f99-66d7f15fad74">
+                     <id root="a4ef2b2e-c508-4cb4-8777-363a517c7c6e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>No data are available regarding the use of FEIBA NF in
+                                    newborns.</paragraph>
+                     </text>
+                     <effectiveTime value="20100329"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_15197614-a7e4-4b62-8edc-0f07b140451b">
+                     <id root="300a040a-e42f-4b07-b3de-3c49b71fd583"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of FEIBA NF did not include sufficient
+                                    numbers of subjects aged 65 and over to determine whether they
+                                    respond differently from younger subjects.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_8f157900-9987-46d8-a764-99abb7ccd35e">
+               <id root="f86c78d3-755f-4eac-b245-6700a91adf89"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>FEIBA NF can precipitate allergic-type hypersensitivity
+                            reactions; these reactions can be severe and can be systemic. Other
+                            infusion reactions, such as chills, pyrexia, and hypertension have also
+                            been reported.</paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <section ID="i4i_adverse_effects_id_29551f39-b520-4879-b43d-22bf3b0ca4a4">
+                     <id root="cc2bad35-95bb-4c0c-a1d0-dabc9671be52"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Adverse Reactions From Clinical Trials</title>
+                     <text>
+                        <paragraph>The adverse reactions presented in this section have
+                                    been reported from two studies with FEIBA for the treatment of
+                                    bleeding episodes in pediatric and adult patients with
+                                    hemophilia A or B and inhibitors to factors VIII or IX. One
+                                    study also enrolled acquired hemophilia patients with factor
+                                    VIII inhibitors (4 of 49 patients).</paragraph>
+                        <table ID="id_df393c14-7312-4a47-b2ff-e29790a249de" border="single" width="443">
+                           <caption ID="id_e8c013bb-4112-4494-97b5-f5750ca6b879">Clinical
+                                        Trial Adverse Reactions<footnote ID="id-c75a449c-be97-48d0-8be0-70c08b8058eb">A precise
+                                            estimate of the rate of these adverse reactions is not
+                                            possible from the available data.</footnote>
+                           </caption>
+                           <col width="54.0%"/>
+                           <col width="45.9%"/>
+                           <tbody>
+                              <tr ID="id_7e477507-7937-43b8-9e4f-e26e91d3cee0">
+                                 <td align="center" styleCode="Botrule Toprule Rrule Lrule" valign="top">
+                                    <content styleCode="bold">System Organ Class
+                                                  (SOC)</content>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Rrule" valign="top">
+                                    <content styleCode="bold">Preferred
+                                                  MedDRA Term</content>
+                                 </td>
+                              </tr>
+                              <tr ID="id_27c982f9-8531-4c11-a618-3902517c1bf6">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">BLOOD AND LYMPHATIC</content>
+                                    </paragraph>
+                                    <content styleCode="bold">SYSTEM DISORDERS</content>
+                                 </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">Increase of inhibitor titer (anamnestic
+                                                  response)<footnote ID="id-d80db11f-2bbd-439e-98ee-ef3738968229">Increase of inhibitor titer (anamnestic response)
+                                                  is the rise of previously existing inhibitor
+                                                  titers occurring after the administration of
+                                                  FEIBA.</footnote>
+                                 </td>
+                              </tr>
+                              <tr ID="id_3821f988-e95b-482a-a3a4-500fcf97a57f">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">NERVOUS
+                                                  SYSTEM DISORDERS</content>
+                                 </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">
+                                    <paragraph>Somnolence</paragraph>
+                                    <paragraph>Dizziness</paragraph>
+                                    <paragraph>Dysgeusia
+                                                </paragraph>Hypoesthesia</td>
+                              </tr>
+                              <tr ID="id_4f0dcee2-521f-4e4c-9845-78445bba9e0f">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">RESPIRATORY,
+                                                  THORACIC, AND MEDIASTINAL DISORDERS</content>
+                                 </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">Dyspnea</td>
+                              </tr>
+                              <tr ID="id_89d599bc-01f2-4d30-90a1-bdecdbecc7e1">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">GASTROINTESTINAL DISORDERS</content>
+                                 </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">Nausea</td>
+                              </tr>
+                              <tr ID="id_962c5bf6-14f5-4c9d-9bf1-307b0534d6eb">
+                                 <td align="left" styleCode="Lrule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">GENERAL
+                                                  DISORDERS AND ADMINISTRATION SITE
+                                                  CONDITIONS</content>
+                                 </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">
+                                    <paragraph>Chills</paragraph>
+                                    <paragraph>Pyrexia</paragraph>
+                                    <paragraph>Chest
+                                                  pain</paragraph>Chest discomfort</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_adverse_effects_id_452186b5-7b25-492e-8d12-89b5952b9f59">
+                     <id root="40e10300-7c22-4ca3-94a8-e787457c0a40"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Post-marketing Adverse Reactions</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been reported in
+                                    the post-marketing experience, listed by MedDRA System Organ
+                                    Class (SOC), then by Preferred Term in order of severity, where
+                                    feasible. Because these reactions are reported voluntarily from
+                                    a population of uncertain size, it is not always possible to
+                                    reliably estimate their frequency or establish a causal
+                                    relationship to drug exposure.</paragraph>
+                        <paragraph>BLOOD AND
+                                    LYMPHATIC SYSTEM DISORDERS: Disseminated intravascular
+                                    coagulation</paragraph>
+                        <paragraph>IMMUNE SYSTEM DISORDERS:
+                                    Anaphylactic reaction, Hypersensitivity
+                                    </paragraph>
+                        <paragraph>NERVOUS SYSTEM DISORDERS: Paresthesia,
+                                    Thrombotic stroke, Embolic stroke,
+                                    Headache</paragraph>
+                        <paragraph>CARDIAC DISORDERS: Myocardial
+                                    infarction, Tachycardia</paragraph>
+                        <paragraph>VASCULAR
+                                    DISORDERS: Thrombosis, Venous thrombosis, Arterial thrombosis,
+                                    Hypotension, Hypertension,
+                                    Flushing</paragraph>
+                        <paragraph>RESPIRATORY, THORACIC, AND
+                                    MEDIASTINAL DISORDERS: Pulmonary embolism, Bronchospasm,
+                                    Wheezing, Cough</paragraph>
+                        <paragraph>GASTROINTESTINAL
+                                    DISORDERS: Vomiting, Diarrhea, Abdominal
+                                    discomfort</paragraph>
+                        <paragraph>SKIN AND SUBCUTANEOUS TISSUE
+                                    DISORDERS: Angioedema, Urticaria, Pruritus,
+                                    Rash</paragraph>
+                        <paragraph>GENERAL DISORDERS AND ADMINISTRATION
+                                    SITE CONDITIONS: Malaise, Feeling hot, Injection site
+                                    pain.</paragraph>
+                     </text>
+                     <effectiveTime value="20110623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_fdc02012-1e7b-4a12-81b5-4bf296ea2909">
+               <id root="0dffb37a-161e-4051-a87c-6abf540e4d23"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE<br/>
+                  </content>
+               </title>
+               <text>
+                  <paragraph> The risk of thrombotic and thromboembolic events (including
+                            DIC, myocardial infarction, venous thrombosis, and pulmonary embolism)
+                            may be increased with high doses of FEIBA NF. Some of the reported
+                            events occurred with doses above 200 U/kg or with patients with other
+                            risk factors for thromboembolic events. </paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_e159a926-abe7-476c-90fd-42f4190e3c59">
+               <id root="68b5a819-bead-4d81-b1a2-10b633354c04"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Treatment should be initiated and supervised by a physician
+                            experienced in the management of
+                            hemophilia.</paragraph>
+                  <paragraph>Clinical trials <sup>1, 2
+                            </sup>demonstrated that the response to treatment with FEIBA may differ
+                            from patient to patient with no correlation to the patient’s inhibitor
+                            titer. Response may also vary between different types of hemorrhage
+                            (e.g. joint hemorrhage vs. CNS hemorrhage). As a general guideline, a
+                            dosage range of 50 to 100 Units of FEIBA NF, per kg of body weight is
+                            recommended. However, care should be taken to distinguish between the
+                            following four indications:</paragraph>
+                  <table ID="id_af7864d0-8a77-44d2-b1d2-159e7eb17624" border="none" width="443">
+                     <caption ID="id_5885e69e-103d-4a03-9e24-40e6153a42a7">Dosing Guidelines
+                                by Type of Hemorrhage</caption>
+                     <col width="26.0%"/>
+                     <col width="15.3%"/>
+                     <col width="18.2%"/>
+                     <col width="40.5%"/>
+                     <tbody>
+                        <tr ID="id_c324df21-b043-4d4b-8139-0afbcb05543f" styleCode="Toprule">
+                           <td align="center" valign="top">
+                              <content styleCode="bold">Indication</content>
+                           </td>
+                           <td align="center" styleCode="Toprule" valign="top">
+                              <content styleCode="bold">Units/kg of Body Weight</content>
+                           </td>
+                           <td align="center" styleCode="Toprule" valign="top">
+                              <content styleCode="bold">Recommended Dosing
+                                        Interval</content>
+                           </td>
+                           <td align="center" valign="top">
+                              <content styleCode="bold">Additional Information</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_ef86b926-77a8-4780-9a87-35b0191dc490">
+                           <td align="left" valign="top">Joint Hemorrhage</td>
+                           <td align="center" valign="top">50 - 100<footnote ID="id-7e8b6ef4-d21e-4be6-bde1-52ad9364cafd">Begin
+                                            treatment with 50 units/kg. Dose may be increased to 100
+                                            units/kg if hemorrhage does not stop.</footnote>
+                           </td>
+                           <td align="center" valign="top">12 hours</td>
+                           <td align="left" valign="top">
+                              <paragraph>Continue treatment
+                                            until clear signs of clinical improvement appear (e.g.,
+                                            relief of pain, reduction of swelling or mobilization of
+                                            the joint).</paragraph>Two administrations of 100
+                                        units/kg a day or a daily total dose of 200 units/kg should
+                                        not normally be exceeded<footnote ID="id-85fb3450-0f38-4c3d-8b63-95dd1dcd4178">Patients
+                                            receiving more than 100 units/kg of body weight of FEIBA
+                                            NF must be monitored for the development of DIC and/or
+                                            symptoms of acute coronary ischemia. High doses of FEIBA
+                                            NF should be given only as long as absolutely necessary
+                                            to stop bleeding.</footnote>.</td>
+                        </tr>
+                        <tr ID="id_51b0ec28-1eb5-401d-ae81-d952b82303f7">
+                           <td align="left" valign="top">Mucous Membrane Bleeding</td>
+                           <td align="center" valign="top">50 – 100<footnoteRef IDREF="id-7e8b6ef4-d21e-4be6-bde1-52ad9364cafd"/>
+                           </td>
+                           <td align="center" valign="top">6 hours</td>
+                           <td align="left" valign="top">
+                              <paragraph>Carefully monitor
+                                            patient (i.e., examine for cecessation of visible
+                                            bleeding) and perform repeated measurements of the
+                                            patient’s hemoglobin/hematocrit.</paragraph>Two
+                                        administrations of 100 units/kg a day or a daily total dose
+                                        of 200 units/kg should not be exceeded<footnoteRef IDREF="id-85fb3450-0f38-4c3d-8b63-95dd1dcd4178"/>.</td>
+                        </tr>
+                        <tr ID="id_c7865520-5cb0-4961-8be9-ba49bfbc8990">
+                           <td align="left" valign="top">Soft Tissue Hemorrhage<br/>(e.g.,
+                                        retroperitoneal bleeding) </td>
+                           <td align="center" valign="top">100</td>
+                           <td align="center" valign="top">12 hours</td>
+                           <td align="left" valign="top">A daily total dose of 200 units/kg
+                                        should not be exceeded<footnoteRef IDREF="id-85fb3450-0f38-4c3d-8b63-95dd1dcd4178"/>.</td>
+                        </tr>
+                        <tr ID="id_89812cb1-c977-47e4-8e44-f47b4bcc046b" styleCode="Botrule">
+                           <td align="left" valign="top">Other Severe Hemorrhage<br/>(e.g.,
+                                        CNS bleeds)</td>
+                           <td align="center" valign="top">100</td>
+                           <td align="center" valign="top">6-12 hours</td>
+                           <td align="left" valign="top">
+                              <paragraph>May be indicated at
+                                            6-hour intervals until clear clinical improvement is
+                                            achieved.</paragraph>Single doses of 100 units/kg body
+                                        weight and a daily dose of 200 units/kg body weight should
+                                        not be exceeded unless the severity of bleeding warrants and
+                                        justifies the use of higher doses<footnoteRef IDREF="id-85fb3450-0f38-4c3d-8b63-95dd1dcd4178"/>.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Reconstitution</content>
+                  </paragraph>
+                  <paragraph>FEIBA NF contains no
+                            preservatives. Aseptic technique should be used throughout the entire
+                            reconstitution process and the solution should then be used
+                            immediately.</paragraph>
+                  <list listType="ordered">
+                     <item>Allow the unopened vials of FEIBA NF (concentrate) and Sterile
+                                Water for Injection (diluent) to reach room temperature (not above
+                                37°C, 98°F).</item>
+                     <item>Remove caps from the concentrate and diluent vials to expose
+                                central portions of the rubber stoppers.</item>
+                     <item>Disinfect the rubber stoppers of both vials using a germicidal
+                                solution. Place the vials on an even surface and allow them to
+                                dry.</item>
+                     <item>Open the package of BAXJECT device by peeling away the lid without
+                                touching the inside (Fig. A).</item>
+                     <item>
+                        <content styleCode="bold">Do not remove the device from the
+                                    package</content>. Turn the package over and insert the plastic
+                                spike through diluent stopper. (Fig. B). </item>
+                     <item>Grip the package at its edge and pull the package off the device
+                                (Fig. B). </item>
+                     <item>Turn the system over, so that the vial is on top. Quickly insert
+                                the other plastic spike into the FEIBA NF stopper (Fig. C). The
+                                vacuum will draw the diluent into the FEIBA NF vial. <content styleCode="bold">Please make sure that the connection of the two
+                                    vials should be done expeditiously to close the open fluid
+                                    pathway created by the first insertion of the spike to the
+                                    diluent vial.</content>
+                     </item>
+                     <item>Swirl gently until FEIBA NF is completely dissolved. Make sure
+                                that FEIBA NF has been dissolved completely; otherwise, active
+                                material will not pass through the device filter. </item>
+                  </list>
+                  <renderMultiMedia referencedObject="id_51c47c04-2f78-4b82-9e60-fd1a9d08cb81">
+                     <caption ID="id_dde3c346-f0bf-404b-8d00-156b5e8b127c">Fig A</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="id_95c8a3dc-aa0e-4d69-bb82-5e22d823124f">
+                     <caption ID="id_30a8bd71-fe8b-4671-a428-881a41681f7c">Fig B</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="id_822aaf3f-6f48-4327-a158-68fc0f0d50ce">
+                     <caption ID="id_08bbbc5e-ae8a-4500-80aa-069c341dcc4b">Fig C</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate
+                                after reconstitution!</content>
+                  </paragraph>
+                  <paragraph>After complete reconstitution of FEIBA NF its
+                            injection or infusion should be commenced as promptly as practicable,
+                            but must be completed within three hours following reconstitution. The
+                            solution must be given by intravenous injection or intravenous drip
+                            infusion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rate of
+                                Administration:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The </content>
+                     <content styleCode="bold">maximum
+                                injection or infusion rate must not exceed 2 units per kg of body
+                                weight per minute</content>. For a patient with a body weight of 75
+                            kg, this corresponds to an infusion rate of 2.5 - 7.5 mL per minute
+                            depending on the number of units per vial (see label on
+                            vial).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intravenous
+                                Injection or Infusion:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Inspect for particulate matter and discoloration after
+                                reconstituting the concentrate as described under <content styleCode="italics">Reconstitution</content> prior to
+                                administration. The appearance of the solution should be colorless
+                                to slightly yellowish and essentially free of visible particles. Do
+                                not use solutions that are cloudy or have deposits.</item>
+                     <item>Mixing of FEIBA NF with other products or substances must be
+                                avoided. It is advisable to flush venous access lines with isotonic
+                                saline prior to and after infusion of FEIBA NF.</item>
+                     <item>If devices other than those supplied with FEIBA NF are used,
+                                ensure use of an adequate filter.</item>
+                     <item>Plastic Luer lock syringes are recommended for use with this
+                                product since protein such as FEIBA NF tends to stick to the surface
+                                of all-glass syringes.</item>
+                  </list>
+                  <list listType="ordered">
+                     <item>Turn the BAXJECT device handle down towards the FEIBA NF
+                                concentrate vial and remove the cap attached to the syringe
+                                connection of the BAXJECT device (Fig. D).</item>
+                     <item>Draw air into the syringe, connect the syringe to the BAXJECT
+                                device, inject air into the concentrate vial (Fig. E).</item>
+                     <item>While keeping the syringe plunger in place, turn the system upside
+                                down (concentrate vial now on top). Draw the concentrate into the
+                                syringe by pulling the plunger back slowly (Fig. F).</item>
+                     <item>Turn the BAXJECT handle to its original position (facing side
+                                way).</item>
+                     <item>Disconnect the syringe, attach a suitable needle and inject or
+                                infuse intravenously as instructed under <content styleCode="italics">Rate of
+                                    Administration.</content>
+                        <paragraph>.</paragraph>
+                     </item>
+                  </list>
+                  <renderMultiMedia referencedObject="id_f98fe8d1-4ce0-4793-ac37-29d79ce3d2b9">
+                     <caption ID="id_334b39f1-0649-4cb9-8910-513eddc5c76e">Fig D</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="id_f71646cb-9d0d-46a3-b3a1-0ac689feb9c5">
+                     <caption ID="id_e7a135a9-ab60-4261-988b-8b1a8c2724d3">Fig E</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="id_861c3f81-eb7c-4e48-a95b-51e52ccb652d">
+                     <caption ID="id_43a11eb0-0d37-42fb-a771-8751c9b63878">Fig F</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <observationMedia ID="id_51c47c04-2f78-4b82-9e60-fd1a9d08cb81">
+                     <text>Open the package of BAXJECT device by peeling away the lid without
+                                touching the inside.</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_95c8a3dc-aa0e-4d69-bb82-5e22d823124f">
+                     <text>¬Do not remove the device from the package.¬ Turn the package over
+                                and insert the plastic spike through diluent stopper</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_822aaf3f-6f48-4327-a158-68fc0f0d50ce">
+                     <text>Turn the system over, so that the vial is on top. Quickly insert
+                                the other plastic spike into the FEIBA NF stopper.</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_f98fe8d1-4ce0-4793-ac37-29d79ce3d2b9">
+                     <text>Turn the BAXJECT device handle down towards the FEIBA NF
+                                concentrate vial and remove the cap attached to the syringe
+                                connection of the BAXJECT device</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_f71646cb-9d0d-46a3-b3a1-0ac689feb9c5">
+                     <text>Draw air into the syringe, connect the syringe to the BAXJECT
+                                device, inject air into the concentrate vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_861c3f81-eb7c-4e48-a95b-51e52ccb652d">
+                     <text>While keeping the syringe plunger in place, turn the system upside
+                                down (concentrate vial now on top). Draw the concentrate into the
+                                syringe by pulling the plunger back slowly</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_d5da944b-6c04-4c7d-90de-212aa8152a31">
+               <id root="b0500dba-fa59-4a99-8945-d2935b74b023"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>FEIBA NF is available in single-dose vials in the following
+                            nominal dosage strengths:</paragraph>
+                  <paragraph>Blue - 500 Units per
+                            vial (NDC 64193-223-02)</paragraph>
+                  <paragraph>Green - 1000 Units per
+                            vial (NDC 64193-224-02)</paragraph>
+                  <paragraph>Purple - 2500 Units per
+                            vial (NDC 64193-225-02)</paragraph>
+                  <paragraph>The number of Units of
+                            Factor VIII inhibitor bypassing activity is stated on the label of each
+                            vial.</paragraph>
+                  <paragraph>FEIBA NF is packaged with a suitable volume
+                            (20 mL or 50 mL) of Sterile Water for Injection, U.S.P., one BAXJECT
+                            Needleless Transfer Device, and one Package
+                                Insert.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The 50 mL
+                                SWFI stoppers are not latex-free and may contain Dry Natural Rubber
+                                Latex.</content>
+                  </paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                  </paragraph>
+                  <paragraph>Store at
+                            room temperature, not to exceed 25°C
+                                (77°F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avoid
+                                freezing, which may damage the diluent
+                                vial.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store in the original package in order to protect from
+                                light.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_references_id_affc5edf-9bd4-4c1b-ab36-81a427e7f93e">
+               <id root="094620f1-4793-4178-a120-8bd6559ba936"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>Sjamsoedin L. J. M., Heijnen L., Mauser-Bunschoten E. P., van
+                                Geijlswijk J. L., van Houwelingen H., van Asten P., Sixma J. J.: The
+                                Effect of Activated Prothrombin-Complex Concentrate (FEIBA) on Joint
+                                and Muscle Bleeding in Patients with Hemophilia A and Antibodies to
+                                Factor VIII. The New Engl. J. of Med. 305: 717, 1981.</item>
+                     <item>Hilgartner M. W., Knatterud G. AND THE FEIBA STUDY GROUP: The Use
+                                of Factor-Eight-Inhibitor-By-Passing-Activity (FEIBA IMMUNO) Product
+                                for Treatment of Bleeding Episodes in Hemophiliacs with Inhibitors.
+                                Blood 61: 36, 1983.</item>
+                     <item>Vermylen J., Schetz J., Semeraro N., Mertens F., Verstraete M.:
+                                Evidence that ‘Activated’ Prothrombin Concentrates Enhance Platelet
+                                Coagulant Activity. Brit. J. Haematol. 38: 235, 1978.</item>
+                     <item>Semeraro N., Vermylen J.: Evidence that Washed Human Platelets
+                                Possess Factor-X Activator Activity. Brit. J. Haematol. 36: 107,
+                                1977.</item>
+                     <item>Wensley R. T.: General Summary of the Use of FEIBA in
+                                Haemophiliacs with Inhibitors to FVIII. Presentation at the Second
+                                Workshop on Factor VIII Inhibitor Patients, Vienna, 1979.</item>
+                     <item>Astermark, J., Donfield, S.M., DiMichele, D.M., Gringeri, A.,
+                                Gilbert, S.A., Waters, J. and Berntorp, E.: A randomized comparison
+                                of bypassing agents in haemophilia complicated by an inhibitor: the
+                                FEIBA NovoSeven Comparative ( FENOC) Study.: Blood, 109:546,
+                                2007.<paragraph/>
+                     </item>
+                  </list>
+                  <paragraph>To enroll in the confidential, Industry-wide Patient
+                            Notification System, </paragraph>
+                  <paragraph>Call 1-888-UPDATE
+                            U(1-888-873-2838).</paragraph>
+                  <paragraph>Baxter, Feiba and Prothromplex
+                            are trademarks of Baxter AG, Vienna, Austria. Baxter, Feiba and Baxject
+                            are trademarks of Baxter International Inc., registered in the U.S.
+                            Patent and Trademark Office.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                  </paragraph>
+                  <paragraph>Westlake Village, CA 91362 USA
+                            </paragraph>
+                  <paragraph>U.S. License No.
+                            140</paragraph>
+                  <paragraph>Revised Feb 2011</paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_d06d68fc-2b85-43fb-aed1-8a0013fab99a">
+               <id root="0b23b2ee-8fb1-4d19-8cf3-e571e5554e4a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principle Display Panel</title>
+               <text>
+                  <renderMultiMedia referencedObject="id_d051554a-6c58-4472-832a-1cfcd3797cbb">
+                     <caption ID="id_a091d660-1a54-4503-8534-069f381a3dd1">FEIBA NF 500U vial
+                                label</caption>
+                  </renderMultiMedia>
+                  <paragraph>20 mL size, dried </paragraph>
+                  <paragraph>NDC
+                            64193-323-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anti-Inhibitor Coagulant
+                                Complex</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FEIBA NF</content>
+                  </paragraph>
+                  <paragraph>Nanofiltered &amp; Vapor
+                            Heated</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter
+                            </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For
+                                Intravenous Use Only </content>
+                  </paragraph>
+                  <paragraph>Contains no
+                            preservative</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage
+                                &amp; Administration</content>: See accompanying package
+                            insert</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>: Store at room temperature not to exceed 25°C
+                            (77°F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reconstitution</content>: Use 20 mL sWFI, U.S.P.; Keep at room
+                            temperature not to exceed 25°C (77°F); Use within 3 hours of
+                            reconstitution</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx
+                                only</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="id_f0f92d92-a2b0-48c3-9f54-af70816f65be">
+                     <caption ID="id_b3cc667f-9fd2-46fa-8ffc-617c0a3f959a">FEIBA NF 500U unit
+                                carton</caption>
+                  </renderMultiMedia>
+                  <paragraph>20 mL size, dried </paragraph>
+                  <paragraph>NDC
+                            64193-223-02</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anti-Inhibitor Coagulant
+                                Complex</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FEIBA NF</content>
+                  </paragraph>
+                  <paragraph>Nanofiltered &amp; Vapor
+                            Heated</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter
+                            </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For
+                                Intravenous Use Only</content>
+                  </paragraph>
+                  <paragraph>Contains no
+                                preservative</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage
+                                &amp; Administration</content>: See accompanying package
+                            insert</paragraph>
+                  <paragraph>Storage: Store at room temperature not to
+                            exceed 25°C (77°F). Store in the original package in order to protect
+                            from light.</paragraph>
+                  <paragraph>Reconstitution: Use 20 mL sWFI,
+                            U.S.P.; Keep at room temperature not to exceed 25°C (77°F); Use within 3
+                            hours of reconstitution</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do Not Freeze</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Includes BAXJECT Needleless Transfer
+                            Device</paragraph>
+                  <renderMultiMedia referencedObject="id_c1e866c0-bba3-4d40-a59f-4d926640138d">
+                     <caption ID="id_2b89c9f0-df32-4a5d-a54c-1740ba672455">20 mL Sterile
+                                Water for Injection</caption>
+                  </renderMultiMedia>
+                  <paragraph>1A7141</paragraph>
+                  <paragraph>NDC
+                            0338-0764-02</paragraph>
+                  <paragraph>20 mL Single-Dose Container
+                            Nonpyrogenic</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile
+                                Water for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">for reconstitution of accompanying
+                                product</content>
+                  </paragraph>
+                  <paragraph>Do not use unless clear. No
+                            antimicrobial agent or other substance has been added. Do not use for
+                            intravascular injection without making approximately isotonic by
+                            addition of suitable solute. Discard unused portion. Rx Only. This
+                            Product Contains Dry Natural Rubber.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter</content>
+                  </paragraph>
+                  <paragraph>Manufactured
+                            by</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare
+                                Corporation</content>
+                  </paragraph>
+                  <paragraph>Deerfield, IL 60015
+                            USA</paragraph>
+               </text>
+               <effectiveTime value="20110623"/>
+               <component>
+                  <observationMedia ID="id_d051554a-6c58-4472-832a-1cfcd3797cbb">
+                     <text>FEIBA NF 500U vial label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_f0f92d92-a2b0-48c3-9f54-af70816f65be">
+                     <text>FEIBA NF 500U unit carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_c1e866c0-bba3-4d40-a59f-4d926640138d">
+                     <text>20 mL Sterile Water for Injection</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3bdffc8e-b908-4827-b941-31a1f7063125-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

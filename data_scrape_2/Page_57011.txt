@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2c7f8a0f-0635-40db-b6c8-b8c53f157005"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20130603"/>
+   <setId root="efe2c6c1-b8c6-4a52-b3c6-c9bfca450570"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="014578892" root="1.3.6.1.4.1.519.1"/>
+            <name>Rite Aid</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="126440440" root="1.3.6.1.4.1.519.1"/>
+                  <name>Lornamead</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="126440440" root="1.3.6.1.4.1.519.1"/>
+                        <name>Lornamead</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11822-5020" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11822-5020" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1c802ea1-ad23-48e9-b5da-a18ecfbbb95f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130603"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="11822-5020" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Rite Aid<suffix>Extra Whitening</suffix>
+                        </name>
+                        <formCode code="C42907" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PASTE, DENTIFRICE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Fluoride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="0.24"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8ZYQ1474W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM FLUORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5.0"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RU45X2JN0Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM NITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T93E9Y2844" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITRATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5HK03SA80J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM TRIPOLYPHOSPHATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Y6O7T4G8P9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDRATED SILICA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5OCF3O11KX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COCAMIDOPROPYL BETAINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="JVL98CG53G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METHYL COCOYL TAURATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="113"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="11822-5020-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="11822-5020-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73404" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MINT" xsi:type="CE">
+                              <originalText>mint</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130603"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part356" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b9555afe-ba3a-4bd3-9eaa-d2a6c5487bf0"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredients / Purpose</title>
+               <text>
+                  <paragraph>Potassium nitrate 5%....................................................Antihypersensitivity</paragraph>
+                  <paragraph>Sodium fluoride 0.24% (0.15% w/v fluoride ion)............Anticavity</paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c2b016a2-50a5-488c-b42e-67a4ed43b0c1"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <list listType="unordered">
+                     <item>builds increasing protection against painful sensitivity of the teeth to cold, heat, acids, sweets or contact</item>
+                     <item>aids in the prevention of dental cavities</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="66d90e1a-7c23-411e-bc4b-53876344137d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">When using this product</content> do not use longer than 4 weeks unless recommended by a dentist or physician. <content styleCode="bold">See your dentist if</content> the problem worsens. Sensitive teeth may indicate a serious problem that may need prompt care by a dentist.</paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+               <component>
+                  <section>
+                     <id root="ba6fa1c0-5c4b-4e8f-b2c9-b84767bd9597"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children</content>. If more than used for brushing is accidentally swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9d4d112f-bb9f-45db-8f1d-e8fc61ba69ef"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>Brush teeth thoroughly for at least one minute, preferably after each meal or at least twice a day (morning and evening) or as recommended by a dentist or physican. Make sure to brush all sensitive areas of the teeth.</paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L796f70b8-c274-4f7f-a9a2-e040ecd29152">
+               <id root="a6c6b65e-39a6-4b34-8f95-8427179be65a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Apply at least a 1-inch strip of the product onto a soft bristle toothbrush. <content styleCode="bold">Children under 12 years of age:</content> consult a dentist or a doctor.</paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42a046e4-f465-465e-8a5e-80c1e895ed5e"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>Other Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Store in a cool dry place. Keep tube capped when not in use.</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9ae858c8-d48a-4f3d-b1cd-24b6cdb2dfa6"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>cocamidopropyl betaine, flavor, glycerin, hydrated silica, PEG-8, sodium hydroxide, sodium methyl cocoyl taurate, sodium saccharin, sodium tripolyphosphate, sorbitol, titanium dioxide, water, xanthan gum</paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bcf728c5-c98a-4383-babe-3d6943a5cba8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>mm1.jpg</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>mm2.jpg</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130603"/>
+               <component>
+                  <observationMedia ID="MM1" classCode="OBS" moodCode="EVN">
+                     <text>Carton label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="MM1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2" classCode="OBS" moodCode="EVN">
+                     <text>Tube Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="MM2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9141dd67-b4b8-4fc2-80a6-6dc5c850af39"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>TD Blue - Post Teat Dip</title>
+   <effectiveTime value="20160229"/>
+   <setId root="54397c48-f3d3-44d0-ad15-ab707f74ba25"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="047483616" root="1.3.6.1.4.1.519.1"/>
+            <name>Karcher North America, Inc</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a3afb16f-6467-4412-b28e-00ba1cd60a8c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20160229"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="86061-108" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TD Blue - Post Teat Dip</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CHLORINE DIOXIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="450"/>
+                              <denominator unit="L" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8061YMS4RM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLORINE DIOXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8061YMS4RM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORINE DIOXIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="1041"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="86061-108-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="208"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="86061-108-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151217"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L3e799679-bf09-4a14-9b66-c14f0a785e7d">
+               <id root="8d9a95d1-0a24-4932-a676-f3d0ced67c76"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">POWERFUL, EASY-TO-USE DISINFECTANT IS GENTLE TO ANIMAL SKIN</content>  • Long shelf life • Safe, no NPE • No mixing</paragraph>
+                  <paragraph>• Stains teats blue to ensure proper dipping</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Teats and udders should be thoroughly washed and dried before milking, using potable water, a suitable cleanser and individual paper or single use cloth towels to remove soil and to prevent contamination of milk.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L54e2a1f9-e08d-42a8-b066-d33f6546589e">
+               <id root="24c9ba9f-4974-43fc-b3c1-e98b50618f99"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS:</title>
+               <text>
+                  <paragraph>Ready to use, no mixing needed. Immediately after each milking and before cow is released, dip each teat in undiluted TD Blue Post Teat Dip. Teats should be dipped to the base of the udder. If the dip becomes visibly dirty or contains sediment, replace with fresh solution. At the end of lactation, the teats should be dipped in TD Blue</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION:</content> Avoid freezing - if frozen, let thaw and shake thoroughly before using.</paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8714b526-ab1d-4902-8ea0-a753b1698ec4">
+               <id root="e4f5176a-b93e-49a2-af98-d4a1b1207fb0"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENT:</title>
+               <text>
+                  <paragraph>Chlorine dioxide 450ppm (10049-04-4)</paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld7c0c79d-b418-4a2d-8faf-076138d5991c">
+               <id root="e9e1ad7c-5fc1-44c1-acba-6cae80fa5a58"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTAINS:</content> Water (7732-18-5), Chlorine dioxide (10049-04-4), Acrylates polymer (25035-69-2)</paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4d09c198-c4cb-4318-823f-e39730f2316b">
+               <id root="f71d7d59-4ea8-40e3-bfd7-ddbfb4772180"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>IMPORTANT NOTICE TO PURCHASER:</title>
+               <text>
+                  <paragraph>The manufacturer and seller warrants that the chemical contained herein confoms to its standard specifications. Seller's and manufacturer's liability for any and all losses or damages resulting from any cause whatsoever shall in no event exceed the purchase price of this product with respect to which losses or damages are claimed. Before using, the user shall determine the suitability of the product for his intended use, and user assumes all risk and liability whatsoever, in conjunction therewith. The manufacturer and seller make no representation or warranty, including merchatability or any other kind, express or implied. Individuals with potential allergic sensitivities shall have their physician review this or any other product before use. The foregoing may not be altered except by written agreement by officers of the manufacturer.</paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb1de335c-fe86-412d-bbf1-6317239b6958">
+               <id root="a57c3fe8-6c6c-4f35-a8f9-977648cb6e5f"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DANGER</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GHS HAZARD STATEMENTS:</content> Toxic if swallowed. Toxic in contact with skin. Very toxic to aquatic life with long lasting effects.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GHS PRECAUTIONARY STATEMENTS:</content> Wash skin thoroughly after handling. Do not eat, drink or smoke when using this product. Wear protective gloves/protective clothing/eye protection/face protection. IF SWALLOWED: Immediately call a POISON CENTER or doctor/physician. Rinse mouth. Do NOT induce vomiting. IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing. IF IN EYES: Rinse continuosuly with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing. Take off contaminated clothing and wash before reuse. Dispose of contents/container to an approved waste disposal plant.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GHS PICTOGRAMS:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L38b6eff8-7f9d-4d14-a525-7cc727d200f8">
+               <id root="1f6fb4cc-8fbf-4bae-92a3-13b57f781784"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Labeling:</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lae63725b-d9fe-41d5-8eae-74215acb27ad"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160229"/>
+               <component>
+                  <observationMedia ID="Lae63725b-d9fe-41d5-8eae-74215acb27ad">
+                     <text>label4</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

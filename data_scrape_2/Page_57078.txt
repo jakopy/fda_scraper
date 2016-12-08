@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="438b141d-a568-4006-8afa-24e9443d0412"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts </title>
+   <effectiveTime value="20121127"/>
+   <setId root="06729cd9-b16f-4522-99dd-2d59a59eb3a6"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="832264241" root="1.3.6.1.4.1.519.1"/>
+            <name>Liddell Laboratories, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                  <name>Apotheca Company</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="844330915" root="1.3.6.1.4.1.519.1"/>
+                        <name>Apotheca Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50845-0110" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d91dfa23-665b-41c8-a0c8-b7533b0cf02b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20121127"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50845-0110" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bladder UTI</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Apis Mellifica, Arsenicum Iodatum, Berberis Vulgaris, Cantharis, Coccus Cacti, Echinacea, Mercurius Corrosivus</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7S82P3R43Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>APIS MELLIFERA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7S82P3R43Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>APIS MELLIFERA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3029988O2T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARSENIC TRIIODIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="C96613F5AV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARSENIC CATION (3)</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1TH8Q20J0U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BERBERIS VULGARIS ROOT BARK</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1TH8Q20J0U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BERBERIS VULGARIS ROOT BARK</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3Q034RO3BT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYTTA VESICATORIA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3Q034RO3BT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYTTA VESICATORIA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="3"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LZB7TFX1LT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROTORTONIA CACTI</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LZB7TFX1LT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROTORTONIA CACTI</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VB06AV5US8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ECHINACEA ANGUSTIFOLIA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VB06AV5US8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ECHINACEA ANGUSTIFOLIA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="53GH7MZT1R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MERCURIC CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ED30FJ8Y42" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MERCURIC CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0SVP95L23G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RUBIA TINCTORUM ROOT</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0SVP95L23G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RUBIA TINCTORUM ROOT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_C]" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0T0DQN8786" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THUJA OCCIDENTALIS LEAF</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0T0DQN8786" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THUJA OCCIDENTALIS LEAF</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[hp_X]" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="C5529G5JPQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GINGER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="C5529G5JPQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GINGER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50845-0110-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43175" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, SPRAY"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50845-0110-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20121127"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73614" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved homeopathic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a9cad744-abda-4aab-b19d-b94101c6bfcb"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>ACTIVE INGREDIENTS </title>
+               <text>
+                  <paragraph>Apis Mellifica 200C, Arsenicum Iodatum 200C, Berberis Vulgaris 6X, Cantharis 200C, Coccus Cacti 3X, Echinacea 1X, Mercurius Corrosivus 200C, Rubia Tinctorum 1X, Thuja Occidentalis 200C, Zingiber Officinale 6X</paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L813794e0-e36e-4a1f-a63b-af8f189fab28">
+               <id root="2d7fdf28-e67f-4636-9d13-79d3356737b5"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Uses  Temporarily relieves these symptoms associated with urinary tract infections:</paragraph>
+                  <list listType="unordered">
+                     <item>burning sensation</item>
+                     <item>frequent need to urinate</item>
+                     <item>inflammation</item>
+                     <item>painful urination</item>
+                  </list>
+                  <paragraph>These statements are based upon traditional homeopathic practice.  They have not been reviewed by the Food and Drug Administration.  </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5179c6bc-d6e3-4786-89ae-67254d6d77d9">
+               <id root="2b099ce5-e84a-45a7-983b-05d1d5bad778"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>Do not use if you have ever had an allergic reaction to this product or any of its ingredients.</paragraph>
+                  <paragraph>Stop use and ask a doctor if symptoms persist, are severe, or you experience fever, chills, back pain or bloody urine.  You may have a serious condition that requires professional treatment.  </paragraph>
+                  <paragraph>Keep out of reach of children.  In case of overdose, get medical help or call a Poison Control Center right away.</paragraph>
+                  <paragraph>If pregnant or breast feeding, ask a doctor before using product.  </paragraph>
+                  <paragraph>Do not use if Tamper Evident seal around neck of bottle is missing or broken.  </paragraph>
+                  <paragraph>Store at room temperature.  </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L66cfff26-49d3-499c-9724-2b7bd7a980fa">
+               <id root="42585102-4fa9-4c9e-9df0-3696ab16efd1"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <paragraph>Adults and children over 12    Spray twice under the tongue three times per day.  For severe symptoms, dosage may be taken up to six times the first day.  Continue dosage for fourteen days after symptoms have subsided.  </paragraph>
+                  <paragraph>Children 12 and under  Consult a doctor prior to use.  </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le4d37532-9de0-4de2-a394-df8be6069bd0">
+               <id root="ee94e82a-b994-4712-a136-912797a673e3"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Organic alcohol 20% v/v, Purified Water. </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L05b67805-76bc-4469-bdb7-3ff5454297eb">
+               <id root="b92fa837-5f8d-4a17-b793-60e5c7bf0155"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>KEEP OUT OF REACH OF CHILDREN </title>
+               <text>
+                  <paragraph>In case of overdose, get medical help or call a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L28df56b5-38fd-474d-96ae-916c3064ea3d">
+               <id root="712aca9c-98b7-4975-8aef-bf6e843084c3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Uses  Temporarily relieves these symptoms associated with urinary tract infections:</paragraph>
+                  <list listType="unordered">
+                     <item>burning sensation</item>
+                     <item>frequent need to urinate</item>
+                     <item>inflammation</item>
+                     <item>painful urination</item>
+                  </list>
+                  <paragraph>These statements are based upon traditional homeopathic practice.  They have not been reviewed by the Food and Drug Administration. </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L09ed6af4-d65d-4e2f-9dc8-44315fedef4f">
+               <id root="1581f298-48e5-4fe5-a948-24db3e61834c"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>QUESTIONS </title>
+               <text>
+                  <paragraph>LIDDELL LABORATORIES INC.</paragraph>
+                  <paragraph>201 APPLE BLVD.</paragraph>
+                  <paragraph>WOODBINE, IA  51579</paragraph>
+                  <paragraph>WWW.LIDDELL.NET</paragraph>
+                  <paragraph>1-800-460-7733</paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La9eeb6a7-245c-43d7-8127-443aff81c184">
+               <id root="45bab718-eb9f-4443-b8e3-a87a769e200d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>ORAL SPRAYS</paragraph>
+                  <paragraph>LIDDELL</paragraph>
+                  <paragraph>LABORATORIES</paragraph>
+                  <paragraph>EST 1994</paragraph>
+                  <paragraph>BI</paragraph>
+                  <paragraph>BLADDER UTI</paragraph>
+                  <paragraph>(Urinary Tract Infection)</paragraph>
+                  <paragraph>Relieves urinary tract</paragraph>
+                  <paragraph>infection symptoms: burning, inflammation</paragraph>
+                  <paragraph>and frequent painful urination.</paragraph>
+                  <paragraph>HOMEOPATHIC</paragraph>
+                  <paragraph>DOCTOR FORMULATED</paragraph>
+                  <paragraph>Readily absorbed.  Safe. No known </paragraph>
+                  <paragraph>side effects.  Easy to use.</paragraph>
+                  <paragraph>SCIENTIFICALLY TESTED</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L08dbdacd-63bb-40cb-8e29-800a4902d09b"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20121127"/>
+               <component>
+                  <observationMedia ID="L08dbdacd-63bb-40cb-8e29-800a4902d09b">
+                     <text>Bladder UTI</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="LIDL18 Bladder + UTI Carton 7-25-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

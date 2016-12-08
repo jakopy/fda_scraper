@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="500ac9c3-f77b-4ac8-be85-2e9663cfde2e"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20130801"/>
+   <setId root="faad5946-6bff-4c44-8e3d-ab58973b30f4"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="631055345" root="1.3.6.1.4.1.519.1"/>
+            <name>AMI Cosmetic Co.,Ltd.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="631055345" root="1.3.6.1.4.1.519.1"/>
+                  <name>AMI Cosmetic Co.,Ltd.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="557795360" root="1.3.6.1.4.1.519.1"/>
+                        <name>Eyesome Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59535-2801" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="15625464-5eee-4fe4-a092-1952d25af856"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130801"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59535-2801" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>REVITALIZING C<suffix/>
+                        </name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>GLYCERIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2DMT128M1S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETOSTEARYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NIACINAMIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YSE9PPT4TH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYALURONATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="05Q7CD0E49" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE LAURATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0THT5PCI0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYCLOMETHICONE 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YD01N1999R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-100 STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="70"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59535-2801-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part347" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3441cbd7-0d31-4d9c-a082-b456687a7f50"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>glycerin</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3cc7cfc7-c76d-483d-a2ac-386885739243"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>water, glycerin, glycereth-26, hydrogenated poly, cyclopentasiloxane, cetyl ethylhexanoate, niacinamide, caprylic/capric triglyceride, cetearyl alcohol, cyclohexasiloxane, c14-22 alcohols, pentaerythrityl tetraisosterate, glyceryl stearate, macadamia ternifolia seed oil, bis-peg-18 methyl ether dimethyl silane, peg-100 stearate, sucrose laurate, phytosteryl/octyldodecyl lauroyl glutamate, jojoba esters, dimethicone, c12-20 alkyl glucoside, glycosyl trehalose, behenyl alcohol, sodium hyaluronate, lecithin, soybean sterols, hydrogenated starch hydrolysate, acrylates/c10-30 alkyl acrylate crosspolymer, carbomer, poncirus trifoliate fruit ext, sophora angustifolia root ext, panthenol, allantoin, tocopheryl acetate, hydrolyzed collagen, disodium edta, camellia sinensis callus culture ext, rice callus culture ext, hydrolyzed extensin, portulaca oleracea ext, ascorbyl glucoside, zanthoxylum piperitum fruit ext, pulsatilla koreana ext, lichen ext, xanthan gum, morus alba bark ext, phaseolus radiatus seed ext, rice bran ext, strawberry fruit ext, citrus medica limonum ext, phenoxyethanol, triethanolamine, methylparaben, propylparaben, ci 19140, fragrance</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e6d0282b-b6d8-48df-85d3-46a3dca353ca"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <text>
+                  <paragraph>whitening</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ff0a689e-865d-4dcd-85f8-1f377969bc29"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>keep out of reach of the children</paragraph>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="37911b7b-1a41-4cab-a8c0-0fe91a3d8148"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>after face wash, apply suitable tone and serum for your skin type and apply moderate amount of the product onto the face softly by lightly patting</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="41a3bdb0-f35a-4b7b-b0a4-1755fc881358"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>・Stop using the product when you have skin problems or the product disagrees with your skin. <br/>・Stop using the product immediately and consult a dermatologist if you have redness, swelling, itching or irritation on the skin while or after using the product.<br/>・If the product gets into the eyes, don't rub but rinse with water. <br/>・Don't place the product in any place where it will be subjected to extremely high or low temperatures or direct sunlight.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9927998e-e0a2-4793-b524-52261f7f1f36"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>for external use only</paragraph>
+               </text>
+               <effectiveTime value="20130801"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2443ab2c-524d-4246-b4bc-a41398a1c352"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20130801"/>
+               <component>
+                  <observationMedia ID="MM1" classCode="OBS" moodCode="EVN">
+                     <text>package label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

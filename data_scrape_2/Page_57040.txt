@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?><document xmlns="urn:hl7-org:v3" xmlns:v="http://validator.pragmaticdata.com/result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1b09b2f6-590e-4a9b-9d25-793c7c77e563"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20130423"/>
+   <setId root="ca6c7f8a-d41a-4d77-817c-3dbdc40f890e"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="006999528" root="1.3.6.1.4.1.519.1"/>
+            <name>Kroger Co</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="790752542" root="1.3.6.1.4.1.519.1"/>
+                  <name>Vi-Jon Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="790752542" root="1.3.6.1.4.1.519.1"/>
+                        <name>Vi-Jon, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="30142-845" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bc8b5749-e7fd-47dc-8f3d-e891a77ee838"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130423"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="30142-845" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Isopropyl Alcohol</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Isopropyl Alcohol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="613"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOPROPYL ALCOHOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LAV5U5022Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYL SALICYLATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I753WB2F1M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value=".473"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="30142-845-43" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19890715"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part344" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="36e86d03-a704-4c5c-bd35-164145ed5bf8"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredients</title>
+               <text>
+                  <paragraph>
+                     <content>Isopropyl alcohol 70%</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7b515e3c-95b0-4d43-9da1-fa22f3e7431f">
+               <id root="ab389964-43fb-4c3c-b6a8-6abb70879abd"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>First aid antiseptic</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld895961f-a0ac-4ae0-ad5d-7c45172927d1">
+               <id root="345c4611-7843-4286-be12-57ca99a2b5e4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <paragraph>First aid to help prevent the rist of infection in:</paragraph>
+                  <list listType="unordered">
+                     <item>minor cuts</item>
+                     <item>scrapes</item>
+                     <item>burns</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3687848c-dc08-429f-848b-23021fc78532">
+               <id root="3b627855-09c5-4760-aa58-1397dcae6ad5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>For external use only</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb58d1f32-fa65-41e8-9ff6-15a229dbe6b8">
+               <id root="ef30b4e5-f1f6-4c39-9d0b-820c4061b38d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Flammable</title>
+               <text>
+                  <list listType="unordered">
+                     <item>keep away from fire or flame, heat, spark, electrical</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4776f57c-dba7-406f-bc89-5483a8679d50">
+               <id root="67adbbc2-7c74-4a87-bb69-3f4e0414e8ce"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>Ask a doctor</title>
+               <text>
+                  <paragraph>before use if you have deep or pumcture wounds, animal bites or serious burns</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5c046f42-0fe7-4102-ae07-4e85d7de7cd7">
+               <id root="219188ec-ab55-4623-9fb9-957a350a2ded"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>When using this product</title>
+               <text>
+                  <list listType="unordered">
+                     <item>do not get into eyes</item>
+                     <item>do not apply over large areas of the body</item>
+                     <item>do not use longer than 1 week unless directed by a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0b15ea68-77ee-4b94-b575-6e96ae54fd98">
+               <id root="316e404c-2437-48e8-b44e-fb2f09ed09d8"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use</title>
+               <text>
+                  <paragraph>and ask a doctor if condition persists or gets worse</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7c2bd14e-308b-4259-bbe1-062b1b3f2fca">
+               <id root="0326da7a-a14a-4e1b-87de-313f1d8b225f"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children</title>
+               <text>
+                  <paragraph>If swallowed, get medical help or contact a Poison Control Center right away</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2d9ad758-9178-4527-a74b-d099ca25ff95">
+               <id root="a5a714ab-1dde-4ad8-8a35-beedbd1baf0f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered">
+                     <item>clean the affected area</item>
+                     <item>apply a small amount of this product on the area 1 to 3 times daily</item>
+                     <item>may be covered with a sterile bandage</item>
+                     <item>if bandaged, let dry first</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld9ad60e7-70fc-4704-bb1f-437c57a74a21">
+               <id root="f4b78510-9929-4e0e-83f0-58dfcce07c80"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <list listType="unordered">
+                     <item>does not contain, nor is intended as a substitute for grain or ethyl alcohol</item>
+                     <item>will product serious gastric disturbances if taken internally</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L44717c1b-ee44-4af6-8e9f-d90865e0b230">
+               <id root="27b89eff-90b2-4832-86a7-eb74ba3399cf"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>blue 1, glycerin, methyl salicylate, water, yellow 5</paragraph>
+               </text>
+               <effectiveTime value="20130423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld0a756b3-3108-4893-a471-82489422fd9a">
+               <id root="6e1f9432-25f3-479a-9f1f-951e8c90afaa"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions Section</title>
+               <text>
+                  <paragraph>DISTRIBUTED BY THE KROGER CO., CINCINNATI, HO 45202</paragraph>
+                  <paragraph>For comments or questions please call 1-800-532-6900</paragraph>
+                  <paragraph>www.kroger.com</paragraph>
+               </text>
+               <effectiveTime value="20130424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6eecaead-3041-4cf4-a2b5-5b10a1b6dd6b">
+               <id root="4a1b018e-9037-4087-a50e-928929f456f1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>principal display panel</title>
+               <text>
+                  <paragraph>Kroger</paragraph>
+                  <paragraph>Quality Guaranteed</paragraph>
+                  <paragraph>70%</paragraph>
+                  <paragraph>ISOPROPYL</paragraph>
+                  <paragraph>ALCOHOL</paragraph>
+                  <paragraph>with Wintergreen</paragraph>
+                  <paragraph>and Glycerin</paragraph>
+                  <list listType="unordered">
+                     <item>First Aid Antiseptic</item>
+                     <item>For Rubbing and Massaging</item>
+                  </list>
+                  <paragraph>WARNING</paragraph>
+                  <paragraph>FLAMMABLE</paragraph>
+                  <paragraph>Keep away from heat, spark, electrical, fire or flame</paragraph>
+                  <paragraph>Use only in a well-ventilated area;</paragraph>
+                  <paragraph>fumes may be harmful</paragraph>
+                  <paragraph>Caution: do not point at self or others;</paragraph>
+                  <paragraph>Product will squirt when squeezed</paragraph>
+                  <paragraph>16 FL OZ (1 PT) 473 mL</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L31c4d0fd-29f4-4291-a3e6-975f95bacdfc"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130424"/>
+               <component>
+                  <observationMedia ID="L31c4d0fd-29f4-4291-a3e6-975f95bacdfc">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="mm1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

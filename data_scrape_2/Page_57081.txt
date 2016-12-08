@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?><document xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="518c0d94-2c2b-48ef-a13f-d019dfe82b04"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Labetalol Hydrochloride <br/>Injection, USP</title>
+   <effectiveTime value="20111213"/>
+   <setId root="17bb21ce-9bb1-4603-b168-abea7fc85d17"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="062649876" root="1.3.6.1.4.1.519.1"/>
+            <name>Akorn, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="155135783" root="1.3.6.1.4.1.519.1"/>
+                        <name>Akorn, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="76378eb9-27de-46f0-861e-b4f4c3f14f75"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20111213"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="17478-420" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Labetalol Hydrochloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Labetalol Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1GEV3BAW9J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Labetalol Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R5H8897N95" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Labetalol</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="45"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Anhydrous Dextrose</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Edetate Disodium </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Anhydrous Citric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Methylparaben</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Propylparaben</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48551" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL" value="1"/>
+                                    </numerator>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="17478-420-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="40"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48551" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL" value="1"/>
+                                    </numerator>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="17478-420-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20040901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075431" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s0">
+               <id root="da4f7e12-9bbe-4fe9-a803-5ad1f8171c04"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="a6f7a82a-44f9-4b41-bc39-696622504f3a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Labetalol Hydrochloride is an adrenergic receptor blocking agent that has both selective alpha<sub>1</sub>- and non-selective beta-adrenergic receptor blocking actions in a single substance.</paragraph>
+                  <paragraph>Labetalol HCl is a racemate, chemically designated as 5-[1-hydroxy-2-[(1-methyl-3-phenylpropyl) amino] ethyl]salicylamide monohydrochloride, and has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Labetalol HCl has the molecular formula C<sub>19</sub>H<sub>24</sub>N<sub>2</sub>O<sub>3</sub> • HCl and a molecular weight of 364.87. It has two asymmetric centers and therefore exists as a molecular complex of two diastereoisomeric pairs. Dilevalol, the R,R' stereoisomer, makes up 25% of racemic labetalol.</paragraph>
+                  <paragraph>Labetalol HCl is a white or off-white crystalline powder, soluble in water.</paragraph>
+                  <paragraph>Labetalol Hydrochloride Injection is a clear, colorless to light yellow aqueous sterile isotonic solution for intravenous injection. It has a pH range of 3.0 to 4.0.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL contains:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active:</content> Labetalol Hydrochloride USP, 5 mg. <content styleCode="bold">Preservatives:</content> Methylparaben, 0.80 mg; Propylparaben, 0.10 mg. <content styleCode="bold">Inactives:</content> Anhydrous Dextrose, 45 mg; Edetate Disodium 0.10 mg; Citric Acid Anhydrous and/or Sodium Hydroxide may be added to adjust pH (3.0 to 4.0), and Water for Injection.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lab05-0002-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="a1cedbbf-bdc0-4db6-98d8-77d7a2399578"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Labetalol combines both selective, competitive alpha<sub>1</sub>-adrenergic blocking and nonselective, competitive beta-adrenergic blocking activity in a single substance. In man, the ratios of alpha- to beta-blockade have been estimated to be approximately 1:3 and 1:7 following oral and intravenous administration, respectively. Beta<sub>2</sub>-agonist activity has been demonstrated in animals with minimal beta<sub>1</sub>-agonist (ISA) activity detected. In animals, at doses greater than those required for alpha- or beta-adrenergic blockade, a membrane-stabilizing effect has been demonstrated.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s3">
+                     <id root="5a270144-0772-49d3-97a3-976424b6288f"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>The capacity of labetalol to block alpha-receptors in man has been demonstrated by attenuation of the pressor effect of phenylephrine and by a significant reduction of the pressor response caused by immersing the hand in ice-cold water ("cold-pressor test"). Labetalol beta<sub>1</sub>-receptor blockade in man was demonstrated by a small decrease in the resting heart rate, attenuation of tachycardia produced by isoproterenol or exercise, and by attenuation of the reflex tachycardia to the hypotension produced by amyl nitrite. Beta<sub>2</sub>-receptor blockade was demonstrated by inhibition of the isoproterenol-induced fall in diastolic blood pressure. Both the alpha- and beta-blocking actions of orally administered labetalol HCl contribute to a decrease in blood pressure in hypertensive patients. Labetalol consistently, in dose-related fashion, blunted increases in exercise-induced blood pressure and heart rate, and in their double product. The pulmonary circulation during exercise was not affected by labetalol HCl dosing.</paragraph>
+                        <paragraph>Single oral doses of labetalol HCl administered in patients with coronary artery disease had no significant effect on sinus rate, intraventricular conduction, or QRS duration. The AV conduction time was modestly prolonged in 2 of 7 patients. In another study, intravenous labetalol slightly prolonged AV nodal conduction time and atrial effective refractory period with only small changes in heart rate. The effects on AV nodal refractoriness were inconsistent.</paragraph>
+                        <paragraph>Labetalol produces dose-related falls in blood pressure without reflex tachycardia and without significant reduction in heart rate, presumably through a mixture of its alpha-blocking and beta-blocking effects. Hemodynamic effects are variable with small nonsignificant changes in cardiac output seen in some studies but not others, and small decreases in total peripheral resistance. Elevated plasma renins are reduced.</paragraph>
+                        <paragraph>Doses of labetalol HCl that controlled hypertension did not affect renal function in mild to severe hypertensive patients with normal renal function.</paragraph>
+                        <paragraph>Due to the alpha<sub>1</sub>-receptor blocking activity of labetalol, blood pressure is lowered more in the standing than in the supine position, and symptoms of postural hypotension can occur. During dosing with intravenous labetalol HCl, the contribution of the postural component should be considered when positioning patients for treatment, and patients should not be allowed to move to an erect position unmonitored until their ability to do so is established.</paragraph>
+                        <paragraph>In a clinical pharmacologic study in severe hypertensives, an initial 0.25 mg/kg injection of labetalol HCl, administered to patients in the supine position, decreased blood pressure by an average of 11/7 mmHg. Additional injections of 0.5 mg/kg at 15-minute intervals up to a total cumulative dose of 1.75 mg/kg of labetalol HCl caused further dose-related decreases in blood pressure. Some patients required cumulative doses of up to 3.25 mg/kg. The maximal effect of each dose level occurred within 5 minutes.</paragraph>
+                        <paragraph>Following discontinuation of intravenous treatment with labetalol HCl, the blood pressure rose gradually and progressively, approaching pretreatment baseline values within an average of 16 - 18 hours in the majority of patients.</paragraph>
+                        <paragraph>Similar results were obtained in the treatment of patients with severe hypertension requiring urgent blood pressure reduction with an initial dose of 20 mg (which corresponds to 0.25 mg/kg for an 80 kg patient) followed by additional doses of either 40 or 80 mg at 10-minute intervals to achieve the desired effect or up to a cumulative dose of 300 mg.</paragraph>
+                        <paragraph>Labetalol HCl administered as a continuous intravenous infusion, with a mean dose of 136 mg (27 to 300 mg) over a period of 2 to 3 hours (mean of 2 hours and 39 minutes) lowered the blood pressure by an average of 60/35 mmHg.</paragraph>
+                        <paragraph>Exacerbation of angina and, in some cases, myocardial infarction and ventricular dysrhythmias have been reported after abrupt discontinuation of therapy with beta-adrenergic blocking agents in patients with coronary artery disease. Abrupt withdrawal of these agents in patients without coronary artery disease has resulted in transient symptoms, including tremulousness, sweating, palpitation, headache, and malaise. Several mechanisms have been proposed to explain these phenomena, among them increased sensitivity to catecholamines because of increased numbers of beta receptors.</paragraph>
+                        <paragraph>Although beta-adrenergic receptor blockade is useful in the treatment of angina and hypertension, there are also situations in which sympathetic stimulation is vital. For example, in patients with severely damaged hearts, adequate ventricular function may depend on sympathetic drive. Beta-adrenergic blockade may worsen AV block by preventing the necessary facilitating effects of sympathetic activity on conduction. Beta<sub>2</sub>-adrenergic blockade results in passive bronchial constriction by interfering with endogenous adrenergic bronchodilator activity in patients subject to bronchospasm and may also interfere with exogenous bronchodilators in such patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s4">
+                     <id root="d4fd8445-f7aa-44ea-b445-537ad5bd5504"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics and Metabolism</title>
+                     <text>
+                        <paragraph>Following intravenous infusion, the elimination half-life is about 5.5 hours and the total body clearance is approximately 33 mL/min/kg. The plasma half-life of labetalol following oral administration is about 6 to 8 hours. In patients with decreased hepatic or renal function, the elimination half-life of labetalol is not altered; however, the relative bioavailability in hepatically impaired patients is increased due to decreased "first-pass" metabolism.</paragraph>
+                        <paragraph>The metabolism of labetalol is mainly through conjugation to glucuronide metabolites. These metabolites are present in plasma and are excreted in the urine and, via the bile, into the feces. Approximately 55% to 60% of a dose appears in the urine as conjugates or unchanged labetalol within the first 24 hours of dosing.</paragraph>
+                        <paragraph>Labetalol has been shown to cross the placental barrier in humans. Only negligible amounts of the drug crossed the blood-brain barrier in animal studies. Labetalol is approximately 50% protein bound. Neither hemodialysis nor peritoneal dialysis removes a significant amount of labetalol from the general circulation (&lt;1%).</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="bddcfa8b-2dab-42ed-ad45-e3f5de29f574"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Labetalol HCl Injection is indicated for control of blood pressure in severe hypertension.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="75198e3b-e5fb-4614-ba40-b509a088930a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Labetalol HCl Injection is contraindicated in bronchial asthma, overt cardiac failure, greater than first degree heart block, cardiogenic shock, severe bradycardia, other conditions associated with severe and prolonged hypotension, and in patients with a history of hypersensitivity to any component of the product (see <content styleCode="bold">
+                        <linkHtml href="#s7">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Beta-blockers, even those with apparent cardioselectivity, should not be used in patients with a history of obstructive airway disease, including asthma.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="4c2b086f-6472-4657-8ed7-61fd899c6ce2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s8">
+                     <id root="d0b59290-13e4-4c4b-a1a5-41fae2726531"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic Injury</title>
+                     <text>
+                        <paragraph>Severe hepatocellular injury, confirmed by rechallenge in at least one case, occurs rarely with therapy with labetalol. The hepatic injury is usually reversible, but hepatic necrosis and death have been reported. Injury has occurred after both short- and long-term treatment and may be slowly progressive despite minimal symptomatology. Similar hepatic events have been reported with a related compound, dilevalol HCl, including two deaths. Dilevalol HCl is one of the four isomers of labetalol HCl. Thus, for patients taking labetalol, periodic determination of suitable hepatic laboratory tests would be appropriate. Laboratory testing should also be done at the very first symptom or sign of liver dysfunction (eg, pruritus, dark urine, persistent anorexia, jaundice, right upper quadrant tenderness, or unexplained "flu-like" symptoms). If the patient has jaundice or laboratory evidence of liver injury, labetalol should be stopped and not restarted.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="c81e0eb2-0a83-4220-8b09-b32733a506e1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiac Failure</title>
+                     <text>
+                        <paragraph>Sympathetic stimulation is a vital component supporting circulatory function in congestive heart failure. Beta-blockade carries a potential hazard of further depressing myocardial contractility and precipitating more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, labetalol can be used with caution in patients with a history of heart failure who are well compensated. Congestive heart failure has been observed in patients receiving labetalol HCl. Labetalol does not abolish the inotropic action of digitalis on heart muscle.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="0ccce0b4-591b-4448-9e46-362265f5766d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>In Patients Without a History of Cardiac Failure</title>
+                     <text>
+                        <paragraph>In patients with latent cardiac insufficiency, continued depression of the myocardium with beta-blocking agents over a period of time can lead, in some cases, to cardiac failure. At the first sign or symptom of impending cardiac failure, patients should be fully digitalized and/or be given a diuretic, and the response observed closely. If cardiac failure continues, despite adequate digitalization and diuretic, therapy with labetalol should be withdrawn (gradually if possible).</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="bd969714-60ea-49e3-9f66-ceed5faf0fa5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Ischemic Heart Disease</title>
+                     <text>
+                        <paragraph>Angina pectoris has not been reported upon labetalol discontinuation. However, following abrupt cessation of therapy with some beta-blocking agents in patients with coronary artery disease, exacerbations of angina pectoris and, in some cases, myocardial infarction have been reported. Therefore, such patients should be cautioned against interruption of therapy without the physician's advice. Even in the absence of overt angina pectoris, when discontinuation of labetalol is planned, the patient should be carefully observed and should be advised to limit physical activity. If angina markedly worsens or acute coronary insufficiency develops, labetalol administration should be reinstituted promptly, at least temporarily, and other measures appropriate for the management of unstable angina should be taken.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="8c8faab8-f625-45ed-b327-1082affa2cb9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nonallergic Bronchospasm</title>
+                     <text>
+                        <paragraph>(e.g., chronic bronchitis and emphysema) Since labetalol HCl injection at the usual intravenous therapeutic doses has not been studied in patients with nonallergic bronchospastic disease, it should not be used in such patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="48b5c716-2986-4f72-a56e-5a7101b558e3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pheochromocytoma</title>
+                     <text>
+                        <paragraph>Intravenous labetalol has been shown to be effective in lowering the blood pressure and relieving symptoms in patients with pheochromocytoma; higher than usual doses may be required. However, paradoxical hypertensive responses have been reported in a few patients with this tumor; therefore, use caution when administering labetalol to patients with pheochromocytoma.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="710ec0ac-d5fd-40f6-9ad6-5bf6880274eb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Diabetes Mellitus and Hypoglycemia</title>
+                     <text>
+                        <paragraph>Beta-adrenergic blockade may prevent the appearance of premonitory signs and symptoms (eg, tachycardia) of acute hypoglycemia. This is especially important with labile diabetics. Beta-blockade also reduces the release of insulin in response to hyperglycemia, it may therefore be necessary to adjust the dose of anti-diabetic drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="60b164e7-eb30-417e-aa4a-d03bbe088011"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Major Surgery</title>
+                     <text>
+                        <paragraph>The necessity or desirability of withdrawing beta-blocking therapy prior to major surgery is controversial. Protracted severe hypotension and difficulty in restarting or maintaining a heartbeat have been reported with beta-blockers. The effect of labetalol alpha-adrenergic activity has not been evaluated in this setting.</paragraph>
+                        <paragraph>Several deaths have occurred when labetalol HCl injection was used during surgery (including when used in cases to control bleeding).</paragraph>
+                        <paragraph>A synergism between labetalol and halothane anesthesia has been shown (see <content styleCode="bold">
+                              <linkHtml href="#s26">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="41736fc0-1dbe-44e5-9013-bb32fd6e6e76"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Rapid Decreases of Blood Pressure</title>
+                     <text>
+                        <paragraph>Caution must be observed when reducing severely elevated blood pressure. A number of adverse reactions, including cerebral infarction, optic nerve infarction, angina, and ischemic changes in the electrocardiogram, have been reported with other agents when severely elevated blood pressure was reduced over time courses of several hours to as long as 1 or 2 days. The desired blood pressure lowering should therefore be achieved over as long a period of time as is compatible with the patient's status.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="26afe58b-c039-4b69-904a-1015f52c2bb6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s18">
+                     <id root="e6e42fe4-24d3-4c02-8fcc-0aaf20515c2d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20111213"/>
+                     <component>
+                        <section ID="s19">
+                           <id root="de7cbfbb-4221-4776-aecd-a9ff4d5f5222"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Impaired Hepatic Function</content> may diminish metabolism of labetalol.</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s20">
+                           <id root="401115f6-eeb3-4049-920e-1cfbb5a1df15"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Following Coronary Artery Bypass Surgery</content> In one uncontrolled study, patients with low cardiac indices and elevated systemic vascular resistance following intravenous labetalol experienced significant declines in cardiac output with little change in systemic vascular resistance. One of these patients developed hypotension following labetalol HCl treatment. Therefore, use of labetalol should be avoided in such patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s21">
+                           <id root="48172101-39b6-4426-8fc0-9d6ea5b04d89"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">High-Dose Labetalol HCl</content> Administration of up to 3 g per day as an infusion for up to 2 to 3 days has been anecdotally reported; several patients experienced hypotension or bradycardia (see <content styleCode="bold">
+                                    <linkHtml href="#s39">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s22">
+                           <id root="61490669-55e4-47f8-83e1-9ba343ee8975"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Hypotension</content> Symptomatic postural hypotension (incidence 58%) is likely to occur if patients are tilted or allowed to assume the upright position within 3 hours of receiving labetalol HCl injection. Therefore, the patient's ability to tolerate an upright position should be established before permitting any ambulation.</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s23">
+                           <id root="d94ab6db-3cc0-4898-b884-c60f55d727a1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Jaundice or Hepatic Dysfunction</content> (see <content styleCode="bold">
+                                    <linkHtml href="#s7">WARNINGS</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="10157c85-83e2-4691-a99f-621b1dc5ceff"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The following information is intended to aid in the safe and effective use of this medication. It is not a disclosure of all possible adverse or intended effects. During and immediately following (for up to 3 hours) labetalol HCl injection, the patient should remain supine. Subsequently, the patient should be advised on how to proceed gradually to become ambulatory, and should be observed at the time of first ambulation.</paragraph>
+                        <paragraph>When the patient is started on labetalol HCl tablets following adequate control of blood pressure with labetalol HCl injection, appropriate directions for titration of dosage should be provided (see <content styleCode="bold">
+                              <linkHtml href="#s39">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>As with all drugs with beta-blocking activity, certain advice to patients being treated with labetalol HCl is warranted: While no incident of the abrupt withdrawal phenomenon (exacerbation of angina pectoris) has been reported with labetalol, dosing with labetalol HCl tablets should not be interrupted or discontinued without a physician's advice. Patients being treated with labetalol HCl tablets should consult a physician at any signs or symptoms of impending cardiac failure or hepatic dysfunction (see <content styleCode="bold">
+                              <linkHtml href="#s7">WARNINGS</linkHtml>
+                           </content>). Also, transient scalp tingling may occur, usually when treatment with labetalol HCl tablets is initiated (see <content styleCode="bold">
+                              <linkHtml href="#s36">ADVERSE REACTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="5509b23d-bf1d-41c2-a7d7-317133233b52"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Routine laboratory tests are ordinarily not required before or after intravenous labetalol. In patients with concomitant illnesses, such as impaired renal function, appropriate tests should be done to monitor these conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="187257f9-1132-4232-a781-e48302862f9a"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Since labetalol HCl injection may be administered to patients already being treated with other medications, including other antihypertensive agents, careful monitoring of these patients is necessary to detect and treat promptly any undesired effect from concomitant administration.</paragraph>
+                        <paragraph>In one survey, 2.3% of patients taking labetalol orally in combination with tricyclic antidepressants experienced tremor as compared to 0.7% reported to occur with labetalol alone. The contribution of each of the treatments to this adverse reaction is unknown but the possibility of a drug interaction cannot be excluded.</paragraph>
+                        <paragraph>Drugs possessing beta-blocking properties can blunt the bronchodilator effect of beta-receptor agonist drugs in patients with bronchospasm; therefore, doses greater than the normal antiasthmatic dose of beta-agonist bronchodilator drugs may be required.</paragraph>
+                        <paragraph>Cimetidine has been shown to increase the bioavailability of labetalol administered orally. Since this could be explained either by enhanced absorption or by an alteration of hepatic metabolism of labetalol, special care should be used in establishing the dose required for blood pressure control in such patients.</paragraph>
+                        <paragraph>Synergism has been shown between halothane anesthesia and intravenously administered labetalol. During controlled hypotensive anesthesia using labetalol in association with halothane, high concentrations (3% or above) of halothane should not be used because the degree of hypotension will be increased and because of the possibility of a large reduction in cardiac output and an increase in central venous pressure. The anesthesiologist should be informed when a patient is receiving labetalol.</paragraph>
+                        <paragraph>Labetalol blunts the reflex tachycardia produced by nitroglycerin without preventing its hypotensive effect. If labetalol is used with nitroglycerin in patients with angina pectoris, additional antihypertensive effects may occur.</paragraph>
+                        <paragraph>Care should be taken if labetalol is used concomitantly with calcium antagonists of the verapamil type.</paragraph>
+                        <paragraph>When drug products that are alkaline, such as furosemide, have been administered in combination with labetalol, a white precipitate has been noted. Therefore, these drugs should not be administered in the same infusion line.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                     <component>
+                        <section ID="s27">
+                           <id root="0a4fb5a3-00e7-4849-87ec-b1f2b3791329"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Risk of Anaphylactic Reaction</title>
+                           <text>
+                              <paragraph>While taking beta-blockers, patients with a history of severe anaphylactic reactions to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic. Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reaction.</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="b7b173e3-606b-491f-babf-190dc8fbc453"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>The presence of labetalol metabolites in the urine may result in falsely elevated levels of urinary catecholamines, metanephrine, normetanephrine, and vanillylmandelic acid (VMA) when measured by fluorimetric or photometric methods. In screening patients suspected of having a pheochromocytoma and being treated with labetalol, a specific method, such as a high-performance liquid chromatographic assay with solid phase extraction (eg, <content styleCode="italics">J Chromatogr</content> 385:241, 1987) should be employed in determining levels of catecholamines.</paragraph>
+                        <paragraph>Labetalol has also been reported to produce a false-positive test for amphetamine when screening urine for the presence of drugs using the commercially available assay methods Toxi-Lab A<sup>®</sup> (thin-layer chromatographic assay) and Emit-d.a.u.<sup>®</sup> (radioenzymatic assay). When patients being treated with labetalol have a positive urine test for amphetamine using these techniques, confirmation should be made by using more specific methods, such as a gas chromatographic-mass spectrometer technique.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="90c97f38-f511-4bb7-b90c-7d2f7695b869"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term oral dosing studies with labetalol for 18 months in mice and for 2 years in rats showed no evidence of carcinogenesis. Studies with labetalol, using dominant lethal assays in rats and mice, and exposing microorganisms according to modified Ames tests, showed no evidence of mutagenesis.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="a8bfb938-19c7-4b33-9ea3-2d38764bb57c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy Category C</title>
+                     <effectiveTime value="20111213"/>
+                     <component>
+                        <section ID="s31">
+                           <id root="4817f29c-80bc-4489-b35c-4cc5bf6339b6"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>Teratogenic studies have been performed with labetalol in rats and rabbits at oral doses up to approximately 6 and 4 times the maximum recommended human dose (MRHD), respectively. No reproducible evidence of fetal malformations was observed. Increased fetal resorptions were seen in both species at doses approximating the MRHD. A teratology study performed with labetalol in rabbits at intravenous doses up to 1.7 times the MRHD revealed no evidence of drug-related harm to the fetus. There are no adequate and well-controlled studies in pregnant women. Labetalol should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20111213"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s32">
+                     <id root="d9450150-1920-41d2-b849-3330b04704c7"/>
+                     <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                     <title>Nonteratogenic Effects</title>
+                     <text>
+                        <paragraph>Hypotension, bradycardia, hypoglycemia, and respiratory depression have been reported in infants of mothers who were treated with labetalol for hypertension during pregnancy. Oral administration of labetalol to rats during late gestation through weaning at doses of 2 to 4 times the MRHD caused a decrease in neonatal survival.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s33">
+                     <id root="b799cff8-1eaf-4cb3-b4ff-60b5b120a1ef"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Labetalol given to pregnant women with hypertension did not appear to affect the usual course of labor and delivery.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="27eed836-c49f-4a68-bf75-e07f315c4d6b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Small amounts of labetalol (approximately 0.004% of the maternal dose) are excreted in human milk. Caution should be exercised when labetalol HCl injection is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="dca70e2d-85aa-4976-a7ec-393c6a91044e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="a44f07d8-8f06-4a94-80d0-eb704a7d828c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Labetalol HCl Injection is usually well tolerated. Most adverse effects have been mild and transient and in controlled trials involving 92 patients did not require labetalol withdrawal. Symptomatic postural hypotension (incidence 58%) is likely to occur if patients are tilted or allowed to assume the upright position within 3 hours of receiving labetalol HCl injection. Moderate hypotension occurred in 1 of 100 patients while supine. Increased sweating was noted in 4 of 100 patients, and flushing occurred in 1 of 100 patients.</paragraph>
+                  <paragraph>The following also were reported with labetalol HCl injection with the incidence per 100 patients as noted:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular System</content> Ventricular arrhythmia in 1.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Central and Peripheral Nervous Systems</content> Dizziness in 9; tingling of the scalp/skin 7; hypoesthesia (numbness) and vertigo, 1 each.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal System</content> Nausea in 13; vomiting 4; dyspepsia and taste distortion, 1 each.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic Disorders</content> Transient increases in blood urea nitrogen and serum creatinine levels occurred in 8 of 100 patients; these were associated with drops in blood pressure, generally in patients with prior renal insufficiency.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric Disorders</content> Somnolence/yawning in 3.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory System</content> Wheezing in 1.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin</content> Pruritus in 1.</paragraph>
+                  <paragraph>The incidence of adverse reactions depends upon the dose of labetalol HCl. The largest experience is with oral labetalol HCl (see oral labetalol HCl product information for details). Certain of the side effects increased with increasing oral dose as shown in the table below which depicts the entire U.S. therapeutic trials data base for adverse reactions that are clearly or possibly dose related.</paragraph>
+                  <table width="100%">
+                     <col align="left" valign="bottom" width="19%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <col align="right" valign="bottom" width="9%"/>
+                     <thead>
+                        <tr>
+                           <th>Labetalol HCl<br/>Daily Dose (mg)</th>
+                           <th>200</th>
+                           <th>300</th>
+                           <th>400</th>
+                           <th>600</th>
+                           <th>800</th>
+                           <th>900</th>
+                           <th>1200</th>
+                           <th>1600</th>
+                           <th>2400</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Number of Patients</td>
+                           <td>522</td>
+                           <td>181</td>
+                           <td>606</td>
+                           <td>608</td>
+                           <td>503</td>
+                           <td>117</td>
+                           <td>411</td>
+                           <td>242</td>
+                           <td>175</td>
+                        </tr>
+                        <tr>
+                           <td>Dizziness (%)</td>
+                           <td>2</td>
+                           <td>3</td>
+                           <td>3</td>
+                           <td>3</td>
+                           <td>5</td>
+                           <td>1</td>
+                           <td>9</td>
+                           <td>13</td>
+                           <td>16</td>
+                        </tr>
+                        <tr>
+                           <td>Fatigue</td>
+                           <td>2</td>
+                           <td>1</td>
+                           <td>4</td>
+                           <td>4</td>
+                           <td>5</td>
+                           <td>3</td>
+                           <td>7</td>
+                           <td>6</td>
+                           <td>10</td>
+                        </tr>
+                        <tr>
+                           <td>Nausea</td>
+                           <td>&lt;1</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>4</td>
+                           <td>0</td>
+                           <td>7</td>
+                           <td>11</td>
+                           <td>19</td>
+                        </tr>
+                        <tr>
+                           <td>Vomiting</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>&lt;1</td>
+                           <td>&lt;1</td>
+                           <td>&lt;1</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>3</td>
+                        </tr>
+                        <tr>
+                           <td>Dyspepsia</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>2</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>2</td>
+                           <td>2</td>
+                           <td>4</td>
+                        </tr>
+                        <tr>
+                           <td>Paresthesias</td>
+                           <td>2</td>
+                           <td>0</td>
+                           <td>2</td>
+                           <td>2</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>5</td>
+                           <td>5</td>
+                        </tr>
+                        <tr>
+                           <td>Nasal Stuffiness</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>2</td>
+                           <td>2</td>
+                           <td>2</td>
+                           <td>4</td>
+                           <td>5</td>
+                           <td>6</td>
+                        </tr>
+                        <tr>
+                           <td>Ejaculation Failure</td>
+                           <td>0</td>
+                           <td>2</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>3</td>
+                           <td>0</td>
+                           <td>4</td>
+                           <td>3</td>
+                           <td>5</td>
+                        </tr>
+                        <tr>
+                           <td>Impotence</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>4</td>
+                           <td>3</td>
+                           <td>4</td>
+                           <td>3</td>
+                        </tr>
+                        <tr>
+                           <td>Edema</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>1</td>
+                           <td>0</td>
+                           <td>1</td>
+                           <td>2</td>
+                           <td>2</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In addition, a number of other less common adverse events have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular</content> Hypotension, and rarely, syncope, bradycardia, heart block.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Liver and Biliary System</content> Hepatic necrosis, hepatitis, cholestatic jaundice, elevated liver function tests.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hypersensitivity</content> Rare reports of hypersensitivity (eg, rash, urticaria, pruritus, angioedema, dyspnea) and anaphylactoid reactions.</paragraph>
+                  <paragraph>The oculomucocutaneous syndrome associated with the beta-blocker practolol has not been reported with labetalol HCl during investigational use and extensive foreign marketing experience.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s37">
+                     <id root="545ae845-8800-426b-865d-873011e42a16"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Laboratory Tests</title>
+                     <text>
+                        <paragraph>Among patients dosed with labetalol HCl tablets, there have been reversible increases of serum transaminases in 4% of patients tested, and more rarely, reversible increases in blood urea.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s38">
+               <id root="dab772cf-0d74-442c-82ca-ef3a0f775aaa"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage with labetalol HCl injection causes excessive hypotension that is posture sensitive, and sometimes, excessive bradycardia. Patients should be placed supine and their legs raised if necessary to improve the blood supply to the brain. If overdosage with labetalol HCl follows oral ingestion, gastric lavage or pharmacologically induced emesis (using syrup of ipecac) may be useful for removal of the drug shortly after ingestion. The following additional measures should be employed if necessary: <content styleCode="italics">Excessive bradycardia</content>-administer atropine or epinephrine. <content styleCode="italics">Cardiac failure</content>-administer a digitalis glycoside and a diuretic. Dopamine or dobutamine may also be useful. <content styleCode="italics">Hypotension</content>-administer vasopressors, eg, norepinephrine. There is pharmacological evidence that norepinephrine may be the drug of choice. <content styleCode="italics">Bronchospasm</content>-administer epinephrine and/or an aerosolized beta<sub>2</sub>-agonist. <content styleCode="italics">Seizures</content>-administer diazepam.</paragraph>
+                  <paragraph>In severe beta-blocker overdose resulting in hypotension and/or bradycardia, glucagon has been shown to be effective when administered in large doses (5 to 10 mg rapidly over 30 seconds, followed by continuous infusion of 5 mg/hr that can be reduced as the patient improves).</paragraph>
+                  <paragraph>Neither hemodialysis nor peritoneal dialysis removes a significant amount of labetalol from the general circulation (&lt;1%).</paragraph>
+                  <paragraph>The oral LD<sub>50</sub> value of labetalol HCl in the mouse is approximately 600 mg/kg and in the rat is greater than 2 g/kg. The intravenous LD<sub>50</sub> in these species is 50 to 60 mg/kg.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s39">
+               <id root="b0e8c184-9678-4576-afb8-0a65f0416021"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Labetalol HCl Injection is intended for intravenous use in hospitalized patients. DOSAGE MUST BE INDIVIDUALIZED depending upon the severity of hypertension and the response of the patient during dosing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patients should always be kept in a supine position during the period of intravenous drug administration. A substantial fall in blood pressure on standing should be expected in these patients. The patient's ability to tolerate an upright position should be established before permitting any ambulation, such as using toilet facilities.</content>
+                  </paragraph>
+                  <paragraph>Either of two methods of administration of labetalol HCl injection may be used: a) repeated intravenous injections, b) slow continuous infusion.</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s40">
+                     <id root="de171a7c-8166-4392-abc7-9fceb9df1de8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Repeated Intravenous Injection</title>
+                     <text>
+                        <paragraph>Initially, labetalol HCl injection should be given in a dose of 20 mg labetalol HCl (which corresponds to 0.25 mg/kg for an 80 kg patient) by slow intravenous injection over a 2-minute period.</paragraph>
+                        <paragraph>Immediately before the injection and at 5 and 10 minutes after injection, supine blood pressure should be measured to evaluate response. Additional injections of 40 mg or 80 mg can be given at 10-minute intervals until a desired supine blood pressure is achieved or a total of 300 mg labetalol HCl has been injected. The maximum effect usually occurs within 5 minutes of each injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="eea0eaf0-6baa-41d5-a9e9-a315e4d13e44"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Slow Continuous Infusion</title>
+                     <text>
+                        <paragraph>Labetalol HCl Injection is prepared for continuous intravenous infusion by diluting the vial contents with commonly used intravenous fluids (see <linkHtml href="#s44">below</linkHtml>). Examples of two methods of preparing the infusion solution are:</paragraph>
+                        <paragraph>The contents of either two 20-mL vials (40 mL), or one 40-mL vial, are added to 160 mL of a commonly used intravenous fluid such that the resultant 200 mL of solution contains 200 mg of labetalol HCl, 1 mg/mL. The diluted solution should be administered at a rate of 2 mL/min to deliver 2 mg/min.</paragraph>
+                        <paragraph>Alternatively, the contents of either two 20-mL vials (40 mL), or one 40-mL vial, of labetalol HCl injection are added to 250 mL of a commonly used intravenous fluid. The resultant solution will contain 200 mg of labetalol HCl, approximately 2 mg/3 mL. The diluted solution should be administered at a rate of 3 mL/min to deliver approximately 2 mg/min.</paragraph>
+                        <paragraph>The rate of infusion of the diluted solution may be adjusted according to the blood pressure response, at the discretion of the physician. To facilitate a desired rate of infusion, the diluted solution can be infused using a controlled administration mechanism, eg, graduated burette or mechanically driven infusion pump.</paragraph>
+                        <paragraph>Since the half-life of labetalol is 5 to 8 hours, steady-state blood levels (in the face of a constant rate of infusion) would not be reached during the usual infusion time period. The infusion should be continued until a satisfactory response is obtained and should then be stopped and oral labetalol HCl started (see <linkHtml href="#s43">below</linkHtml>). The effective intravenous dose is usually in the range of 50 to 200 mg. A total dose of up to 300 mg may be required in some patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="5aaf2bf2-0bed-404d-98b1-70b87df4cee9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Blood Pressure Monitoring</title>
+                     <text>
+                        <paragraph>The blood pressure should be monitored during and after completion of the infusion or intravenous injections. Rapid or excessive falls in either systolic or diastolic blood pressure during intravenous treatment should be avoided. In patients with excessive systolic hypertension, the decrease in systolic pressure should be used as indicator of effectiveness in addition to the response of the diastolic pressure.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s43">
+                     <id root="bf8c0f58-70d9-46d5-8f0d-ebd7c015a187"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Initiation of Dosing with Labetalol HCl Tablets</title>
+                     <text>
+                        <paragraph>Subsequent oral dosing with labetalol HCl tablets should begin when it has been established that the supine diastolic blood pressure has begun to rise. The recommended initial dose is 200 mg, followed in 6 - 12 hours by an additional dose of 200 or 400 mg, depending on the blood pressure response. Thereafter, <content styleCode="italics">inpatient titration with Labetalol HCl Tablets</content> may proceed as follows:</paragraph>
+                        <table width="80%">
+                           <caption>Inpatient Titration Instructions</caption>
+                           <col align="center" valign="middle" width="50%"/>
+                           <col align="center" valign="middle" width="50%"/>
+                           <thead>
+                              <tr>
+                                 <th>Regimen</th>
+                                 <th>Daily Dose<footnote>If needed, the total daily dose may be given in three divided doses.</footnote>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>  200 mg b.i.d.</td>
+                                 <td>  400 mg</td>
+                              </tr>
+                              <tr>
+                                 <td>  400 mg b.i.d.</td>
+                                 <td>  800 mg</td>
+                              </tr>
+                              <tr>
+                                 <td>  800 mg b.i.d.</td>
+                                 <td>1600 mg</td>
+                              </tr>
+                              <tr>
+                                 <td>1200 mg b.i.d.</td>
+                                 <td>2400 mg</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>While in the hospital, the dosage of labetalol HCl tablets may be increased at 1-day intervals to achieve the desired blood pressure reduction.</paragraph>
+                        <paragraph>For subsequent outpatient titration or maintenance dosing see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content> in the labetalol HCl tablets product information for additional recommendations.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s44">
+                     <id root="6493358d-a69a-4a56-a6e7-f648f996615f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Compatibility with commonly used intravenous fluids</title>
+                     <text>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                        <paragraph>Labetalol HCl Injection was tested for compatibility with commonly used intravenous fluids at final concentrations of 1.25 mg to 3.75 mg labetalol HCl per mL of the mixture. Labetalol HCl Injection was found to be compatible with and stable (for 24 hours refrigerated or at room temperature) in mixtures with the following solutions:</paragraph>
+                        <paragraph>Ringers Injection, USP<br/>Lactated Ringers Injection, USP<br/>5% Dextrose and Ringers Injection<br/>5% Lactated Ringers and 5% Dextrose Injection<br/>5% Dextrose Injection, USP<br/>0.9% Sodium Chloride Injection, USP<br/>5% Dextrose and 0.2% Sodium Chloride Injection, USP<br/>2.5% Dextrose and 0.45% Sodium Chloride Injection, USP<br/>5% Dextrose and 0.9% Sodium Chloride Injection, USP<br/>5% Dextrose and 0.33% Sodium Chloride Injection, USP</paragraph>
+                        <paragraph>Labetalol HCl Injection was NOT compatible with 5% Sodium Bicarbonate Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s45">
+               <id root="dcbe6a4c-83e4-4c1e-a052-00f3f73213fa"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Labetalol HCl Injection, 5 mg/mL, is supplied in:</paragraph>
+                  <paragraph>20 mL (100 mg) (NDC 17478-420-20) multi-dose vial, box of 1<br/>40 mL (200 mg) (NDC 17478-420-40) multi-dose vial, box of 1</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <section ID="s46">
+                     <id root="90e6382e-a3ac-4317-a8a5-c11b271c9ae9"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature]. Protect from freezing. PROTECT FROM LIGHT.</paragraph>
+                     </text>
+                     <effectiveTime value="20111213"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s47">
+               <id root="f9602c0b-50a0-45eb-ac76-3ed50cca839c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by: Akorn Inc<br/>Lake Forest, IL 60045</paragraph>
+                  <table width="40%">
+                     <col align="left" width="45%"/>
+                     <col align="left" width="55%"/>
+                     <tbody>
+                        <tr styleCode="Toprule Botrule">
+                           <td valign="top">For Product Inquiry</td>
+                           <td>1 800 93AKORN<br/>(1-800-932-5676)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>LT00N<br/>Rev. 06/08</paragraph>
+               </text>
+               <effectiveTime value="20111213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s48">
+               <id root="f6e396c7-3774-43ac-ac9c-bbdb87b6c789"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Container Label:
+</paragraph>
+                  <paragraph>NDC 17478-420-20  Akorn Logo
+</paragraph>
+                  <paragraph>100 mg/20 mL (5 mg/mL)
+</paragraph>
+                  <paragraph>Labetalol Hydrochloride
+</paragraph>
+                  <paragraph>Injection, USP
+</paragraph>
+                  <paragraph>20 mL Multi-Dose Vial  Sterile
+</paragraph>
+                  <paragraph>For Intravenous Injection Only
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel Text for Container Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lab05-0002-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s49">
+               <id root="ae417b15-d566-4fe2-a579-a7571a48a12f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Carton Label:
+</paragraph>
+                  <paragraph>NDC 17478-420-20
+</paragraph>
+                  <paragraph>Labetalol
+</paragraph>
+                  <paragraph>Hydrochloride
+</paragraph>
+                  <paragraph>Injection, USP
+</paragraph>
+                  <paragraph>100 mg/20 mL (5 mg/mL)
+</paragraph>
+                  <paragraph>20 mL Multi-Dose Vial
+</paragraph>
+                  <paragraph>Sterile
+</paragraph>
+                  <paragraph>Total Amount 100 mg
+</paragraph>
+                  <paragraph>For Intravenous Injection Only
+</paragraph>
+                  <paragraph>Rx Only
+</paragraph>
+                  <paragraph>Akorn Logo
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20111213"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel Text for Carton Label
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lab05-0002-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
