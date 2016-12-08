@@ -26,7 +26,10 @@ FDA Scrape Project was completed over a series of 2 scrape steps and 2 parsing s
 		Python threading and queues were used to provide a continuous scrape
 	Scrape 2 Parse Session
 		Extract various sections of drug information from xml such as drugname, drug purpose etc.
-
+==============
+THE DATA
+==============
+	SOME data is provided from scrape 1 and 2, since there is a limit to how many files that can be posted only a portion of both scrapes are displayed.
 ==============
 REFERENCE
 ==============
